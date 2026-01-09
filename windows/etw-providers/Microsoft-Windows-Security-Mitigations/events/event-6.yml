@@ -1,5 +1,5 @@
 name: Event 6 - KERNEL_MITIGATION_TASK_PROHIBIT_LOWIL_IMAGE_MAP
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Security-Mitigations
 event_id: '6'
@@ -9,87 +9,87 @@ event_fields:
   standard_type: TBD
   name: ProcessPathLength
   type: UInt16
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: ProcessFileName
   standard_type: TBD
   name: ProcessPath
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ProcessCommandLineLength
   type: UInt16
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: ProcessCommandLine
   standard_type: TBD
   name: ProcessCommandLine
   type: UnicodeString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: ProcessId
   standard_type: TBD
   name: ProcessId
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ProcessCreateTime
   type: FILETIME
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ProcessStartKey
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ProcessSignatureLevel
   type: UInt8
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ProcessSectionSignatureLevel
   type: UInt8
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ProcessProtection
   type: UInt8
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: TargetThreadId
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: TargetThreadCreateTime
   type: FILETIME
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ImageNameLength
   type: UInt16
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: ProcessFileName
   standard_type: TBD
   name: ImageName
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Warning
 - etw_task_KERNEL_MITIGATION_TASK_PROHIBIT_LOWIL_IMAGE_MAP

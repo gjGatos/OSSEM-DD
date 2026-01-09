@@ -1,5 +1,5 @@
 name: Event 201 - ConnectionSocketConnect
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-WebIO
 event_id: '201'
@@ -9,45 +9,45 @@ event_fields:
   standard_type: TBD
   name: Connection
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SocketHandle
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: AddressLength
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Address
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Context
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: RemainingAddressCount
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Error
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Keyword.L3_CONNECT

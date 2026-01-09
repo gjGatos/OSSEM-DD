@@ -1,5 +1,5 @@
 name: Event 1101 - Registry
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-NDF-HelperClassDiscovery
 event_id: '1101'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: ErrorCode
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Location
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Name
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: KeyOrValue
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Warning
 - etw_task_Registry

@@ -1,5 +1,5 @@
 name: Event 21033 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-WLAN-AutoConfig
 event_id: '21033'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: AdapterId
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: InterfaceGuid
   type: GUID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: RequestType
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ResponseType
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Cancelled
   type: Boolean
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_MSMSEC ut:Authentication

@@ -1,5 +1,5 @@
 name: Event 51 - AudioSrv_EVT_VOLUME_LIMIT_CHANGED_ENTER
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Audio
 event_id: '51'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: objectpointer
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_AudioSrv_EVT_VOLUME_LIMIT_CHANGED_ENTER

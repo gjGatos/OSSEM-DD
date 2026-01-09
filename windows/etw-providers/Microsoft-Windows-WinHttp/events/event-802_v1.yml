@@ -1,5 +1,5 @@
 name: Event 802 - WINHTTP_AUTOPROXY_DHCP
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-WinHttp
 event_id: '802'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: _InterfaceLength
   type: UInt16
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Interface
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_WINHTTP_KEYWORD_AUTOPROXY

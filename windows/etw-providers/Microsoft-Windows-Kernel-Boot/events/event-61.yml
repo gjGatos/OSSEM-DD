@@ -1,5 +1,5 @@
 name: Event 61 - MeasuredLaunch
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Kernel-Boot
 event_id: '61'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: PmrLowBase
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PmrLowSize
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PmrHighBase
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PmrHighSize
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: FirmwareProvidedAcm
   type: Boolean
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_keyword_80000000000

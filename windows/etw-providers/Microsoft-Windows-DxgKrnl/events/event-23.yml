@@ -1,5 +1,5 @@
 name: Event 23 - SelectContext
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-DxgKrnl
 event_id: '23'
@@ -9,39 +9,39 @@ event_fields:
   standard_type: TBD
   name: pDxgAdapter
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: hContext
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: NodeOrdinal
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ReadyContextPriorityMapBits
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ReadyNodeSwMapBits
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ReadyNodeHwMapBits
   type: UInt64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_GPUScheduler

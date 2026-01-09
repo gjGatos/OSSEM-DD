@@ -1,5 +1,5 @@
 name: Event 219 - Memprotect_GC_BackgroundResetWriteWatch
-description:
+description: null
 platform: windows
 log_source: Microsoft-JScript
 event_id: '219'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: RecyclerID
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: BackgroundMarkRescanCount
   type: Int8
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_MemProtectGarbageCollection

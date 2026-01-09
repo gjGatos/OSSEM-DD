@@ -1,5 +1,5 @@
 name: Event 5314 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-GroupPolicy
 event_id: '5314'
@@ -9,39 +9,39 @@ event_fields:
   standard_type: TBD
   name: BandwidthInkbps
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: IsSlowLink
   type: Boolean
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ThresholdInkbps
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PolicyApplicationMode
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ErrorCode
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: LinkDescription
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_task_0

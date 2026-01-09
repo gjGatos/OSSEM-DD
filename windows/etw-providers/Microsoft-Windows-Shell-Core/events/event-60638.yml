@@ -1,5 +1,5 @@
 name: Event 60638 - ItemsView_AnimationManager_AnimationLoop
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Shell-Core
 event_id: '60638'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: AnimationTime
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Frames
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Framerate
   type: Double
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: BackBuffersUsed
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Shell

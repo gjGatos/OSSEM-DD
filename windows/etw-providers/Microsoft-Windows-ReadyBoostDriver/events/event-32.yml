@@ -1,17 +1,17 @@
 name: Event 32 - SyncCall
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-ReadyBoostDriver
 event_id: '32'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: Key
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_ReadyBoot

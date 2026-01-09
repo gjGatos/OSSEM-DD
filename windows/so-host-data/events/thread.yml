@@ -1,5 +1,7 @@
 name: SO Host Data - Thread Table
-description: Get-SOHostData enumerates active threads as reported by PowerShell's Get-Process cmdlet. Every resulting Process instance has a Threads property which contains a list of Threads contained within that Process.
+description: Get-SOHostData enumerates active threads as reported by PowerShell's
+  Get-Process cmdlet. Every resulting Process instance has a Threads property which
+  contains a list of Threads contained within that Process.
 platform: windows
 log_source: so-host-data
 event_id: thread
@@ -69,7 +71,8 @@ event_fields:
   standard_type: TBD
   name: PriorityBoostEnabled
   type: BOOLEAN
-  description: Indicates if the OS should boost the priority of the thread when the main window is active
+  description: Indicates if the OS should boost the priority of the thread when the
+    main window is active
   sample_value: 'True'
 - standard_name: PriorityLevel
   standard_type: TBD
@@ -93,7 +96,8 @@ event_fields:
   standard_type: TBD
   name: UserProcessorTime
   type: ''
-  description: The amount of time that the thread has spent running code inside the application
+  description: The amount of time that the thread has spent running code inside the
+    application
   sample_value: 00:00:00
 - standard_name: ThreadState
   standard_type: TBD

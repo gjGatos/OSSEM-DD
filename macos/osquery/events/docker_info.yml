@@ -69,13 +69,15 @@ event_fields:
   standard_type: TBD
   name: cpu_cfs_period
   type: INTEGER
-  description: 1 if CPU Completely Fair Scheduler (CFS) period support is enabled. 0 otherwise
+  description: 1 if CPU Completely Fair Scheduler (CFS) period support is enabled.
+    0 otherwise
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
   name: cpu_cfs_quota
   type: INTEGER
-  description: 1 if CPU Completely Fair Scheduler (CFS) quota support is enabled. 0 otherwise
+  description: 1 if CPU Completely Fair Scheduler (CFS) quota support is enabled.
+    0 otherwise
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
@@ -125,19 +127,19 @@ event_fields:
   type: TEXT
   description: Control groups driver
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareVersion
   standard_type: TBD
   name: kernel_version
   type: TEXT
   description: Kernel version
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareName
   standard_type: TBD
   name: os
   type: TEXT
   description: Operating system
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareDescription
   standard_type: TBD
   name: os_type
   type: TEXT
@@ -177,15 +179,16 @@ event_fields:
   standard_type: TBD
   name: no_proxy
   type: TEXT
-  description: Comma-separated list of domain extensions proxy should not be used for
+  description: Comma-separated list of domain extensions proxy should not be used
+    for
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareName
   standard_type: TBD
   name: name
   type: TEXT
   description: Name of the docker host
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareVersion
   standard_type: TBD
   name: server_version
   type: TEXT

@@ -1,5 +1,5 @@
 name: Event 2000 - VisibilityInputType
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-TabletPC-InputPanel
 event_id: '2000'
@@ -9,87 +9,87 @@ event_fields:
   standard_type: TBD
   name: fShowIHM
   type: Boolean
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: fPenOrTouch
   type: Boolean
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: fLastTouchInThisControl
   type: Boolean
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: fInPasswordField
   type: Boolean
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: hwndElementFocusEvent
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: hwndRootFocusEvent
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: dwProcess
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: rcBoundLeft
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: rcBoundTop
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: rcBoundRight
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: rcBoundBottom
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: fRequireTouchInControl
   type: Boolean
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: fCanProcessEvent
   type: Boolean
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: fOnPersistenceList
   type: Boolean
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_TabletPC_InputPanel_Keyword

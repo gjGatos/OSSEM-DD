@@ -1,5 +1,5 @@
 name: Event 22 - Upload_SevilleBandwidthMonitor_TierChange
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-UniversalTelemetryClient
 event_id: '22'
@@ -9,39 +9,39 @@ event_fields:
   standard_type: TBD
   name: Environment
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: BytesUploadedSoFar
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: BytesAllowed
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PercentageUsed
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: NewTier
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: OldTier
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Upload

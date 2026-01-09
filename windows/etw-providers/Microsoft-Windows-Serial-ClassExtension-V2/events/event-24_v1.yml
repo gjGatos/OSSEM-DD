@@ -1,23 +1,23 @@
 name: Event 24 - Powerstatetransitions.
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Serial-ClassExtension-V2
 event_id: '24'
 event_version: '1'
 event_fields:
-- standard_name: TBD
+- standard_name: SoftwareName
   standard_type: TBD
   name: Device
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: TargetState
   type: HexInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_PowerStateTransition

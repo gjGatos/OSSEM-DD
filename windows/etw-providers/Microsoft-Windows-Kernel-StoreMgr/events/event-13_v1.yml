@@ -1,23 +1,23 @@
 name: Event 13 - StoreEmpty
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Kernel-StoreMgr
 event_id: '13'
 event_version: '1'
 event_fields:
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: StoreKey
   type: Pointer
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: 'null'
   standard_type: TBD
   name: Param
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_StoreOps

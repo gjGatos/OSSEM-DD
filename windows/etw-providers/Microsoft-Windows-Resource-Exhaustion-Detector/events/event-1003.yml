@@ -1,5 +1,5 @@
 name: Event 1003 - ResourceExhaustionDetectionEvents
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Resource-Exhaustion-Detector
 event_id: '1003'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: SystemCommitLimit
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SystemCommitCharge
   type: UInt64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Warning
 - etw_keywords_RDR_DET_KEYWORD_MEMORY_EXHAUSTION

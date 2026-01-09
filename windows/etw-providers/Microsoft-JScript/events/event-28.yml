@@ -1,23 +1,23 @@
 name: Event 28 - Jscript_Projection_RemoveEventListener
-description:
+description: null
 platform: windows
 log_source: Microsoft-JScript
 event_id: '28'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: SoftwareName
   standard_type: TBD
   name: TypeName
   type: UnicodeString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: 'null'
   standard_type: TBD
   name: MethodName
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_JScriptProjection

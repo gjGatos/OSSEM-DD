@@ -1,5 +1,5 @@
 name: Event 2000 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-PerfOS
 event_id: '2000'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: NTSTATUS
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Warning
 - etw_task_task_0

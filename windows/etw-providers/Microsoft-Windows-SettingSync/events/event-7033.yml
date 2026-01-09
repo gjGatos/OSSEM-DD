@@ -1,5 +1,5 @@
 name: Event 7033 - Perf_WLRoamLocalSyncSession
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-SettingSync
 event_id: '7033'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: CollectionId
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_RoamingSettings

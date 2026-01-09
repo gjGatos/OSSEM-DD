@@ -1,5 +1,5 @@
 name: Event 353 - SHADERS_D3DSHADER_LINK_INFO
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Dwm-Core
 event_id: '353'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: Info
   type: AnsiString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_DwmCore

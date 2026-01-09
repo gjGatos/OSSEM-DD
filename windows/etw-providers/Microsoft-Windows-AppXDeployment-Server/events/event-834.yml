@@ -1,17 +1,17 @@
 name: Event 834 - AppXDeployment.Task.Server.Deployment.StateRepositoryFixIntegrity
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-AppXDeployment-Server
 event_id: '834'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: ErrorCode
   type: HexInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Warning
 - etw_keywords_APPXDEPLOYMENTSERVER_KEYWORD keyword_400000000000

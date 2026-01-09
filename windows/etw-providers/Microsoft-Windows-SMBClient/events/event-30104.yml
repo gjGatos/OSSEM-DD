@@ -1,5 +1,5 @@
 name: Event 30104 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-SMBClient
 event_id: '30104'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: RxContext
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Exchange
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ExchangeState
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ExchangeStatus
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_Smb_Perf

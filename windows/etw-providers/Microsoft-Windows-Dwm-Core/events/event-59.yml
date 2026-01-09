@@ -1,5 +1,5 @@
 name: Event 59 - MILEVENT_MEDIA_UCE_RENDEREVENT
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Dwm-Core
 event_id: '59'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: pThis
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: FullRender
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: dirtyRegionCount
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_DwmCore

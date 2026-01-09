@@ -17,7 +17,7 @@ event_fields:
   type: TEXT
   description: The device name
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareVersion
   standard_type: TBD
   name: version
   type: TEXT

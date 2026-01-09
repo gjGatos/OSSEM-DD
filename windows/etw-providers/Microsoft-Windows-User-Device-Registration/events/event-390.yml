@@ -1,5 +1,5 @@
 name: Event 390 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-User Device Registration
 event_id: '390'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: IdType
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: RACertificateId
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: DeviceCeritifcateId
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ServerRequestId
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ServerTime
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_task_task_0

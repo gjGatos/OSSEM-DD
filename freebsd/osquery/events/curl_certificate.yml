@@ -5,19 +5,19 @@ log_source: osquery
 event_id: curl_certificate
 event_version: 4.4.2
 event_fields:
-- standard_name: TBD
+- standard_name: UrlHostName
   standard_type: TBD
   name: hostname
   type: TEXT
   description: Hostname (domain[:port]) to CURL
   sample_value: TBD
-- standard_name: TBD
+- standard_name: CertificateSubject
   standard_type: TBD
   name: common_name
   type: TEXT
   description: Common name of company issued to
   sample_value: TBD
-- standard_name: TBD
+- standard_name: CertificateIssuer
   standard_type: TBD
   name: organization
   type: TEXT
@@ -29,13 +29,13 @@ event_fields:
   type: TEXT
   description: Organization unit issued to
   sample_value: TBD
-- standard_name: TBD
+- standard_name: CertificateSerialNumber
   standard_type: TBD
   name: serial_number
   type: TEXT
   description: Certificate serial number
   sample_value: TBD
-- standard_name: TBD
+- standard_name: CertificateIssuer
   standard_type: TBD
   name: issuer_common_name
   type: TEXT
@@ -65,13 +65,13 @@ event_fields:
   type: TEXT
   description: Period of validity end date
   sample_value: TBD
-- standard_name: TBD
+- standard_name: CertificateHashSha256
   standard_type: TBD
   name: sha256_fingerprint
   type: TEXT
   description: SHA-256 fingerprint
   sample_value: TBD
-- standard_name: TBD
+- standard_name: CertificateHashSha1
   standard_type: TBD
   name: sha1_fingerprint
   type: TEXT

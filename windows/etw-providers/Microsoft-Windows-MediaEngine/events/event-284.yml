@@ -1,5 +1,5 @@
 name: Event 284 - MediaEngineCallMarshaling
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-MediaEngine
 event_id: '284'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: Object
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: CallId
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Id
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: hrResult
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_opcode_Stop

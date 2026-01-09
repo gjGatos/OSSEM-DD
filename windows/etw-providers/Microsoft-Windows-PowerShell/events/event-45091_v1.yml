@@ -1,5 +1,5 @@
 name: Event 45091 - WorkflowExecution
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-PowerShell
 event_id: '45091'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: runspaceId
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: newState
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: oldState
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_PSWorkflow

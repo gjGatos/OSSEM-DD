@@ -5,43 +5,43 @@ log_source: osquery
 event_id: package_bom
 event_version: 4.4.2
 event_fields:
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: filepath
   type: TEXT
   description: Package file or directory
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: uid
   type: INTEGER
   description: Expected user of file or directory
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: gid
   type: INTEGER
   description: Expected group of file or directory
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: mode
   type: INTEGER
   description: Expected permissions
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: size
   type: BIGINT
   description: Expected file size
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: modified_time
   type: INTEGER
   description: Timestamp the file was installed
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: path
   type: TEXT

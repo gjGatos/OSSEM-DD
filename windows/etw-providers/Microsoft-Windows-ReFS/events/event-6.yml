@@ -1,5 +1,5 @@
 name: Event 6 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-ReFS
 event_id: '6'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: Context
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Progress
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: StackCount
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Stack
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_VolumeMount

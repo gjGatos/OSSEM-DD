@@ -1,29 +1,29 @@
 name: Event 26 - HttpAsyncI/O
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Runtime-Web-Http
 event_id: '26'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: UrlOriginal
   standard_type: TBD
   name: uri
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: hresult
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: CodeDescription
   standard_type: TBD
   name: errorMessage
   type: Int32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_task_HttpAsyncI/O

@@ -1,8 +1,10 @@
 name: Cowrie direct-tcpip request
-description: This dictionary details the fields for the direct tcp-ip request event of the Cowrie honeypot, which triggers when someone tries to use the honeypot to forward data. This event does not contain the data forwarded.
+description: This dictionary details the fields for the direct tcp-ip request event
+  of the Cowrie honeypot, which triggers when someone tries to use the honeypot to
+  forward data. This event does not contain the data forwarded.
 platform: cowrie
 log_source: honeypot
-event_id: 'cowrie.direct-tcpip.request'
+event_id: cowrie.direct-tcpip.request
 event_version: '0'
 event_fields:
 - standard_name: EventTimestamp
@@ -16,7 +18,7 @@ event_fields:
   name: src_ip
   type: string
   description: The originating/source IP address of the SSH connection
-  sample_value: '192.168.1.4'
+  sample_value: 192.168.1.4
 - standard_name: EventMessage
   standard_type: string
   name: message
@@ -28,7 +30,7 @@ event_fields:
   name: sensor
   type: string
   description: The name of the device that generated the event
-  sample_value: 'hk-lab1'
+  sample_value: hk-lab1
 - standard_name: NetworkSessionId
   standard_type: string
   name: session
@@ -40,7 +42,7 @@ event_fields:
   name: dst_ip
   type: string
   description: The IP towards which the forwarding attempt was executed
-  sample_value: '192.168.1.23'
+  sample_value: 192.168.1.23
 - standard_name: DstPort
   standard_type: integer
   name: dst_port

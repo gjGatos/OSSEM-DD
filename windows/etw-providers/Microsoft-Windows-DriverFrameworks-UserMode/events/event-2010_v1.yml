@@ -1,5 +1,5 @@
 name: Event 2010 - Loadingdriverstocontrolanewlydiscovereddevice.
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-DriverFrameworks-UserMode
 event_id: '2010'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: LifetimeId
   type: GUID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: InstanceId
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: FinalStatus
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_Stop

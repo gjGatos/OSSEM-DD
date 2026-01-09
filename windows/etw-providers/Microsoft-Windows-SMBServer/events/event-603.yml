@@ -1,53 +1,53 @@
 name: Event 603 - Smb2TreeConnectFailedDueToPending
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-SMBServer
 event_id: '603'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: SessionGUID
   type: GUID
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: 'null'
   standard_type: TBD
   name: ConnectionGUID
   type: GUID
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: 'null'
   standard_type: TBD
   name: ShareNameLength
   type: UInt16
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: 'null'
   standard_type: TBD
   name: ShareName
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ScopeNameLength
   type: UInt16
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ScopeName
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Status
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Warning
 - etw_keywords_TreeConnect

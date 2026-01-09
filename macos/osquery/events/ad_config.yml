@@ -11,7 +11,7 @@ event_fields:
   type: TEXT
   description: The OS X-specific configuration name
   sample_value: TBD
-- standard_name: TBD
+- standard_name: Domain
   standard_type: TBD
   name: domain
   type: TEXT

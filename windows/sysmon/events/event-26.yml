@@ -27,15 +27,16 @@ event_fields:
   standard_type: TBD
   name: ProcessId
   type: integer
-  description: Process ID used by the os to identify the process that deleted the file
+  description: Process ID used by the os to identify the process that deleted the
+    file
   sample_value: '1896'
-- standard_name: ProcessFilePath
+- standard_name: ProcessFileName
   standard_type: TBD
   name: Image
   type: string
   description: File path of the process that deleted the file
   sample_value: C:\WINDOWS\system32\explorer.exe
-- standard_name: UserName
+- standard_name: UserNetworkAccountName
   standard_type: TBD
   name: User
   type: string
@@ -47,12 +48,13 @@ event_fields:
   type: string
   description: full path name of the deleted file
   sample_value: C:\Users\wardog\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\7G23PHTPHSQ3S2RVKKPS.temp
-- standard_name: TBD
+- standard_name: FileHashes
   standard_type: TBD
   name: Hashes
   type: string
   description: Hashes captured by sysmon driver of the deleted file
-  sample_value: SHA1=B0BF5AC2E81BBF597FAD5F349FEEB32CAC449FA2, MD5=6A255BEBF3DBCD13585538ED47DBAFD7, SHA256=4668BB2223FFB983A5F1273B9E3D9FA2C5CE4A0F1FB18CA5C1B285762020073C, IMPHASH=2505BD03D7BD285E50CE89CEC02B333B
+  sample_value: SHA1=B0BF5AC2E81BBF597FAD5F349FEEB32CAC449FA2, MD5=6A255BEBF3DBCD13585538ED47DBAFD7,
+    SHA256=4668BB2223FFB983A5F1273B9E3D9FA2C5CE4A0F1FB18CA5C1B285762020073C, IMPHASH=2505BD03D7BD285E50CE89CEC02B333B
 - standard_name: TBD
   standard_type: TBD
   name: IsExecutable
@@ -67,62 +69,34 @@ references:
 tags: []
 event_sample:
 - format: friendly view
-  sample: |-
-    Log Name:      Microsoft-Windows-Sysmon/Operational
-    Source:        Microsoft-Windows-Sysmon
-    Date:          9/22/2022 4:48:38 PM
-    Event ID:      26
-    Task Category: File Delete logged (rule: FileDeleteDetected)
-    Level:         Information
-    Keywords:      
-    User:          SYSTEM
-    Computer:      pedro-computer
-    Description:
-    The description for Event ID 26 from source Microsoft-Windows-Sysmon cannot be found. Either the component that raises this event is not installed on your local computer or the installation is corrupted. You can install or repair the component on the local computer.
-
-    If the event originated on another computer, the display information had to be saved with the event.
-
-    The following information was included with the event: 
-
-    -
-    2022-09-22 23:48:38.962
-    EV_RenderedValue_2.00
-    1764
-    NT AUTHORITY\SYSTEM
-    C:\Windows\system32\svchost.exe
-    C:\Windows\Prefetch\SEARCHFILTERHOST.EXE-77482212.pf
-    SHA1=28F357CBA285619E5D4B6BAC3E4C981B4B3DEC28,MD5=EA4FDF01C3764323FFBC22FB10AB06CB,SHA256=E6221E29D59DDA4D1C6C7A0E25E8EA8DBD30B0854BFC3869D7909D9F07E1FF8E,IMPHASH=00000000000000000000000000000000
-    False
-
-    The publisher has been disabled and its resource is not available. This usually occurs when the publisher is in the process of being uninstalled or upgraded
+  sample: "Log Name:      Microsoft-Windows-Sysmon/Operational\nSource:        Microsoft-Windows-Sysmon\n\
+    Date:          9/22/2022 4:48:38 PM\nEvent ID:      26\nTask Category: File Delete\
+    \ logged (rule: FileDeleteDetected)\nLevel:         Information\nKeywords:   \
+    \   \nUser:          SYSTEM\nComputer:      pedro-computer\nDescription:\nThe\
+    \ description for Event ID 26 from source Microsoft-Windows-Sysmon cannot be found.\
+    \ Either the component that raises this event is not installed on your local computer\
+    \ or the installation is corrupted. You can install or repair the component on\
+    \ the local computer.\n\nIf the event originated on another computer, the display\
+    \ information had to be saved with the event.\n\nThe following information was\
+    \ included with the event: \n\n-\n2022-09-22 23:48:38.962\nEV_RenderedValue_2.00\n\
+    1764\nNT AUTHORITY\\SYSTEM\nC:\\Windows\\system32\\svchost.exe\nC:\\Windows\\\
+    Prefetch\\SEARCHFILTERHOST.EXE-77482212.pf\nSHA1=28F357CBA285619E5D4B6BAC3E4C981B4B3DEC28,MD5=EA4FDF01C3764323FFBC22FB10AB06CB,SHA256=E6221E29D59DDA4D1C6C7A0E25E8EA8DBD30B0854BFC3869D7909D9F07E1FF8E,IMPHASH=00000000000000000000000000000000\n\
+    False\n\nThe publisher has been disabled and its resource is not available. This\
+    \ usually occurs when the publisher is in the process of being uninstalled or\
+    \ upgraded"
 - format: xml
-  sample: |-
-    <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
-      <System>
-        <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
-        <EventID>26</EventID>
-        <Version>5</Version>
-        <Level>4</Level>
-        <Task>26</Task>
-        <Opcode>0</Opcode>
-        <Keywords>0x8000000000000000</Keywords>
-        <TimeCreated SystemTime="2022-09-22T23:48:38.972881200Z" />
-        <EventRecordID>2418697</EventRecordID>
-        <Correlation />
-        <Execution ProcessID="2948" ThreadID="3724" />
-        <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
-        <Computer>pedro-computer</Computer>
-        <Security UserID="S-1-5-18" />
-      </System>
-      <EventData>
-        <Data Name="RuleName">-</Data>
-        <Data Name="UtcTime">2022-09-22 23:48:38.962</Data>
-        <Data Name="ProcessGuid">{564ff025-d42e-62f6-2d00-000000000500}</Data>
-        <Data Name="ProcessId">1764</Data>
-        <Data Name="User">NT AUTHORITY\SYSTEM</Data>
-        <Data Name="Image">C:\Windows\system32\svchost.exe</Data>
-        <Data Name="TargetFilename">C:\Windows\Prefetch\SEARCHFILTERHOST.EXE-77482212.pf</Data>
-        <Data Name="Hashes">SHA1=28F357CBA285619E5D4B6BAC3E4C981B4B3DEC28,MD5=EA4FDF01C3764323FFBC22FB10AB06CB,SHA256=E6221E29D59DDA4D1C6C7A0E25E8EA8DBD30B0854BFC3869D7909D9F07E1FF8E,IMPHASH=00000000000000000000000000000000</Data>
-        <Data Name="IsExecutable">false</Data>
-      </EventData>
-    </Event>
+  sample: "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"\
+    >\n  <System>\n    <Provider Name=\"Microsoft-Windows-Sysmon\" Guid=\"{5770385f-c22a-43e0-bf4c-06f5698ffbd9}\"\
+    \ />\n    <EventID>26</EventID>\n    <Version>5</Version>\n    <Level>4</Level>\n\
+    \    <Task>26</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000000</Keywords>\n\
+    \    <TimeCreated SystemTime=\"2022-09-22T23:48:38.972881200Z\" />\n    <EventRecordID>2418697</EventRecordID>\n\
+    \    <Correlation />\n    <Execution ProcessID=\"2948\" ThreadID=\"3724\" />\n\
+    \    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>\n    <Computer>pedro-computer</Computer>\n\
+    \    <Security UserID=\"S-1-5-18\" />\n  </System>\n  <EventData>\n    <Data Name=\"\
+    RuleName\">-</Data>\n    <Data Name=\"UtcTime\">2022-09-22 23:48:38.962</Data>\n\
+    \    <Data Name=\"ProcessGuid\">{564ff025-d42e-62f6-2d00-000000000500}</Data>\n\
+    \    <Data Name=\"ProcessId\">1764</Data>\n    <Data Name=\"User\">NT AUTHORITY\\\
+    SYSTEM</Data>\n    <Data Name=\"Image\">C:\\Windows\\system32\\svchost.exe</Data>\n\
+    \    <Data Name=\"TargetFilename\">C:\\Windows\\Prefetch\\SEARCHFILTERHOST.EXE-77482212.pf</Data>\n\
+    \    <Data Name=\"Hashes\">SHA1=28F357CBA285619E5D4B6BAC3E4C981B4B3DEC28,MD5=EA4FDF01C3764323FFBC22FB10AB06CB,SHA256=E6221E29D59DDA4D1C6C7A0E25E8EA8DBD30B0854BFC3869D7909D9F07E1FF8E,IMPHASH=00000000000000000000000000000000</Data>\n\
+    \    <Data Name=\"IsExecutable\">false</Data>\n  </EventData>\n</Event>"

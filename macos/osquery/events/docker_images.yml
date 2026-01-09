@@ -17,7 +17,7 @@ event_fields:
   type: BIGINT
   description: Time of creation as UNIX time
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FileSize
   standard_type: TBD
   name: size_bytes
   type: BIGINT

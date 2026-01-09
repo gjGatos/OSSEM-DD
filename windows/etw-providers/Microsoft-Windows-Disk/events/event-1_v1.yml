@@ -1,5 +1,5 @@
 name: Event 1 - DiskCacheInformation
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Disk
 event_id: '1'
@@ -9,63 +9,63 @@ event_fields:
   standard_type: TBD
   name: ReadCacheEnabled
   type: UInt8
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: WriteCacheEnabled
   type: UInt8
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ReadRetentionPriority
   type: UInt8
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: WriteRetentionPriority
   type: UInt8
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PrefetchScalar
   type: UInt8
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: DisablePrefetchTransferLength
   type: UInt16
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Minimum
   type: UInt16
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Maximum
   type: UInt16
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: MaximumBlocks
   type: UInt16
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: DeviceNumber
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_DiskCache

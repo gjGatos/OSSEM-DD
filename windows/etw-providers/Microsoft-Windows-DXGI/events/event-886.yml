@@ -1,5 +1,5 @@
 name: Event 886 - IDXGISwapChainPartner_CheckPresentDurationSupport
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-DXGI
 event_id: '886'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: pThis
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: DesiredPresentDuration
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: pClosestSmallerPresentDuration
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: pClosestLargerPresentDuration
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_opcode_Start

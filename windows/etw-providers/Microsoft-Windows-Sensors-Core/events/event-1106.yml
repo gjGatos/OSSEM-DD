@@ -1,5 +1,5 @@
 name: Event 1106 - SensorsDefaultDeviceSelectionTask
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Sensors-Core
 event_id: '1106'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: Interface
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_SensorsDefaultDeviceSelectionTask

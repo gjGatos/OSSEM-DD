@@ -1,5 +1,5 @@
 name: Event 1270 - Ndkpi_Create_Mw
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-TCPIP
 event_id: '1270'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: NdkObject
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: RequestContext
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_ut:TcpipNdkpi

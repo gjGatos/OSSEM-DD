@@ -1,5 +1,5 @@
 name: Event 3 - UpdateEnter
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-UIAnimation
 event_id: '3'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: secondsNow
   type: Double
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Default

@@ -1,5 +1,5 @@
 name: Event 6 - OpenSession
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-WiFiDisplay
 event_id: '6'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: ErrorCode
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: LocalDeviceInformation
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: RemoteDeviceInformation
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_OpenSession

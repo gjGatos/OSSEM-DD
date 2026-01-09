@@ -1,5 +1,5 @@
 name: Event 2 - MP4SDECD_Init
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-MP4SDECD
 event_id: '2'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: FourCC
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: FrameRate
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: WidthSource
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: WidthHeight
   type: Int32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_Start

@@ -1,5 +1,5 @@
 name: Event 10 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-QoS-qWAVE
 event_id: '10'
@@ -9,45 +9,45 @@ event_fields:
   standard_type: TBD
   name: SourceAddressLen
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: SrcIpAddr
   standard_type: TBD
   name: SourceAddress
   type: Binary
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: DestAddressLen
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: DstIpAddr
   standard_type: TBD
   name: DestAddress
   type: Binary
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: BottleneckBandwidth
   type: Double
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: AvailableBandwidth
   type: Double
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Is8021pSupported
   type: Boolean
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_task_0

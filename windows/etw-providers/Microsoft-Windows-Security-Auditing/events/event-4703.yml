@@ -9,15 +9,17 @@ event_fields:
   standard_type: TBD
   name: SubjectUserSid
   type: SID
-  description: SID of account that requested the "enable" or "disable" operation for Target Account privileges.
+  description: SID of account that requested the "enable" or "disable" operation for
+    Target Account privileges.
   sample_value: S-1-5-18
-- standard_name: UserName
+- standard_name: UserNetworkAccountName
   standard_type: TBD
   name: SubjectUserName
   type: UnicodeString
-  description: the name of the account that requested the "enable" or "disable" operation for Target Account privileges.
+  description: the name of the account that requested the "enable" or "disable" operation
+    for Target Account privileges.
   sample_value: WIN-GG82ULGC9GO$
-- standard_name: UserDomain
+- standard_name: DomainName
   standard_type: TBD
   name: SubjectDomainName
   type: UnicodeString
@@ -27,21 +29,23 @@ event_fields:
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: 'hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, "4624: An account was successfully logged on."'
+  description: 'hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID, for example, "4624: An account was
+    successfully logged on."'
   sample_value: '0x3e7'
-- standard_name: TargetUserSid
+- standard_name: UserSid
   standard_type: TBD
   name: TargetUserSid
   type: SID
   description: SID of account for which privileges were enabled or disabled.
   sample_value: S-1-5-18
-- standard_name: TargetUserName
+- standard_name: UserNetworkAccountName
   standard_type: TBD
   name: TargetUserName
   type: UnicodeString
   description: the name of the account for which privileges were enabled or disabled.
   sample_value: WIN-GG82ULGC9GO$
-- standard_name: TargetUserDomain
+- standard_name: DomainName
   standard_type: TBD
   name: TargetDomainName
   type: UnicodeString
@@ -51,9 +55,11 @@ event_fields:
   standard_type: TBD
   name: TargetLogonId
   type: HexInt64
-  description: 'hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, "4624: An account was successfully logged on."'
+  description: 'hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID, for example, "4624: An account was
+    successfully logged on."'
   sample_value: '0x3e7'
-- standard_name: ProcessPath
+- standard_name: ProcessName
   standard_type: TBD
   name: ProcessName
   type: UnicodeString
@@ -63,14 +69,18 @@ event_fields:
   standard_type: TBD
   name: ProcessId
   type: Pointer
-  description: hexadecimal Process ID of the process that enabled or disabled token privileges.
+  description: hexadecimal Process ID of the process that enabled or disabled token
+    privileges.
   sample_value: '0x270'
 - standard_name: TargetUserEnabledPrivilegeList
   standard_type: TBD
   name: EnabledPrivilegeList
   type: UnicodeString
   description: the list of enabled user rights.
-  sample_value: SeAssignPrimaryTokenPrivilege SeIncreaseQuotaPrivilege SeSecurityPrivilege SeTakeOwnershipPrivilege SeLoadDriverPrivilege SeSystemtimePrivilege SeBackupPrivilege SeRestorePrivilege SeShutdownPrivilege SeSystemEnvironmentPrivilege SeUndockPrivilege SeManageVolumePrivilege
+  sample_value: SeAssignPrimaryTokenPrivilege SeIncreaseQuotaPrivilege SeSecurityPrivilege
+    SeTakeOwnershipPrivilege SeLoadDriverPrivilege SeSystemtimePrivilege SeBackupPrivilege
+    SeRestorePrivilege SeShutdownPrivilege SeSystemEnvironmentPrivilege SeUndockPrivilege
+    SeManageVolumePrivilege
 - standard_name: TargetUserDisabledPrivilegeList
   standard_type: TBD
   name: DisabledPrivilegeList
@@ -91,18 +101,30 @@ tags:
 - Audit Authorization Policy Change
 event_sample:
 - format: xml
-  sample: |-
-    <EventData>
+  sample: '<EventData>
+
     <Data Name="SubjectUserSid">S-1-5-18</Data>
+
     <Data Name="SubjectUserName">DESKTOP-CQF82L6$</Data>
+
     <Data Name="SubjectDomainName">WORKGROUP</Data>
+
     <Data Name="SubjectLogonId">0x3e7</Data>
+
     <Data Name="TargetUserSid">S-1-5-18</Data>
+
     <Data Name="TargetUserName">DESKTOP-CQF82L6$</Data>
+
     <Data Name="TargetDomainName">WORKGROUP</Data>
+
     <Data Name="TargetLogonId">0x3e7</Data>
+
     <Data Name="ProcessName">C:\Windows\System32\svchost.exe</Data>
+
     <Data Name="ProcessId">0x2c4</Data>
+
     <Data Name="EnabledPrivilegeList">SeBackupPrivilege</Data>
+
     <Data Name="DisabledPrivilegeList">-</Data>
-    </EventData>
+
+    </EventData>'

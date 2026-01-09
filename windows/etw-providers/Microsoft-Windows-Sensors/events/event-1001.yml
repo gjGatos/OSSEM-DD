@@ -1,5 +1,5 @@
 name: Event 1001 - SensPerf_Task_DeviceStartup
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Sensors
 event_id: '1001'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: DeviceID
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_SensPerf

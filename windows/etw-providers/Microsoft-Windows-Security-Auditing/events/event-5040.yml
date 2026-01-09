@@ -1,5 +1,5 @@
 name: Event 5040 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
 event_id: '5040'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: ProfileChanged
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: AuthenticationSetId
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: AuthenticationSetName
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_task_0

@@ -1,5 +1,5 @@
 name: Event 2 - MFTStateStopped
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Media-Protection-PlayReady-Performance
 event_id: '2'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: CMFTAsyncSimpleBase_ptr
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_opcode_Start

@@ -1,5 +1,5 @@
 name: Event 6117 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-LiveId
 event_id: '6117'
@@ -9,57 +9,57 @@ event_fields:
   standard_type: TBD
   name: ResourceURI
   type: AnsiString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Created
   type: SYSTEMTIME
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Expires
   type: SYSTEMTIME
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: TokenType
   type: AnsiString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: AuthRequired
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: RequestStatus
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: HasFlowUrl
   type: Boolean
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: HasAuthUrl
   type: Boolean
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: HasEndAuthUrl
   type: Boolean
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_WlidSvc SOAP

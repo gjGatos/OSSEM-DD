@@ -1,5 +1,5 @@
 name: Event 4449 - PropertyHandlerThumbnailGenerationBestFrame
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-MediaFoundation-Performance
 event_id: '4449'
@@ -9,39 +9,39 @@ event_fields:
   standard_type: TBD
   name: object
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: contentType
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: bestFrameIndex
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: totalFrameDecoded
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: timeoutin100NS
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: isTimeout
   type: Boolean
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_PropertyHandlerThumbnailGenerationBestFrame

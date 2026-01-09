@@ -5,7 +5,7 @@ log_source: osquery
 event_id: apt_sources
 event_version: 4.4.2
 event_fields:
-- standard_name: TBD
+- standard_name: DomainName
   standard_type: TBD
   name: name
   type: TEXT
@@ -29,7 +29,7 @@ event_fields:
   type: TEXT
   description: Release name
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareVersion
   standard_type: TBD
   name: version
   type: TEXT

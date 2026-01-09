@@ -1,5 +1,5 @@
 name: Event 16010 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Application-Experience
 event_id: '16010'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: ModuleToHook
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: HookModule
   type: AnsiString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: HookApi
   type: AnsiString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Hooked
   type: Boolean
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Reason
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_ShimEng

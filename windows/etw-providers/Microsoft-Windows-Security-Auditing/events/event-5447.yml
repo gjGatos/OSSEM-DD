@@ -94,7 +94,8 @@ event_fields:
   name: Conditions
   type: UnicodeString
   description: ''
-  sample_value: 'Condition ID: {632ce23b-5167-435c-86d7-e903684aa80c} Match value: No flags set Condition value: 0x00000003'
+  sample_value: 'Condition ID: {632ce23b-5167-435c-86d7-e903684aa80c} Match value:
+    No flags set Condition value: 0x00000003'
 - standard_name: Action
   standard_type: TBD
   name: Action

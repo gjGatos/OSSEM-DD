@@ -1,5 +1,5 @@
 name: Event 457 - Mshtml_OleSite_Immersive_Incompatible
-description:
+description: null
 platform: windows
 log_source: Microsoft-IE
 event_id: '457'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: Clsid
   type: GUID
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: UrlOriginal
   standard_type: TBD
   name: Url
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_subsystem mshtml

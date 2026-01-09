@@ -1,41 +1,41 @@
 name: Event 228 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Kernel-PnP
 event_id: '228'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: SqmType
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: 'null'
   standard_type: TBD
   name: SqmSessionGuid
   type: GUID
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: 'null'
   standard_type: TBD
   name: SqmSid
   type: SID
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: 'null'
   standard_type: TBD
   name: SqmWindowsSessionId
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: 'null'
   standard_type: TBD
   name: SqmSessionFlags
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_task_0

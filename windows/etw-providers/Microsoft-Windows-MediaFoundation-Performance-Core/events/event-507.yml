@@ -1,5 +1,5 @@
 name: Event 507 - AudCaptureStream_BindToMicrophone
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-MediaFoundation-Performance-Core
 event_id: '507'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: object
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: wstrEndpointId
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: role
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_Start

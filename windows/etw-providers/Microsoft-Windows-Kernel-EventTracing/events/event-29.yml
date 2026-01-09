@@ -1,5 +1,5 @@
 name: Event 29 - Provider
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Kernel-EventTracing
 event_id: '29'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: ProviderGuid
   type: GUID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ProviderGroupGuid
   type: GUID
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_ETW_KEYWORD_PROVIDER ETW_KEYWORD_REGISTRATION ETW_KEYWORD_GROUP

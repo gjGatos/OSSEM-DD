@@ -1,5 +1,5 @@
 name: Event 4251 - Plugin
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-NlaSvc
 event_id: '4251'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: PluginName
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: EntityName
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: IndicatedRowCount
   type: UInt16
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: RowsWithInterfacesIndicatedCount
   type: UInt16
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: RowInterfaceGuid
   type: GUID
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Plugin

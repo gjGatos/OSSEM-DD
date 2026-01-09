@@ -1,5 +1,5 @@
 name: Event 109 - DirectShowFilterGraphNotifyEvent
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-DirectShow-Core
 event_id: '109'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: context
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: eventCode
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: param1
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: param2
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_DirectShowFilterGraphNotifyEvent

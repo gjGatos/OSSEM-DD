@@ -1,5 +1,5 @@
 name: Event 30 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-LDAP-Client
 event_id: '30'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: ScopeOfSearch
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SearchFilter
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: DistinguishedName
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: AttributeList
   type: UnicodeString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: ProcessId
   standard_type: TBD
   name: ProcessId
   type: HexInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_search

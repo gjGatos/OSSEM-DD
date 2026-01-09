@@ -1,5 +1,5 @@
 name: Event 16 - HttpAsyncI/O
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Runtime-Web-Http
 event_id: '16'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: obj
   type: Pointer
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: CodeDescription
   standard_type: TBD
   name: statusDescription
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_task_HttpAsyncI/O

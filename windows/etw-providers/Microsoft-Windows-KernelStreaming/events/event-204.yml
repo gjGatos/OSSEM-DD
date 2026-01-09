@@ -1,29 +1,29 @@
 name: Event 204 - KS_CameraGrab
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-KernelStreaming
 event_id: '204'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: ProcessId
   standard_type: TBD
   name: ProcessId
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PinId
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: FilterAddress
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_Start

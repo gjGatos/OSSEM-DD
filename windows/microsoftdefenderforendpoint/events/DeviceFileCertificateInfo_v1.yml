@@ -1,5 +1,6 @@
 name: DeviceFileCertificateInfo
-description: Certificate information of signed files obtained from certificate verification events on endpoints
+description: Certificate information of signed files obtained from certificate verification
+  events on endpoints
 platform: windows
 log_source: Microsoft Defender for Endpoint
 event_id: DeviceFileCertificateInfo
@@ -23,7 +24,7 @@ event_fields:
   type: string
   description: Fully qualified domain name (FQDN) of the device
   sample_value: ''
-- standard_name: TBD
+- standard_name: CertificateHashSha1
   standard_type: TBD
   name: SHA1
   type: string
@@ -39,7 +40,8 @@ event_fields:
   standard_type: TBD
   name: SignatureType
   type: string
-  description: Indicates whether signature information was read as embedded content in the file itself or read from an external catalog file
+  description: Indicates whether signature information was read as embedded content
+    in the file itself or read from an external catalog file
   sample_value: ''
 - standard_name: TBD
   standard_type: TBD
@@ -65,17 +67,19 @@ event_fields:
   type: string
   description: Unique hash value identifying issuing certificate authority (CA)
   sample_value: ''
-- standard_name: TBD
+- standard_name: CertificateSerialNumber
   standard_type: TBD
   name: CertificateSerialNumber
   type: string
-  description: Identifier for the certificate that is unique to the issuing certificate authority (CA)
+  description: Identifier for the certificate that is unique to the issuing certificate
+    authority (CA)
   sample_value: ''
 - standard_name: TBD
   standard_type: TBD
   name: CrlDistributionPointUrls
   type: string
-  description: JSON array listing the URLs of network shares that contain certificates and certificate revocation lists (CRLs)
+  description: JSON array listing the URLs of network shares that contain certificates
+    and certificate revocation lists (CRLs)
   sample_value: ''
 - standard_name: TBD
   standard_type: TBD
@@ -99,7 +103,9 @@ event_fields:
   standard_type: TBD
   name: IsTrusted
   type: boolean
-  description: Indicates whether the file is trusted based on the results of the WinVerifyTrust function, which checks for unknown root certificate information, invalid signatures, revoked certificates, and other questionable attributes
+  description: Indicates whether the file is trusted based on the results of the WinVerifyTrust
+    function, which checks for unknown root certificate information, invalid signatures,
+    revoked certificates, and other questionable attributes
   sample_value: ''
 - standard_name: TBD
   standard_type: TBD
@@ -111,7 +117,8 @@ event_fields:
   standard_type: TBD
   name: ReportId
   type: long
-  description: Event identifier based on a repeating counter. To identify unique events, this column must be used in conjunction with the DeviceName and Timestamp columns
+  description: Event identifier based on a repeating counter. To identify unique events,
+    this column must be used in conjunction with the DeviceName and Timestamp columns
   sample_value: ''
 references:
 - https://docs.microsoft.com/en-us/microsoft-365/security/defender/advanced-hunting-devicefilecertificateinfo-table?view=o365-worldwide

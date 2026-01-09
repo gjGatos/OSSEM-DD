@@ -1,5 +1,5 @@
 name: Event 12 - MessageExchange
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-WebServices
 event_id: '12'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: correlationId
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: length
   type: UInt16
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: message
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_keywords.BinaryMessage

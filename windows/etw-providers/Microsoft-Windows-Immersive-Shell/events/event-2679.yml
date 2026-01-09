@@ -1,5 +1,5 @@
 name: Event 2679 - Settings_Launch_SettingsCommand
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Immersive-Shell
 event_id: '2679'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: Result
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_Start

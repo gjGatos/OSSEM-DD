@@ -9,7 +9,8 @@ event_fields:
   standard_type: TBD
   name: ProfileUsed
   type: UnicodeString
-  description: the name of the profile that the rule belongs to. It always has value "Public", because this event shows rules only for "Public" profile.
+  description: the name of the profile that the rule belongs to. It always has value
+    "Public", because this event shows rules only for "Public" profile.
   sample_value: Public
 - standard_name: RuleId
   standard_type: TBD

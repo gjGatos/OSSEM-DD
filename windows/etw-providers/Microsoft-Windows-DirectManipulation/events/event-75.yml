@@ -1,5 +1,5 @@
 name: Event 75 - Manipulation_ParametricMotion
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-DirectManipulation
 event_id: '75'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: content
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: inputScaleX
   type: Float
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: inputScaleY
   type: Float
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: inputTranslateX
   type: Float
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: inputTranslateY
   type: Float
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_Start

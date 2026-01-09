@@ -1,23 +1,23 @@
 name: Event 1143 - AadCloudAPPluginOperation
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-AAD
 event_id: '1143'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: value
   type: Int32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: 'null'
   standard_type: TBD
   name: CorrelationID
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Analytic

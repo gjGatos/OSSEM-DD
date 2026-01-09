@@ -1,5 +1,5 @@
 name: Event 8 - VC1ENC_FRAME_MODECOST_INFO
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-WMVENCOD
 event_id: '8'
@@ -9,45 +9,45 @@ event_fields:
   standard_type: TBD
   name: MixedMVCost
   type: Double
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: OneMVQPBicubicCost
   type: Double
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: OneMVHPBicubicCost
   type: Double
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: OneMVHPBilinearCost
   type: Double
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: IntraCost
   type: Double
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SampleTime
   type: Int64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: EncoderInstance
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_task_VC1ENC_FRAME_MODECOST_INFO

@@ -5,13 +5,13 @@ log_source: osquery
 event_id: listening_ports
 event_version: 5.0.1
 event_fields:
-- standard_name: TBD
+- standard_name: ProcessId
   standard_type: TBD
   name: pid
   type: INTEGER
   description: Process (or thread) ID
   sample_value: TBD
-- standard_name: TBD
+- standard_name: Ipv4Port
   standard_type: TBD
   name: port
   type: INTEGER
@@ -29,7 +29,7 @@ event_fields:
   type: INTEGER
   description: Network protocol (IPv4, IPv6)
   sample_value: TBD
-- standard_name: TBD
+- standard_name: IpAddress
   standard_type: TBD
   name: address
   type: TEXT

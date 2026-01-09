@@ -1,5 +1,5 @@
 name: Event 1 - MPEG_2Encode/MuxforDLNA
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-MPEG2_DLNA-Encoder
 event_id: '1'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: TotalBytesEncoded
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: VideoFramesReceived
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: VideoFramesEncoded
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: AudioBytesReceived
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: AudioFramesEncoded
   type: UInt64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_Stop

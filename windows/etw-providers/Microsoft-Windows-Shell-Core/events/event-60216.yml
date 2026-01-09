@@ -1,5 +1,5 @@
 name: Event 60216 - SearchBox_LinguisticAlternativeGenerator_GenerateAlternatives
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Shell-Core
 event_id: '60216'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: CLSIDTextService
   type: GUID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: LangId
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: LangProfile
   type: GUID
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Shell

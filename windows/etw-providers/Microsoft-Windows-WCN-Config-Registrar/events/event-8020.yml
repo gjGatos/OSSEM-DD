@@ -1,5 +1,5 @@
 name: Event 8020 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-WCN-Config-Registrar
 event_id: '8020'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: Transport
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: TransportSubType
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: MessageGuid
   type: GUID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: MessageBlobLength
   type: UInt16
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: MessageBlob
   type: Binary
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_task_0

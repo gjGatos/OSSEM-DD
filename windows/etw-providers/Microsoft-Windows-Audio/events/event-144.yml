@@ -1,5 +1,5 @@
 name: Event 144 - AECPUUsage
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Audio
 event_id: '144'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: objInstance
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ucType
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_task_AECPUUsage

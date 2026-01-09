@@ -1,5 +1,5 @@
 name: Event 47 - SocketConnect
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Runtime-Networking
 event_id: '47'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: obj
   type: Pointer
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: SrcPort
   standard_type: TBD
   name: port1
   type: UnicodeString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: SrcIpAddr
   standard_type: TBD
   name: ip
   type: UnicodeString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: DstPort
   standard_type: TBD
   name: port2
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_keywords.Socket

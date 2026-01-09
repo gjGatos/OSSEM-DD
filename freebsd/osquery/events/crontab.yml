@@ -41,13 +41,13 @@ event_fields:
   type: TEXT
   description: The day of the week for the job
   sample_value: TBD
-- standard_name: TBD
+- standard_name: ProcessCommandLine
   standard_type: TBD
   name: command
   type: TEXT
   description: Raw command string
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: path
   type: TEXT

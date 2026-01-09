@@ -1,5 +1,5 @@
 name: Event 1 - SystemTimeChange
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Kernel-General
 event_id: '1'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: NewTime
   type: FILETIME
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: OldTime
   type: FILETIME
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Reason
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_KERNEL_GENERAL_KEYWORD_TIME

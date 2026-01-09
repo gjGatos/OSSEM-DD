@@ -1,5 +1,5 @@
 name: Event 502 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-UserDataAccess-UserDataUtils
 event_id: '502'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: P1_Int32
   type: Int32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_keywords_Error keyword_400000000000

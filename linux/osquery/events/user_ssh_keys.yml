@@ -1,17 +1,18 @@
 name: User_ssh_keys Table
-description: Returns the private keys in the users ~/.ssh directory and whether or not they are encrypted.
+description: Returns the private keys in the users ~/.ssh directory and whether or
+  not they are encrypted.
 platform: linux
 log_source: osquery
 event_id: user_ssh_keys
 event_version: 4.4.2
 event_fields:
-- standard_name: TBD
+- standard_name: UserId
   standard_type: TBD
   name: uid
   type: BIGINT
   description: The local user that owns the key file
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: path
   type: TEXT

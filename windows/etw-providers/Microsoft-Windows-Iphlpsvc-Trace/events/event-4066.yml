@@ -1,47 +1,47 @@
 name: Event 4066 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Iphlpsvc-Trace
 event_id: '4066'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: AddrLength
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: 'null'
   standard_type: TBD
   name: ServiceType
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: 'null'
   standard_type: TBD
   name: TeredoPacketType
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: IpAddress
   standard_type: TBD
   name: SourceIpv6Address
   type: Binary
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: IpAddress
   standard_type: TBD
   name: DestinationIPAddress
   type: Binary
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: IpAddress
   standard_type: TBD
   name: TargetIPAddress
   type: Binary
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_teredo

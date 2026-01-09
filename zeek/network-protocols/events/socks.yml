@@ -1,5 +1,5 @@
 name: Socks Log
-description:
+description: null
 platform: zeek
 log_source: network-protocols
 event_id: socks
@@ -64,7 +64,7 @@ event_fields:
   name: bound_name
   type: string
   description: Server bound name.
-  sample_value: "i)'ÐÐ#\"\";\"\"8ÐÐö"
+  sample_value: i)'ÐÐ#"";""8ÐÐö
 - standard_name: TBD
   standard_type: TBD
   name: bound_p

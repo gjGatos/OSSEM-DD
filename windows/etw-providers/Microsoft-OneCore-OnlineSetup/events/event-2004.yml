@@ -1,5 +1,5 @@
 name: Event 2004 - SetupProcessUnattend
-description:
+description: null
 platform: windows
 log_source: Microsoft-OneCore-OnlineSetup
 event_id: '2004'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: Pass
   type: UnicodeString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: FilePath
   standard_type: TBD
   name: FilePath
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_keyDiagnostic

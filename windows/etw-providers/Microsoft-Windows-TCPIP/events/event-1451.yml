@@ -1,5 +1,5 @@
 name: Event 1451 - IpRaDnsEvent
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-TCPIP
 event_id: '1451'
@@ -9,57 +9,57 @@ event_fields:
   standard_type: TBD
   name: Event
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Interface
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: CompartmentId
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: RouterAddrLength
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: DnsAddress
   standard_type: TBD
   name: RouterAddress
   type: Binary
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: DnsAddrLength
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: DnsAddress
   standard_type: TBD
   name: DNSServerAddress
   type: Binary
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: DNSSuffix
   type: AnsiString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Lifetime
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_ut:TcpipRouter

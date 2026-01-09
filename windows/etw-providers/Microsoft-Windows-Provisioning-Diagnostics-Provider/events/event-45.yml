@@ -1,5 +1,5 @@
 name: Event 45 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Provisioning-Diagnostics-Provider
 event_id: '45'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: HRESULT
   type: HexInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_task_task_0

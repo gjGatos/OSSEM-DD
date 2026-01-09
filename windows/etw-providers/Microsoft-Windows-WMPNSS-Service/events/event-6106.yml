@@ -1,5 +1,5 @@
 name: Event 6106 - DeviceCountUpdate
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-WMPNSS-Service
 event_id: '6106'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: TotalDevicesAdded
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: DeviceFunctionalCount
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: TotalUDNRenderersAdded
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: UDNRenderersFunctionalCount
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_DeviceCountUpdate

@@ -1,5 +1,5 @@
 name: Event 1011 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-WFP
 event_id: '1011'
@@ -9,75 +9,75 @@ event_fields:
   standard_type: TBD
   name: Timestamp
   type: FILETIME
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: LocalAddressLength
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: IpAddress
   standard_type: TBD
   name: LocalAddress
   type: Binary
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: RemoteAddressLength
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: RemoteIp
   standard_type: TBD
   name: RemoteAddress
   type: Binary
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ScopeId
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: AppId
   type: UnicodeString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: UserSid
   standard_type: TBD
   name: UserSID
   type: SID
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: IpAddress
   standard_type: TBD
   name: InternetHostAddress
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: IpAddress
   standard_type: TBD
   name: CorpnetHostAddress
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: FailureStatus
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Direction
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_keyword_10000000000

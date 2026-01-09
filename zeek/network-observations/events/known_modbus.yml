@@ -1,5 +1,5 @@
 name: Known Modbus Log
-description:
+description: null
 platform: zeek
 log_source: network-observations
 event_id: known_modbus

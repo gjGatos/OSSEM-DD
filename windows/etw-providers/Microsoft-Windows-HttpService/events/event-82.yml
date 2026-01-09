@@ -1,5 +1,5 @@
 name: Event 82 - HTTPAuthenticationTraceTask
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-HttpService
 event_id: '82'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: Hardening
   type: UInt8
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Flags
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ServiceNameCount
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_HTTP_KEYWORD_AUTHENTICATION

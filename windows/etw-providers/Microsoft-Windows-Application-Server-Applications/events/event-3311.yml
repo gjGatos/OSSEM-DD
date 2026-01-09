@@ -1,29 +1,29 @@
 name: Event 3311 - DispatchMessage
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Application Server-Applications
 event_id: '3311'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: OperationName
   type: UnicodeString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: HostDomain
   standard_type: TBD
   name: HostReference
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: AppDomain
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_ServiceModel

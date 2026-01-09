@@ -1,5 +1,5 @@
 name: Event 26009 - Shell32_AdviseCollection
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Shell-Core
 event_id: '26009'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: Caller
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: IItemCollection
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ICollectionEventSink
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Cookie
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: HRESULT
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Shell

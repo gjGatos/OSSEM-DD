@@ -1,5 +1,5 @@
 name: Event 7 - HTTPRequestTraceTask
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-HttpService
 event_id: '7'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: RequestId
   type: UInt64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_HTTP_KEYWORD_REQUEST HTTP_KEYWORD_RESPONSE

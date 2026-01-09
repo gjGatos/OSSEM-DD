@@ -17,7 +17,7 @@ event_fields:
   type: TEXT
   description: Actions executed by the scheduled task
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: path
   type: TEXT
@@ -41,13 +41,13 @@ event_fields:
   type: INTEGER
   description: Whether or not the task is visible in the UI
   sample_value: TBD
-- standard_name: TBD
+- standard_name: NetworkTrafficEnd
   standard_type: TBD
   name: last_run_time
   type: INTEGER
   description: Timestamp the task last ran
   sample_value: TBD
-- standard_name: TBD
+- standard_name: NetworkTrafficStart
   standard_type: TBD
   name: next_run_time
   type: INTEGER

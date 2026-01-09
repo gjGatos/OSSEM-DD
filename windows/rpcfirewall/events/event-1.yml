@@ -3,7 +3,7 @@ description: Event monitoring the protection of a specific processes.
 platform: windows
 log_source: RPCFWP
 event_id: '1'
-event_version:
+event_version: null
 event_fields:
 - standard_name: ProcessId
   standard_type: TBD
@@ -11,7 +11,7 @@ event_fields:
   type: string
   description: Id of the process being protected.
   sample_value: 732
-- standard_name: ProcessFilePath
+- standard_name: ProcessFileName
   standard_type: TBD
   name: Image Path
   type: string
@@ -19,22 +19,10 @@ event_fields:
   sample_value: C:\Windows\system32\lsass.exe
 references: []
 tags: []
-example: |-
-  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
-    <System>
-      <Provider Name="RPCFWP" /> 
-      <EventID Qualifiers="24578">1</EventID> 
-      <Level>0</Level> 
-      <Task>0</Task> 
-      <Keywords>0xa0000000000000</Keywords> 
-      <TimeCreated SystemTime="2021-11-13T17:45:26.348823600Z" /> 
-      <EventRecordID>6</EventRecordID> 
-      <Channel>RPCFWP</Channel> 
-      <Computer>DC01.mssentinel.local</Computer> 
-      <Security /> 
-    </System>
-    <EventData>
-      <Data>C:\Windows\system32\lsass.exe</Data> 
-      <Data>692</Data> 
-    </EventData>
-  </Event>
+example: "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n\
+  \  <System>\n    <Provider Name=\"RPCFWP\" /> \n    <EventID Qualifiers=\"24578\"\
+  >1</EventID> \n    <Level>0</Level> \n    <Task>0</Task> \n    <Keywords>0xa0000000000000</Keywords>\
+  \ \n    <TimeCreated SystemTime=\"2021-11-13T17:45:26.348823600Z\" /> \n    <EventRecordID>6</EventRecordID>\
+  \ \n    <Channel>RPCFWP</Channel> \n    <Computer>DC01.mssentinel.local</Computer>\
+  \ \n    <Security /> \n  </System>\n  <EventData>\n    <Data>C:\\Windows\\system32\\\
+  lsass.exe</Data> \n    <Data>692</Data> \n  </EventData>\n</Event>"

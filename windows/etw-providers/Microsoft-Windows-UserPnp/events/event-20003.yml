@@ -1,47 +1,47 @@
 name: Event 20003 - PnP_PlugPlay_DeviceInstall
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-UserPnp
 event_id: '20003'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: ServiceSid
   standard_type: TBD
   name: ServiceName
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: DriverFileName
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: DeviceInstanceID
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PrimaryService
   type: Boolean
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: UpdateService
   type: Boolean
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: AddServiceStatus
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_PnP_PlugPlay_DeviceInstall

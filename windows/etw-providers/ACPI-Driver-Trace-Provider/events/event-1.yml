@@ -1,5 +1,5 @@
 name: Event 1
-description:
+description: null
 platform: windows
 log_source: ACPI Driver Trace Provider
 event_id: '1'
@@ -9,7 +9,7 @@ event_fields:
   standard_type: TBD
   name: DataString
   type: String
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags: []

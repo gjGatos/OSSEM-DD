@@ -1,5 +1,6 @@
 name: 'Event ID 5: Process terminated'
-description: The **process terminate** event reports when a process terminates. It provides the UtcTime, ProcessGuid and ProcessId of the process.
+description: The **process terminate** event reports when a process terminates. It
+  provides the UtcTime, ProcessGuid and ProcessId of the process.
 platform: linux
 log_source: sysmon
 event_id: '5'
@@ -17,7 +18,7 @@ event_fields:
   type: date
   description: Time in UTC when event was created
   sample_value: '2021-10-13T20:06:22.6470000Z'
-- standard_name: TargetProcessGuid
+- standard_name: ProcessId
   standard_type: TBD
   name: ProcessGuid
   type: string
@@ -29,7 +30,7 @@ event_fields:
   type: integer
   description: Process ID used by the os to identify the process that terminated
   sample_value: '2428'
-- standard_name: TargetProcessFilePath
+- standard_name: ProcessFileName
   standard_type: TBD
   name: Image
   type: string

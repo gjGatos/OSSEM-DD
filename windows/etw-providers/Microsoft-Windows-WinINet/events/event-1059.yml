@@ -1,5 +1,5 @@
 name: Event 1059 - Wininet_SocketConnect
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-WinINet
 event_id: '1059'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: Request
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Socket
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SourcePort
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: RemoteAddressIndex
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_WININET_KEYWORD_IE WININET_KEYWORD_HTTPDIAG

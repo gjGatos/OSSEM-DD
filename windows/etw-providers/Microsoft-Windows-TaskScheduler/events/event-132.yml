@@ -1,5 +1,5 @@
 name: Event 132 - Launchconditionwarning,quotaapproaching
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-TaskScheduler
 event_id: '132'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: CurrentQuota
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Warning
 - etw_task_Launchconditionwarning,quotaapproaching

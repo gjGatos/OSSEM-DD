@@ -1,5 +1,5 @@
 name: Event 326 - USN_Notify_Journal_Wrap
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Search-Core
 event_id: '326'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: Volume
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: DesiredPosition
   type: Int64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: CurrentPosition
   type: Int64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: hr
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_USN

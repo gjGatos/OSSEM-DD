@@ -1,5 +1,5 @@
 name: Event 20 - Service_Call
-description:
+description: null
 platform: windows
 log_source: Microsoft-Client-Licensing-Platform
 event_id: '20'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: ID
   type: Int32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_SERVICE_PERF_KEYWORD

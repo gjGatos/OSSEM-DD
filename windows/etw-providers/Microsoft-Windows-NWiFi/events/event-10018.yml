@@ -1,5 +1,5 @@
 name: Event 10018 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-NWiFi
 event_id: '10018'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: ContextHandle
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: AdapterGuid
   type: GUID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: FrameSequence
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: MacAddr
   standard_type: TBD
   name: SrcMAC
   type: Binary
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: MacAddr
   standard_type: TBD
   name: DestMAC
   type: Binary
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_RSNA LwtDiagnostic ut:ReceivePath ut:Authentication

@@ -1,5 +1,5 @@
 name: Event 5062 - VMT_VID_GPA_MAP
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Hyper-V-VID
 event_id: '5062'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: StartGpaPage
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: StartMbp
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: MbpCount
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: InterceptOverrideFlags
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PartitionGuid
   type: GUID
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_VMK_GPA

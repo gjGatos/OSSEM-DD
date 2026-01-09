@@ -1,47 +1,47 @@
 name: Event 23 - RequestConfiguration
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-WebIO
 event_id: '23'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: ApiCallName
   standard_type: TBD
   name: Request
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: RequestHandle
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Flags
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: InformationRoutine
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: InformationContext
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Error
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Keyword.API Keyword.CONFIGURATION

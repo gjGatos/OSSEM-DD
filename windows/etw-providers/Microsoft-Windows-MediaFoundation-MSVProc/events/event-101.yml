@@ -1,5 +1,5 @@
 name: Event 101 - MSVideoProcessoftMFT(D3D11)_CreateInputView
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-MediaFoundation-MSVProc
 event_id: '101'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: Sample
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: BufferIndex
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: hr
   type: HexInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: View
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_task_MSVideoProcessoftMFT(D3D11)_CreateInputView

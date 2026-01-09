@@ -1,5 +1,5 @@
 name: Event 4475 - DXGIMapSurfaceSleep
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-MediaFoundation-Performance
 event_id: '4475'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: surface
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_opcode_Start

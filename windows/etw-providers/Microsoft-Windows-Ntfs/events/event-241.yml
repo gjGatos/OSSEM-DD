@@ -1,5 +1,5 @@
 name: Event 241 - FileMetadataOptimization
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Ntfs
 event_id: '241'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: VolumeGuid
   type: GUID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: VolumeNameLength
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: VolumeName
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: FileReference
   type: UInt64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_FileMetadataOptimization

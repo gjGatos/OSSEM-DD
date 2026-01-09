@@ -1,5 +1,5 @@
 name: Event 4104 - ValidaterequestinFileDownloadManager
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-PowerShell-DesiredStateConfiguration-FileDownloadManager
 event_id: '4104'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: Checksum
   type: UnicodeString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: FileName
   standard_type: TBD
   name: FileName
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_ValidaterequestinFileDownloadManager

@@ -1,5 +1,5 @@
 name: Event 99 - SpmClientControlStateChange
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-PDC
 event_id: '99'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: PdcId
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PreviousState
   type: UInt8
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: NextState
   type: UInt8
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_SPM

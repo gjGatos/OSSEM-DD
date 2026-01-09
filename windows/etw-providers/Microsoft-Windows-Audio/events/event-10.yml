@@ -1,5 +1,5 @@
 name: Event 10 - CaptureMonitor_Monitor_Restart_Limit_Hit
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Audio
 event_id: '10'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: dwRestartCount
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: szInputEndpointName
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: szOutputEndpointName
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_task_CaptureMonitor_Monitor_Restart_Limit_Hit

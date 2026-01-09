@@ -1,5 +1,5 @@
 name: Event 1001 - DxgkDdiMiracastQueryCaps
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-DxgKrnl
 event_id: '1001'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: MiniportContext
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: MaxChunkPrivateDriverDataSize
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: MiracastCaps
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ReturnStatus
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_Miracast

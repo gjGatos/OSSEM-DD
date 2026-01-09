@@ -1,47 +1,47 @@
 name: Event 4018 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-GroupPolicy
 event_id: '4018'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: TargetUserSamName
   standard_type: TBD
   name: PrincipalSamName
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ScriptType
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: IsScriptHidden
   type: Boolean
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: IsScriptSync
   type: Boolean
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: IsScriptMinimized
   type: Boolean
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SessionId
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_Start

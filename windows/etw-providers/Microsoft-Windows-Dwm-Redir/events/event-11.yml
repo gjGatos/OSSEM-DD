@@ -1,5 +1,5 @@
 name: Event 11 - RedirProcessLPCMessage
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Dwm-Redir
 event_id: '11'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: Enum
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_DwmRedir DwmInput DwmInputPerf

@@ -1,5 +1,5 @@
 name: Event 4517 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-DSC
 event_id: '4517'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: message
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_task_task_0

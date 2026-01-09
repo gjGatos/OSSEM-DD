@@ -35,7 +35,7 @@ event_fields:
   type: TEXT
   description: Gateway
   sample_value: TBD
-- standard_name: TBD
+- standard_name: IpAddress
   standard_type: TBD
   name: ip_address
   type: TEXT
@@ -65,7 +65,7 @@ event_fields:
   type: INTEGER
   description: IPv6 subnet prefix length
   sample_value: TBD
-- standard_name: TBD
+- standard_name: MacAddr
   standard_type: TBD
   name: mac_address
   type: TEXT

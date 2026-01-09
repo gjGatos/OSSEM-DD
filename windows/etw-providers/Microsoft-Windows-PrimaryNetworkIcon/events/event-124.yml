@@ -1,5 +1,5 @@
 name: Event 124 - PrimaryNetworkIcon_Task_LocalConnected
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-PrimaryNetworkIcon
 event_id: '124'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: IconResID
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_PrimaryNetworkIcon_Task_LocalConnected

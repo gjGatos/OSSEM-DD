@@ -1,5 +1,5 @@
 name: Event 32785 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-PowerShell
 event_id: '32785'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: param1
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Transport

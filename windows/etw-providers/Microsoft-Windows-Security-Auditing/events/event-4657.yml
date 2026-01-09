@@ -1,5 +1,7 @@
 name: Event ID 4657 A registry value was modified
-description: This event generates when a registry key value was modified. It doesn't generate when a registry key was modified. This event generates only if "Set Value" auditing is set in registry key's SACL.
+description: This event generates when a registry key value was modified. It doesn't
+  generate when a registry key was modified. This event generates only if "Set Value"
+  auditing is set in registry key's SACL.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
 event_id: '4657'
@@ -15,7 +17,8 @@ event_fields:
   standard_type: TBD
   name: SubjectUserName
   type: UnicodeString
-  description: the name of the account that requested the "modify registry value" operation.
+  description: the name of the account that requested the "modify registry value"
+    operation.
   sample_value: TheUser
 - standard_name: UserDomain
   standard_type: TBD
@@ -27,7 +30,8 @@ event_fields:
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID
+  description: hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID
   sample_value: '0x364ef'
 - standard_name: RegistryKeyPath
   standard_type: TBD
@@ -41,37 +45,37 @@ event_fields:
   type: UnicodeString
   description: the name of modified registry key value.
   sample_value: New_Name
-- standard_name: RegistryKeyHandleId
+- standard_name: 'null'
   standard_type: TBD
   name: HandleId
   type: Pointer
   description: hexadecimal value of a handle to Object Name.
   sample_value: '0x54'
-- standard_name: RegistryEventType
+- standard_name: 'null'
   standard_type: TBD
   name: OperationType
   type: UnicodeString
   description: the type of performed operation with registry key value.
   sample_value: Existing registry value modified
-- standard_name: RegistryPreviousValueType
+- standard_name: 'null'
   standard_type: TBD
   name: OldValueType
   type: UnicodeString
   description: old type of changed registry key value.
   sample_value: REG_SZ
-- standard_name: RegistryPreviousValueData
+- standard_name: 'null'
   standard_type: TBD
   name: OldValue
   type: UnicodeString
   description: old value for changed registry key value.
   sample_value: ''
-- standard_name: RegistryValueType
+- standard_name: 'null'
   standard_type: TBD
   name: NewValueType
   type: UnicodeString
   description: new type of changed registry key value.
   sample_value: REG_SZ
-- standard_name: RegistryValueData
+- standard_name: 'null'
   standard_type: TBD
   name: NewValue
   type: UnicodeString
@@ -81,9 +85,10 @@ event_fields:
   standard_type: TBD
   name: ProcessId
   type: Pointer
-  description: hexadecimal Process ID of the process through which the registry key value was modified.
+  description: hexadecimal Process ID of the process through which the registry key
+    value was modified.
   sample_value: '0xec43'
-- standard_name: ProcessFilePath
+- standard_name: ProcessName
   standard_type: TBD
   name: ProcessName
   type: UnicodeString
@@ -103,68 +108,37 @@ tags:
 - Audit Registry
 event_sample:
 - format: friendly view
-  sample: |-
-    Log Name:      Security 
-    Source:        Microsoft-Windows-Security-Auditing 
-    Date:          8/18/2022 5:35:58 PM 
-    Event ID:      4657 
-    Task Category: Registry 
-    Level:         Information 
-    Keywords:      Audit Success 
-    User:          N/A 
-    Computer:      pedro-computer 
-    Description:   A registry value was modified. 
-    Subject: 
-      Security ID:		PEDRO-COMPUTER\pedro-admin 
-      Account Name:		pedro-admin 
-      Account Domain:		PEDRO-COMPUTER 
-      Logon ID:		0xFEFF35 
-    Object: 
-      Object Name:		\REGISTRY\MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\Audit 
-      Object Value Name:	ProcessCreationIncludeCmdLine_Enabled 
-      Handle ID:		0xa8 
-      Operation Type:		Existing registry value modified 
-    Process Information: 
-      Process ID:		0x1364 
-      Process Name:		C:\Windows\System32\reg.exe 
-    Change Information: 
-      Old Value Type:		REG_DWORD 
-      Old Value:		1 
-      New Value Type:		REG_DWORD 
-      New Value:		0 
+  sample: "Log Name:      Security \nSource:        Microsoft-Windows-Security-Auditing\
+    \ \nDate:          8/18/2022 5:35:58 PM \nEvent ID:      4657 \nTask Category:\
+    \ Registry \nLevel:         Information \nKeywords:      Audit Success \nUser:\
+    \          N/A \nComputer:      pedro-computer \nDescription:   A registry value\
+    \ was modified. \nSubject: \n  Security ID:\t\tPEDRO-COMPUTER\\pedro-admin \n\
+    \  Account Name:\t\tpedro-admin \n  Account Domain:\t\tPEDRO-COMPUTER \n  Logon\
+    \ ID:\t\t0xFEFF35 \nObject: \n  Object Name:\t\t\\REGISTRY\\MACHINE\\SOFTWARE\\\
+    Microsoft\\Windows\\CurrentVersion\\Policies\\System\\Audit \n  Object Value Name:\t\
+    ProcessCreationIncludeCmdLine_Enabled \n  Handle ID:\t\t0xa8 \n  Operation Type:\t\
+    \tExisting registry value modified \nProcess Information: \n  Process ID:\t\t\
+    0x1364 \n  Process Name:\t\tC:\\Windows\\System32\\reg.exe \nChange Information:\
+    \ \n  Old Value Type:\t\tREG_DWORD \n  Old Value:\t\t1 \n  New Value Type:\t\t\
+    REG_DWORD \n  New Value:\t\t0 "
 - format: xml
-  sample: |-
-    <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"> 
-      <System> 
-        <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" /> 
-        <EventID>4657</EventID> 
-        <Version>0</Version> 
-        <Level>0</Level> 
-        <Task>12801</Task> 
-        <Opcode>0</Opcode> 
-        <Keywords>0x8020000000000000</Keywords> 
-        <TimeCreated SystemTime="2022-08-19T00:35:58.816842000Z" /> 
-        <EventRecordID>179548</EventRecordID> 
-        <Correlation /> 
-        <Execution ProcessID="4" ThreadID="4560" /> 
-        <Channel>Security</Channel> 
-        <Computer>pedro-computer</Computer> 
-        <Security /> 
-      </System> 
-      <EventData> 
-        <Data Name="SubjectUserSid">S-1-5-21-3768430097-3400800235-1714852860-1001</Data> 
-        <Data Name="SubjectUserName">pedro-admin</Data> 
-        <Data Name="SubjectDomainName">PEDRO-COMPUTER</Data> 
-        <Data Name="SubjectLogonId">0xfeff35</Data> 
-        <Data Name="ObjectName">\REGISTRY\MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\Audit</Data> 
-        <Data Name="ObjectValueName">ProcessCreationIncludeCmdLine_Enabled</Data> 
-        <Data Name="HandleId">0xa8</Data> 
-        <Data Name="OperationType">%%1905</Data> 
-        <Data Name="OldValueType">%%1876</Data> 
-        <Data Name="OldValue">1</Data> 
-        <Data Name="NewValueType">%%1876</Data> 
-        <Data Name="NewValue">0</Data> 
-        <Data Name="ProcessId">0x1364</Data> 
-        <Data Name="ProcessName">C:\Windows\System32\reg.exe</Data> 
-      </EventData> 
-    </Event> 
+  sample: "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"\
+    > \n  <System> \n    <Provider Name=\"Microsoft-Windows-Security-Auditing\" Guid=\"\
+    {54849625-5478-4994-a5ba-3e3b0328c30d}\" /> \n    <EventID>4657</EventID> \n \
+    \   <Version>0</Version> \n    <Level>0</Level> \n    <Task>12801</Task> \n  \
+    \  <Opcode>0</Opcode> \n    <Keywords>0x8020000000000000</Keywords> \n    <TimeCreated\
+    \ SystemTime=\"2022-08-19T00:35:58.816842000Z\" /> \n    <EventRecordID>179548</EventRecordID>\
+    \ \n    <Correlation /> \n    <Execution ProcessID=\"4\" ThreadID=\"4560\" />\
+    \ \n    <Channel>Security</Channel> \n    <Computer>pedro-computer</Computer>\
+    \ \n    <Security /> \n  </System> \n  <EventData> \n    <Data Name=\"SubjectUserSid\"\
+    >S-1-5-21-3768430097-3400800235-1714852860-1001</Data> \n    <Data Name=\"SubjectUserName\"\
+    >pedro-admin</Data> \n    <Data Name=\"SubjectDomainName\">PEDRO-COMPUTER</Data>\
+    \ \n    <Data Name=\"SubjectLogonId\">0xfeff35</Data> \n    <Data Name=\"ObjectName\"\
+    >\\REGISTRY\\MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\\
+    System\\Audit</Data> \n    <Data Name=\"ObjectValueName\">ProcessCreationIncludeCmdLine_Enabled</Data>\
+    \ \n    <Data Name=\"HandleId\">0xa8</Data> \n    <Data Name=\"OperationType\"\
+    >%%1905</Data> \n    <Data Name=\"OldValueType\">%%1876</Data> \n    <Data Name=\"\
+    OldValue\">1</Data> \n    <Data Name=\"NewValueType\">%%1876</Data> \n    <Data\
+    \ Name=\"NewValue\">0</Data> \n    <Data Name=\"ProcessId\">0x1364</Data> \n \
+    \   <Data Name=\"ProcessName\">C:\\Windows\\System32\\reg.exe</Data> \n  </EventData>\
+    \ \n</Event> "

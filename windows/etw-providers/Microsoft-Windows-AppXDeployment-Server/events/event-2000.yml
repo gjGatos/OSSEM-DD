@@ -1,23 +1,23 @@
 name: Event 2000 - AppXDeployment.Perftrack.Task.Uninstall
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-AppXDeployment-Server
 event_id: '2000'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: SoftwareName
   standard_type: TBD
   name: packageFullName
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: returnCode
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_opcode_Start

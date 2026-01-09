@@ -1,5 +1,5 @@
 name: Event 166 - Mshtml_XmlPre_Run
-description:
+description: null
 platform: windows
 log_source: Microsoft-IE
 event_id: '166'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: HR
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: CXmlPrePtr
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: fDataPend
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: fSuspended
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_primarynav mshtml

@@ -1,23 +1,23 @@
 name: Event 37 - Audio_Glitch_Detection
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Audio
 event_id: '37'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: OwnerSid
   standard_type: TBD
   name: pOwner
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: IoctlTimeHNS
   type: UInt64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_opcode_IOMGRIoctlTimeLimitExceeded

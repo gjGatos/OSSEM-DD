@@ -1,5 +1,6 @@
 name: 'Event ID 4648: A logon was attempted using explicit credentials'
-description: This event is generated when a process attempts an account logon by explicitly specifying that account's credentials.
+description: This event is generated when a process attempts an account logon by explicitly
+  specifying that account's credentials.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
 event_id: '4648'
@@ -15,7 +16,8 @@ event_fields:
   standard_type: TBD
   name: SubjectUserName
   type: UnicodeString
-  description: the name of the account that requested the new logon session with explicit credentials.
+  description: the name of the account that requested the new logon session with explicit
+    credentials.
   sample_value: dadmin
 - standard_name: UserDomain
   standard_type: TBD
@@ -27,13 +29,15 @@ event_fields:
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID
+  description: hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID
   sample_value: '0x31844'
 - standard_name: UserLogonGuid
   standard_type: TBD
   name: LogonGuid
   type: GUID
-  description: a GUID that can help you correlate this event with another event that can contain the same Logon GUID
+  description: a GUID that can help you correlate this event with another event that
+    can contain the same Logon GUID
   sample_value: '{00000000-0000-0000-0000-000000000000}'
 - standard_name: TargetUserName
   standard_type: TBD
@@ -51,13 +55,16 @@ event_fields:
   standard_type: TBD
   name: TargetLogonGuid
   type: GUID
-  description: 'a GUID that can help you correlate this event with another event that can contain the same Logon GUID, "4769(S, F): A Kerberos service ticket was requested event on a domain controller.'
+  description: 'a GUID that can help you correlate this event with another event that
+    can contain the same Logon GUID, "4769(S, F): A Kerberos service ticket was requested
+    event on a domain controller.'
   sample_value: '{0887F1E4-39EA-D53C-804F-31D568A06274}'
 - standard_name: TargetServerName
   standard_type: TBD
   name: TargetServerName
   type: UnicodeString
-  description: the name of the server on which the new process was run. Has "localhost" value if the process was run locally.
+  description: the name of the server on which the new process was run. Has "localhost"
+    value if the process was run locally.
   sample_value: localhost
 - standard_name: TargetInfo
   standard_type: TBD
@@ -69,9 +76,11 @@ event_fields:
   standard_type: TBD
   name: ProcessId
   type: Pointer
-  description: hexadecimal Process ID of the process which was run using explicit credentials. Process ID (PID) is a number used by the operating system to uniquely identify an active process.
+  description: hexadecimal Process ID of the process which was run using explicit
+    credentials. Process ID (PID) is a number used by the operating system to uniquely
+    identify an active process.
   sample_value: '0x368'
-- standard_name: ProcessPath
+- standard_name: ProcessName
   standard_type: TBD
   name: ProcessName
   type: UnicodeString

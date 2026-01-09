@@ -1,23 +1,23 @@
 name: Event 103 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-NFC-ClassExtension
 event_id: '103'
 event_version: '1'
 event_fields:
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: FileObject
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PayloadSize
   type: UInt64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_NFP

@@ -1,5 +1,6 @@
 name: 'Event ID 5378: The requested credentials delegation was disallowed by policy'
-description: This event occurs when an account that is a member of any defined Special Group logs in.
+description: This event occurs when an account that is a member of any defined Special
+  Group logs in.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
 event_id: '5378'
@@ -23,19 +24,21 @@ event_fields:
   type: UnicodeString
   description: subject's domain or computer name
   sample_value: CONTOSO
-- standard_name: UserLogonId
+- standard_name: UserSid
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID
+  description: hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID
   sample_value: '0x2b1e04'
-- standard_name: LogonSecurityPackageName
+- standard_name: SoftwareName
   standard_type: TBD
   name: Package
   type: UnicodeString
-  description: the name of Security Package which was used. Always CREDSSP for this event.
+  description: the name of Security Package which was used. Always CREDSSP for this
+    event.
   sample_value: CREDSSP
-- standard_name: UserIdentity
+- standard_name: UserUpn
   standard_type: TBD
   name: UserUPN
   type: UnicodeString

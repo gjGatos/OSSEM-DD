@@ -1,5 +1,5 @@
 name: Event 8025 - ServiceStart
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-HelloForBusiness
 event_id: '8025'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: ServiceName
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_keywords_Internal
 - etw_opcode_Informational

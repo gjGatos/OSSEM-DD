@@ -1,5 +1,5 @@
 name: Event 5 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-NdisImPlatformEventProvider
 event_id: '5'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: Oid
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: SoftwareName
   standard_type: TBD
   name: Adapter
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: OidBufferLen
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: OidBuffer
   type: Binary
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Status
   type: Int32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Warning
 - etw_task_task_0

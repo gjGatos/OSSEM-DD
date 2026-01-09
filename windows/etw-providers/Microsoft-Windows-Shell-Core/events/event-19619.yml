@@ -1,5 +1,5 @@
 name: Event 19619 - Shell32_ControlPanel_NavPane_Mode
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Shell-Core
 event_id: '19619'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: uMode
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Shell

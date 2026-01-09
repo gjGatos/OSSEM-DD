@@ -1,5 +1,5 @@
 name: Event 1019 - Wininet_PreNet_CacheMiss
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-WinINet
 event_id: '1019'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: Request
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_WININET_KEYWORD_IE WININET_KEYWORD_HTTPDIAG

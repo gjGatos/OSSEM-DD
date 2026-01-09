@@ -1,5 +1,7 @@
 name: 'Event ID 4718: System security access was removed from an account'
-description: This event generates every time local logon user right policy is changed and logon right was removed from an account. You will see unique event for every user if logon user rights were removed for multiple accounts.
+description: This event generates every time local logon user right policy is changed
+  and logon right was removed from an account. You will see unique event for every
+  user if logon user rights were removed for multiple accounts.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
 event_id: '4718'
@@ -15,19 +17,21 @@ event_fields:
   standard_type: TBD
   name: SubjectUserName
   type: UnicodeString
-  description: the name of the account that made a change to local logon right user policy.
+  description: the name of the account that made a change to local logon right user
+    policy.
   sample_value: DC01$
-- standard_name: UserDomain
+- standard_name: Domain
   standard_type: TBD
   name: SubjectDomainName
   type: UnicodeString
-  description: " subject's domain or computer name."
+  description:  subject's domain or computer name.
   sample_value: THEDOMAIN
 - standard_name: UserLogonId
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: hexadecimal value that can help you correlate this event with recent events that might
+  description: hexadecimal value that can help you correlate this event with recent
+    events that might
   sample_value: ''
 - standard_name: TargetUserSid
   standard_type: TBD

@@ -1,5 +1,5 @@
 name: Event 8028 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-AppLocker
 event_id: '8028'
@@ -9,57 +9,57 @@ event_fields:
   standard_type: TBD
   name: FilePathLength
   type: UInt16
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: FilePath
   standard_type: TBD
   name: FilePath
   type: UnicodeString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: FileHashSha1
   standard_type: TBD
   name: Sha1Hash
   type: Binary
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: FileHashSha256
   standard_type: TBD
   name: Sha256Hash
   type: Binary
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Result
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: USN
   type: Int64
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: CertificateHashSha1
   standard_type: TBD
   name: Sha1CatalogHash
   type: Binary
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: CertificateHashSha256
   standard_type: TBD
   name: Sha256CatalogHash
   type: Binary
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: UserWriteable
   type: Boolean
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Warning
 - etw_task_task_0

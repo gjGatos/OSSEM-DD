@@ -1,5 +1,5 @@
 name: Event 1008 - Wininet_SendRequest
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-WinINet
 event_id: '1008'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: Request
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: StatusLineLength
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: StatusLine
   type: AnsiString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_WININET_KEYWORD_IE

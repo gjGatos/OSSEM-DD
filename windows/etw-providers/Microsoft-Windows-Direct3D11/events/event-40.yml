@@ -1,5 +1,5 @@
 name: Event 40 - RuntimeDroppedCall
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Direct3D11
 event_id: '40'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: pID3D11DeviceContext
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Type
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_task_RuntimeDroppedCall

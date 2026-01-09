@@ -1,5 +1,5 @@
 name: Event 185 - ETWGUID_CVI_UPDATE
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Dwm-Core
 event_id: '185'
@@ -9,51 +9,51 @@ event_fields:
   standard_type: TBD
   name: CVI
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SourceVisual
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ViewboxLeft
   type: Float
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ViewboxTop
   type: Float
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ViewboxWidth
   type: Float
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ViewboxHeight
   type: Float
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SurfaceWidth
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SurfaceHeight
   type: Int32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_DwmCore FrameVisualization

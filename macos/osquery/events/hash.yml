@@ -17,19 +17,19 @@ event_fields:
   type: TEXT
   description: Must provide a path or directory
   sample_value: TBD
-- standard_name: TBD
+- standard_name: Md5Hash
   standard_type: TBD
   name: md5
   type: TEXT
   description: MD5 hash of provided filesystem data
   sample_value: TBD
-- standard_name: TBD
+- standard_name: Sha1Hash
   standard_type: TBD
   name: sha1
   type: TEXT
   description: SHA1 hash of provided filesystem data
   sample_value: TBD
-- standard_name: TBD
+- standard_name: Sha256Hash
   standard_type: TBD
   name: sha256
   type: TEXT

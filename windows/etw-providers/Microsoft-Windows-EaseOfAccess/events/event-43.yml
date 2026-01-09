@@ -1,5 +1,5 @@
 name: Event 43 - Magnify_MouseMove
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-EaseOfAccess
 event_id: '43'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: InitialX
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: InitialY
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: DestinationX
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: DestinationY
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: IsTracking
   type: Boolean
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_PerfInstrumentation

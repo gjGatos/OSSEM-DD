@@ -1,5 +1,5 @@
 name: Event 62 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Bits-Client
 event_id: '62'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: Title
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Owner
   type: UnicodeString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: UrlHostName
   standard_type: TBD
   name: Url
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Id
   type: GUID
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Warning
 - etw_task_task_0

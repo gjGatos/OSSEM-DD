@@ -1,5 +1,5 @@
 name: Event 1200 - SoftKeyboard_ThirdPartyIME_SetIMEMode
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-TabletPC-InputPanel
 event_id: '1200'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: IMEMode
   type: Boolean
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_TabletPC_InputPanel_Keyword

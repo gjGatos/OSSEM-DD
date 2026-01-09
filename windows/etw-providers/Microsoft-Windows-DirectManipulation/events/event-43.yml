@@ -1,5 +1,5 @@
 name: Event 43 - Manipulation_DManipTrigger
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-DirectManipulation
 event_id: '43'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: DManipLatency
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: ProcessName
   standard_type: TBD
   name: ProcessName
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_Manipulation_DManipTrigger

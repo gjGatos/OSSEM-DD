@@ -1,23 +1,23 @@
 name: Event 1053 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Search
 event_id: '1053'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: CodeSnippet
   standard_type: TBD
   name: Code
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: StackTrace
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_opcode_opcode_128

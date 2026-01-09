@@ -1,5 +1,5 @@
 name: Event 840 - Mshtml_WebRTC_Ice_Connection_State
-description:
+description: null
 platform: windows
 log_source: Microsoft-IE
 event_id: '840'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: State
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ThisPtr
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_mshtml

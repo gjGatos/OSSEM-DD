@@ -1,5 +1,5 @@
 name: Event 707 - ServiceControl
-description:
+description: null
 platform: windows
 log_source: Microsoft-User Experience Virtualization-App Agent
 event_id: '707'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: intValue1
   type: Int32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Warning
 - etw_opcode_AgentService

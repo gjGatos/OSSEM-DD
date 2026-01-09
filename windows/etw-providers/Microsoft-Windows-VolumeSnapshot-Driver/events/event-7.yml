@@ -1,5 +1,5 @@
 name: Event 7 - vs:EndCommit
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-VolumeSnapshot-Driver
 event_id: '7'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: RealThreadID
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: VolumeGuid
   type: GUID
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_Stop

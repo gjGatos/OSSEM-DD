@@ -1,5 +1,5 @@
 name: Event 437 - PowerRequest
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Win32k
 event_id: '437'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: Address
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: EventNumber
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Code
   type: UInt64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_win32Power

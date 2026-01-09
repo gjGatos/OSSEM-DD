@@ -1,5 +1,5 @@
 name: Event 87 - SCHEDULE_PRESENTHISTORYTOKEN_GDI
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Dwm-Core
 event_id: '87'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: hLogicalSurface
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: hDxSharedSurface
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: NumRects
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: DirtyRegions
   type: UInt8
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_DwmCore

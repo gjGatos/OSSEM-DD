@@ -11,7 +11,7 @@ event_fields:
   type: TEXT
   description: Absolute file path
   sample_value: TBD
-- standard_name: FileDirectory
+- standard_name: FolderPath
   standard_type: TBD
   name: directory
   type: TEXT

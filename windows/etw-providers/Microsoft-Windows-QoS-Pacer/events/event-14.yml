@@ -1,5 +1,5 @@
 name: Event 14 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-QoS-Pacer
 event_id: '14'
@@ -9,45 +9,45 @@ event_fields:
   standard_type: TBD
   name: FlowSendQueueEvent
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: CurrentTime
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: IdleTime
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: DelayTime
   type: UInt64
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: DstBytes
   standard_type: TBD
   name: BytesRequested
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: SrcBytes
   standard_type: TBD
   name: BytesSent
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: BytesQueued
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_ut:SendPath

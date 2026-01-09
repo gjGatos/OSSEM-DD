@@ -1,5 +1,5 @@
 name: Event 5 - Rundownevents.
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Serial-ClassExtension-V2
 event_id: '5'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: Device
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: TransmitTransferSmContext
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ReceiveTransferSmContext
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: DeviceInstanceId
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Rundown

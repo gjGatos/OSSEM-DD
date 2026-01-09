@@ -1,53 +1,53 @@
 name: Event 6 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-QoS-Pacer
 event_id: '6'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: SrcPackets
   standard_type: TBD
   name: DroppedPackets
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: SrcPackets
   standard_type: TBD
   name: PacketsScheduled
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: SrcPackets
   standard_type: TBD
   name: PacketsTransmitted
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: SrcBytes
   standard_type: TBD
   name: BytesScheduled
   type: UInt64
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: SrcBytes
   standard_type: TBD
   name: BytesTransmitted
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: NblSent
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: NblComplete
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_ut:Configuration

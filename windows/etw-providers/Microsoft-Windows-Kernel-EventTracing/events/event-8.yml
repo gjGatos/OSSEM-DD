@@ -1,17 +1,17 @@
 name: Event 8 - Provider
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Kernel-EventTracing
 event_id: '8'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: SoftwareVendor
   standard_type: TBD
   name: ProviderName
   type: GUID
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_ETW_KEYWORD_PROVIDER ETW_KEYWORD_REGISTRATION

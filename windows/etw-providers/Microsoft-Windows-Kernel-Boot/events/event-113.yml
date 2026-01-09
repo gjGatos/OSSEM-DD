@@ -1,5 +1,5 @@
 name: Event 113 - ClaimPersistedMemory
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Kernel-Boot
 event_id: '113'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: ApplicationId
   type: GUID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: BlockId
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Flags
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_MemoryPreservation

@@ -1,5 +1,5 @@
 name: Event 10062 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-LinkLayerDiscoveryProtocol
 event_id: '10062'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: IfIndex
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ExistingMsapIdLength
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ExistingMsapId
   type: Binary
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ReceivedMsapIdLength
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ReceivedMsapId
   type: Binary
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Warning
 - etw_task_task_0

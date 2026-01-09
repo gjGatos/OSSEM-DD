@@ -1,5 +1,5 @@
 name: Event 589 - Immersive_Travellog_ScrollComplete_Fired
-description:
+description: null
 platform: windows
 log_source: Microsoft-IEFRAME
 event_id: '589'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: BindContext
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_TravelLogScreenshotNav

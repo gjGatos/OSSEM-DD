@@ -11,13 +11,13 @@ event_fields:
   type: SID
   description: SID of account that was logged off.
   sample_value: S-1-5-90-1
-- standard_name: UserName
+- standard_name: TargetUserPrincipalName
   standard_type: TBD
   name: TargetUserName
   type: UnicodeString
   description: the name of the account that was logged off
   sample_value: DQM-1
-- standard_name: UserDomain
+- standard_name: DomainName
   standard_type: TBD
   name: TargetDomainName
   type: UnicodeString
@@ -27,7 +27,8 @@ event_fields:
   standard_type: TBD
   name: TargetLogonId
   type: HexInt64
-  description: hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID
+  description: hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID
   sample_value: '0x1a0992'
 - standard_name: LogonType
   standard_type: TBD

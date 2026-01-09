@@ -1,5 +1,5 @@
 name: Event 1035 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Wcmsvc
 event_id: '1035'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: APNname
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ProviderID
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SubscriberID
   type: UnicodeString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: ProfilePath
   standard_type: TBD
   name: Profilename
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_task_0

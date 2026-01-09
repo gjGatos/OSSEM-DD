@@ -1,5 +1,5 @@
 name: Event 8016 - ConfigurePackage
-description:
+description: null
 platform: windows
 log_source: Microsoft-AppV-Client
 event_id: '8016'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: tString
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PackageId
   type: GUID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PackageVersion
   type: GUID
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Warning
 - etw_keywords_DynamicConfiguration

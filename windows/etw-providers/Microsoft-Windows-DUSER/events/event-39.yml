@@ -1,5 +1,5 @@
 name: Event 39 - DUser_Reparent
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-DUSER
 event_id: '39'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: hGadget
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: pVisual
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: pNewChild
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Default

@@ -1,5 +1,5 @@
 name: Event 862 - Connectionreconfigured
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-PrintService
 event_id: '862'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: ConnectionName
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_SPOOLER_KEYWORD_CONNECTION SPOOLER_KEYWORD_CSR SPOOLER_KEYWORD_BRANCH_OFFICE_PRINTING

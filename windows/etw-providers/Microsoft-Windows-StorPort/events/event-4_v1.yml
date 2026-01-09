@@ -1,5 +1,5 @@
 name: Event 4 - Resetdetectednotification
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-StorPort
 event_id: '4'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: MiniportExtension
   type: Pointer
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: DstPort
   standard_type: TBD
   name: PortNumber
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PauseTime
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_PortNotification

@@ -1,35 +1,35 @@
 name: Event 0 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-WinHttp-Pca
 event_id: '0'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: ProcessName
   standard_type: TBD
   name: ProcessName
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ProcessPath
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ModuleName
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ModulePath
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_task_0

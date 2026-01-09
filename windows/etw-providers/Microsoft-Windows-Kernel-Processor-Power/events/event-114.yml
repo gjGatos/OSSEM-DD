@@ -1,5 +1,5 @@
 name: Event 114 - PackageEnergyCounter
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Kernel-Processor-Power
 event_id: '114'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: CounterId
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: CounterValue
   type: UInt64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_EnergyEstimation

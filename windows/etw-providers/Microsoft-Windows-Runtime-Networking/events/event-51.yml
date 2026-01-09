@@ -1,5 +1,5 @@
 name: Event 51 - SocketSend
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Runtime-Networking
 event_id: '51'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: asyncOperation
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: obj
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: length
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: handle
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_keywords.Socket

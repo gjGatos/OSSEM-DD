@@ -1,5 +1,5 @@
 name: Event 5 - ImageLoad
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Kernel-Process
 event_id: '5'
@@ -9,45 +9,45 @@ event_fields:
   standard_type: TBD
   name: ImageBase
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ImageSize
   type: Pointer
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: ProcessId
   standard_type: TBD
   name: ProcessID
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ImageCheckSum
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: TimeDateStamp
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: DefaultBase
   type: Pointer
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: ProcessFileName
   standard_type: TBD
   name: ImageName
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_WINEVENT_KEYWORD_IMAGE

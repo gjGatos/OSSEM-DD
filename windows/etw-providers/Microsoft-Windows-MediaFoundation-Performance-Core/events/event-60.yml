@@ -1,5 +1,5 @@
 name: Event 60 - MFMFAudio_Render_StreamSink
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-MediaFoundation-Performance-Core
 event_id: '60'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: object
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: mfRenderTime
   type: Int64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: fDiscontinuity
   type: Boolean
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: mfAudioState
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: IsRateZero
   type: Boolean
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_AudStreamSink_ProcessSample_Info

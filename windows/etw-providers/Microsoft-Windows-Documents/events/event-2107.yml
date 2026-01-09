@@ -1,5 +1,5 @@
 name: Event 2107 - DocPerf_Task_PFPM_ConvertPageMarkup
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Documents
 event_id: '2107'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: JobId
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_DocPerf

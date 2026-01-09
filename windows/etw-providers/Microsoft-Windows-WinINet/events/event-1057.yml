@@ -1,47 +1,47 @@
 name: Event 1057 - Wininet_UsageLogRequest
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-WinINet
 event_id: '1057'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: UrlOriginal
   standard_type: TBD
   name: URL
   type: AnsiString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: ApiCallDescription
   standard_type: TBD
   name: Verb
   type: AnsiString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: RequestHeaders
   type: AnsiString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ResponseHeaders
   type: AnsiString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Status
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: UsageLogRequestCache
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_keyword_20000000000

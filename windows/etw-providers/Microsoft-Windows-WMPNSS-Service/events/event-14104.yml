@@ -1,5 +1,5 @@
 name: Event 14104 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-WMPNSS-Service
 event_id: '14104'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: URI
   type: UnicodeString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: IpAddress
   standard_type: TBD
   name: IPAddress
   type: UnicodeString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: CodeDescription
   standard_type: TBD
   name: ErrorCode
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Warning
 - etw_task_task_0

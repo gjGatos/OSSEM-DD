@@ -1,29 +1,29 @@
 name: Event 156 - AudStreamSink_RecreateAudioStream_Task
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-MediaFoundation-Performance-Core
 event_id: '156'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: object
   type: Pointer
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: 'null'
   standard_type: TBD
   name: bDeviceChange
   type: Boolean
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: 'null'
   standard_type: TBD
   name: hnsNewStreamStartTime
   type: Int64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_Start

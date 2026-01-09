@@ -1,23 +1,23 @@
 name: Event 326 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-AppXDeployment
 event_id: '326'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: UserSid
   standard_type: TBD
   name: UserSid
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: IsSpecialUserProfile
   type: Boolean
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_AppXDeployment

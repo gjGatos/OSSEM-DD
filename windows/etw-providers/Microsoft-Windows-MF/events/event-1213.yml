@@ -1,5 +1,5 @@
 name: Event 1213 - MediaFoundationAsyncProcessOutput(MFT)
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-MF
 event_id: '1213'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: WrapperPtr
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_opcode_Start

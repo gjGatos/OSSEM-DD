@@ -1,5 +1,5 @@
 name: Event 10045 - PnP
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-NDIS
 event_id: '10045'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: IfGuid
   type: GUID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: IfIndex
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: NetLuid
   type: UInt64
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: MacAddr
   standard_type: TBD
   name: MacAddress
   type: Binary
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_PnP

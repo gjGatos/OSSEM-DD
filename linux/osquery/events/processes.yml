@@ -5,25 +5,25 @@ log_source: osquery
 event_id: processes
 event_version: 4.4.2
 event_fields:
-- standard_name: TBD
+- standard_name: ProcessId
   standard_type: TBD
   name: pid
   type: BIGINT
   description: Process (or thread) ID
   sample_value: TBD
-- standard_name: TBD
+- standard_name: ProcessName
   standard_type: TBD
   name: name
   type: TEXT
   description: The process path or shorthand argv[0]
   sample_value: TBD
-- standard_name: TBD
+- standard_name: ProcessFileName
   standard_type: TBD
   name: path
   type: TEXT
   description: Path to executed binary
   sample_value: TBD
-- standard_name: TBD
+- standard_name: ProcessCommandLine
   standard_type: TBD
   name: cmdline
   type: TEXT
@@ -47,7 +47,7 @@ event_fields:
   type: TEXT
   description: Process virtual root directory
   sample_value: TBD
-- standard_name: TBD
+- standard_name: UserId
   standard_type: TBD
   name: uid
   type: BIGINT
@@ -59,7 +59,7 @@ event_fields:
   type: BIGINT
   description: Unsigned group ID
   sample_value: TBD
-- standard_name: TBD
+- standard_name: UserId
   standard_type: TBD
   name: euid
   type: BIGINT
@@ -71,7 +71,7 @@ event_fields:
   type: BIGINT
   description: Unsigned effective group ID
   sample_value: TBD
-- standard_name: TBD
+- standard_name: UserId
   standard_type: TBD
   name: suid
   type: BIGINT
@@ -171,37 +171,43 @@ event_fields:
   standard_type: TBD
   name: handle_count
   type: BIGINT
-  description: Total number of handles that the process has open. This number is the sum of the handles currently opened by each thread in the process. [WINDOWS]
+  description: Total number of handles that the process has open. This number is the
+    sum of the handles currently opened by each thread in the process. [WINDOWS]
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
   name: percent_processor_time
   type: BIGINT
-  description: Returns elapsed time that all of the threads of this process used the processor to execute instructions in 100 nanoseconds ticks. [WINDOWS]
+  description: Returns elapsed time that all of the threads of this process used the
+    processor to execute instructions in 100 nanoseconds ticks. [WINDOWS]
   sample_value: TBD
-- standard_name: TBD
+- standard_name: ProcessId
   standard_type: TBD
   name: upid
   type: BIGINT
-  description: A 64bit pid that is never reused. Returns -1 if we couldn't gather them from the system. [DARWIN]
+  description: A 64bit pid that is never reused. Returns -1 if we couldn't gather
+    them from the system. [DARWIN]
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
   name: uppid
   type: BIGINT
-  description: The 64bit parent pid that is never reused. Returns -1 if we couldn't gather them from the system. [DARWIN]
+  description: The 64bit parent pid that is never reused. Returns -1 if we couldn't
+    gather them from the system. [DARWIN]
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
   name: cpu_type
   type: INTEGER
-  description: A 64bit pid that is never reused. Returns -1 if we couldn't gather them from the system. [DARWIN]
+  description: A 64bit pid that is never reused. Returns -1 if we couldn't gather
+    them from the system. [DARWIN]
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
   name: cpu_subtype
   type: INTEGER
-  description: The 64bit parent pid that is never reused. Returns -1 if we couldn't gather them from the system. [DARWIN]
+  description: The 64bit parent pid that is never reused. Returns -1 if we couldn't
+    gather them from the system. [DARWIN]
   sample_value: TBD
 references:
 - text: OSQuery table documentation

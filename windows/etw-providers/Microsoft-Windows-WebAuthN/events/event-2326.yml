@@ -1,5 +1,5 @@
 name: Event 2326 - CtapNfcSendMessage
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-WebAuthN
 event_id: '2326'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: TransactionId
   type: GUID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Action
   type: AnsiString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Reader
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Ctap Nfc

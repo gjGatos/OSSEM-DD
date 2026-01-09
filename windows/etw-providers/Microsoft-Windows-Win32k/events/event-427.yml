@@ -1,5 +1,5 @@
 name: Event 427 - SyscallFilterMessage
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Win32k
 event_id: '427'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: SyscallName
   type: AnsiString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: AppContainerSid
   type: UnicodeString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: ProcessCommandLine
   standard_type: TBD
   name: ProcessCommandLine
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: FilterSetId
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_SyscallFilterMessage

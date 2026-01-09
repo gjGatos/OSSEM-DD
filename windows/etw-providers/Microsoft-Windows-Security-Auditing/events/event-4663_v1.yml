@@ -1,5 +1,7 @@
 name: 'Event ID 4663: An attempt was made to access an object'
-description: This event indicates that a specific operation was performed on an object. The object could be a file system, kernel, or registry object, or a file system object on removable storage or a device.
+description: This event indicates that a specific operation was performed on an object.
+  The object could be a file system, kernel, or registry object, or a file system
+  object on removable storage or a device.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
 event_id: '4663'
@@ -17,17 +19,18 @@ event_fields:
   type: UnicodeString
   description: the name of the account that made an attempt to access an object.
   sample_value: dadmin
-- standard_name: UserDomain
+- standard_name: DomainName
   standard_type: TBD
   name: SubjectDomainName
   type: UnicodeString
   description: subject's domain or computer name.
   sample_value: CONTOSO
-- standard_name: UserLogonId
+- standard_name: UserId
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID
+  description: hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID
   sample_value: '0x4367b'
 - standard_name: ObjectServer
   standard_type: TBD
@@ -41,37 +44,44 @@ event_fields:
   type: UnicodeString
   description: The type of object that was accessed during the operation.
   sample_value: File
-- standard_name: ObjectName
+- standard_name: FilePath
   standard_type: TBD
   name: ObjectName
   type: UnicodeString
-  description: name and other identifying information for the object for which access was requested. For example, for a file, the path would be included.
+  description: name and other identifying information for the object for which access
+    was requested. For example, for a file, the path would be included.
   sample_value: C:\Documents\HBI Data.txt
 - standard_name: ObjectHandleId
   standard_type: TBD
   name: HandleId
   type: Pointer
-  description: 'hexadecimal value of a handle to Object Name. This field can be used for correlation with other events, for example with Handle ID field in "4656(S, F): A handle to an object was requested."'
+  description: 'hexadecimal value of a handle to Object Name. This field can be used
+    for correlation with other events, for example with Handle ID field in "4656(S,
+    F): A handle to an object was requested."'
   sample_value: '0x1bc'
 - standard_name: UserAccessList
   standard_type: TBD
   name: AccessList
   type: UnicodeString
-  description: the list of access rights which were used by Subject\Security ID. These access rights depend on Object Type.
+  description: the list of access rights which were used by Subject\Security ID. These
+    access rights depend on Object Type.
   sample_value: '%%4417 %%4418'
 - standard_name: ObjectAccessMask
   standard_type: TBD
   name: AccessMask
   type: HexInt32
-  description: hexadecimal mask for the requested or performed operation. For more information, see the preceding table.
+  description: hexadecimal mask for the requested or performed operation. For more
+    information, see the preceding table.
   sample_value: '0x6'
 - standard_name: ProcessId
   standard_type: TBD
   name: ProcessId
   type: Pointer
-  description: hexadecimal Process ID of the process that accessed the object. Process ID (PID) is a number used by the operating system to uniquely identify an active process.
+  description: hexadecimal Process ID of the process that accessed the object. Process
+    ID (PID) is a number used by the operating system to uniquely identify an active
+    process.
   sample_value: '0x458'
-- standard_name: ProcessPath
+- standard_name: ProcessFileName
   standard_type: TBD
   name: ProcessName
   type: UnicodeString
@@ -81,7 +91,8 @@ event_fields:
   standard_type: TBD
   name: ResourceAttributes
   type: UnicodeString
-  description: attributes associated with the object. For some objects, the field does not apply and "-" is displayed.
+  description: attributes associated with the object. For some objects, the field
+    does not apply and "-" is displayed.
   sample_value: S:AI(RA;ID;;;;WD;("Impact_MS",TI,0x10020,3000))
 references:
 - text: MS Source

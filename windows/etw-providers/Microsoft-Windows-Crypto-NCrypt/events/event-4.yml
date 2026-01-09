@@ -1,5 +1,5 @@
 name: Event 4 - KeyCreationFailure
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Crypto-NCrypt
 event_id: '4'
@@ -9,39 +9,39 @@ event_fields:
   standard_type: TBD
   name: ProviderName
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: KeyName
   type: UnicodeString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: KeyOperation
   standard_type: TBD
   name: AlgorithmName
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Flags
   type: HexInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Status
   type: HexInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: ProcessName
   standard_type: TBD
   name: ProcessName
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_keywords_ETW_KEYWORD_NCRYPT_OPERATION

@@ -1,29 +1,29 @@
 name: Event 139 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Ntfs
 event_id: '139'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: DriveName
   type: UnicodeString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: HostDomain
   standard_type: TBD
   name: DeviceName
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: FragmentationLevel
   type: UInt16
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Warning
 - etw_keywords_SdsCompaction

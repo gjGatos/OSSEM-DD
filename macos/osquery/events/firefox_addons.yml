@@ -5,13 +5,13 @@ log_source: osquery
 event_id: firefox_addons
 event_version: 4.4.2
 event_fields:
-- standard_name: TBD
+- standard_name: UserId
   standard_type: TBD
   name: uid
   type: BIGINT
   description: The local user that owns the addon
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FileName
   standard_type: TBD
   name: name
   type: TEXT
@@ -71,7 +71,7 @@ event_fields:
   type: TEXT
   description: Global, profile location
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: path
   type: TEXT

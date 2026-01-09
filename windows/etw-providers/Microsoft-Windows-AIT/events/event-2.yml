@@ -1,5 +1,5 @@
 name: Event 2 - AitParentAitFeature
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-AIT
 event_id: '2'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: cchParentImagePathIncludingNull
   type: UInt16
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: FeatureGuid
   type: GUID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ParentProcessImageHeaderHash
   type: Binary
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ParentImagePath
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_AitParentAitFeature

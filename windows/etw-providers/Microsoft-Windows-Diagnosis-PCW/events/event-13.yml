@@ -1,5 +1,5 @@
 name: Event 13 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Diagnosis-PCW
 event_id: '13'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: ProviderGuid
   type: GUID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Id
   type: UInt64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_queries

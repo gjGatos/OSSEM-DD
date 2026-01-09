@@ -1,5 +1,5 @@
 name: Event 1100 - SensorsCxRundownTask
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Sensors-Core
 event_id: '1100'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: PeristentUniqueId
   type: GUID
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: ProcessId
   standard_type: TBD
   name: ProcessId
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ReportIntervalMs
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ReportLatencyMs
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: IsStreaming
   type: Boolean
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_SensorsCxRundownTask

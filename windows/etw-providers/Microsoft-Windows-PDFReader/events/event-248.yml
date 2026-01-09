@@ -1,5 +1,5 @@
 name: Event 248 - TileRender
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-PDFReader
 event_id: '248'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: PageId
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: RectLeft
   type: Float
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: RectTop
   type: Float
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: RectRight
   type: Float
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: RectBottom
   type: Float
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Reader

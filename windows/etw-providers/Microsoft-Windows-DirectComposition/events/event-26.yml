@@ -1,5 +1,5 @@
 name: Event 26 - ATLAS_USE_INFO
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-DirectComposition
 event_id: '26'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: Id
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Owner
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: UseType
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: XData
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: YData
   type: Int32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_DCompDiagnostic DCompMemory

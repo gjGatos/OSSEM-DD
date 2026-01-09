@@ -11,7 +11,7 @@ event_fields:
   type: TEXT
   description: SSID octets of the network
   sample_value: TBD
-- standard_name: TBD
+- standard_name: DomainName
   standard_type: TBD
   name: network_name
   type: TEXT

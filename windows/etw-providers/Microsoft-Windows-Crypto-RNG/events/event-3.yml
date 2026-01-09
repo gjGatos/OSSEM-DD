@@ -1,5 +1,5 @@
 name: Event 3 - Gatherentropyforthesystemrandomnumbergenerator
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Crypto-RNG
 event_id: '3'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: SourceNumber
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: BytesProvided
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: EntropyEstimate
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: nData
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Data
   type: Binary
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_KEYWORD_SYSTEMRNG_ENTROPY_DATA

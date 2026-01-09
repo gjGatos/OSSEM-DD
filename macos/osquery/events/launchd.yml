@@ -5,13 +5,13 @@ log_source: osquery
 event_id: launchd
 event_version: 4.4.2
 event_fields:
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: path
   type: TEXT
   description: Path to daemon or agent plist
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FileName
   standard_type: TBD
   name: name
   type: TEXT
@@ -23,7 +23,7 @@ event_fields:
   type: TEXT
   description: Daemon or agent service name
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: program
   type: TEXT
@@ -65,13 +65,13 @@ event_fields:
   type: TEXT
   description: Run this daemon or agent as this group
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: stdout_path
   type: TEXT
   description: Pipe stdout to a target path
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: stderr_path
   type: TEXT

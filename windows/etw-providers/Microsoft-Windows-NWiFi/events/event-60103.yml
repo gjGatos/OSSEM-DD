@@ -1,5 +1,5 @@
 name: Event 60103 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-NWiFi
 event_id: '60103'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: IfGuid
   type: GUID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: IfIndex
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: IfLuid
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ReferenceContext
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_task_0

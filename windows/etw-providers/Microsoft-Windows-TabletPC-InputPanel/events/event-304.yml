@@ -1,5 +1,5 @@
 name: Event 304 - IHM_DesktopSwitch
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-TabletPC-InputPanel
 event_id: '304'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: Mode
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_IHM_DesktopSwitch

@@ -1,11 +1,11 @@
 name: MySQL Log
-description:
+description: null
 platform: zeek
 log_source: network-protocols
 event_id: mysql
 event_version: '0'
 event_fields:
-- standard_name: '@timestamp'
+- standard_name: 'null'
   standard_type: TBD
   name: ts
   type: date_time
@@ -35,37 +35,37 @@ event_fields:
   type: integer
   description: The responding/destination port
   sample_value: '3306'
-- standard_name: EventUid
+- standard_name: 'null'
   standard_type: TBD
   name: uid
   type: string
   description: Unique ID for the connection.
   sample_value: CzwW5j3qyZtuKCIt0f
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: arg
   type: string
   description: The argument issued to the command.
   sample_value: insert into foo (animal, name) values (\"cat\", \"Garfield\")
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: cmd
   type: string
   description: The command that was issued.
   sample_value: query
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: response
   type: string
   description: Server message, if any.
   sample_value: CHhAvVGS1DHFjwGM9
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: rows
   type: integer
   description: The number of affected rows, if any.
   sample_value: '1'
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: uid
   type: boolean

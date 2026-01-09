@@ -1,23 +1,23 @@
 name: Event 19 - MF_MFT_Hardware_Enumeration
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-MediaFoundation-Platform
 event_id: '19'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: FileLinkName
   standard_type: TBD
   name: LinkName
   type: UnicodeString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: SoftwareName
   standard_type: TBD
   name: FriendlyName
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_MF_MFT_Hardware_Enumeration

@@ -1,5 +1,5 @@
 name: Event 30108 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-SMBClient
 event_id: '30108'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: Window
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: HungSession
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_keywords_Smb_Perf Smb_Info

@@ -1,5 +1,5 @@
 name: Event 155 - ESE_SysStationId_Trace
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-ESE
 event_id: '155'
@@ -9,39 +9,39 @@ event_fields:
   standard_type: TBD
   name: tsidr
   type: UInt8
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: dwImageVerMajor
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: dwImageVerMinor
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: dwImageBuildMajor
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: dwImageBuildMinor
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: wszDisplayName
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_StationId

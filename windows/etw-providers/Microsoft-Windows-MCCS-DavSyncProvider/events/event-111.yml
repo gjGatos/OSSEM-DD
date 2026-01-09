@@ -1,5 +1,5 @@
 name: Event 111 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-MCCS-DavSyncProvider
 event_id: '111'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: Prop_Id
   type: HexInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Prop_String1
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Prop_String2
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Prop_Dword
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_CommsService

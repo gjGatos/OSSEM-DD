@@ -1,5 +1,5 @@
 name: Event 31 - Transportstreamrequestoperation
-description:
+description: null
 platform: windows
 log_source: Microsoft-AppV-SharedPerformance
 event_id: '31'
@@ -9,8 +9,8 @@ event_fields:
   standard_type: TBD
   name: IntValue
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_task_Transportstreamrequestoperation

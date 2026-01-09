@@ -1,5 +1,5 @@
 name: Event 2 - Gatherentropyforthesystemrandomnumbergenerator
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Crypto-RNG
 event_id: '2'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: SourceNumber
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SourceName
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_KEYWORD_SYSTEMRNG_ENTROPY_REGISTRATION

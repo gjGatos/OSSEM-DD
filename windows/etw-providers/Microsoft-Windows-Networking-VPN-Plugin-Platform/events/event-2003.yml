@@ -1,5 +1,5 @@
 name: Event 2003 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows Networking VPN Plugin Platform
 event_id: '2003'
@@ -9,39 +9,39 @@ event_fields:
   standard_type: TBD
   name: Plugin
   type: SID
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: ProfilePath
   standard_type: TBD
   name: InitialProfile
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: InitialEventType
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: NumPacketsSent
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: NumPacketsReceived
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: LastError
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_task_0

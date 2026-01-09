@@ -11,13 +11,15 @@ event_fields:
   type: UnicodeString
   description: The name of Authentication Package which was used for credential validation.
   sample_value: Schannel
-- standard_name: UserName
+- standard_name: UserNetworkAccountName
   standard_type: TBD
   name: ClientUserName
   type: UnicodeString
-  description: the name of the account that had its credentials validated by the Authentication Package. Can be user name, computer account name or well-known security principal account name.
+  description: the name of the account that had its credentials validated by the Authentication
+    Package. Can be user name, computer account name or well-known security principal
+    account name.
   sample_value: host/WIN81.contoso.local
-- standard_name: TargetUserName
+- standard_name: TargetUserPrincipalName
   standard_type: TBD
   name: MappedName
   type: UnicodeString

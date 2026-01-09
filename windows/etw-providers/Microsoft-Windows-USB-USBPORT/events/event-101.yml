@@ -1,5 +1,5 @@
 name: Event 101 - USBPORT_URB_INVALID_ISOCHRONOUS_START_FRAME
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-USB-USBPORT
 event_id: '101'
@@ -9,63 +9,63 @@ event_fields:
   standard_type: TBD
   name: fid_USBPORT_HC
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: fid_USBPORT_Device
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: fid_USBPORT_Endpoint
   type: CountedMbcsString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: fid_USBPORT_Endpoint_Descriptor
   type: '26'
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: fid_IRP_Ptr
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: fid_URB_Ptr
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: fid_USBPORT_URB_NumberOfPackets
   type: UInt16
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: fid_USBPORT_URB_ISOCH_TRANSFER
   type: '32'
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: fid_USBPORT_URB_ISO_PACKETS
   type: '47'
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: fid_URB_FrameNumber
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Diagnostic

@@ -1,41 +1,41 @@
 name: Event 194 - SurpriseRemoval
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-USB-USBHUB3
 event_id: '194'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: SoftwareName
   standard_type: TBD
   name: fid_UsbDevice
   type: Pointer
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: 'null'
   standard_type: TBD
   name: fid_DripsWatchdogResult
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: 'null'
   standard_type: TBD
   name: fid_idVendor
   type: UInt16
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: 'null'
   standard_type: TBD
   name: fid_idProduct
   type: UInt16
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: 'null'
   standard_type: TBD
   name: fid_bcdDevice
   type: UInt16
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Default keyword_400000000000

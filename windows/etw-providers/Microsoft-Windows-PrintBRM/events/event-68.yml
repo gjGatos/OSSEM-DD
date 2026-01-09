@@ -1,23 +1,23 @@
 name: Event 68 - Generaloperation
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-PrintBRM
 event_id: '68'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: PathName
   type: UnicodeString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: CodeDescription
   standard_type: TBD
   name: ErrorCode
   type: HexInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_keywords_PRINT_BRM_KEYWORD

@@ -1,5 +1,5 @@
 name: Event 812 - ReenumerateDeviceTree
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Kernel-PnP
 event_id: '812'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: Device
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ReenumerateType
   type: HexInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Enumeration

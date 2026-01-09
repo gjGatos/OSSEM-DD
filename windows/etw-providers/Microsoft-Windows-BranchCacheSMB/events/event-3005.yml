@@ -1,5 +1,5 @@
 name: Event 3005 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-BranchCacheSMB
 event_id: '3005'
@@ -9,87 +9,87 @@ event_fields:
   standard_type: TBD
   name: ServiceActiveTimeInSeconds
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SMBBranchCacheBytesRequested
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SMBBranchCacheBytesReceived
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SMBBranchCacheBytesPublished
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SMBBranchCacheBytesRequestedFromServer
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SMBBranchCacheHashesRequested
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SMBBranchCacheHashesReceived
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SMBBranchCacheHashBytesReceived
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PrefetchOperationsQueued
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PrefetchBytesReadFromCache
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PrefetchBytesReadFromServer
   type: UInt64
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: SrcBytes
   standard_type: TBD
   name: ApplicationBytesReadFromCache
   type: UInt64
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: DstBytes
   standard_type: TBD
   name: ApplicationBytesReadFromServer
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ApplicationBytesReadFromServerNotCached
   type: UInt64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_CscEvtKeywd_SMBBranchCache

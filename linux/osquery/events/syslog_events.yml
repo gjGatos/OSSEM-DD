@@ -17,7 +17,7 @@ event_fields:
   type: TEXT
   description: Time known to syslog
   sample_value: TBD
-- standard_name: TBD
+- standard_name: HostDomain
   standard_type: TBD
   name: host
   type: TEXT

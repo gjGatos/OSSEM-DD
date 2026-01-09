@@ -1,29 +1,29 @@
 name: Event 900 - AppXDeployment.Task.Server.Deployment.MutablePackageDirectoryStateHandler
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-AppXDeployment-Server
 event_id: '900'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: SoftwareName
   standard_type: TBD
   name: PackageFullname
   type: UnicodeString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: SoftwareName
   standard_type: TBD
   name: ExitingPackageFullname
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: MutablePackageDirectory
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_keywords_APPXDEPLOYMENTSERVER_KEYWORD

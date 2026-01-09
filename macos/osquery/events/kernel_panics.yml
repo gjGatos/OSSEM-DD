@@ -5,7 +5,7 @@ log_source: osquery
 event_id: kernel_panics
 event_version: 4.4.2
 event_fields:
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: path
   type: TEXT
@@ -41,19 +41,19 @@ event_fields:
   type: TEXT
   description: Module dependencies existing in crashed module's backtrace
   sample_value: TBD
-- standard_name: TBD
+- standard_name: ProcessName
   standard_type: TBD
   name: name
   type: TEXT
   description: Process name corresponding to crashed thread
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareVersion
   standard_type: TBD
   name: os_version
   type: TEXT
   description: Version of the operating system
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareVersion
   standard_type: TBD
   name: kernel_version
   type: TEXT

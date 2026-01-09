@@ -1,5 +1,5 @@
 name: Kerberos Log
-description:
+description: null
 platform: zeek
 log_source: network-protocols
 event_id: kerberos
@@ -35,7 +35,7 @@ event_fields:
   type: integer
   description: The responding/destination port
   sample_value: '88'
-- standard_name: EventUid
+- standard_name: UserUid
   standard_type: TBD
   name: uid
   type: string
@@ -45,13 +45,15 @@ event_fields:
   standard_type: TBD
   name: server_cert_fuid
   type: string
-  description: present if base/protocols/krb/files.bro is loaded File unique ID of server cert, if any
+  description: present if base/protocols/krb/files.bro is loaded File unique ID of
+    server cert, if any
   sample_value: '``'
 - standard_name: TBD
   standard_type: TBD
   name: client_cert_fuid
   type: string
-  description: present if base/protocols/krb/files.bro is loaded File unique ID of client cert, if any
+  description: present if base/protocols/krb/files.bro is loaded File unique ID of
+    client cert, if any
   sample_value: '``'
 - standard_name: TBD
   standard_type: TBD
@@ -71,7 +73,7 @@ event_fields:
   type: boolean
   description: 'true'
   sample_value: '``'
-- standard_name: TBD
+- standard_name: DomainName
   standard_type: TBD
   name: client
   type: string
@@ -81,7 +83,8 @@ event_fields:
   standard_type: TBD
   name: client_cert_subject
   type: string
-  description: present if base/protocols/krb/files.bro is loaded Subject of client certificate, if any
+  description: present if base/protocols/krb/files.bro is loaded Subject of client
+    certificate, if any
   sample_value: '``'
 - standard_name: TBD
   standard_type: TBD
@@ -99,7 +102,8 @@ event_fields:
   standard_type: TBD
   name: auth_ticket
   type: string
-  description: present if policy/protocols/krb/ticket-logging.bro is loaded Hash of ticket used to authorize request/transaction (client) (md5 hash)
+  description: present if policy/protocols/krb/ticket-logging.bro is loaded Hash of
+    ticket used to authorize request/transaction (client) (md5 hash)
   sample_value: '``'
 - standard_name: TBD
   standard_type: TBD
@@ -111,21 +115,24 @@ event_fields:
   standard_type: TBD
   name: request_type
   type: string
-  description: Request type - Authentication Service ("AS") or Ticket Granting Service ("TGS")
+  description: Request type - Authentication Service ("AS") or Ticket Granting Service
+    ("TGS")
   sample_value: TGS
 - standard_name: TBD
   standard_type: TBD
   name: new_ticket
   type: string
-  description: present if policy/protocols/krb/ticket-logging.bro is loaded Hash of ticket returned by the KDC (server)
+  description: present if policy/protocols/krb/ticket-logging.bro is loaded Hash of
+    ticket returned by the KDC (server)
   sample_value: '``'
 - standard_name: TBD
   standard_type: TBD
   name: server_cert_subject
   type: string
-  description: present if base/protocols/krb/files.bro is loaded Subject of server certificate, if any
+  description: present if base/protocols/krb/files.bro is loaded Subject of server
+    certificate, if any
   sample_value: '``'
-- standard_name: TBD
+- standard_name: ServiceSid
   standard_type: TBD
   name: service
   type: string

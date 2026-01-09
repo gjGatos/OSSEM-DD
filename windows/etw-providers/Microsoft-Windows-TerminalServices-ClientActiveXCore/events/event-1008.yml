@@ -1,5 +1,5 @@
 name: Event 1008 - ConnectionSequence
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-TerminalServices-ClientActiveXCore
 event_id: '1008'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: TraceMessage
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ErrorCode
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_opcode_Thiseventisraisedduringtheauthenticationprocess

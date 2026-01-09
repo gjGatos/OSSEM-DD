@@ -1,5 +1,5 @@
 name: Event 8001 - AppXDeployment.Task.Server.Service
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-AppXDeployment-Server
 event_id: '8001'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: ServiceStatus
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: CodeDescription
   standard_type: TBD
   name: ErrorCode
   type: Int32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Warning
 - etw_keywords_APPXDEPLOYMENTSERVER_KEYWORD

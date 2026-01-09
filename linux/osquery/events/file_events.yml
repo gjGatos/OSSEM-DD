@@ -5,7 +5,7 @@ log_source: osquery
 event_id: file_events
 event_version: 4.4.2
 event_fields:
-- standard_name: TBD
+- standard_name: TargetFileName
   standard_type: TBD
   name: target_path
   type: TEXT
@@ -35,7 +35,7 @@ event_fields:
   type: BIGINT
   description: Filesystem inode number
   sample_value: TBD
-- standard_name: TBD
+- standard_name: UserId
   standard_type: TBD
   name: uid
   type: BIGINT
@@ -53,7 +53,7 @@ event_fields:
   type: TEXT
   description: Permission bits
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FileSize
   standard_type: TBD
   name: size
   type: BIGINT
@@ -77,19 +77,19 @@ event_fields:
   type: BIGINT
   description: Last status change time
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FileHashMd5
   standard_type: TBD
   name: md5
   type: TEXT
   description: The MD5 of the file after change
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FileHashSha1
   standard_type: TBD
   name: sha1
   type: TEXT
   description: The SHA1 of the file after change
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FileHashSha256
   standard_type: TBD
   name: sha256
   type: TEXT

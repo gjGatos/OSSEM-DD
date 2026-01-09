@@ -1,5 +1,5 @@
 name: Event 708 - WININET_HTTPS_CLIENT_CERT_SELECTED
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-WinINet
 event_id: '708'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: RequestHandle
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: _CertHashLength
   type: UInt16
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: CertificateHashes
   standard_type: TBD
   name: CertHash
   type: AnsiString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_WININET_KEYWORD_HTTPS

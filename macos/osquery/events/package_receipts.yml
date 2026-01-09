@@ -11,13 +11,13 @@ event_fields:
   type: TEXT
   description: Package domain identifier
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FileName
   standard_type: TBD
   name: package_filename
   type: TEXT
   description: Filename of original .pkg file
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareVersion
   standard_type: TBD
   name: version
   type: TEXT
@@ -35,13 +35,13 @@ event_fields:
   type: DOUBLE
   description: Timestamp of install time
   sample_value: TBD
-- standard_name: TBD
+- standard_name: ProcessName
   standard_type: TBD
   name: installer_name
   type: TEXT
   description: Name of installer process
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: path
   type: TEXT

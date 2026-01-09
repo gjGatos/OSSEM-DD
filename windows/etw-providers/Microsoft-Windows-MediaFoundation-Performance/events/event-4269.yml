@@ -1,5 +1,5 @@
 name: Event 4269 - FrameGrabberOpenSource
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-MediaFoundation-Performance
 event_id: '4269'
@@ -9,39 +9,39 @@ event_fields:
   standard_type: TBD
   name: tag
   type: AnsiString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: object
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: eventType
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: 'null'
   standard_type: TBD
   name: time
   type: Int64
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: 'null'
   standard_type: TBD
   name: parameter
   type: Pointer
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: UrlOriginal
   standard_type: TBD
   name: url
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_FrameGrabberOpenSource

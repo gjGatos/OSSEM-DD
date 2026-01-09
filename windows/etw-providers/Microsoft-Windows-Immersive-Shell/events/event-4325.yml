@@ -1,5 +1,5 @@
 name: Event 4325 - ImmersiveMonitorCreatePerMonitorComponents
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Immersive-Shell
 event_id: '4325'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: MonitorIdentity
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: HMonitor
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Left
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Top
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_ImmersiveMonitorCreatePerMonitorComponents

@@ -1,5 +1,5 @@
 name: Event 365 - UnlockAllocationBackingStore
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-DxgKrnl
 event_id: '365'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: hVidMmGlobalAlloc
   type: UInt64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_References

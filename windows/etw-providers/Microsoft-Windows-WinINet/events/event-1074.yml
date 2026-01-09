@@ -1,5 +1,5 @@
 name: Event 1074 - Wininet_AppCacheHandle
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-WinINet
 event_id: '1074'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: Object
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: HResult
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_WININET_KEYWORD_IE

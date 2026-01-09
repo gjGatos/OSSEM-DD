@@ -5,13 +5,13 @@ log_source: osquery
 event_id: tpm_info
 event_version: 5.0.1
 event_fields:
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: activated
   type: INTEGER
   description: TPM is activated
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: enabled
   type: INTEGER
@@ -23,7 +23,7 @@ event_fields:
   type: INTEGER
   description: TPM is ownned
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareVersion
   standard_type: TBD
   name: manufacturer_version
   type: TEXT
@@ -35,13 +35,13 @@ event_fields:
   type: INTEGER
   description: TPM manufacturers ID
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareVendor
   standard_type: TBD
   name: manufacturer_name
   type: TEXT
   description: TPM manufacturers name
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareName
   standard_type: TBD
   name: product_name
   type: TEXT

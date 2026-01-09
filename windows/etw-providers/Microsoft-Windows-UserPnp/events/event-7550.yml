@@ -1,5 +1,5 @@
 name: Event 7550 - PnP_PlugPlay_DeviceInstall
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-UserPnp
 event_id: '7550'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: DeviceId
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_UserPnp

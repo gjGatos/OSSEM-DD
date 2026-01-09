@@ -1,5 +1,5 @@
 name: Event 6500 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-AppXDeployment-Server
 event_id: '6500'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: ErrorCode
   type: HexInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_keywords_LICENSING_DEH_KEYWORD

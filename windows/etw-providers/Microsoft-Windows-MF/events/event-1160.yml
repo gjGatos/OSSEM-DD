@@ -1,17 +1,17 @@
 name: Event 1160 - MediaFoundationPMPServerProxy_LaunchedProcess
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-MF
 event_id: '1160'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: ProcessId
   standard_type: TBD
   name: ProcessID
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_MediaFoundationPMPServerProxy_LaunchedProcess

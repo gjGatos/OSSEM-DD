@@ -1,5 +1,5 @@
 name: Event 122 - PowerTransition
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Kernel-Power
 event_id: '122'
@@ -9,39 +9,39 @@ event_fields:
   standard_type: TBD
   name: TotalResumeTime
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PhasePagesWrittenMB
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ResumeAppAndKernelResumeHiberFileTime
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: POSTAndDeviceResumeTime
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: RatesAndResumeAppsServicesTime
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PhasePagesProcessedMB
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_po:Scenario po:Performance po:PerformanceLight

@@ -1,5 +1,5 @@
 name: x509 Log
-description:
+description: null
 platform: zeek
 log_source: files
 event_id: x509
@@ -29,7 +29,7 @@ event_fields:
   type: integer
   description: Maximum path length
   sample_value: '``'
-- standard_name: TBD
+- standard_name: CertificateSubject
   standard_type: TBD
   name: certificate_cn
   type: string
@@ -47,7 +47,7 @@ event_fields:
   type: string
   description: Exponent, if RSA-certificate
   sample_value: '``'
-- standard_name: TBD
+- standard_name: CertificateIssuer
   standard_type: TBD
   name: certificate.issuer
   type: string
@@ -83,7 +83,7 @@ event_fields:
   type: date_time
   description: Timestamp before when certificate is not valid
   sample_value: '``'
-- standard_name: TBD
+- standard_name: CertificateSerialNumber
   standard_type: TBD
   name: certificate.serial
   type: string
@@ -95,7 +95,7 @@ event_fields:
   type: string
   description: Name of the signature algorithm
   sample_value: dsaWithSHA1
-- standard_name: TBD
+- standard_name: CertificateSubject
   standard_type: TBD
   name: certificate.subject
   type: string
@@ -111,7 +111,8 @@ event_fields:
   standard_type: TBD
   name: logcert
   type: boolean
-  description: present if policy/protocols/ssl/log-hostcerts-only.bro is loaded Logging of certificate is suppressed if set to F
+  description: present if policy/protocols/ssl/log-hostcerts-only.bro is loaded Logging
+    of certificate is suppressed if set to F
   sample_value: 'true'
 - standard_name: TBD
   standard_type: TBD

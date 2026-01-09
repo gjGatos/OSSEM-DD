@@ -1,5 +1,5 @@
 name: Event 10004 - ApplicationTracing.Informational
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-AppHost
 event_id: '10004'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: DeferralCount
   type: Int32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_WWAHOST_DIAGNOSTIC_KEYWORD

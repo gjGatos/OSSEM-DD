@@ -1,5 +1,5 @@
 name: Event 1 - CVSCache_Initializing
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-UxInit
 event_id: '1'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: CacheFileName
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_CVSCache_Initializing

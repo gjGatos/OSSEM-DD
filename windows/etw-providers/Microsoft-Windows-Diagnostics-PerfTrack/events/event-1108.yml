@@ -1,5 +1,5 @@
 name: Event 1108 - IdleDetection_SliceSummary
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Diagnostics-PerfTrack
 event_id: '1108'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: Resource
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: CombinedBusyPercentage
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: IsIdle
   type: Boolean
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: IdleTimeFound
   type: UInt64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_PerfTrackStatus

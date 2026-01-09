@@ -1,11 +1,12 @@
 name: Userassist Table
-description: UserAssist Registry Key tracks when a user executes an application from Windows Explorer.
+description: UserAssist Registry Key tracks when a user executes an application from
+  Windows Explorer.
 platform: windows
 log_source: osquery
 event_id: userassist
 event_version: 5.0.1
 event_fields:
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: path
   type: TEXT
@@ -23,7 +24,7 @@ event_fields:
   type: INTEGER
   description: Number of times the application has been executed
   sample_value: TBD
-- standard_name: TBD
+- standard_name: UserSid
   standard_type: TBD
   name: sid
   type: TEXT

@@ -1,5 +1,5 @@
 name: Event 5035 - VID_unballoonpages
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Hyper-V-VID
 event_id: '5035'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: Parameter0
   type: Int64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Parameter1
   type: Int64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Parameter2
   type: Int64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_VMK_HYPERV_PERF_INNER VMK_HYPERV_PERF

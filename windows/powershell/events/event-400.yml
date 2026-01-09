@@ -1,7 +1,13 @@
 name: 'Event ID 400: Engine Lifecycle'
-description: |-
-  Logs the start and stop of PowerShell. Each time that PowerShell executes - either upon the execution of a single command, the start of a local session, or the start of a remoting session - this log records an Event ID (EID) 400 message: "Engine state is changed from None to Available." At the completion of the session, the log records an EID 403 event: "Engine state is changed from Available to Stopped".
-  The message details for both EID 400 and EID 403 events include a HostName field. If executed locally, this field will be logged as HostName=ConsoleHost. If PowerShell remoting is in use, the accessed system will record these events with HostName=ServerRemoteHost.'
+description: 'Logs the start and stop of PowerShell. Each time that PowerShell executes
+  - either upon the execution of a single command, the start of a local session, or
+  the start of a remoting session - this log records an Event ID (EID) 400 message:
+  "Engine state is changed from None to Available." At the completion of the session,
+  the log records an EID 403 event: "Engine state is changed from Available to Stopped".
+
+  The message details for both EID 400 and EID 403 events include a HostName field.
+  If executed locally, this field will be logged as HostName=ConsoleHost. If PowerShell
+  remoting is in use, the accessed system will record these events with HostName=ServerRemoteHost.'''
 platform: windows
 log_source: PowerShell
 event_id: '400'
@@ -25,13 +31,13 @@ event_fields:
   type: integer
   description: ''
   sample_value: '13'
-- standard_name: PowershellHostName
+- standard_name: HostDomain
   standard_type: TBD
   name: HostName
   type: string
   description: ''
   sample_value: ConsoleHost
-- standard_name: PowershellHostVersion
+- standard_name: SoftwareVersion
   standard_type: TBD
   name: HostVersion
   type: string
@@ -43,13 +49,13 @@ event_fields:
   type: string
   description: ''
   sample_value: f90b931a-dc4d-488a-b1b8-e0b7dbcdc0c7
-- standard_name: PowershellHostApplication
+- standard_name: ProcessFileName
   standard_type: TBD
   name: HostApplication
   type: string
   description: ''
   sample_value: powershell.exe
-- standard_name: PowershellEngineVersion
+- standard_name: SoftwareVersion
   standard_type: TBD
   name: EngineVersion
   type: string
@@ -85,7 +91,7 @@ event_fields:
   type: string
   description: ''
   sample_value: ''
-- standard_name: PowershellCommandPath
+- standard_name: ProcessCommandLine
   standard_type: TBD
   name: CommandPath
   type: string
@@ -103,67 +109,28 @@ references:
 tags: []
 event_sample:
 - format: friendly view
-  sample: |-
-    Log Name:      Windows PowerShell
-    Source:        PowerShell
-    Date:          9/22/2022 6:45:21 AM
-    Event ID:      400
-    Task Category: Engine Lifecycle
-    Level:         Information
-    Keywords:      Classic
-    User:          N/A
-    Computer:      pedro-computer
-    Description: Engine state is changed from None to Available. 
-
-    Details: 
-      NewEngineState=Available
-      PreviousEngineState=None
-      SequenceNumber=13
-      HostName=ConsoleHost
-      HostVersion=5.1.18362.1
-      HostId=13ab2020-b3a5-4687-8e01-5ae69621d13e
-      HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
-      EngineVersion=5.1.18362.1
-      RunspaceId=aac91794-4be3-40e0-84f6-d92e5adc0868
-      PipelineId=
-      CommandName=
-      CommandType=
-      ScriptName=
-      CommandPath=
-      CommandLine=
+  sample: "Log Name:      Windows PowerShell\nSource:        PowerShell\nDate:   \
+    \       9/22/2022 6:45:21 AM\nEvent ID:      400\nTask Category: Engine Lifecycle\n\
+    Level:         Information\nKeywords:      Classic\nUser:          N/A\nComputer:\
+    \      pedro-computer\nDescription: Engine state is changed from None to Available.\
+    \ \n\nDetails: \n  NewEngineState=Available\n  PreviousEngineState=None\n  SequenceNumber=13\n\
+    \  HostName=ConsoleHost\n  HostVersion=5.1.18362.1\n  HostId=13ab2020-b3a5-4687-8e01-5ae69621d13e\n\
+    \  HostApplication=C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\n\
+    \  EngineVersion=5.1.18362.1\n  RunspaceId=aac91794-4be3-40e0-84f6-d92e5adc0868\n\
+    \  PipelineId=\n  CommandName=\n  CommandType=\n  ScriptName=\n  CommandPath=\n\
+    \  CommandLine="
 - format: xml
-  sample: |-
-    <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
-      <System>
-        <Provider Name="PowerShell" />
-        <EventID Qualifiers="0">400</EventID>
-        <Level>4</Level>
-        <Task>4</Task>
-        <Keywords>0x80000000000000</Keywords>
-        <TimeCreated SystemTime="2022-09-22T13:45:21.372268500Z" />
-        <EventRecordID>130</EventRecordID>
-        <Channel>Windows PowerShell</Channel>
-        <Computer>pedro-computer</Computer>
-        <Security />
-      </System>
-      <EventData>
-        <Data>Available</Data>
-        <Data>None</Data>
-        <Data>	NewEngineState=Available
-                PreviousEngineState=None
-                SequenceNumber=13
-                HostName=ConsoleHost
-                HostVersion=5.1.18362.1
-                HostId=13ab2020-b3a5-4687-8e01-5ae69621d13e
-                HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
-                EngineVersion=5.1.18362.1
-                RunspaceId=aac91794-4be3-40e0-84f6-d92e5adc0868
-                PipelineId=
-                CommandName=
-                CommandType=
-                ScriptName=
-                CommandPath=
-                CommandLine=
-        </Data>
-      </EventData>
-    </Event>
+  sample: "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"\
+    >\n  <System>\n    <Provider Name=\"PowerShell\" />\n    <EventID Qualifiers=\"\
+    0\">400</EventID>\n    <Level>4</Level>\n    <Task>4</Task>\n    <Keywords>0x80000000000000</Keywords>\n\
+    \    <TimeCreated SystemTime=\"2022-09-22T13:45:21.372268500Z\" />\n    <EventRecordID>130</EventRecordID>\n\
+    \    <Channel>Windows PowerShell</Channel>\n    <Computer>pedro-computer</Computer>\n\
+    \    <Security />\n  </System>\n  <EventData>\n    <Data>Available</Data>\n  \
+    \  <Data>None</Data>\n    <Data>\tNewEngineState=Available\n            PreviousEngineState=None\n\
+    \            SequenceNumber=13\n            HostName=ConsoleHost\n           \
+    \ HostVersion=5.1.18362.1\n            HostId=13ab2020-b3a5-4687-8e01-5ae69621d13e\n\
+    \            HostApplication=C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\\
+    powershell.exe\n            EngineVersion=5.1.18362.1\n            RunspaceId=aac91794-4be3-40e0-84f6-d92e5adc0868\n\
+    \            PipelineId=\n            CommandName=\n            CommandType=\n\
+    \            ScriptName=\n            CommandPath=\n            CommandLine=\n\
+    \    </Data>\n  </EventData>\n</Event>"

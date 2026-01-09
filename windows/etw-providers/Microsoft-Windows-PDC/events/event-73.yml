@@ -1,35 +1,35 @@
 name: Event 73 - ResiliencyClientRegistrationRundown
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-PDC
 event_id: '73'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: UserNetworkAccountName
   standard_type: TBD
   name: Client
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ClientReferences
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: CurrentState
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Type
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_clients CsDiag

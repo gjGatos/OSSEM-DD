@@ -1,5 +1,5 @@
 name: Event 271 - StateRepository.Task.WinRTAPI
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-StateRepository
 event_id: '271'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: Options
   type: HexInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_STATEREPOSITORY_KEYWORD keyword_200000000000

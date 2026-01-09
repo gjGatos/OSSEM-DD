@@ -1,23 +1,23 @@
 name: Event 1627 - Launcher_Uninstall_RemovePackage
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Immersive-Shell
 event_id: '1627'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: SoftwareName
   standard_type: TBD
   name: Package
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Result
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_Start

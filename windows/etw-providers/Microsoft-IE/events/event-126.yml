@@ -1,5 +1,5 @@
 name: Event 126 - Mshtml_FormatCalculation_ComputeFormats
-description:
+description: null
 platform: windows
 log_source: Microsoft-IE
 event_id: '126'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: TreeNode
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: NodeType
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_verbose

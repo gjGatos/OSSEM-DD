@@ -1,5 +1,5 @@
 name: Event 3 - fve:WriteRequest
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-BitLocker-Driver-Performance
 event_id: '3'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: DevObjPtr
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: IrpPtr
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_fve:Performance

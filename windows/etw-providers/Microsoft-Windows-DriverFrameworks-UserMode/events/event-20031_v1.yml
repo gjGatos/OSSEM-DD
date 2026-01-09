@@ -1,5 +1,5 @@
 name: Event 20031 - PowerTransition_Driver
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-DriverFrameworks-UserMode
 event_id: '20031'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: Irp
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Device
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_umdf:PowerTransition

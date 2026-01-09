@@ -35,7 +35,7 @@ event_fields:
   type: string
   description: Name of the file that the recorded action was applied to
   sample_value: ''
-- standard_name: ProcessPath
+- standard_name: FolderPath
   standard_type: TBD
   name: FolderPath
   type: string
@@ -59,25 +59,25 @@ event_fields:
   type: string
   description: MD5 hash of the file that the recorded action was applied to
   sample_value: ''
-- standard_name: TBD
+- standard_name: FileSize
   standard_type: TBD
   name: FileSize
   type: long
   description: Size of the file in bytes
   sample_value: ''
-- standard_name: TBD
+- standard_name: FileCompany
   standard_type: TBD
   name: ProcessVersionInfoCompanyName
   type: string
   description: Company name from the version information of the newly created process
   sample_value: ''
-- standard_name: TBD
+- standard_name: SoftwareName
   standard_type: TBD
   name: ProcessVersionInfoProductName
   type: string
   description: Product name from the version information of the newly created process
   sample_value: ''
-- standard_name: TBD
+- standard_name: SoftwareVersion
   standard_type: TBD
   name: ProcessVersionInfoProductVersion
   type: string
@@ -87,15 +87,17 @@ event_fields:
   standard_type: TBD
   name: ProcessVersionInfoInternalFileName
   type: string
-  description: Internal file name from the version information of the newly created process
+  description: Internal file name from the version information of the newly created
+    process
   sample_value: ''
 - standard_name: TBD
   standard_type: TBD
   name: ProcessVersionInfoOriginalFileName
   type: string
-  description: Original file name from the version information of the newly created process
+  description: Original file name from the version information of the newly created
+    process
   sample_value: ''
-- standard_name: TBD
+- standard_name: FileDescription
   standard_type: TBD
   name: ProcessVersionInfoFileDescription
   type: string
@@ -117,13 +119,17 @@ event_fields:
   standard_type: TBD
   name: ProcessIntegrityLevel
   type: string
-  description: Integrity level of the newly created process. Windows assigns integrity levels to processes based on certain characteristics, such as if they were launched from an internet downloaded. These integrity levels influence permissions to resources
+  description: Integrity level of the newly created process. Windows assigns integrity
+    levels to processes based on certain characteristics, such as if they were launched
+    from an internet downloaded. These integrity levels influence permissions to resources
   sample_value: ''
 - standard_name: ProcessTokenElevation
   standard_type: TBD
   name: ProcessTokenElevation
   type: string
-  description: Indicates the type of token elevation applied to the newly created process. Possible values are TokenElevationTypeLimited (restricted), TokenElevationTypeDefault (standard), and TokenElevationTypeFull (elevated)
+  description: Indicates the type of token elevation applied to the newly created
+    process. Possible values are TokenElevationTypeLimited (restricted), TokenElevationTypeDefault
+    (standard), and TokenElevationTypeFull (elevated)
   sample_value: ''
 - standard_name: ProcessCreationTime
   standard_type: TBD
@@ -131,13 +137,13 @@ event_fields:
   type: date
   description: Date and time the process was created
   sample_value: ''
-- standard_name: UserDomain
+- standard_name: Domain
   standard_type: TBD
   name: AccountDomain
   type: string
   description: Domain of the account
   sample_value: ''
-- standard_name: UserName
+- standard_name: UserDisplayName
   standard_type: TBD
   name: AccountName
   type: string
@@ -149,7 +155,7 @@ event_fields:
   type: string
   description: Security Identifier (SID) of the account
   sample_value: ''
-- standard_name: TBD
+- standard_name: UserUpn
   standard_type: TBD
   name: AccountUpn
   type: string
@@ -165,7 +171,8 @@ event_fields:
   standard_type: TBD
   name: LogonId
   type: string
-  description: Identifier for a logon session. This identifier is unique on the same machine only between restarts
+  description: Identifier for a logon session. This identifier is unique on the same
+    machine only between restarts
   sample_value: ''
 - standard_name: ProcessParentUserDomain
   standard_type: TBD
@@ -183,37 +190,45 @@ event_fields:
   standard_type: TBD
   name: InitiatingProcessAccountSid
   type: string
-  description: Security Identifier (SID) of the account that ran the process responsible for the event
+  description: Security Identifier (SID) of the account that ran the process responsible
+    for the event
   sample_value: ''
 - standard_name: TBD
   standard_type: TBD
   name: InitiatingProcessAccountUpn
   type: string
-  description: User principal name (UPN) of the account that ran the process responsible for the event
+  description: User principal name (UPN) of the account that ran the process responsible
+    for the event
   sample_value: ''
 - standard_name: TBD
   standard_type: TBD
   name: InitiatingProcessAccountObjectId
   type: string
-  description: Azure AD object ID of the user account that ran the process responsible for the event
+  description: Azure AD object ID of the user account that ran the process responsible
+    for the event
   sample_value: ''
 - standard_name: ProcessParentUserLogonId
   standard_type: TBD
   name: InitiatingProcessLogonId
   type: string
-  description: Identifier for a logon session of the process that initiated the event. This identifier is unique on the same machine only between restarts
+  description: Identifier for a logon session of the process that initiated the event.
+    This identifier is unique on the same machine only between restarts
   sample_value: ''
 - standard_name: ProcessParentIntegrityLevel
   standard_type: TBD
   name: InitiatingProcessIntegrityLevel
   type: string
-  description: Integrity level of the process that initiated the event. Windows assigns integrity levels to processes based on certain characteristics, such as if they were launched from an internet download. These integrity levels influence permissions to resources
+  description: Integrity level of the process that initiated the event. Windows assigns
+    integrity levels to processes based on certain characteristics, such as if they
+    were launched from an internet download. These integrity levels influence permissions
+    to resources
   sample_value: ''
 - standard_name: ProcessParentTokenElevation
   standard_type: TBD
   name: InitiatingProcessTokenElevation
   type: string
-  description: Token type indicating the presence or absence of User Access Control (UAC) privilege elevation applied to the process that initiated the event
+  description: Token type indicating the presence or absence of User Access Control
+    (UAC) privilege elevation applied to the process that initiated the event
   sample_value: ''
 - standard_name: ProcessParentSha1Hash
   standard_type: TBD
@@ -225,7 +240,8 @@ event_fields:
   standard_type: TBD
   name: InitiatingProcessSHA256
   type: string
-  description: SHA-256 hash of the process (image file) that initiated the event. This field is usually not populated - use the SHA1 column when available
+  description: SHA-256 hash of the process (image file) that initiated the event.
+    This field is usually not populated - use the SHA1 column when available
   sample_value: ''
 - standard_name: ProcessParentMd5Hash
   standard_type: TBD
@@ -239,55 +255,61 @@ event_fields:
   type: string
   description: Name of the process that initiated the event
   sample_value: ''
-- standard_name: TBD
+- standard_name: FileSize
   standard_type: TBD
   name: InitiatingProcessFileSize
   type: long
   description: Size of the process (image file) that initiated the event
   sample_value: ''
-- standard_name: TBD
+- standard_name: FileCompany
   standard_type: TBD
   name: InitiatingProcessVersionInfoCompanyName
   type: string
-  description: Company name from the version information of the process (image file) responsible for the event
+  description: Company name from the version information of the process (image file)
+    responsible for the event
   sample_value: ''
-- standard_name: TBD
+- standard_name: SoftwareName
   standard_type: TBD
   name: InitiatingProcessVersionInfoProductName
   type: string
-  description: Product name from the version information of the process (image file) responsible for the event
+  description: Product name from the version information of the process (image file)
+    responsible for the event
   sample_value: ''
-- standard_name: TBD
+- standard_name: SoftwareVersion
   standard_type: TBD
   name: InitiatingProcessVersionInfoProductVersion
   type: string
-  description: Product version from the version information of the process (image file) responsible for the event
+  description: Product version from the version information of the process (image
+    file) responsible for the event
   sample_value: ''
 - standard_name: TBD
   standard_type: TBD
   name: InitiatingProcessVersionInfoInternalFileName
   type: string
-  description: Internal file name from the version information of the process (image file) responsible for the event
+  description: Internal file name from the version information of the process (image
+    file) responsible for the event
   sample_value: ''
 - standard_name: TBD
   standard_type: TBD
   name: InitiatingProcessVersionInfoOriginalFileName
   type: string
-  description: Original file name from the version information of the process (image file) responsible for the event
+  description: Original file name from the version information of the process (image
+    file) responsible for the event
   sample_value: ''
-- standard_name: TBD
+- standard_name: FileDescription
   standard_type: TBD
   name: InitiatingProcessVersionInfoFileDescription
   type: string
-  description: Description from the version information of the process (image file) responsible for the event
+  description: Description from the version information of the process (image file)
+    responsible for the event
   sample_value: ''
-- standard_name: ProcessParentId
+- standard_name: InitiatingProcessId
   standard_type: TBD
   name: InitiatingProcessId
   type: int
   description: Process ID (PID) of the process that initiated the event
   sample_value: ''
-- standard_name: ProcessParentCommandLine
+- standard_name: InitiatingProcessCommandLine
   standard_type: TBD
   name: InitiatingProcessCommandLine
   type: string
@@ -305,47 +327,54 @@ event_fields:
   type: string
   description: Folder containing the process (image file) that initiated the event
   sample_value: ''
-- standard_name: InitiatingProcessParentId
+- standard_name: InitiatingProcessParentFileName
   standard_type: TBD
   name: InitiatingProcessParentId
   type: int
-  description: Process ID (PID) of the parent process that spawned the process responsible for the event
+  description: Process ID (PID) of the parent process that spawned the process responsible
+    for the event
   sample_value: ''
 - standard_name: InitiatingProcessParentFileName
   standard_type: TBD
   name: InitiatingProcessParentFileName
   type: string
-  description: Name of the parent process that spawned the process responsible for the event
+  description: Name of the parent process that spawned the process responsible for
+    the event
   sample_value: ''
 - standard_name: InitiatingProcessParentCreationTime
   standard_type: TBD
   name: InitiatingProcessParentCreationTime
   type: date
-  description: Date and time when the parent of the process responsible for the event was started
+  description: Date and time when the parent of the process responsible for the event
+    was started
   sample_value: ''
 - standard_name: TBD
   standard_type: TBD
   name: InitiatingProcessSignerType
   type: string
-  description: Type of file signer of the process (image file) that initiated the event
+  description: Type of file signer of the process (image file) that initiated the
+    event
   sample_value: ''
 - standard_name: TBD
   standard_type: TBD
   name: InitiatingProcessSignatureStatus
   type: string
-  description: Information about the signature status of the process (image file) that initiated the event
+  description: Information about the signature status of the process (image file)
+    that initiated the event
   sample_value: ''
 - standard_name: ReportId
   standard_type: TBD
   name: ReportId
   type: long
-  description: Event identifier based on a repeating counter.To identify unique events, this column must be used in conjunction with the DeviceName and Timestamp columns
+  description: Event identifier based on a repeating counter.To identify unique events,
+    this column must be used in conjunction with the DeviceName and Timestamp columns
   sample_value: ''
 - standard_name: AppGuardContainerId
   standard_type: TBD
   name: AppGuardContainerId
   type: string
-  description: Identifier for the virtualized container used by Application Guard to isolate browser activity
+  description: Identifier for the virtualized container used by Application Guard
+    to isolate browser activity
   sample_value: ''
 - standard_name: TBD
   standard_type: TBD

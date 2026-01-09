@@ -1,5 +1,5 @@
 name: Event 100 - API
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-WinHttp
 event_id: '100'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: hRequest
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: AuthTargets
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: AuthScheme
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: UserName
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Password
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_Keyword.API keyword_20000000000

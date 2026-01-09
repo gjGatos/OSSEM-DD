@@ -1,5 +1,5 @@
 name: Event 19617 - Shell32_ControlPanel_TaskStateCondition
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Shell-Core
 event_id: '19617'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: pszName
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: fVal
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Shell

@@ -1,5 +1,5 @@
 name: Event 518 - UiaProviderCallout
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-UIAutomationCore
 event_id: '518'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: MethodName
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Parameter1
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Parameter2
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_PerfInstrumentation

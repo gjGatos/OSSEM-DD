@@ -1,5 +1,5 @@
 name: Event 4331 - DsGetDcName(RootDomainGuid)
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-NlaSvc
 event_id: '4331'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: DnsSuffix
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Flags
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ErrorCode
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: Domain
   standard_type: TBD
   name: RetrievedDomain
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: RetrievedForest
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Resolver Intranet

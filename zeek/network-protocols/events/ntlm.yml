@@ -1,11 +1,11 @@
 name: NTLM Log
-description:
+description: null
 platform: zeek
 log_source: network-protocols
 event_id: ntlm
 event_version: '0'
 event_fields:
-- standard_name: '@timestamp'
+- standard_name: EmailDate
   standard_type: TBD
   name: ts
   type: date_time
@@ -35,19 +35,19 @@ event_fields:
   type: integer
   description: The responding/destination port
   sample_value: '49155'
-- standard_name: EventUid
+- standard_name: UserUid
   standard_type: TBD
   name: uid
   type: string
   description: Unique ID for the connection.
   sample_value: CACJ8v2Bg0lg5BGs9g
-- standard_name: TBD
+- standard_name: DomainName
   standard_type: TBD
   name: domainname
   type: string
   description: Domainname given by the client.
   sample_value: WIN7X64-001
-- standard_name: TBD
+- standard_name: HostDomain
   standard_type: TBD
   name: hostname
   type: string

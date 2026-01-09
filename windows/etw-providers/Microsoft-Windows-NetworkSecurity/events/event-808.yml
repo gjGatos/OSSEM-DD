@@ -1,5 +1,5 @@
 name: Event 808 - SaContextOperation
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-NetworkSecurity
 event_id: '808'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: SaContextID
   type: UInt64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_task_SaContextOperation

@@ -11,41 +11,44 @@ event_fields:
   type: SID
   description: SID of account that was used to install the service.
   sample_value: S-1-5-18
-- standard_name: UserName
+- standard_name: UserNetworkAccountName
   standard_type: TBD
   name: SubjectUserName
   type: UnicodeString
   description: the name of the account that was used to install the service.
   sample_value: WIN-GG82ULGC9GO$
-- standard_name: UserDomain
+- standard_name: Domain
   standard_type: TBD
   name: SubjectDomainName
   type: UnicodeString
   description: subject's domain or computer name.
   sample_value: DOMAIN
-- standard_name: UserLogonId
+- standard_name: UserSid
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID
+  description: hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID
   sample_value: '0x3e7'
-- standard_name: ServiceName
+- standard_name: SoftwareName
   standard_type: TBD
   name: ServiceName
   type: UnicodeString
   description: the name of installed service.
   sample_value: AppHostSvc
-- standard_name: ServiceImagePath
+- standard_name: FilePath
   standard_type: TBD
   name: ServiceFileName
   type: UnicodeString
-  description: This is the fully rooted path to the file that the Service Control Manager will execute to start the service.
+  description: This is the fully rooted path to the file that the Service Control
+    Manager will execute to start the service.
   sample_value: '%windir%\system32\svchost.exe -k apphost'
 - standard_name: ServiceType
   standard_type: TBD
   name: ServiceType
   type: HexInt32
-  description: Indicates the type of service that was registered with the Service Control Manager.
+  description: Indicates the type of service that was registered with the Service
+    Control Manager.
   sample_value: '0x20'
 - standard_name: ServiceStartType
   standard_type: TBD
@@ -53,7 +56,7 @@ event_fields:
   type: UInt32
   description: The service start type can have one of the following values (see:https://msdn.microsoft.com/library/windows/desktop/ms682450(v=vs.85).aspx)
   sample_value: '2'
-- standard_name: ServiceAccountName
+- standard_name: UserNetworkAccountName
   standard_type: TBD
   name: ServiceAccount
   type: UnicodeString
@@ -73,56 +76,31 @@ tags:
 - Audit Security System Extension
 event_sample:
 - format: friendly view
-  sample: |-
-    Log Name:      Security 
-    Source:        Microsoft-Windows-Security-Auditing 
-    Date:          9/14/2022 8:55:42 PM 
-    Event ID:      4697 
-    Task Category: Security System Extension 
-    Level:         Information 
-    Keywords:      Audit Success 
-    User:          N/A 
-    Computer:      pedro-computer 
-    Description:   A service was installed in the system.
-    Subject: 
-      Security ID:		PEDRO-COMPUTER\pedro-admin 
-      Account Name:		pedro-admin 
-      Account Domain:		PEDRO-COMPUTER 
-      Logon ID:		0x107482C 
-    Service Information: 
-      Service Name: 		PersistentService2 
-      Service File Name:	C:\Users\pedro\AppData\Local\Temp\persistence.exe 
-      Service Type: 		0x10 
-      Service Start Type:	2 
-      Service Account: 		LocalSystem 
+  sample: "Log Name:      Security \nSource:        Microsoft-Windows-Security-Auditing\
+    \ \nDate:          9/14/2022 8:55:42 PM \nEvent ID:      4697 \nTask Category:\
+    \ Security System Extension \nLevel:         Information \nKeywords:      Audit\
+    \ Success \nUser:          N/A \nComputer:      pedro-computer \nDescription:\
+    \   A service was installed in the system.\nSubject: \n  Security ID:\t\tPEDRO-COMPUTER\\\
+    pedro-admin \n  Account Name:\t\tpedro-admin \n  Account Domain:\t\tPEDRO-COMPUTER\
+    \ \n  Logon ID:\t\t0x107482C \nService Information: \n  Service Name: \t\tPersistentService2\
+    \ \n  Service File Name:\tC:\\Users\\pedro\\AppData\\Local\\Temp\\persistence.exe\
+    \ \n  Service Type: \t\t0x10 \n  Service Start Type:\t2 \n  Service Account: \t\
+    \tLocalSystem "
 - format: xml
-  sample: |-
-    <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"> 
-      <System> 
-        <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" /> 
-        <EventID>4697</EventID> 
-        <Version>0</Version> 
-        <Level>0</Level> 
-        <Task>12289</Task> 
-        <Opcode>0</Opcode> 
-        <Keywords>0x8020000000000000</Keywords> 
-        <TimeCreated SystemTime="2022-09-15T03:55:42.431355000Z" /> 
-        <EventRecordID>234504</EventRecordID> 
-        <Correlation ActivityID="{cf6cb87c-ae9a-0000-91b9-6ccf9aaed801}" /> 
-        <Execution ProcessID="616" ThreadID="7728" /> 
-        <Channel>Security</Channel> 
-        <Computer>pedro-computer</Computer> 
-        <Security /> 
-      </System> 
-      <EventData> 
-        <Data Name="SubjectUserSid">S-1-5-21-3768430097-3400800235-1714852860-1001</Data> 
-        <Data Name="SubjectUserName">pedro-admin</Data> 
-        <Data Name="SubjectDomainName">PEDRO-COMPUTER</Data> 
-        <Data Name="SubjectLogonId">0x107482c</Data> 
-        <Data Name="ServiceName">PersistentService2</Data> 
-        <Data Name="ServiceFileName">C:\Users\pedro\AppData\Local\Temp\persistence.exe</Data> 
-        <Data Name="ServiceType">0x10</Data> 
-        <Data Name="ServiceStartType">2</Data> 
-        <Data Name="ServiceAccount">LocalSystem</Data> 
-      </EventData> 
-    </Event> 
+  sample: "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"\
+    > \n  <System> \n    <Provider Name=\"Microsoft-Windows-Security-Auditing\" Guid=\"\
+    {54849625-5478-4994-a5ba-3e3b0328c30d}\" /> \n    <EventID>4697</EventID> \n \
+    \   <Version>0</Version> \n    <Level>0</Level> \n    <Task>12289</Task> \n  \
+    \  <Opcode>0</Opcode> \n    <Keywords>0x8020000000000000</Keywords> \n    <TimeCreated\
+    \ SystemTime=\"2022-09-15T03:55:42.431355000Z\" /> \n    <EventRecordID>234504</EventRecordID>\
+    \ \n    <Correlation ActivityID=\"{cf6cb87c-ae9a-0000-91b9-6ccf9aaed801}\" />\
+    \ \n    <Execution ProcessID=\"616\" ThreadID=\"7728\" /> \n    <Channel>Security</Channel>\
+    \ \n    <Computer>pedro-computer</Computer> \n    <Security /> \n  </System> \n\
+    \  <EventData> \n    <Data Name=\"SubjectUserSid\">S-1-5-21-3768430097-3400800235-1714852860-1001</Data>\
+    \ \n    <Data Name=\"SubjectUserName\">pedro-admin</Data> \n    <Data Name=\"\
+    SubjectDomainName\">PEDRO-COMPUTER</Data> \n    <Data Name=\"SubjectLogonId\"\
+    >0x107482c</Data> \n    <Data Name=\"ServiceName\">PersistentService2</Data> \n\
+    \    <Data Name=\"ServiceFileName\">C:\\Users\\pedro\\AppData\\Local\\Temp\\persistence.exe</Data>\
+    \ \n    <Data Name=\"ServiceType\">0x10</Data> \n    <Data Name=\"ServiceStartType\"\
+    >2</Data> \n    <Data Name=\"ServiceAccount\">LocalSystem</Data> \n  </EventData>\
+    \ \n</Event> "

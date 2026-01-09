@@ -1,5 +1,5 @@
 name: Event 2005 - Orchestrator_120
-description:
+description: null
 platform: windows
 log_source: Microsoft-User Experience Virtualization-App Agent
 event_id: '2005'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: WString1
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: AnsiString2
   type: AnsiString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: HRESULT1
   type: Int32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_opcode_AppAgent

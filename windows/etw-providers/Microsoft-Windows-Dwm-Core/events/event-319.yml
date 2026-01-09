@@ -1,5 +1,5 @@
 name: Event 319 - EXPRESSION_OUTPUTVALUE
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Dwm-Core
 event_id: '319'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: Resource
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_DwmCore

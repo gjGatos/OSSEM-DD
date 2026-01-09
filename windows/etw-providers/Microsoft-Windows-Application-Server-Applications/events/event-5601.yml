@@ -1,23 +1,23 @@
 name: Event 5601 - FederationMessageProcessing
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Application Server-Applications
 event_id: '5601'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: HostDomain
   standard_type: TBD
   name: HostReference
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: AppDomain
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_Security

@@ -5,13 +5,13 @@ log_source: osquery
 event_id: atom_packages
 event_version: 4.4.2
 event_fields:
-- standard_name: TBD
+- standard_name: SoftwareName
   standard_type: TBD
   name: name
   type: TEXT
   description: Package display name
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareVersion
   standard_type: TBD
   name: version
   type: TEXT
@@ -23,7 +23,7 @@ event_fields:
   type: TEXT
   description: Package supplied description
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: path
   type: TEXT
@@ -41,7 +41,7 @@ event_fields:
   type: TEXT
   description: Package supplied homepage
   sample_value: TBD
-- standard_name: TBD
+- standard_name: UserId
   standard_type: TBD
   name: uid
   type: BIGINT

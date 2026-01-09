@@ -1,5 +1,5 @@
 name: Event 2401 - CtapTestProviderThread
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-WebAuthN
 event_id: '2401'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: TransactionId
   type: GUID
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_keywords_Ctap Test
 - etw_opcode_Stop

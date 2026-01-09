@@ -1,5 +1,5 @@
 name: Event 17 - ThreadBuffering
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-MMCSS
 event_id: '17'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: ThreadID
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_Start

@@ -1,5 +1,5 @@
 name: Event 62408 - Explorer_ExecutingPackagedStartupApp
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Shell-Core
 event_id: '62408'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: Command
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Shell StartupPerf keyword_200000000000

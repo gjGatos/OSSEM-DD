@@ -1,5 +1,5 @@
 name: Event 844 - Isolatingprinterdriversandotherplug_ins
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-PrintService
 event_id: '844'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: IsolationMode
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: FileName
   standard_type: TBD
   name: Printer
   type: UnicodeString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: SoftwareName
   standard_type: TBD
   name: Driver
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_SPOOLER_KEYWORD_PRINT_DRIVER_SANDBOX

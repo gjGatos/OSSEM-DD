@@ -1,8 +1,10 @@
 name: Cowrie client var event
-description: This dictionary details the fields for the client var event of the Cowrie honeypot, which should trigger when an environment variable is passed with an SSH session.
+description: This dictionary details the fields for the client var event of the Cowrie
+  honeypot, which should trigger when an environment variable is passed with an SSH
+  session.
 platform: cowrie
 log_source: honeypot
-event_id: 'cowrie.client.var'
+event_id: cowrie.client.var
 event_version: '0'
 event_fields:
 - standard_name: EventTimestamp
@@ -16,7 +18,7 @@ event_fields:
   name: src_ip
   type: string
   description: The originating/source IP address of the SSH connection
-  sample_value: '192.168.1.4'
+  sample_value: 192.168.1.4
 - standard_name: EventMessage
   standard_type: string
   name: message
@@ -28,7 +30,7 @@ event_fields:
   name: sensor
   type: string
   description: The name of the device that generated the event
-  sample_value: 'hk-lab1'
+  sample_value: hk-lab1
 - standard_name: NetworkSessionId
   standard_type: string
   name: session

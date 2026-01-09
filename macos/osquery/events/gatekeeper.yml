@@ -15,15 +15,16 @@ event_fields:
   standard_type: TBD
   name: dev_id_enabled
   type: INTEGER
-  description: 1 If a Gatekeeper allows execution from identified developers else 0
+  description: 1 If a Gatekeeper allows execution from identified developers else
+    0
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareVersion
   standard_type: TBD
   name: version
   type: TEXT
   description: Version of Gatekeeper's gke.bundle
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareVersion
   standard_type: TBD
   name: opaque_version
   type: TEXT

@@ -1,23 +1,23 @@
 name: Event 2013 - Scenario_ProblemDetection
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Diagnostics-Performance
 event_id: '2013'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: ScenarioGUID
   type: GUID
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: 'null'
   standard_type: TBD
   name: HResult
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_ScenarioStatus

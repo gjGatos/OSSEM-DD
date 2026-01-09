@@ -1,5 +1,5 @@
 name: Event 802 - WebPlatStorageServer
-description:
+description: null
 platform: windows
 log_source: Microsoft-IE
 event_id: '802'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: MethodName
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_Start

@@ -1,5 +1,5 @@
 name: Event 4385 - MFGraphNotifyUserEvent
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-MediaFoundation-Performance
 event_id: '4385'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: tag
   type: AnsiString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: object
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: parameter
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: bstr
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_Stop

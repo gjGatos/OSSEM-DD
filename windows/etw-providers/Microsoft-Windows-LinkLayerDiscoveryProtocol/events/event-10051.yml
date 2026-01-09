@@ -1,5 +1,5 @@
 name: Event 10051 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-LinkLayerDiscoveryProtocol
 event_id: '10051'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: IfIndex
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: MsapIdLength
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: MsapId
   type: Binary
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_task_0

@@ -1,5 +1,5 @@
 name: Event 18913 - Shell32_CopyEngine_ProgressSpeed
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Shell-Core
 event_id: '18913'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: Speed
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: IsBytesPerSecond
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Shell

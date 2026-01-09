@@ -1,5 +1,5 @@
 name: Event 2499 - PerfTrack_PLM_WakeOnRPC
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Immersive-Shell
 event_id: '2499'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: Wakes
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PsmKey
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_PLMComponent

@@ -5,7 +5,7 @@ log_source: osquery
 event_id: routes
 event_version: 5.0.1
 event_fields:
-- standard_name: TBD
+- standard_name: DstIpAddr
   standard_type: TBD
   name: destination
   type: TEXT
@@ -23,7 +23,7 @@ event_fields:
   type: TEXT
   description: Route gateway
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SrcIpAddr
   standard_type: TBD
   name: source
   type: TEXT

@@ -5,13 +5,13 @@ log_source: osquery
 event_id: os_version
 event_version: 5.0.1
 event_fields:
-- standard_name: TBD
+- standard_name: SoftwareName
   standard_type: TBD
   name: name
   type: TEXT
   description: Distribution or product name
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareVersion
   standard_type: TBD
   name: version
   type: TEXT

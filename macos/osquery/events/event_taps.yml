@@ -23,13 +23,13 @@ event_fields:
   type: TEXT
   description: The mask that identifies the set of events to be observed.
   sample_value: TBD
-- standard_name: TBD
+- standard_name: TargetProcessId
   standard_type: TBD
   name: process_being_tapped
   type: INTEGER
   description: The process ID of the target application
   sample_value: TBD
-- standard_name: TBD
+- standard_name: ProcessId
   standard_type: TBD
   name: tapping_process
   type: INTEGER

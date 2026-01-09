@@ -11,7 +11,7 @@ event_fields:
   type: TEXT
   description: Operation type
   sample_value: TBD
-- standard_name: TBD
+- standard_name: ProcessId
   standard_type: TBD
   name: pid
   type: BIGINT
@@ -29,7 +29,7 @@ event_fields:
   type: BIGINT
   description: Time of execution in UNIX time
   sample_value: TBD
-- standard_name: TBD
+- standard_name: ProcessFileName
   standard_type: TBD
   name: executable
   type: TEXT
@@ -39,7 +39,8 @@ event_fields:
   standard_type: TBD
   name: partial
   type: TEXT
-  description: 'True if this is a partial event (i.e.: this process existed before we started osquery)'
+  description: 'True if this is a partial event (i.e.: this process existed before
+    we started osquery)'
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD

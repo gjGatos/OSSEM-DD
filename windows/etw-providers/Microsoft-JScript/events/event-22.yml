@@ -1,23 +1,23 @@
 name: Event 22 - Jscript_Projection_InvokesJsDelegate
-description:
+description: null
 platform: windows
 log_source: Microsoft-JScript
 event_id: '22'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: SoftwareName
   standard_type: TBD
   name: TypeName
   type: UnicodeString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: ApiCallName
   standard_type: TBD
   name: MethodName
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_JScriptProjection

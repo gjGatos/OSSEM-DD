@@ -1,5 +1,5 @@
 name: Event 120 - LaunchFrame
-description:
+description: null
 platform: windows
 log_source: Microsoft-PerfTrack-IEFRAME
 event_id: '120'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: TimespanInMs
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: dwTabScenarioFlags
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: totalTabCount
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: halfTabCount
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_LaunchFrame

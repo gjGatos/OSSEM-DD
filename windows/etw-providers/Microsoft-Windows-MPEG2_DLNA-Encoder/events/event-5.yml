@@ -1,5 +1,5 @@
 name: Event 5 - MPEG_2Encode/MuxforDLNA
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-MPEG2_DLNA-Encoder
 event_id: '5'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: Timestamp
   type: Int64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Bytes
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_task_MPEG_2Encode/MuxforDLNA

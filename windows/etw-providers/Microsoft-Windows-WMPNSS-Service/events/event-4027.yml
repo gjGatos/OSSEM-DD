@@ -1,5 +1,5 @@
 name: Event 4027 - Results_Pop_Sortmap
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-WMPNSS-Service
 event_id: '4027'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: SortItemCount
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ErrorCode
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_Start

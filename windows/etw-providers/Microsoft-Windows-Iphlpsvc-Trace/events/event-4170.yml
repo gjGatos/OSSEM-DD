@@ -1,5 +1,5 @@
 name: Event 4170 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Iphlpsvc-Trace
 event_id: '4170'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: ProtocolCallback
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: NetworkTrafficDescription
   standard_type: TBD
   name: ProtocolType
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_isatap sixto4 teredo

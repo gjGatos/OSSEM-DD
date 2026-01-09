@@ -1,29 +1,4 @@
 name: Event 1179 - iaLPSS2_I2CControllerroutines
-description:
+description: null
 platform: windows
-log_source: Intel-iaLPSS2-I2C
-event_id: '1179'
-event_version: '0'
-event_fields:
-- standard_name: TBD
-  standard_type: TBD
-  name: SpbController
-  type: Pointer
-  description:
-  sample_value:
-- standard_name: TBD
-  standard_type: TBD
-  name: SpbTarget
-  type: Pointer
-  description:
-  sample_value:
-- standard_name: TBD
-  standard_type: TBD
-  name: SpbRequest
-  type: Pointer
-  description:
-  sample_value:
-references:
-tags:
-- etw_level_Informational
-- etw_task_iaLPSS2_I2CControllerroutines
+log_source:

@@ -1,5 +1,5 @@
 name: Event 1054 - PrefetchPredictorQuery
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Superfetch
 event_id: '1054'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: AppKey
   type: HexInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: FullPackageName
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: LongLookahead
   type: Boolean
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: BenefitScore
   type: Int16
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_PfAp

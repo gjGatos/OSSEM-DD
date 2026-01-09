@@ -1,5 +1,6 @@
 name: 'Event ID 17: PipeEvent (Pipe Created)'
-description: This event generates when a **named pipe is created**. Malware often uses named pipes for interprocess communication.
+description: This event generates when a **named pipe is created**. Malware often
+  uses named pipes for interprocess communication.
 platform: windows
 log_source: Microsoft-Windows-Sysmon
 event_id: '17'
@@ -11,7 +12,7 @@ event_fields:
   type: string
   description: TBD
   sample_value: '[CreatePipe]{.underline}'
-- standard_name: Tag
+- standard_name: KeyOperation
   standard_type: TBD
   name: RuleName
   type: string
@@ -23,7 +24,7 @@ event_fields:
   type: date
   description: Time in UTC when event was created
   sample_value: 4/11/18 6:21
-- standard_name: ProcessGuid
+- standard_name: ProcessId
   standard_type: TBD
   name: ProcessGuid
   type: string
@@ -33,7 +34,8 @@ event_fields:
   standard_type: TBD
   name: ProcessId
   type: integer
-  description: Process ID used by the os to identify the process that created the pipe
+  description: Process ID used by the os to identify the process that created the
+    pipe
   sample_value: '1224'
 - standard_name: PipeName
   standard_type: TBD
@@ -41,13 +43,13 @@ event_fields:
   type: string
   description: Name of the pipe created
   sample_value: Anonymous Pipe
-- standard_name: ProcessFilePath
+- standard_name: ProcessFileName
   standard_type: TBD
   name: Image
   type: string
   description: File path of the process that created the pipe
   sample_value: C:\WINDOWS\system32\cmd.exe
-- standard_name: UserName
+- standard_name: InitiatingProcessUserName
   standard_type: TBD
   name: User
   type: string
@@ -60,61 +62,32 @@ references:
   link: https://github.com/trustedsec/SysmonCommunityGuide/blob/master/named-pipes.md
 tags: []
 event_sample:
-  - format: friendly view
-    sample: |-
-      Log Name:      Microsoft-Windows-Sysmon/Operational
-      Source:        Microsoft-Windows-Sysmon
-      Date:          9/22/2022 5:51:18 PM
-      Event ID:      17
-      Task Category: Pipe Created (rule: PipeEvent)
-      Level:         Information
-      Keywords:      
-      User:          SYSTEM
-      Computer:      pedro-computer
-      Description:
-      The description for Event ID 17 from source Microsoft-Windows-Sysmon cannot be found. Either the component that raises this event is not installed on your local computer or the installation is corrupted. You can install or repair the component on the local computer.
-
-      If the event originated on another computer, the display information had to be saved with the event.
-
-      The following information was included with the event: 
-
-      -
-      CreatePipe
-      2022-09-23 00:51:18.752
-      EV_RenderedValue_3.00
-      3140
-      \MsFteWds
-      C:\Windows\system32\SearchIndexer.exe
-      NT AUTHORITY\SYSTEM
-
-      The publisher has been disabled and its resource is not available. This usually occurs when the publisher is in the process of being uninstalled or upgraded
-  - format: xml
-    sample: |-
-      <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
-        <System>
-          <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
-          <EventID>17</EventID>
-          <Version>1</Version>
-          <Level>4</Level>
-          <Task>17</Task>
-          <Opcode>0</Opcode>
-          <Keywords>0x8000000000000000</Keywords>
-          <TimeCreated SystemTime="2022-09-23T00:51:18.762309900Z" />
-          <EventRecordID>2494645</EventRecordID>
-          <Correlation />
-          <Execution ProcessID="6152" ThreadID="7900" />
-          <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
-          <Computer>pedro-computer</Computer>
-          <Security UserID="S-1-5-18" />
-        </System>
-        <EventData>
-          <Data Name="RuleName">-</Data>
-          <Data Name="EventType">CreatePipe</Data>
-          <Data Name="UtcTime">2022-09-23 00:51:18.752</Data>
-          <Data Name="ProcessGuid">{564ff025-d479-62f6-7d00-000000000500}</Data>
-          <Data Name="ProcessId">3140</Data>
-          <Data Name="PipeName">\MsFteWds</Data>
-          <Data Name="Image">C:\Windows\system32\SearchIndexer.exe</Data>
-          <Data Name="User">NT AUTHORITY\SYSTEM</Data>
-        </EventData>
-      </Event>
+- format: friendly view
+  sample: "Log Name:      Microsoft-Windows-Sysmon/Operational\nSource:        Microsoft-Windows-Sysmon\n\
+    Date:          9/22/2022 5:51:18 PM\nEvent ID:      17\nTask Category: Pipe Created\
+    \ (rule: PipeEvent)\nLevel:         Information\nKeywords:      \nUser:      \
+    \    SYSTEM\nComputer:      pedro-computer\nDescription:\nThe description for\
+    \ Event ID 17 from source Microsoft-Windows-Sysmon cannot be found. Either the\
+    \ component that raises this event is not installed on your local computer or\
+    \ the installation is corrupted. You can install or repair the component on the\
+    \ local computer.\n\nIf the event originated on another computer, the display\
+    \ information had to be saved with the event.\n\nThe following information was\
+    \ included with the event: \n\n-\nCreatePipe\n2022-09-23 00:51:18.752\nEV_RenderedValue_3.00\n\
+    3140\n\\MsFteWds\nC:\\Windows\\system32\\SearchIndexer.exe\nNT AUTHORITY\\SYSTEM\n\
+    \nThe publisher has been disabled and its resource is not available. This usually\
+    \ occurs when the publisher is in the process of being uninstalled or upgraded"
+- format: xml
+  sample: "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"\
+    >\n  <System>\n    <Provider Name=\"Microsoft-Windows-Sysmon\" Guid=\"{5770385f-c22a-43e0-bf4c-06f5698ffbd9}\"\
+    \ />\n    <EventID>17</EventID>\n    <Version>1</Version>\n    <Level>4</Level>\n\
+    \    <Task>17</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000000</Keywords>\n\
+    \    <TimeCreated SystemTime=\"2022-09-23T00:51:18.762309900Z\" />\n    <EventRecordID>2494645</EventRecordID>\n\
+    \    <Correlation />\n    <Execution ProcessID=\"6152\" ThreadID=\"7900\" />\n\
+    \    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>\n    <Computer>pedro-computer</Computer>\n\
+    \    <Security UserID=\"S-1-5-18\" />\n  </System>\n  <EventData>\n    <Data Name=\"\
+    RuleName\">-</Data>\n    <Data Name=\"EventType\">CreatePipe</Data>\n    <Data\
+    \ Name=\"UtcTime\">2022-09-23 00:51:18.752</Data>\n    <Data Name=\"ProcessGuid\"\
+    >{564ff025-d479-62f6-7d00-000000000500}</Data>\n    <Data Name=\"ProcessId\">3140</Data>\n\
+    \    <Data Name=\"PipeName\">\\MsFteWds</Data>\n    <Data Name=\"Image\">C:\\\
+    Windows\\system32\\SearchIndexer.exe</Data>\n    <Data Name=\"User\">NT AUTHORITY\\\
+    SYSTEM</Data>\n  </EventData>\n</Event>"

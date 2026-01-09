@@ -1,5 +1,5 @@
 name: Event 803 - WININET_AUTOPROXY_DHCP
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-WinINet
 event_id: '803'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: _InterfaceLength
   type: UInt16
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Interface
   type: AnsiString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: _ConfigurationURLLength
   type: UInt16
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ConfigurationURL
   type: AnsiString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_WININET_KEYWORD_AUTOPROXY

@@ -1,5 +1,5 @@
 name: Event 1010 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-SMBDirect
 event_id: '1010'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: SocketID
   type: GUID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Count
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: IntervalInMicroSeconds
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_task_task_0

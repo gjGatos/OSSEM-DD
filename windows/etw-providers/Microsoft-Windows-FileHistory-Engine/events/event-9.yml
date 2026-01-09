@@ -1,5 +1,5 @@
 name: Event 9 - BackupSizeQuotaChange
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-FileHistory-Engine
 event_id: '9'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: OldQuota
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: NewQuota
   type: UInt64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_task_BackupSizeQuotaChange

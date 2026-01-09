@@ -1,5 +1,5 @@
 name: Event 12003 - Tasktosavein_memorySQMsessiondatatoafile.
-description:
+description: null
 platform: windows
 log_source: Microsoft-User Experience Virtualization-App Agent
 event_id: '12003'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: Starttime
   type: SYSTEMTIME
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Endtime
   type: SYSTEMTIME
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_Tasktosavein_memorySQMsessiondatatoafile.

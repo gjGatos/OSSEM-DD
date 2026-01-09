@@ -1,5 +1,5 @@
 name: Event 15 - Device
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-USB-USBPORT
 event_id: '15'
@@ -9,39 +9,39 @@ event_fields:
   standard_type: TBD
   name: fid_USBPORT_HC
   type: UInt16
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: fid_USBPORT_Device
   type: Double
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: fid_USBPORT_Device_Descriptor
   type: SID
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: SoftwareName
   standard_type: TBD
   name: fid_USBPORT_Device_Driver_Name
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: fid_USBPORT_Device_Idle_State
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: fid_USBPORT_Device_Pdo_Name
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Diagnostic PowerDiagnostics

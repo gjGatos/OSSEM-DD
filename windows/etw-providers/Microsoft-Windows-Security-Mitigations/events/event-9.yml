@@ -1,5 +1,5 @@
 name: Event 9 - KERNEL_MITIGATION_TASK_PROHIBIT_WIN32K_SYSTEM_CALLS
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Security-Mitigations
 event_id: '9'
@@ -9,75 +9,75 @@ event_fields:
   standard_type: TBD
   name: ProcessPathLength
   type: UInt16
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ProcessPath
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ProcessCommandLineLength
   type: UInt16
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: ProcessCommandLine
   standard_type: TBD
   name: ProcessCommandLine
   type: UnicodeString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: ActingProcessId
   standard_type: TBD
   name: CallingProcessId
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: CallingProcessCreateTime
   type: FILETIME
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: CallingProcessStartKey
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: CallingProcessSignatureLevel
   type: UInt8
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: CallingProcessSectionSignatureLevel
   type: UInt8
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: CallingProcessProtection
   type: UInt8
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: CallingThreadId
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: CallingThreadCreateTime
   type: FILETIME
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_task_KERNEL_MITIGATION_TASK_PROHIBIT_WIN32K_SYSTEM_CALLS

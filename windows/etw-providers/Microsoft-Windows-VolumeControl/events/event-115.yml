@@ -1,5 +1,5 @@
 name: Event 115 - task_VolumeLimit_UI
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-VolumeControl
 event_id: '115'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: object
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: bEngageVolumeLimit
   type: Boolean
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_VolumeLimit_PropogateToDriver

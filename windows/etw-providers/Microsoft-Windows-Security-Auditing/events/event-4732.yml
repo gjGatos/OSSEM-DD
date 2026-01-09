@@ -1,23 +1,26 @@
 name: 'Event ID 4732: A member was added to a security-enabled local group'
-description: This event generates every time a new member was added to a security-enabled (security) local group.
+description: This event generates every time a new member was added to a security-enabled
+  (security) local group.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
 event_id: '4732'
 event_version: '0'
 event_fields:
-- standard_name: TargetUserName
+- standard_name: UserNetworkAccountName
   standard_type: TBD
   name: MemberName
   type: UnicodeString
-  description: 'distinguished name of account that was added to the group. For example: "CN=Auditor,CN=Users,DC=contoso,DC=local". For local groups this field typically has "-" value, even if new member is a domain account.'
+  description: 'distinguished name of account that was added to the group. For example:
+    "CN=Auditor,CN=Users,DC=contoso,DC=local". For local groups this field typically
+    has "-" value, even if new member is a domain account.'
   sample_value: CN=eadmin,CN=Users,DC=contoso,DC=local
-- standard_name: TargetUserSid
+- standard_name: UserSid
   standard_type: TBD
   name: MemberSid
   type: SID
   description: SID of account that was added to the group.
   sample_value: S-1-5-21-3457937927-2839227994-823803824-500
-- standard_name: GroupName
+- standard_name: UserNetworkAccountName
   standard_type: TBD
   name: TargetUserName
   type: UnicodeString
@@ -41,13 +44,14 @@ event_fields:
   type: SID
   description: SID of account that requested the "add member to the group" operation.
   sample_value: S-1-5-21-3457937927-2839227994-823803824-1104
-- standard_name: UserName
+- standard_name: UserNetworkAccountName
   standard_type: TBD
   name: SubjectUserName
   type: UnicodeString
-  description: the name of the account that requested the "add member to the group" operation.
+  description: the name of the account that requested the "add member to the group"
+    operation.
   sample_value: dadmin
-- standard_name: UserDomain
+- standard_name: DomainName
   standard_type: TBD
   name: SubjectDomainName
   type: UnicodeString
@@ -57,13 +61,17 @@ event_fields:
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: 'hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, "4624: An account was successfully logged on."'
+  description: 'hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID, for example, "4624: An account was
+    successfully logged on."'
   sample_value: '0x3031e'
 - standard_name: UserPrivilegeList
   standard_type: TBD
   name: PrivilegeList
   type: UnicodeString
-  description: the list of user privileges which were used during the operation, for example, SeBackupPrivilege. This parameter might not be captured in the event, and in that case appears as "-".
+  description: the list of user privileges which were used during the operation, for
+    example, SeBackupPrivilege. This parameter might not be captured in the event,
+    and in that case appears as "-".
   sample_value: '-'
 references:
 - text: MS Source

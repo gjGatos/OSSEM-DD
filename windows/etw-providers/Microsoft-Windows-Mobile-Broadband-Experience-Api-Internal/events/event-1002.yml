@@ -1,5 +1,5 @@
 name: Event 1002 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Mobile-Broadband-Experience-Api-Internal
 event_id: '1002'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: interfaceId
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: error
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: hresult
   type: Int32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_task_task_0

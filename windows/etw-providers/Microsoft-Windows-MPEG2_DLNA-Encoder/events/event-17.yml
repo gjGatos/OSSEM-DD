@@ -1,5 +1,5 @@
 name: Event 17 - MuxSessionConfig
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-MPEG2_DLNA-Encoder
 event_id: '17'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: MuxFormat
   type: UInt8
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_MuxSessionConfig

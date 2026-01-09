@@ -1,5 +1,5 @@
 name: Event 7432 - ConnectedSearch_DomainRedirection
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Immersive-Shell
 event_id: '7432'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: ChangeTo
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ErrorResult
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_ConnectedSearch_DomainRedirection

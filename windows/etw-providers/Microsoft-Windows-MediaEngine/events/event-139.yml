@@ -1,5 +1,5 @@
 name: Event 139 - MediaFoundationVideoFrameEarly
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-MediaEngine
 event_id: '139'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: object
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: sampleTime
   type: Int64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: FramesEarly
   type: Int32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_task_MediaFoundationVideoFrameEarly

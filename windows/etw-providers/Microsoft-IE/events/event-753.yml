@@ -1,41 +1,41 @@
 name: Event 753 - Mshtml_CrossCDoc_NodeAdoptionAttempt
-description:
+description: null
 platform: windows
 log_source: Microsoft-IE
 event_id: '753'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: ProcessId
   standard_type: TBD
   name: PID
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: TID
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: UrlOriginal
   standard_type: TBD
   name: SourceUrl
   type: UnicodeString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: UrlOriginal
   standard_type: TBD
   name: TargetUrl
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Func
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_mshtml

@@ -1,5 +1,5 @@
 name: Event 10013 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-NWiFi
 event_id: '10013'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: ContextHandle
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: AdapterGuid
   type: GUID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ExpectedCounter
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ReceivedCounter
   type: UInt64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Warning
 - etw_keywords_RSNA ut:ReceivePath ut:Authentication keyword_10000000000

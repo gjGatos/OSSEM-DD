@@ -1,5 +1,5 @@
 name: Event 328 - CommitVirtualAddress
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-DxgKrnl
 event_id: '328'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: VidMmAlloc
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_GPUVA

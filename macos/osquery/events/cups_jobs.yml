@@ -17,7 +17,7 @@ event_fields:
   type: TEXT
   description: The printer the job was sent to
   sample_value: TBD
-- standard_name: TBD
+- standard_name: UserDisplayName
   standard_type: TBD
   name: user
   type: TEXT
@@ -29,7 +29,7 @@ event_fields:
   type: TEXT
   description: The format of the print job
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FileSize
   standard_type: TBD
   name: size
   type: INTEGER

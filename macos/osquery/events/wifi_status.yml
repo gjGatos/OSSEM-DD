@@ -5,25 +5,25 @@ log_source: osquery
 event_id: wifi_status
 event_version: 4.4.2
 event_fields:
-- standard_name: TBD
+- standard_name: NetworkTrafficDescription
   standard_type: TBD
   name: interface
   type: TEXT
   description: Name of the interface
   sample_value: TBD
-- standard_name: TBD
+- standard_name: NetworkTrafficDescription
   standard_type: TBD
   name: ssid
   type: TEXT
   description: SSID octets of the network
   sample_value: TBD
-- standard_name: TBD
+- standard_name: NetworkTrafficDescription
   standard_type: TBD
   name: bssid
   type: TEXT
   description: The current basic service set identifier
   sample_value: TBD
-- standard_name: TBD
+- standard_name: NetworkTrafficDescription
   standard_type: TBD
   name: network_name
   type: TEXT

@@ -1,5 +1,5 @@
 name: Event 312 - Core_SetProperty
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Wallet
 event_id: '312'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: ItemId
   type: HexInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: WalletItemPropertyType
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Performance

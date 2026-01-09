@@ -1,11 +1,16 @@
 name: 'Event ID 2: A process changed a file creation time'
-description: The change **file creation time** event is registered when a file creation time is explicitly modified by a process. This event helps tracking the real creation time of a file. Attackers may change the file creation time of a backdoor to make it look like it was installed with the operating system. Note that many processes legitimately change the creation time of a file; it does not necessarily indicate malicious activity.
+description: The change **file creation time** event is registered when a file creation
+  time is explicitly modified by a process. This event helps tracking the real creation
+  time of a file. Attackers may change the file creation time of a backdoor to make
+  it look like it was installed with the operating system. Note that many processes
+  legitimately change the creation time of a file; it does not necessarily indicate
+  malicious activity.
 platform: windows
 log_source: Microsoft-Windows-Sysmon
 event_id: '2'
 event_version: '5'
 event_fields:
-- standard_name: Tag
+- standard_name: KeyOperation
   standard_type: TBD
   name: RuleName
   type: string
@@ -17,7 +22,7 @@ event_fields:
   type: date
   description: Time in UTC when event was created
   sample_value: 4/11/18 5:04
-- standard_name: ProcessGuid
+- standard_name: ProcessId
   standard_type: TBD
   name: ProcessGuid
   type: string
@@ -27,9 +32,10 @@ event_fields:
   standard_type: TBD
   name: ProcessId
   type: integer
-  description: Process ID used by the os to identify the process changing the file creation time
+  description: Process ID used by the os to identify the process changing the file
+    creation time
   sample_value: '1252'
-- standard_name: ProcessFilePath
+- standard_name: ProcessFileName
   standard_type: TBD
   name: Image
   type: string
@@ -53,7 +59,7 @@ event_fields:
   type: date
   description: previous creation time of the file
   sample_value: 4/11/18 5:04
-- standard_name: UserName
+- standard_name: UserNetworkAccountName
   standard_type: TBD
   name: User
   type: string
@@ -67,59 +73,37 @@ references:
 tags: []
 event_sample:
 - format: friendly view
-  sample: |-
-    Log Name:      Microsoft-Windows-Sysmon/Operational
-    Source:        Microsoft-Windows-Sysmon
-    Date:          9/22/2022 4:53:56 PM
-    Event ID:      2
-    Task Category: File creation time changed (rule: FileCreateTime)
-    Level:         Information
-    Keywords:      
-    User:          SYSTEM
-    Computer:      pedro-computer
-    Description:
-    The description for Event ID 2 from source Microsoft-Windows-Sysmon cannot be found. Either the component that raises this event is not installed on your local computer or the installation is corrupted. You can install or repair the component on the local computer.
-    If the event originated on another computer, the display information had to be saved with the event.
-    The following information was included with the event: 
-    -
-    2022-09-22 23:53:56.138
-    EV_RenderedValue_2.00
-    6112
-    C:\Windows\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe
-    C:\Users\pedro-admin\AppData\Local\Microsoft_Corporation\PowerShell_ISE.exe_StrongName_lw2v2vm3wmtzzpebq33gybmeoxukb04w\3.0.0.0\AutoSaveInformation\w1hsxydx.tmp
-    2022-09-07 13:36:32.306
-    2022-09-22 23:53:53.981
-    PEDRO-COMPUTER\pedro-admin
-
-    The publisher has been disabled and its resource is not available. This usually occurs when the publisher is in the process of being uninstalled or upgraded
+  sample: "Log Name:      Microsoft-Windows-Sysmon/Operational\nSource:        Microsoft-Windows-Sysmon\n\
+    Date:          9/22/2022 4:53:56 PM\nEvent ID:      2\nTask Category: File creation\
+    \ time changed (rule: FileCreateTime)\nLevel:         Information\nKeywords: \
+    \     \nUser:          SYSTEM\nComputer:      pedro-computer\nDescription:\nThe\
+    \ description for Event ID 2 from source Microsoft-Windows-Sysmon cannot be found.\
+    \ Either the component that raises this event is not installed on your local computer\
+    \ or the installation is corrupted. You can install or repair the component on\
+    \ the local computer.\nIf the event originated on another computer, the display\
+    \ information had to be saved with the event.\nThe following information was included\
+    \ with the event: \n-\n2022-09-22 23:53:56.138\nEV_RenderedValue_2.00\n6112\n\
+    C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\PowerShell_ISE.exe\nC:\\Users\\\
+    pedro-admin\\AppData\\Local\\Microsoft_Corporation\\PowerShell_ISE.exe_StrongName_lw2v2vm3wmtzzpebq33gybmeoxukb04w\\\
+    3.0.0.0\\AutoSaveInformation\\w1hsxydx.tmp\n2022-09-07 13:36:32.306\n2022-09-22\
+    \ 23:53:53.981\nPEDRO-COMPUTER\\pedro-admin\n\nThe publisher has been disabled\
+    \ and its resource is not available. This usually occurs when the publisher is\
+    \ in the process of being uninstalled or upgraded"
 - format: xml
-  sample: |-
-    <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
-      <System>
-        <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
-        <EventID>2</EventID>
-        <Version>5</Version>
-        <Level>4</Level>
-        <Task>2</Task>
-        <Opcode>0</Opcode>
-        <Keywords>0x8000000000000000</Keywords>
-        <TimeCreated SystemTime="2022-09-22T23:53:56.145508400Z" />
-        <EventRecordID>2442442</EventRecordID>
-        <Correlation />
-        <Execution ProcessID="6152" ThreadID="7900" />
-        <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
-        <Computer>pedro-computer</Computer>
-        <Security UserID="S-1-5-18" />
-      </System>
-      <EventData>
-        <Data Name="RuleName">-</Data>
-        <Data Name="UtcTime">2022-09-22 23:53:56.138</Data>
-        <Data Name="ProcessGuid">{564ff025-9ddc-6318-4605-000000000500}</Data>
-        <Data Name="ProcessId">6112</Data>
-        <Data Name="Image">C:\Windows\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe</Data>
-        <Data Name="TargetFilename">C:\Users\pedro-admin\AppData\Local\Microsoft_Corporation\PowerShell_ISE.exe_StrongName_lw2v2vm3wmtzzpebq33gybmeoxukb04w\3.0.0.0\AutoSaveInformation\w1hsxydx.tmp</Data>
-        <Data Name="CreationUtcTime">2022-09-07 13:36:32.306</Data>
-        <Data Name="PreviousCreationUtcTime">2022-09-22 23:53:53.981</Data>
-        <Data Name="User">PEDRO-COMPUTER\pedro-admin</Data>
-      </EventData>
-    </Event>
+  sample: "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"\
+    >\n  <System>\n    <Provider Name=\"Microsoft-Windows-Sysmon\" Guid=\"{5770385f-c22a-43e0-bf4c-06f5698ffbd9}\"\
+    \ />\n    <EventID>2</EventID>\n    <Version>5</Version>\n    <Level>4</Level>\n\
+    \    <Task>2</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000000</Keywords>\n\
+    \    <TimeCreated SystemTime=\"2022-09-22T23:53:56.145508400Z\" />\n    <EventRecordID>2442442</EventRecordID>\n\
+    \    <Correlation />\n    <Execution ProcessID=\"6152\" ThreadID=\"7900\" />\n\
+    \    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>\n    <Computer>pedro-computer</Computer>\n\
+    \    <Security UserID=\"S-1-5-18\" />\n  </System>\n  <EventData>\n    <Data Name=\"\
+    RuleName\">-</Data>\n    <Data Name=\"UtcTime\">2022-09-22 23:53:56.138</Data>\n\
+    \    <Data Name=\"ProcessGuid\">{564ff025-9ddc-6318-4605-000000000500}</Data>\n\
+    \    <Data Name=\"ProcessId\">6112</Data>\n    <Data Name=\"Image\">C:\\Windows\\\
+    system32\\WindowsPowerShell\\v1.0\\PowerShell_ISE.exe</Data>\n    <Data Name=\"\
+    TargetFilename\">C:\\Users\\pedro-admin\\AppData\\Local\\Microsoft_Corporation\\\
+    PowerShell_ISE.exe_StrongName_lw2v2vm3wmtzzpebq33gybmeoxukb04w\\3.0.0.0\\AutoSaveInformation\\\
+    w1hsxydx.tmp</Data>\n    <Data Name=\"CreationUtcTime\">2022-09-07 13:36:32.306</Data>\n\
+    \    <Data Name=\"PreviousCreationUtcTime\">2022-09-22 23:53:53.981</Data>\n \
+    \   <Data Name=\"User\">PEDRO-COMPUTER\\pedro-admin</Data>\n  </EventData>\n</Event>"

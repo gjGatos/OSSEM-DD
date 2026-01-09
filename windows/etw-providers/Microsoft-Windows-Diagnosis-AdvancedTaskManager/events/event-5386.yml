@@ -1,5 +1,5 @@
 name: Event 5386 - Dashboard_Network_Adapter_WifiSetProperties
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Diagnosis-AdvancedTaskManager
 event_id: '5386'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: SSID
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PhysicalNetworkType
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SignalQuality
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_dashboard

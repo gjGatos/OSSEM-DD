@@ -1,5 +1,5 @@
 name: Event 241 - TouchPadConfidenceCleared
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Win32k
 event_id: '241'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: ContactId
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: OnUp
   type: Boolean
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: NeedsUp
   type: Boolean
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_TouchInput

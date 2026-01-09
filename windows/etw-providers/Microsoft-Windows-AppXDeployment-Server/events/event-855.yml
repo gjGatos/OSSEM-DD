@@ -1,5 +1,5 @@
 name: Event 855 - AppXDeployment.Task.Server.Dependency
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-AppXDeployment-Server
 event_id: '855'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: PackageMoniker
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_APPXDEPLOYMENTSERVER_KEYWORD

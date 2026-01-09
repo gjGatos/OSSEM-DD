@@ -11,7 +11,7 @@ event_fields:
   type: TEXT
   description: UTI-format bundle or label ID
   sample_value: TBD
-- standard_name: TBD
+- standard_name: UserUid
   standard_type: TBD
   name: user
   type: TEXT
@@ -29,13 +29,13 @@ event_fields:
   type: TEXT
   description: Sandbox-specific identifier
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: bundle_path
   type: TEXT
   description: Application bundle used by the sandbox
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: path
   type: TEXT

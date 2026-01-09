@@ -1,5 +1,5 @@
 name: Event 24 - AudEngineStream_FillRenderBuffer_Task
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-MediaFoundation-Performance-Core
 event_id: '24'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: object
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: u32CurrentPadding
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: u32FramesToRender
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: u32TimeLeft
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_AudEngineStream_FillRenderBuffer_BufferInfo

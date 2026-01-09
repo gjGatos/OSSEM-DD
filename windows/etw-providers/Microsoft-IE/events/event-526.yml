@@ -1,5 +1,5 @@
 name: Event 526 - Mshtml_EventDebug_DOM_Event_Dispatch
-description:
+description: null
 platform: windows
 log_source: Microsoft-IE
 event_id: '526'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: EventType
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: EventParam
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: EventTarget
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_eventsandtimers

@@ -1,5 +1,5 @@
 name: Event 235 - StateRepository.Task.Migrate
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-StateRepository
 event_id: '235'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: MachineDisposition
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PreviousMachineVersion
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: DeploymentDisposition
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PreviousDeploymentVersion
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: MigratorErrors
   type: Int32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_keywords_STATEREPOSITORY_KEYWORD keyword_200000000000

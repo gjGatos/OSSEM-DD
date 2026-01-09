@@ -1,5 +1,5 @@
 name: Event 3027 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-PushNotifications-Platform
 event_id: '3027'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: SlotIndex
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: NotificationId
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: BITSPriority
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: IsTile
   type: Boolean
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: UrlOriginal
   standard_type: TBD
   name: URL
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_wpnui

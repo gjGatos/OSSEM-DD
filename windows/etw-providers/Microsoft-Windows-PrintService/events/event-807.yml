@@ -1,5 +1,5 @@
 name: Event 807 - Printjobdiagnostics
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-PrintService
 event_id: '807'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: JobId
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_Printjobdiagnostics

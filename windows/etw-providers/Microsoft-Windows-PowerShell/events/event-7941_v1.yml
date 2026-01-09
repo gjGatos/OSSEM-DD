@@ -1,5 +1,5 @@
 name: Event 7941 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-PowerShell
 event_id: '7941'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: currentActivityId
   type: GUID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: parentActivityId
   type: GUID
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_opcode_Tobeusedwhenoperationisjustexecutingamethod

@@ -1,29 +1,29 @@
 name: Event 1 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-StorageManagement
 event_id: '1'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: CodeDescription
   standard_type: TBD
   name: Message
   type: UnicodeString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: FileName
   standard_type: TBD
   name: FileName
   type: AnsiString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: CodeEndLine
   standard_type: TBD
   name: LineNumber
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_EnterExit

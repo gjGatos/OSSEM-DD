@@ -1,5 +1,5 @@
 name: Event 4499 - WorkQueue:Notification
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-RTWorkQueue-Threading
 event_id: '4499'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: WorkQueuePointer
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: WorkQueueID
   type: Int32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_opcode_Start

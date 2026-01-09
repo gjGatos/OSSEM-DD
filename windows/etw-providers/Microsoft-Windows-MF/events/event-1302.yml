@@ -1,5 +1,5 @@
 name: Event 1302 - MFDSSamplePoolPending
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-MF
 event_id: '1302'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: Object
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Sample
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PendingCount
   type: Int32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_task_MFDSSamplePoolPending

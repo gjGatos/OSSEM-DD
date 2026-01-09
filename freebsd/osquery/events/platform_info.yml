@@ -35,7 +35,7 @@ event_fields:
   type: TEXT
   description: Relative address of firmware mapping
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FileSize
   standard_type: TBD
   name: size
   type: TEXT

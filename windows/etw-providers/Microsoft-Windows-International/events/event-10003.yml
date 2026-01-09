@@ -1,5 +1,5 @@
 name: Event 10003 - NLSUnattendedRegionalandLanguageOptions
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-International
 event_id: '10003'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: LocaleName
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_opcode_NLSoperations

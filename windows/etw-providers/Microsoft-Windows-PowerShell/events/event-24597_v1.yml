@@ -1,5 +1,5 @@
 name: Event 24597 - PowerShellISEOperation
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-PowerShell
 event_id: '24597'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: CurrentLine
   type: Int32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: FileName
   standard_type: TBD
   name: FileName
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_PowerShellISEOperation

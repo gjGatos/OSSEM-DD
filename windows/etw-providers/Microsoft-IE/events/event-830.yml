@@ -1,5 +1,5 @@
 name: Event 830 - Mshtml_Query_App_Link_Support_Task
-description:
+description: null
 platform: windows
 log_source: Microsoft-IE
 event_id: '830'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: URL
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_mshtml

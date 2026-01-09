@@ -1,5 +1,5 @@
 name: Event 274 - StateRepository.Task.DataAccessLayer
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-StateRepository
 event_id: '274'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: ErrorCode
   type: HexInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Options
   type: HexInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Disposition
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ErrorCount
   type: UInt64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_keywords_STATEREPOSITORY_KEYWORD keyword_200000000000

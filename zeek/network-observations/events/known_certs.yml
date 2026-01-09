@@ -1,5 +1,5 @@
 name: Known Certs Log
-description:
+description: null
 platform: zeek
 log_source: network-observations
 event_id: known_certs
@@ -17,7 +17,7 @@ event_fields:
   type: ip
   description: The address that offered the certificate
   sample_value: '``'
-- standard_name: TBD
+- standard_name: CertificateSubject
   standard_type: TBD
   name: issuer_subject
   type: string
@@ -27,15 +27,16 @@ event_fields:
   standard_type: TBD
   name: port_num
   type: integer
-  description: If the certificate was handed out by a server, this is the port that the server was listening on
+  description: If the certificate was handed out by a server, this is the port that
+    the server was listening on
   sample_value: '``'
-- standard_name: TBD
+- standard_name: CertificateSerialNumber
   standard_type: TBD
   name: serial
   type: string
   description: Serial number for the certificate.
   sample_value: -36505778F019737EE721B36D73893736
-- standard_name: TBD
+- standard_name: CertificateSubject
   standard_type: TBD
   name: subject
   type: string

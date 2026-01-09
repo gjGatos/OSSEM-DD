@@ -1,5 +1,5 @@
 name: Event 7951 - PnP_DMRC_Query
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-UserPnp
 event_id: '7951'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: QueryType
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: LookupKey
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_UserPnp

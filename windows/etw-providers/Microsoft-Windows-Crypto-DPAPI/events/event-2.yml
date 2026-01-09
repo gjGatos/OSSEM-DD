@@ -1,5 +1,5 @@
 name: Event 2 - MasterKeyOperation
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Crypto-DPAPI
 event_id: '2'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: MasterKeyGUID
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: UserStorage
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_ETW_TASK_MASTERKEY_OPERATION

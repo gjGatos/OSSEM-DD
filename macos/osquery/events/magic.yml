@@ -5,7 +5,7 @@ log_source: osquery
 event_id: magic
 event_version: 4.4.2
 event_fields:
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: path
   type: TEXT
@@ -15,7 +15,9 @@ event_fields:
   standard_type: TBD
   name: magic_db_files
   type: TEXT
-  description: 'Colon(:) separated list of files where the magic db file can be found. By default one of the following is used: /usr/share/file/magic/magic, /usr/share/misc/magic or /usr/share/misc/magic.mgc'
+  description: 'Colon(:) separated list of files where the magic db file can be found.
+    By default one of the following is used: /usr/share/file/magic/magic, /usr/share/misc/magic
+    or /usr/share/misc/magic.mgc'
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD

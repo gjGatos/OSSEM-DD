@@ -1,5 +1,5 @@
 name: Event 1004 - FunDisc_CreateInstanceCollectionQuery
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-FunctionDiscovery
 event_id: '1004'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: Category
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Subcategory
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: IncludeSubcategories
   type: Boolean
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_Start

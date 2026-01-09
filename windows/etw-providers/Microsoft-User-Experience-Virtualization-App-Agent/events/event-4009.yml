@@ -1,5 +1,5 @@
 name: Event 4009 - Local/remotechangemanager,offlinefiles
-description:
+description: null
 platform: windows
 log_source: Microsoft-User Experience Virtualization-App Agent
 event_id: '4009'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: stringValue1
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_opcode_AppAgent

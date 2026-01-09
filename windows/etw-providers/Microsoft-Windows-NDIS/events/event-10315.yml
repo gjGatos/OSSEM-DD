@@ -1,5 +1,5 @@
 name: Event 10315 - Power
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-NDIS
 event_id: '10315'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: IfIndex
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: IfLuid
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ActiveTime
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PowerTransitionCount
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Power LwtDiagnostic

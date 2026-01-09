@@ -1,35 +1,35 @@
 name: Event 751 - EdgeHTML_Webview_AppPermissionResponse
-description:
+description: null
 platform: windows
 log_source: Microsoft-IE
 event_id: '751'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: UrlOriginal
   standard_type: TBD
   name: URL
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PermissionType
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PermissionState
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: IsPrimaryResponse
   type: Boolean
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_mshtml

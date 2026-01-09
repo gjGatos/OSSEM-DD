@@ -1,5 +1,5 @@
 name: Event 127 - QosSupportChanged
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Kernel-Processor-Power
 event_id: '127'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: SchedulerDirectedPerfStatesSupported
   type: Boolean
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PpmQosEnabled
   type: Boolean
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PpmQosDisableReasons
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Diag PerfDiag

@@ -1,5 +1,5 @@
 name: Event 10082 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-NWiFi
 event_id: '10082'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: AdapterGuid
   type: GUID
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_DisconnectedStandby

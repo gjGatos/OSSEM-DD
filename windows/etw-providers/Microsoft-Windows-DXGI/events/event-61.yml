@@ -1,5 +1,5 @@
 name: Event 61 - CheckMultiplaneOverlaySupportFail
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-DXGI
 event_id: '61'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: pIDXGISwapChain
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: KernelSupport
   type: Boolean
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: DriverFailed
   type: Boolean
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: InvalidParam
   type: Boolean
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: NumPlanes
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_Events

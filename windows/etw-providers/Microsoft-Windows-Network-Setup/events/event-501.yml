@@ -1,5 +1,5 @@
 name: Event 501 - Operation
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Network-Setup
 event_id: '501'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: TransactionGuid
   type: GUID
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: CodeDescription
   standard_type: TBD
   name: Code
   type: Int32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_Stop

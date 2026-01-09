@@ -1,5 +1,5 @@
 name: Event 4010 - CheckCorporateInside/outsideLocation
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-NCSI
 event_id: '4010'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: InterfaceGuid
   type: GUID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: CurrentOrNextState
   type: UInt8
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: IfLuid
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: CorporateLocation
   type: UInt8
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: CorporateLocationMetadata
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_LwtDiagnostic keyword_200000000000

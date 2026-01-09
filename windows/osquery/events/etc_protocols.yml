@@ -5,25 +5,25 @@ log_source: osquery
 event_id: etc_protocols
 event_version: 5.0.1
 event_fields:
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: name
   type: TEXT
   description: Protocol name
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: number
   type: INTEGER
   description: Protocol number
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: alias
   type: TEXT
   description: Protocol alias
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: comment
   type: TEXT

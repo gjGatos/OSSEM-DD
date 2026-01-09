@@ -1,5 +1,5 @@
 name: Tunnel Log
-description:
+description: null
 platform: zeek
 log_source: network-protocols
 event_id: tunnel
@@ -35,11 +35,14 @@ event_fields:
   type: integer
   description: The responding/destination port
   sample_value: '3544'
-- standard_name: EventUid
+- standard_name: UserUid
   standard_type: TBD
   name: uid
   type: string
-  description: The unique identifier for the tunnel, which may correspond to a connection's uid field for non-IP-in-IP tunnels. This is optional because there could be numerous connections for payload proxies like SOCKS but we should treat it as a single tunnel
+  description: The unique identifier for the tunnel, which may correspond to a connection's
+    uid field for non-IP-in-IP tunnels. This is optional because there could be numerous
+    connections for payload proxies like SOCKS but we should treat it as a single
+    tunnel
   sample_value: '``'
 - standard_name: TBD
   standard_type: TBD

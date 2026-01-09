@@ -1,5 +1,5 @@
 name: Event 1217 - AadCloudAPPluginOperation
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-AAD
 event_id: '1217'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: value1
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: value2
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: value3
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Analytic

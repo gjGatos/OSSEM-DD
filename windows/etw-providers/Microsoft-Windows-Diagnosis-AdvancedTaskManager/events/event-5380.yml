@@ -1,5 +1,5 @@
 name: Event 5380 - Dashboard_Disk_EnumerateDisks
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Diagnosis-AdvancedTaskManager
 event_id: '5380'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: DiskCount
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_dashboard

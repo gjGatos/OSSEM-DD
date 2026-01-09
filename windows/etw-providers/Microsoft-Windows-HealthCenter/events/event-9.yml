@@ -1,5 +1,5 @@
 name: Event 9 - HealthCenter_IconNotificationCaching
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-HealthCenter
 event_id: '9'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: HRESULT
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Warning
 - etw_task_HealthCenter_IconNotificationCaching

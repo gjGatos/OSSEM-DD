@@ -1,23 +1,23 @@
 name: Event 2111 - PlaceholderTileTransformer
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-ShellCommon-StartLayoutPopulation
 event_id: '2111'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: FileName
   standard_type: TBD
   name: itemName
   type: UnicodeString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: FileSize
   standard_type: TBD
   name: size
   type: UInt64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_PlaceholderTileTransformer

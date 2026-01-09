@@ -1,5 +1,5 @@
 name: Event 52 - Restore
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-PrintBRM
 event_id: '52'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: ProcessorName
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_PRINT_PROC_KEYWORD

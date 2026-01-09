@@ -1,11 +1,12 @@
 name: 'Event ID 14: RegistryEvent (Key and Value Rename)'
-description: '**Registry key and value rename** operations map to this event type, recording the new name of the key or value that was renamed.'
+description: '**Registry key and value rename** operations map to this event type,
+  recording the new name of the key or value that was renamed.'
 platform: windows
 log_source: Microsoft-Windows-Sysmon
 event_id: '14'
 event_version: '2'
 event_fields:
-- standard_name: Tag
+- standard_name: KeyOperation
   standard_type: TBD
   name: RuleName
   type: string
@@ -23,7 +24,7 @@ event_fields:
   type: date
   description: Time in UTC when event was created
   sample_value: 4/11/18 6:04
-- standard_name: ProcessGuid
+- standard_name: ProcessId
   standard_type: TBD
   name: ProcessGuid
   type: string
@@ -33,9 +34,10 @@ event_fields:
   standard_type: TBD
   name: ProcessId
   type: integer
-  description: Process ID used by the os to identify the process that renamed a registry value and key
+  description: Process ID used by the os to identify the process that renamed a registry
+    value and key
   sample_value: '4624'
-- standard_name: ProcessFilePath
+- standard_name: ProcessFileName
   standard_type: TBD
   name: Image
   type: string
@@ -53,7 +55,7 @@ event_fields:
   type: string
   description: new name of the registry key
   sample_value: \REGISTRY\MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\hello
-- standard_name: UserName
+- standard_name: UserNetworkAccountName
   standard_type: TBD
   name: User
   type: string
@@ -66,60 +68,36 @@ references:
   link: https://github.com/trustedsec/SysmonCommunityGuide/blob/master/registry-actions.md
 tags: []
 event_sample:
-  - format: friendly view
-    sample: |-
-      Log Name:      Microsoft-Windows-Sysmon/Operational
-      Source:        Microsoft-Windows-Sysmon
-      Date:          9/22/2022 5:43:12 PM
-      Event ID:      14
-      Task Category: Registry object renamed (rule: RegistryEvent)
-      Level:         Information
-      Keywords:      
-      User:          SYSTEM
-      Computer:      pedro-computer
-      Description:
-      The description for Event ID 14 from source Microsoft-Windows-Sysmon cannot be found. Either the component that raises this event is not installed on your local computer or the installation is corrupted. You can install or repair the component on the local computer.
-      If the event originated on another computer, the display information had to be saved with the event.
-      The following information was included with the event: 
-      -
-      RenameKey
-      2022-09-23 00:43:12.398
-      EV_RenderedValue_3.00
-      4140
-      C:\Windows\regedit.exe
-      HKU\S-1-5-21-3768430097-3400800235-1714852860-1001\System\CurrentControlSet\Control\New
-      HKU\S-1-5-21-3768430097-3400800235-1714852860-1001\System\CurrentControlSet\Control\Modified
-      PEDRO-COMPUTER\pedro-admin
-
-      The publisher has been disabled and its resource is not available. This usually occurs when the publisher is in the process of being uninstalled or upgraded
-  - format: friendly view
-    sample: |-
-      <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
-        <System>
-          <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
-          <EventID>14</EventID>
-          <Version>2</Version>
-          <Level>4</Level>
-          <Task>14</Task>
-          <Opcode>0</Opcode>
-          <Keywords>0x8000000000000000</Keywords>
-          <TimeCreated SystemTime="2022-09-23T00:43:12.421879800Z" />
-          <EventRecordID>2456044</EventRecordID>
-          <Correlation />
-          <Execution ProcessID="6152" ThreadID="7900" />
-          <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
-          <Computer>pedro-computer</Computer>
-          <Security UserID="S-1-5-18" />
-        </System>
-        <EventData>
-          <Data Name="RuleName">-</Data>
-          <Data Name="EventType">RenameKey</Data>
-          <Data Name="UtcTime">2022-09-23 00:43:12.398</Data>
-          <Data Name="ProcessGuid">{564ff025-0102-632d-da07-000000000500}</Data>
-          <Data Name="ProcessId">4140</Data>
-          <Data Name="Image">C:\Windows\regedit.exe</Data>
-          <Data Name="TargetObject">HKU\S-1-5-21-3768430097-3400800235-1714852860-1001\System\CurrentControlSet\Control\New</Data>
-          <Data Name="NewName">HKU\S-1-5-21-3768430097-3400800235-1714852860-1001\System\CurrentControlSet\Control\Modified</Data>
-          <Data Name="User">PEDRO-COMPUTER\pedro-admin</Data>
-        </EventData>
-      </Event>
+- format: friendly view
+  sample: "Log Name:      Microsoft-Windows-Sysmon/Operational\nSource:        Microsoft-Windows-Sysmon\n\
+    Date:          9/22/2022 5:43:12 PM\nEvent ID:      14\nTask Category: Registry\
+    \ object renamed (rule: RegistryEvent)\nLevel:         Information\nKeywords:\
+    \      \nUser:          SYSTEM\nComputer:      pedro-computer\nDescription:\n\
+    The description for Event ID 14 from source Microsoft-Windows-Sysmon cannot be\
+    \ found. Either the component that raises this event is not installed on your\
+    \ local computer or the installation is corrupted. You can install or repair the\
+    \ component on the local computer.\nIf the event originated on another computer,\
+    \ the display information had to be saved with the event.\nThe following information\
+    \ was included with the event: \n-\nRenameKey\n2022-09-23 00:43:12.398\nEV_RenderedValue_3.00\n\
+    4140\nC:\\Windows\\regedit.exe\nHKU\\S-1-5-21-3768430097-3400800235-1714852860-1001\\\
+    System\\CurrentControlSet\\Control\\New\nHKU\\S-1-5-21-3768430097-3400800235-1714852860-1001\\\
+    System\\CurrentControlSet\\Control\\Modified\nPEDRO-COMPUTER\\pedro-admin\n\n\
+    The publisher has been disabled and its resource is not available. This usually\
+    \ occurs when the publisher is in the process of being uninstalled or upgraded"
+- format: friendly view
+  sample: "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"\
+    >\n  <System>\n    <Provider Name=\"Microsoft-Windows-Sysmon\" Guid=\"{5770385f-c22a-43e0-bf4c-06f5698ffbd9}\"\
+    \ />\n    <EventID>14</EventID>\n    <Version>2</Version>\n    <Level>4</Level>\n\
+    \    <Task>14</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000000</Keywords>\n\
+    \    <TimeCreated SystemTime=\"2022-09-23T00:43:12.421879800Z\" />\n    <EventRecordID>2456044</EventRecordID>\n\
+    \    <Correlation />\n    <Execution ProcessID=\"6152\" ThreadID=\"7900\" />\n\
+    \    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>\n    <Computer>pedro-computer</Computer>\n\
+    \    <Security UserID=\"S-1-5-18\" />\n  </System>\n  <EventData>\n    <Data Name=\"\
+    RuleName\">-</Data>\n    <Data Name=\"EventType\">RenameKey</Data>\n    <Data\
+    \ Name=\"UtcTime\">2022-09-23 00:43:12.398</Data>\n    <Data Name=\"ProcessGuid\"\
+    >{564ff025-0102-632d-da07-000000000500}</Data>\n    <Data Name=\"ProcessId\">4140</Data>\n\
+    \    <Data Name=\"Image\">C:\\Windows\\regedit.exe</Data>\n    <Data Name=\"TargetObject\"\
+    >HKU\\S-1-5-21-3768430097-3400800235-1714852860-1001\\System\\CurrentControlSet\\\
+    Control\\New</Data>\n    <Data Name=\"NewName\">HKU\\S-1-5-21-3768430097-3400800235-1714852860-1001\\\
+    System\\CurrentControlSet\\Control\\Modified</Data>\n    <Data Name=\"User\">PEDRO-COMPUTER\\\
+    pedro-admin</Data>\n  </EventData>\n</Event>"

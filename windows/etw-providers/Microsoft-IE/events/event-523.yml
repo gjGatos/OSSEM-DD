@@ -1,5 +1,5 @@
 name: Event 523 - Mshtml_Animations_Instance
-description:
+description: null
 platform: windows
 log_source: Microsoft-IE
 event_id: '523'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: AnimationInstanceObject
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: AnimationStoryboardObject
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: DISPID
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: IsTransition
   type: Boolean
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_animation composition_verbose

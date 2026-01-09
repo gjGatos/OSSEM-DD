@@ -1,23 +1,23 @@
 name: Event 218 - PresentTimeCritical
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-MediaEngine
 event_id: '218'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: Object
   type: Pointer
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: 'null'
   standard_type: TBD
   name: TimeDelta
   type: Int64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_opcode_Start

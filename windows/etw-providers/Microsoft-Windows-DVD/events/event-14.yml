@@ -1,5 +1,5 @@
 name: Event 14 - NavSendErrorNotification
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-DVD
 event_id: '14'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: Object
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Param1
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Param2
   type: Int32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_task_NavSendErrorNotification

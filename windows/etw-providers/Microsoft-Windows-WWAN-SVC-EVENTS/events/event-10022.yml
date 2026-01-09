@@ -1,5 +1,5 @@
 name: Event 10022 - InterfaceInitializationTask
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-WWAN-SVC-EVENTS
 event_id: '10022'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: InterfaceGuid
   type: GUID
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_LwtDiagnostic InterfaceEnum keyword_200000000000

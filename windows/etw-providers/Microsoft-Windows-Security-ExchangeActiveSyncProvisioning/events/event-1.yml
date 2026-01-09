@@ -1,5 +1,5 @@
 name: Event 1 - EAS_REGPROV
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Security-ExchangeActiveSyncProvisioning
 event_id: '1'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: DllPath
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Critical
 - etw_task_EAS_REGPROV

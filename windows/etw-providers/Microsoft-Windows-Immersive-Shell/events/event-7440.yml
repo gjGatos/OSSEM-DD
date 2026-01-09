@@ -1,23 +1,23 @@
 name: Event 7440 - ConnectedSearch_BadSignature
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Immersive-Shell
 event_id: '7440'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: Path
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Validation
   type: Boolean
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_ConnectedSearch_BadSignature

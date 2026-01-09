@@ -1,23 +1,23 @@
 name: Event 68 - EAP
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-OneX
 event_id: '68'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: SrcPort
   standard_type: TBD
   name: PortId
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ExplicitCredentials
   type: Boolean
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_EAP ut:Authentication

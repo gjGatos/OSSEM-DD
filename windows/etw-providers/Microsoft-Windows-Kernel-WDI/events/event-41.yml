@@ -1,5 +1,5 @@
 name: Event 41 - SEMInitialization
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Kernel-WDI
 event_id: '41'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: ProviderID
   type: GUID
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_opcode_Thenumberofprovidersspecifiedacrossallscenariosisabovethemaximumallowedamount.

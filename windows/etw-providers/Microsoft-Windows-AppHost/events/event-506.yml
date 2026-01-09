@@ -1,29 +1,29 @@
 name: Event 506 - Suspending
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-AppHost
 event_id: '506'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: ProcessId
   standard_type: TBD
   name: PID
   type: Int32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: SoftwareName
   standard_type: TBD
   name: PackageFullName
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: AppUserModelId
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_WWAHOST_KEYWORD

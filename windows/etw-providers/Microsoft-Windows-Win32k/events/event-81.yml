@@ -1,5 +1,5 @@
 name: Event 81 - InjectMouse
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Win32k
 event_id: '81'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: CallbackCount
   type: Int8
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: 'null'
   standard_type: TBD
   name: Time
   type: Int32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: 'null'
   standard_type: TBD
   name: X
   type: Int32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: 'null'
   standard_type: TBD
   name: Y
   type: Int32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_MessagePumpInternalAndInput

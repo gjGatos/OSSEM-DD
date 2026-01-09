@@ -1,23 +1,23 @@
 name: Event 17 - KERNEL_NETWORK_TASK_TCPIP
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Kernel-Network
 event_id: '17'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: Proto
   type: UInt16
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: 'null'
   standard_type: TBD
   name: FailureCode
   type: UInt16
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_KERNEL_NETWORK_KEYWORD_IPV4 KERNEL_NETWORK_KEYWORD_IPV6

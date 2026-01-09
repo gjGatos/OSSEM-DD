@@ -1,5 +1,5 @@
 name: Event 9 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-DCLocator
 event_id: '9'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: Message
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_site_more

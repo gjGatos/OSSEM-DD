@@ -1,23 +1,23 @@
 name: Event 5001 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Diagnosis-ScriptedDiagnosticsProvider
 event_id: '5001'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: ApiCallName
   standard_type: TBD
   name: Method
   type: AnsiString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Value
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_errors

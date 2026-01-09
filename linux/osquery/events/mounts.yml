@@ -23,7 +23,7 @@ event_fields:
   type: TEXT
   description: Mounted device path
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareName
   standard_type: TBD
   name: type
   type: TEXT

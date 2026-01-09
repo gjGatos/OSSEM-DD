@@ -17,7 +17,7 @@ event_fields:
   type: UnicodeString
   description: The name of the account that cleared the system security audit log
   sample_value: pedro
-- standard_name: UserDomain
+- standard_name: Domain
   standard_type: TBD
   name: SubjectDomainName
   type: UnicodeString
@@ -28,7 +28,7 @@ event_fields:
   name: SubjectLogonId
   type: HexInt64
   description: Logon ID of the subject's logon session
-  sample_value: 0x20256d6
+  sample_value: 33707734
 references:
 - https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/event-1102
 tags:
@@ -36,30 +36,15 @@ tags:
 - etw_task_Logclear
 event_sample:
 - format: xml
-  sample: |-
-    <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"> 
-      <System> 
-        <Provider Name="Microsoft-Windows-Eventlog" Guid="{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}" /> 
-        <EventID>1102</EventID> 
-        <Version>0</Version> 
-        <Level>4</Level> 
-        <Task>104</Task> 
-        <Opcode>0</Opcode> 
-        <Keywords>0x4020000000000000</Keywords> 
-        <TimeCreated SystemTime="2022-08-09T14:44:05.629920700Z" /> 
-        <EventRecordID>266417</EventRecordID> 
-        <Correlation /> 
-        <Execution ProcessID="1444" ThreadID="2044" /> 
-        <Channel>Security</Channel> 
-        <Computer>Pedro01</Computer> 
-        <Security /> 
-      </System> 
-      <UserData> 
-        <LogFileCleared xmlns="http://manifests.microsoft.com/win/2004/08/windows/eventlog"> 
-          <SubjectUserSid>S-1-5-21-968647429-258479840-2507984072-1001</SubjectUserSid> 
-          <SubjectUserName>pedro</SubjectUserName> 
-          <SubjectDomainName>PEDRO01</SubjectDomainName> 
-          <SubjectLogonId>0x20256d6</SubjectLogonId> 
-        </LogFileCleared> 
-      </UserData> 
-    </Event> 
+  sample: "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"\
+    > \n  <System> \n    <Provider Name=\"Microsoft-Windows-Eventlog\" Guid=\"{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}\"\
+    \ /> \n    <EventID>1102</EventID> \n    <Version>0</Version> \n    <Level>4</Level>\
+    \ \n    <Task>104</Task> \n    <Opcode>0</Opcode> \n    <Keywords>0x4020000000000000</Keywords>\
+    \ \n    <TimeCreated SystemTime=\"2022-08-09T14:44:05.629920700Z\" /> \n    <EventRecordID>266417</EventRecordID>\
+    \ \n    <Correlation /> \n    <Execution ProcessID=\"1444\" ThreadID=\"2044\"\
+    \ /> \n    <Channel>Security</Channel> \n    <Computer>Pedro01</Computer> \n \
+    \   <Security /> \n  </System> \n  <UserData> \n    <LogFileCleared xmlns=\"http://manifests.microsoft.com/win/2004/08/windows/eventlog\"\
+    > \n      <SubjectUserSid>S-1-5-21-968647429-258479840-2507984072-1001</SubjectUserSid>\
+    \ \n      <SubjectUserName>pedro</SubjectUserName> \n      <SubjectDomainName>PEDRO01</SubjectDomainName>\
+    \ \n      <SubjectLogonId>0x20256d6</SubjectLogonId> \n    </LogFileCleared> \n\
+    \  </UserData> \n</Event> "

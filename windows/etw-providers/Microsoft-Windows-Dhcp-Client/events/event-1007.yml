@@ -1,29 +1,29 @@
 name: Event 1007 - AddressConfigurationStateEvent
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Dhcp-Client
 event_id: '1007'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: HWLength
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: MacAddr
   standard_type: TBD
   name: HWAddress
   type: Binary
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: 'null'
   standard_type: TBD
   name: Address
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_AutoconfigurationSuccess

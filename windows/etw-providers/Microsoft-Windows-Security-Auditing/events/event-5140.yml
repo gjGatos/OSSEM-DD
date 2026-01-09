@@ -1,53 +1,53 @@
 name: Event 5140 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
 event_id: '5140'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: UserSid
   standard_type: TBD
   name: SubjectUserSid
   type: SID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SubjectUserName
   type: UnicodeString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: Domain
   standard_type: TBD
   name: SubjectDomainName
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: IpAddress
   standard_type: TBD
   name: IpAddress
   type: UnicodeString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: Ipv4Port
   standard_type: TBD
   name: IpPort
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ShareName
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_task_0

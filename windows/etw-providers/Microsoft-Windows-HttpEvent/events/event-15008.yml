@@ -1,23 +1,23 @@
 name: Event 15008 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-HttpEvent
 event_id: '15008'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: DeviceObject
   type: UnicodeString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: UrlOriginal
   standard_type: TBD
   name: Url
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_opcode_opcode_64

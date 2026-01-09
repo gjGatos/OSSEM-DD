@@ -1,5 +1,5 @@
 name: Event 1020 - SensorsCxSetDataIntervalTask
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Sensors-Core
 event_id: '1020'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: WdfDevice
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SENSOROBJECT
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: IntervalMs
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: NtStatus
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_task_SensorsCxSetDataIntervalTask

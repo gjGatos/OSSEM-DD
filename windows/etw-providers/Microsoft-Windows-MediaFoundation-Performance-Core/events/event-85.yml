@@ -1,5 +1,5 @@
 name: Event 85 - MFAudio_Render_GetTimeTask
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-MediaFoundation-Performance-Core
 event_id: '85'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: object
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: phnsTimeNow
   type: Int64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: phnsCorrelatedTime
   type: Int64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: m_bInvalidatingStream
   type: Boolean
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_AudStreamSink_InternalGetTime_Info

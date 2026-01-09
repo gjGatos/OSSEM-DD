@@ -1,5 +1,5 @@
 name: Event 1066 - ApplicationActivateEvent
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-AppHost
 event_id: '1066'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: ToggleCount
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ToggleDetail
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PackageFullName
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: AppID
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_WwaHost

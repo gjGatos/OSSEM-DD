@@ -1,5 +1,5 @@
 name: Event 79 - Manipulation_ViewportDisable
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-DirectManipulation
 event_id: '79'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: ViewportPointer
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_Manipulation_ViewportDisable

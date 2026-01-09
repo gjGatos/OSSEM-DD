@@ -1,5 +1,5 @@
 name: Event 30012 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-AppV-SharedPerformance
 event_id: '30012'
@@ -9,8 +9,8 @@ event_fields:
   standard_type: TBD
   name: uint32
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_task_task_0

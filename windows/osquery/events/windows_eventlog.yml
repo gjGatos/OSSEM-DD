@@ -65,7 +65,7 @@ event_fields:
   type: TEXT
   description: Data associated with the event
   sample_value: TBD
-- standard_name: TBD
+- standard_name: ProcessId
   standard_type: TBD
   name: pid
   type: INTEGER

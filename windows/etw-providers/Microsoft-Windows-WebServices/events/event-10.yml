@@ -1,5 +1,5 @@
 name: Event 10 - IOOperations
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-WebServices
 event_id: '10'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: operation
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: error
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_keywords_keywords.IO

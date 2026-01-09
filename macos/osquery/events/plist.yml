@@ -5,25 +5,25 @@ log_source: osquery
 event_id: plist
 event_version: 4.4.2
 event_fields:
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: key
   type: TEXT
   description: Preference top-level key
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: subkey
   type: TEXT
   description: Intermediate key path, includes lists/dicts
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: value
   type: TEXT
   description: String value of most CF types
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: path
   type: TEXT

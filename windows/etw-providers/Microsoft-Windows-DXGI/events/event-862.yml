@@ -1,5 +1,5 @@
 name: Event 862 - IDXGISwapChainPartner_SetSourceRect
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-DXGI
 event_id: '862'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: pThis
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: pRect
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Rect
   type: Int32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_opcode_Start

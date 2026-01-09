@@ -1,5 +1,5 @@
 name: Event 1038 - PerfTrackHandleCounts
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Superfetch
 event_id: '1038'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: Processes
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Handles
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Objects
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Threads
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_PerfTrackHandleCounts

@@ -1,35 +1,35 @@
 name: Event 15018 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-HttpEvent
 event_id: '15018'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: DeviceObject
   type: UnicodeString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: FilePath
   standard_type: TBD
   name: LogFile
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: __binLength
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: binary
   type: Binary
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_opcode_opcode_192

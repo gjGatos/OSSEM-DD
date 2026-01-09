@@ -1,23 +1,23 @@
 name: Event 713 - Mshtml_CDragPreview_Initialize
-description:
+description: null
 platform: windows
 log_source: Microsoft-IE
 event_id: '713'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: DragPreview
   type: Pointer
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: 'null'
   standard_type: TBD
   name: FailureHresult
   type: HexInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_draganddrop touch

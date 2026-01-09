@@ -1,5 +1,5 @@
 name: Event 10028 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Search
 event_id: '10028'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: ExtraInfo
   type: UnicodeString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: SidHistory
   standard_type: TBD
   name: SID
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_opcode_opcode_128

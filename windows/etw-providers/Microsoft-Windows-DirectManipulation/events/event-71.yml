@@ -1,5 +1,5 @@
 name: Event 71 - Manipulation_Prediction
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-DirectManipulation
 event_id: '71'
@@ -9,39 +9,39 @@ event_fields:
   standard_type: TBD
   name: time
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: processTime
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: compositionTime
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: predictedTimeGap
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: predictionX
   type: Float
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: predictionY
   type: Float
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_Manipulation_Prediction

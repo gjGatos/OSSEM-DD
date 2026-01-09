@@ -1,23 +1,23 @@
 name: Event 30410 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-SMBClient
 event_id: '30410'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: RegistryKey
   standard_type: TBD
   name: RegName
   type: UnicodeString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: RegistryValueName
   standard_type: TBD
   name: RegValue
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Smb_Info

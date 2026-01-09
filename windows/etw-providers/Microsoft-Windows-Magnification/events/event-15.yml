@@ -1,5 +1,5 @@
 name: Event 15 - RecreateTextures
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Magnification
 event_id: '15'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: hWndLensCtx
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Width
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Height
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Magnification

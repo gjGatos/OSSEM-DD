@@ -1,5 +1,5 @@
 name: Event 7439 - ConnectedSearch_LogTemplateRequestInfo
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Immersive-Shell
 event_id: '7439'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: Result
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ImpressionGUID
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: TelemetryID
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_task_ConnectedSearch_LogTemplateRequestInfo

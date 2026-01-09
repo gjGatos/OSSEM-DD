@@ -1,5 +1,6 @@
 name: Drivers Table
-description: Details for in-use Windows device drivers. This does not display installed but unused drivers.
+description: Details for in-use Windows device drivers. This does not display installed
+  but unused drivers.
 platform: windows
 log_source: osquery
 event_id: drivers
@@ -17,13 +18,13 @@ event_fields:
   type: TEXT
   description: Device name
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: image
   type: TEXT
   description: Path to driver image file
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FileDescription
   standard_type: TBD
   name: description
   type: TEXT
@@ -59,13 +60,13 @@ event_fields:
   type: TEXT
   description: Device/driver class name
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareVendor
   standard_type: TBD
   name: provider
   type: TEXT
   description: Driver provider
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareVendor
   standard_type: TBD
   name: manufacturer
   type: TEXT

@@ -1,5 +1,5 @@
 name: Event 8307 - ODB_Trace
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-AppModel-Exec
 event_id: '8307'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: p1_GUID
   type: GUID
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_keywords_ExecProductionCircular ExecDevPlatCircular ODB keyword_200000000000

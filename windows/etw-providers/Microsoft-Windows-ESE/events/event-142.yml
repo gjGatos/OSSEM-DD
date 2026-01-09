@@ -1,5 +1,5 @@
 name: Event 142 - ESE_CacheLimitResize_Trace
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-ESE
 event_id: '142'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: cbfCacheSizeLimitInitial
   type: Int64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: cbfCacheSizeLimitFinal
   type: Int64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Performance BF

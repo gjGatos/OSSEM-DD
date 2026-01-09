@@ -11,7 +11,7 @@ event_fields:
   type: TEXT
   description: Absolute file path
   sample_value: TBD
-- standard_name: FileDirectory
+- standard_name: FolderPath
   standard_type: TBD
   name: directory
   type: TEXT
@@ -101,7 +101,7 @@ event_fields:
   type: INTEGER
   description: 1 if the path is a symlink, otherwise 0
   sample_value: TBD
-- standard_name: FileType
+- standard_name: FileDescription
   standard_type: TBD
   name: type
   type: TEXT

@@ -1,5 +1,5 @@
 name: Event 214 - IDXGIFactory_MakeWindowAssociation
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-DXGI
 event_id: '214'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: pThis
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: hWnd
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Flags
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_opcode_Start

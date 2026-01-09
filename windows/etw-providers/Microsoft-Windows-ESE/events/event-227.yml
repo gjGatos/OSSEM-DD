@@ -1,5 +1,5 @@
 name: Event 227 - ESE_tagFCBs_Trace
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-ESE
 event_id: '227'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: szTrace
   type: AnsiString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_JETTraceTag

@@ -1,5 +1,5 @@
 name: Event 933 - EUPP_HPNavigationTriggerProtection_Perftrack
-description:
+description: null
 platform: windows
 log_source: Microsoft-PerfTrack-IEFRAME
 event_id: '933'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: TriggerProtectionHResult
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_nonPerfTrack

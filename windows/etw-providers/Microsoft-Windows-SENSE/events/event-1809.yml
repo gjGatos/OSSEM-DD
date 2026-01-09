@@ -1,5 +1,5 @@
 name: Event 1809 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-SENSE
 event_id: '1809'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: UInt1
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Boolean1
   type: Boolean
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_task_task_0

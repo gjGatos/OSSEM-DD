@@ -5,7 +5,7 @@ log_source: osquery
 event_id: xprotect_entries
 event_version: 4.4.2
 event_fields:
-- standard_name: TBD
+- standard_name: SoftwareName
   standard_type: TBD
   name: name
   type: TEXT
@@ -17,13 +17,13 @@ event_fields:
   type: TEXT
   description: Launch services content type
   sample_value: TBD
-- standard_name: TBD
+- standard_name: HashSha1
   standard_type: TBD
   name: identity
   type: TEXT
   description: XProtect identity (SHA1) of content
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FileName
   standard_type: TBD
   name: filename
   type: TEXT

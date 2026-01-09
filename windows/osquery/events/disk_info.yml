@@ -23,49 +23,49 @@ event_fields:
   type: TEXT
   description: The interface type of the disk.
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: id
   type: TEXT
   description: The unique identifier of the drive on the system.
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: pnp_device_id
   type: TEXT
   description: The unique identifier of the drive on the system.
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FileSize
   standard_type: TBD
   name: disk_size
   type: BIGINT
   description: Size of the disk.
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareVendor
   standard_type: TBD
   name: manufacturer
   type: TEXT
   description: The manufacturer of the disk.
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareDescription
   standard_type: TBD
   name: hardware_model
   type: TEXT
   description: Hard drive model.
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FileName
   standard_type: TBD
   name: name
   type: TEXT
   description: The label of the disk object.
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: serial
   type: TEXT
   description: The serial number of the disk.
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: description
   type: TEXT

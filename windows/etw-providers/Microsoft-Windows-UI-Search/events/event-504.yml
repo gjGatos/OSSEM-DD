@@ -1,5 +1,5 @@
 name: Event 504 - ViewServiceSubscribe
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-UI-Search
 event_id: '504'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: ServiceIndex
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Result
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_Stop

@@ -1,5 +1,5 @@
 name: Event 159 - Jscript_AsyncCausality_StackTrace
-description:
+description: null
 platform: windows
 log_source: Microsoft-JScript
 event_id: '159'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: AsyncOperationId
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: FrameCount
   type: UInt16
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: NameBufferCount
   type: UInt16
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: NameBuffer
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Frames
   type: Int16
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_JScriptAsyncCausality

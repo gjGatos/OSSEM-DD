@@ -1,5 +1,5 @@
 name: Event 1067 - PageCombining
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Superfetch
 event_id: '1067'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: PagesCombined
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Combine

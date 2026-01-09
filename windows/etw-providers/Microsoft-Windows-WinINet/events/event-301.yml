@@ -1,5 +1,5 @@
 name: Event 301 - WININET_TCP_CONNECTION
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-WinINet
 event_id: '301'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: _ServerNameLength
   type: UInt16
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ServerName
   type: AnsiString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ConnectionHandle
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SocketHandle
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: LocalPort
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_WININET_KEYWORD_CONNECTION WININET_KEYWORD_HTTPDIAG

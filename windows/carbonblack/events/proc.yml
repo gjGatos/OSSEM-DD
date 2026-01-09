@@ -1,5 +1,6 @@
 name: ingress.event.procstart (Process Start)
-description: A new process has started (or exited) on an endpoint monitored by Carbon Black.
+description: A new process has started (or exited) on an endpoint monitored by Carbon
+  Black.
 platform: windows
 log_source: carbonblack
 event_id: proc
@@ -9,7 +10,8 @@ event_fields:
   standard_type: TBD
   name: cb_server
   type: TEXT
-  description: Used to distinguish between multiple Cb Response servers. Set this in the "server_name" option of cb-event-forwarder.ini.
+  description: Used to distinguish between multiple Cb Response servers. Set this
+    in the "server_name" option of cb-event-forwarder.ini.
   sample_value: cbserver
 - standard_name: ProcessCommandLine
   standard_type: TBD
@@ -33,7 +35,8 @@ event_fields:
   standard_type: TBD
   name: expect_followon_w_md5
   type: BOOLEAN
-  description: If the md5 could not be calculated in time then Cb Response will send another procstart with the process md5
+  description: If the md5 could not be calculated in time then Cb Response will send
+    another procstart with the process md5
   sample_value: 'false'
 - standard_name: ProcessParentLink
   standard_type: TBD
@@ -65,7 +68,7 @@ event_fields:
   type: INTEGER
   description: seconds since epoch of parent process create time
   sample_value: '1447440685'
-- standard_name: ProcessParentHash
+- standard_name: HashMd5
   standard_type: TBD
   name: parent_md5
   type: TEXT
@@ -101,31 +104,31 @@ event_fields:
   type: INTEGER
   description: OS Process id of child process
   sample_value: '1972'
-- standard_name: ProcessGuid
+- standard_name: ProcessId
   standard_type: TBD
   name: process_guid
   type: TEXT
   description: Cb Process GUID of child process
   sample_value: 00000001-0000-07b4-01d1-209a100bc217
-- standard_name: SensorId
+- standard_name: 'null'
   standard_type: TBD
   name: sensor_id
   type: INTEGER
   description: sensor ID of associated sensor
   sample_value: '1'
-- standard_name: EventDateCreation
+- standard_name: 'null'
   standard_type: TBD
   name: timestamp
   type: INTEGER
   description: Endpoint timestamp of this event since epoch
   sample_value: '1447697423'
-- standard_name: EventTypeDetailed
+- standard_name: 'null'
   standard_type: TBD
   name: type
   type: TEXT
   description: The full type of event
   sample_value: ingress.event.procstart
-- standard_name: UserName
+- standard_name: ProcessUserName
   standard_type: TBD
   name: username
   type: TEXT

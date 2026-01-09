@@ -1,5 +1,5 @@
 name: Event 30005 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Remotefs-Rdbss
 event_id: '30005'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: RxContext
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Rdbss_Perf

@@ -1,5 +1,5 @@
 name: Event 1298 - Ndkpi_Close_Adapter_Enter
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-TCPIP
 event_id: '1298'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: NdkAdapter
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_ut:TcpipNdkpi

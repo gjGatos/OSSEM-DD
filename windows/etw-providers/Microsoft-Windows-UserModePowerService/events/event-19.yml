@@ -1,5 +1,5 @@
 name: Event 19 - EnergyMeterMetaData
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-UserModePowerService
 event_id: '19'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: MeterId
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SamplingPeriod
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ChannelNameLength
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ChannelName
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_EnergyMeter

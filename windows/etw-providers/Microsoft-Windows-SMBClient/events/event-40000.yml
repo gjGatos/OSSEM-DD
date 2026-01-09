@@ -1,5 +1,5 @@
 name: Event 40000 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-SMBClient
 event_id: '40000'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: ConnectionType
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PeerAddressLength
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PeerAddress
   type: Binary
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PacketSize
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PacketData
   type: Binary
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_keyword_40000000000

@@ -1,17 +1,17 @@
 name: Event 1001 - RunOobeLdr
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-OobeLdr
 event_id: '1001'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: CommandLine
   standard_type: TBD
   name: CommandLine
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_keyPerformance keyword_200000000000

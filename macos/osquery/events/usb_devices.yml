@@ -17,7 +17,7 @@ event_fields:
   type: INTEGER
   description: USB Device used port
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareVendor
   standard_type: TBD
   name: vendor
   type: TEXT
@@ -29,13 +29,13 @@ event_fields:
   type: TEXT
   description: Hex encoded USB Device vendor identifier
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareVersion
   standard_type: TBD
   name: version
   type: TEXT
   description: USB Device version number
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareName
   standard_type: TBD
   name: model
   type: TEXT

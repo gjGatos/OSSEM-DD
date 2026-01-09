@@ -1,5 +1,5 @@
 name: Event 412 - Browseui_HangUI_AttachThreadInputHelper
-description:
+description: null
 platform: windows
 log_source: Microsoft-IEFRAME
 event_id: '412'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: Attach
   type: Boolean
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: TabID
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: AttachTID
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: AttachToTID
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: HRESULT
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_hang

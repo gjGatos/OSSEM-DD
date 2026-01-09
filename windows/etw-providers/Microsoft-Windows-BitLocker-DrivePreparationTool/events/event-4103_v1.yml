@@ -1,5 +1,5 @@
 name: Event 4103 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-BitLocker-DrivePreparationTool
 event_id: '4103'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: WinREVolumeName
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: DriveLetter
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: DiskNumber
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PartitionNumber
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_Initialization

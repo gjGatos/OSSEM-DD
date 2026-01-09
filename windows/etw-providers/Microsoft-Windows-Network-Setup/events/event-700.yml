@@ -1,5 +1,5 @@
 name: Event 700 - INetCfgNotifyObject
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Network-Setup
 event_id: '700'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: TransactionGuid
   type: GUID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ComponentId
   type: UnicodeString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: ApiCallName
   standard_type: TBD
   name: Api
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Parameter1
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Parameter2
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_Start

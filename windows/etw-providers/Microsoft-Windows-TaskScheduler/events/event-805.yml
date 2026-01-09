@@ -1,5 +1,5 @@
 name: Event 805 - Maintenancetaskisbehinddeadline
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-TaskScheduler
 event_id: '805'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: Task
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Warning
 - etw_task_Maintenancetaskisbehinddeadline

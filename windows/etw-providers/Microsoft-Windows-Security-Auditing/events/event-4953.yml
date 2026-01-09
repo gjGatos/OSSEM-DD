@@ -1,5 +1,6 @@
 name: 'Event ID 4953: Windows Firewall ignored a rule because it could not be parsed.'
-description: This event generates if Windows Firewall was not able to parse Windows Firewall rule for some reason.
+description: This event generates if Windows Firewall was not able to parse Windows
+  Firewall rule for some reason.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
 event_id: '4953'

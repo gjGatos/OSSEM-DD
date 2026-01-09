@@ -1,5 +1,6 @@
 name: Windows_optional_features Table
-description: Lists names and installation states of windows features. Maps to Win32_OptionalFeature WMI class.
+description: Lists names and installation states of windows features. Maps to Win32_OptionalFeature
+  WMI class.
 platform: windows
 log_source: osquery
 event_id: windows_optional_features

@@ -1,5 +1,5 @@
 name: Event 8 - FlipExSemaphoreTimeout
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-D3D9
 event_id: '8'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: LogicalSurfaceHandle
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: AdjustValue
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: FenceValue
   type: UInt64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_Events

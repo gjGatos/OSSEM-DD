@@ -1,47 +1,47 @@
 name: Event 222 - StateRepository.Task.WinRTAPI
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-StateRepository
 event_id: '222'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: CodeDescription
   standard_type: TBD
   name: ErrorCode
   type: HexInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Partition
   type: Int32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: FileName
   standard_type: TBD
   name: Filename
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Disposition
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: FoundSchemaVersion
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: CreatedSchemaVersion
   type: Int32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_keywords_STATEREPOSITORY_KEYWORD keyword_400000000000

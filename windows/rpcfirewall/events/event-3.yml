@@ -3,7 +3,7 @@ description: Event monitoring RPC server function calls.
 platform: windows
 log_source: RPCFWP
 event_id: '3'
-event_version:
+event_version: null
 event_fields:
 - standard_name: ProcessId
   standard_type: TBD
@@ -11,7 +11,7 @@ event_fields:
   type: string
   description: Id of the process being protected.
   sample_value: 732
-- standard_name: ProcessFilePath
+- standard_name: ProcessFileName
   standard_type: TBD
   name: Image Path
   type: string
@@ -27,13 +27,17 @@ event_fields:
   standard_type: TBD
   name: Protocol
   type: string
-  description: A character string that represents a valid combination of a RPC protocol, a network layer protocol, and a transport layer protocol (i.e ncacn_ip_tcp)
+  description: A character string that represents a valid combination of a RPC protocol,
+    a network layer protocol, and a transport layer protocol (i.e ncacn_ip_tcp)
   sample_value: ncacn_np
 - standard_name: RpcEndpoint
   standard_type: TBD
   name: Endpoint
   type: string
-  description: Depending on the RPC protocol sequence being used, an endpoint could be a port number, a named pipe or simply a name. When client and server are not in the same machine, the server listens on a port or group of ports. These port number are called endpoints in RPC.
+  description: Depending on the RPC protocol sequence being used, an endpoint could
+    be a port number, a named pipe or simply a name. When client and server are not
+    in the same machine, the server listens on a port or group of ports. These port
+    number are called endpoints in RPC.
   sample_value: \\pipe\\lsass
 - standard_name: SrcIpAddr
   standard_type: TBD
@@ -45,15 +49,17 @@ event_fields:
   standard_type: TBD
   name: InterfaceUuid
   type: string
-  description: An interface universally unique identifier (UUID) that identifies the interface to which the called RPC operation belongs.
+  description: An interface universally unique identifier (UUID) that identifies the
+    interface to which the called RPC operation belongs.
   sample_value: 3dde7c30-165d-11d1-ab8f-00805f14db40
 - standard_name: RpcOpnum
   standard_type: TBD
   name: OpNum
   type: integer
-  description: An operation number or numeric identifier that is used to identify an specific operation within the interface.
+  description: An operation number or numeric identifier that is used to identify
+    an specific operation within the interface.
   sample_value: 0
-- standard_name: UserName
+- standard_name: UserSid
   standard_type: TBD
   name: Security ID
   type: string
@@ -63,44 +69,30 @@ event_fields:
   standard_type: TBD
   name: Authentication Level
   type: string
-  description: Level of authentication or message protection that remote procedure call (RPC) applied to the message exchange.
+  description: Level of authentication or message protection that remote procedure
+    call (RPC) applied to the message exchange.
   sample_value: PKT_PRIVACY
 - standard_name: RpcAuthenticationService
   standard_type: TBD
   name: Authentication Service
   type: string
-  description: A service used for authenticating principals within the realm or domain served by the Authentication Service. The authentication services passed to various run-time functions.
+  description: A service used for authenticating principals within the realm or domain
+    served by the Authentication Service. The authentication services passed to various
+    run-time functions.
   sample_value: WINNT
 references:
 - https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-rpce/425a7c53-c33a-4868-8e5b-2a850d40dc73
 - https://docs.microsoft.com/en-us/windows/win32/rpc/authentication-service-constants
 - https://medium.com/threat-hunters-forge/extending-the-exploration-and-analysis-of-windows-rpc-methods-calling-other-functions-with-ghidra-e4cdaa9555bd
 tags: []
-example: |-
-  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
-    <System>
-      <Provider Name="RPCFWP" /> 
-      <EventID Qualifiers="24578">3</EventID> 
-      <Level>0</Level> 
-      <Task>0</Task> 
-      <Keywords>0xa0000000000000</Keywords> 
-      <TimeCreated SystemTime="2021-11-13T17:54:19.167918300Z" /> 
-      <EventRecordID>14</EventRecordID> 
-      <Channel>RPCFWP</Channel> 
-      <Computer>DC01.mssentinel.local</Computer> 
-      <Security /> 
-    </System>
-    <EventData>
-      <Data>NdrServerCallAll</Data> 
-      <Data>692</Data> 
-      <Data>C:\Windows\system32\lsass.exe</Data> 
-      <Data>ncacn_np</Data> 
-      <Data>\\pipe\\lsass</Data> 
-      <Data>\[fe80::598f:a662:ffed:415f\]</Data> 
-      <Data>3dde7c30-165d-11d1-ab8f-00805f14db40</Data> 
-      <Data>0</Data> 
-      <Data>MSSENTINEL\wardog</Data> 
-      <Data>PKT_PRIVACY</Data> 
-      <Data>WINNT</Data> 
-    </EventData>
-  </Event>
+example: "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n\
+  \  <System>\n    <Provider Name=\"RPCFWP\" /> \n    <EventID Qualifiers=\"24578\"\
+  >3</EventID> \n    <Level>0</Level> \n    <Task>0</Task> \n    <Keywords>0xa0000000000000</Keywords>\
+  \ \n    <TimeCreated SystemTime=\"2021-11-13T17:54:19.167918300Z\" /> \n    <EventRecordID>14</EventRecordID>\
+  \ \n    <Channel>RPCFWP</Channel> \n    <Computer>DC01.mssentinel.local</Computer>\
+  \ \n    <Security /> \n  </System>\n  <EventData>\n    <Data>NdrServerCallAll</Data>\
+  \ \n    <Data>692</Data> \n    <Data>C:\\Windows\\system32\\lsass.exe</Data> \n\
+  \    <Data>ncacn_np</Data> \n    <Data>\\\\pipe\\\\lsass</Data> \n    <Data>\\[fe80::598f:a662:ffed:415f\\\
+  ]</Data> \n    <Data>3dde7c30-165d-11d1-ab8f-00805f14db40</Data> \n    <Data>0</Data>\
+  \ \n    <Data>MSSENTINEL\\wardog</Data> \n    <Data>PKT_PRIVACY</Data> \n    <Data>WINNT</Data>\
+  \ \n  </EventData>\n</Event>"

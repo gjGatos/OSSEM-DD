@@ -1,5 +1,5 @@
 name: GQUIC Log
-description:
+description: null
 platform: zeek
 log_source: network-protocols
 event_id: gquic
@@ -35,7 +35,7 @@ event_fields:
   type: integer
   description: The responding/destination port
   sample_value: '443'
-- standard_name: EventUid
+- standard_name: UserUid
   standard_type: TBD
   name: uid
   type: string
@@ -45,7 +45,10 @@ event_fields:
   standard_type: TBD
   name: cyu
   type: string
-  description: Much like JA3 and HASSH, CYU creates an additional signature to aid with the detection of malicious activity in an environment. CYU fingerprints client hello packets by gathering the version and tags of a client hello packet and then MD5 hashing their values
+  description: Much like JA3 and HASSH, CYU creates an additional signature to aid
+    with the detection of malicious activity in an environment. CYU fingerprints client
+    hello packets by gathering the version and tags of a client hello packet and then
+    MD5 hashing their values
   sample_value: a46560d4548108cf99308319b3b85346
 - standard_name: TBD
   standard_type: TBD

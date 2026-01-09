@@ -1,5 +1,5 @@
 name: Event 2011 - PKMKeyboardArrived
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-TabletPC-InputPanel
 event_id: '2011'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: KeyboardType
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_PKMKeyboardArrived

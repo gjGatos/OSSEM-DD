@@ -1,5 +1,5 @@
 name: Event 3000 - MUINotifyUILanguageChangetask
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-MUI
 event_id: '3000'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: Flags
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: NewLanguage
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PrevLanguage
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ExtendedFlag
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_Start

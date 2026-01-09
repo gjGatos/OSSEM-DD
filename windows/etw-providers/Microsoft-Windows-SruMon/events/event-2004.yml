@@ -1,5 +1,5 @@
 name: Event 2004 - SruMonDebugTrace
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-SruMon
 event_id: '2004'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: _TableName
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_KeywordSruMonDebugTrace

@@ -11,19 +11,19 @@ event_fields:
   type: TEXT
   description: Name of the key to search for
   sample_value: TBD
-- standard_name: TBD
+- standard_name: RegistryPath
   standard_type: TBD
   name: path
   type: TEXT
   description: Full path to the value
   sample_value: TBD
-- standard_name: TBD
+- standard_name: RegistryValueName
   standard_type: TBD
   name: name
   type: TEXT
   description: Name of the registry value entry
   sample_value: TBD
-- standard_name: TBD
+- standard_name: KeyType
   standard_type: TBD
   name: type
   type: TEXT
@@ -35,7 +35,7 @@ event_fields:
   type: TEXT
   description: Data content of registry value
   sample_value: TBD
-- standard_name: TBD
+- standard_name: RegistryKeyModifiedTime
   standard_type: TBD
   name: mtime
   type: BIGINT

@@ -1,5 +1,5 @@
 name: Event 101 - ApipEndTransition
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Dwm-Api
 event_id: '101'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: storyid
   type: Int32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_DwmApi

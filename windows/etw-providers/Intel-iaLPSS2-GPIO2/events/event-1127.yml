@@ -1,5 +1,5 @@
 name: Event 1127 - iaLPSS_GPIO2GpioIntroutines
-description:
+description: null
 platform: windows
 log_source: Intel-iaLPSS2-GPIO2
 event_id: '1127'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: BankName
   type: AnsiString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: MaskSet
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: MaskRequested
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: MaskFailed
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_iaLPSS_GPIO2GpioIntroutines

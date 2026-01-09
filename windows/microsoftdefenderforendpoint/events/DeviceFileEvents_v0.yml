@@ -51,7 +51,8 @@ event_fields:
   standard_type: TBD
   name: SHA256
   type: string
-  description: SHA-256 of the file that the recorded action was applied to. This field is usually not populated-use the SHA1 column when available.
+  description: SHA-256 of the file that the recorded action was applied to. This field
+    is usually not populated-use the SHA1 column when available.
   sample_value: ''
 - standard_name: HashMd5
   standard_type: TBD
@@ -71,19 +72,19 @@ event_fields:
   type: string
   description: URL of the web page that links to the downloaded file
   sample_value: ''
-- standard_name: FileOriginIp
+- standard_name: RemoteIp
   standard_type: TBD
   name: FileOriginIP
   type: string
   description: IP address where the file was downloaded from
   sample_value: ''
-- standard_name: UserDomain
+- standard_name: Domain
   standard_type: TBD
   name: InitiatingProcessAccountDomain
   type: string
   description: Domain of the account that ran the process responsible for the event
   sample_value: ''
-- standard_name: UserName
+- standard_name: InitiatingProcessAccountName
   standard_type: TBD
   name: InitiatingProcessAccountName
   type: string
@@ -93,7 +94,8 @@ event_fields:
   standard_type: TBD
   name: InitiatingProcessAccountSid
   type: string
-  description: Security Identifier (SID) of the account that ran the process responsible for the event
+  description: Security Identifier (SID) of the account that ran the process responsible
+    for the event
   sample_value: ''
 - standard_name: Md5Hash
   standard_type: TBD
@@ -107,7 +109,7 @@ event_fields:
   type: string
   description: SHA-1 of the process (image file) that initiated the event
   sample_value: ''
-- standard_name: ProcessPath
+- standard_name: InitiatingProcessFolderPath
   standard_type: TBD
   name: InitiatingProcessFolderPath
   type: string
@@ -131,7 +133,7 @@ event_fields:
   type: string
   description: Command line used to run the process that initiated the event
   sample_value: ''
-- standard_name: ProcessCreationTime
+- standard_name: InitiatingProcessParentCreationTime
   standard_type: TBD
   name: InitiatingProcessCreationTime
   type: date
@@ -141,45 +143,53 @@ event_fields:
   standard_type: TBD
   name: InitiatingProcessIntegrityLevel
   type: string
-  description: Integrity level of the process that initiated the event. Windows assigns integrity levels to processes based on certain characteristics, such as if they were launched from an internet download. These integrity levels influence permissions to resources.
+  description: Integrity level of the process that initiated the event. Windows assigns
+    integrity levels to processes based on certain characteristics, such as if they
+    were launched from an internet download. These integrity levels influence permissions
+    to resources.
   sample_value: ''
 - standard_name: ProcessTokenElevation
   standard_type: TBD
   name: InitiatingProcessTokenElevation
   type: string
-  description: Token type indicating the presence or absence of User Access Control (UAC) privilege elevation applied to the process that initiated the event
+  description: Token type indicating the presence or absence of User Access Control
+    (UAC) privilege elevation applied to the process that initiated the event
   sample_value: ''
 - standard_name: ProcessParentId
   standard_type: TBD
   name: InitiatingProcessParentId
   type: int
-  description: Process ID (PID) of the parent process that spawned the process responsible for the event
+  description: Process ID (PID) of the parent process that spawned the process responsible
+    for the event
   sample_value: ''
 - standard_name: ProcessParentName
   standard_type: TBD
   name: InitiatingProcessParentFileName
   type: string
-  description: Name of the parent process that spawned the process responsible for the event
+  description: Name of the parent process that spawned the process responsible for
+    the event
   sample_value: ''
-- standard_name: ProcessParentCreationTime
+- standard_name: InitiatingProcessParentCreationTime
   standard_type: TBD
   name: InitiatingProcessParentCreationTime
   type: date
-  description: Date and time when the parent of the process responsible for the event was started
+  description: Date and time when the parent of the process responsible for the event
+    was started
   sample_value: ''
 - standard_name: DstPortName
   standard_type: TBD
   name: RequestProtocol
   type: string
-  description: 'Network protocol, if applicable, used to initiate the activity: Unknown, Local, SMB, or NFS'
+  description: 'Network protocol, if applicable, used to initiate the activity: Unknown,
+    Local, SMB, or NFS'
   sample_value: SMB
-- standard_name: ShareName
+- standard_name: ShareLocalPath
   standard_type: TBD
   name: ShareName
   type: string
   description: Name of shared folder containing the file
   sample_value: ''
-- standard_name: ProcessParentCreationTime
+- standard_name: RemoteIp
   standard_type: TBD
   name: RequestSourceIP
   type: date
@@ -191,13 +201,13 @@ event_fields:
   type: integer
   description: Source port on the remote device that initiated the activity
   sample_value: '1234'
-- standard_name: UserName
+- standard_name: InitiatingProcessAccountName
   standard_type: TBD
   name: RequestAccountName
   type: string
   description: User name of account used to remotely initiate the activity
   sample_value: ''
-- standard_name: UserDomain
+- standard_name: Domain
   standard_type: TBD
   name: RequestAccountDomain
   type: string
@@ -213,25 +223,30 @@ event_fields:
   standard_type: TBD
   name: ReportId
   type: long
-  description: Event identifier based on a repeating counter. To identify unique events, this column must be used in conjunction with the DeviceName and Timestamp columns
+  description: Event identifier based on a repeating counter. To identify unique events,
+    this column must be used in conjunction with the DeviceName and Timestamp columns
   sample_value: ''
 - standard_name: AppGuardContainerId
   standard_type: TBD
   name: AppGuardContainerId
   type: string
-  description: Identifier for the virtualized container used by Application Guard to isolate browser activity
+  description: Identifier for the virtualized container used by Application Guard
+    to isolate browser activity
   sample_value: ''
 - standard_name: SensitivityLabel
   standard_type: TBD
   name: SensitivityLabel
   type: ''
-  description: Label applied to an email, file, or other content to classify it for information protection
+  description: Label applied to an email, file, or other content to classify it for
+    information protection
   sample_value: ''
 - standard_name: SensitivitySublabel
   standard_type: TBD
   name: SensitivitySubLabel
   type: ''
-  description: Sublabel applied to an email, file, or other content to classify it for information protection; sensitivity sublabels are grouped under sensitivity labels but are treated independently
+  description: Sublabel applied to an email, file, or other content to classify it
+    for information protection; sensitivity sublabels are grouped under sensitivity
+    labels but are treated independently
   sample_value: ''
 - standard_name: IsAzureInfoProtectionApplied
   standard_type: TBD

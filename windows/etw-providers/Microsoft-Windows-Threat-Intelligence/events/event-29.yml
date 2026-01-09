@@ -1,5 +1,5 @@
 name: Event 29 - KERNEL_THREATINT_TASK_DRIVER_DEVICE
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Threat-Intelligence
 event_id: '29'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: DriverNameLength
   type: UInt16
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: DriverName
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: CodeIntegrityOption
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_KERNEL_THREATINT_KEYWORD_DRIVER_EVENTS

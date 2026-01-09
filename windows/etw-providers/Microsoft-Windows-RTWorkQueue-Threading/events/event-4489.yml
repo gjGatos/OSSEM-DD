@@ -1,5 +1,5 @@
 name: Event 4489 - WorkQueue:StartTimer
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-RTWorkQueue-Threading
 event_id: '4489'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: WorkQueuePointer
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: WorkQueueID
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: TimerPointer
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Timeout
   type: Int64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: IsPeriodic
   type: Boolean
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_task_WorkQueue:StartTimer

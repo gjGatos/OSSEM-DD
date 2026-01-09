@@ -1,5 +1,5 @@
 name: Event 1 - DisplayProperties
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Runtime-Graphics
 event_id: '1'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: WnfStateNameData0
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: WnfStateNameData1
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_DisplayProperties

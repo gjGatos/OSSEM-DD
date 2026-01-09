@@ -1,5 +1,5 @@
 name: Event 3012 - CheckHostLockdownPolicy
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-VerifyHardwareSecurity
 event_id: '3012'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: HostProvider
   type: UnicodeString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: FilePath
   standard_type: TBD
   name: ModulePath
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Method
   type: UnicodeString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: FileName
   standard_type: TBD
   name: InternalName
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_HostLockdownCheck

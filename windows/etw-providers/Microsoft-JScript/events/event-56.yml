@@ -1,5 +1,5 @@
 name: Event 56 - Jscript_Projection_WriteInspectable
-description:
+description: null
 platform: windows
 log_source: Microsoft-JScript
 event_id: '56'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: IsBoxed
   type: Boolean
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_JScriptProjection

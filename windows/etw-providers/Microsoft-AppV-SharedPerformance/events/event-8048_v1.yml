@@ -1,5 +1,5 @@
 name: Event 8048 - UnpublishPackage_1519
-description:
+description: null
 platform: windows
 log_source: Microsoft-AppV-SharedPerformance
 event_id: '8048'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: ActivityId
   type: UInt64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_opcode_Start
 - etw_task_UnpublishPackage_1519

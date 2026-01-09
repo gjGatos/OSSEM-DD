@@ -1,5 +1,5 @@
 name: Event 699 - Mshtml_Animations_Instance
-description:
+description: null
 platform: windows
 log_source: Microsoft-IE
 event_id: '699'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: DispNode
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: IndAnimationInstanceObject
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: DISPID
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_animation

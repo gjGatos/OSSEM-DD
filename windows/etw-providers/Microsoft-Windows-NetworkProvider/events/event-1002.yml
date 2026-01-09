@@ -1,5 +1,5 @@
 name: Event 1002 - UNCHardeningConfiguration
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-NetworkProvider
 event_id: '1002'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: UncPathLength
   type: UInt16
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: UncPath
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: UncHardeningConfigurationLength
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: UncHardeningConfiguration
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_keywords_UncHardening

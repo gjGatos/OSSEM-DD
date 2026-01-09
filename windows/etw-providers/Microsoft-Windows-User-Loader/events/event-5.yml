@@ -1,29 +1,29 @@
 name: Event 5 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-User-Loader
 event_id: '5'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: ProcessId
   standard_type: TBD
   name: ProcessId
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SuspendProcessRequest
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: DLLName
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_USER_LOADER_KEYWORD_COMPONENT_ON_DEMAND

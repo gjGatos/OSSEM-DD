@@ -1,5 +1,5 @@
 name: Event 10 - WMPHOTO_Decoder_FrameParamsSource_Info
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Photo-Image-Codec
 event_id: '10'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: Width
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Height
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Orientation
   type: UInt8
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_task_WMPHOTO_Decoder_FrameParamsSource_Info

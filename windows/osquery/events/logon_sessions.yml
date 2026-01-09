@@ -5,29 +5,31 @@ log_source: osquery
 event_id: logon_sessions
 event_version: 5.0.1
 event_fields:
-- standard_name: TBD
+- standard_name: UserId
   standard_type: TBD
   name: logon_id
   type: INTEGER
   description: A locally unique identifier (LUID) that identifies a logon session.
   sample_value: TBD
-- standard_name: TBD
+- standard_name: UserDisplayName
   standard_type: TBD
   name: user
   type: TEXT
   description: The account name of the security principal that owns the logon session.
   sample_value: TBD
-- standard_name: TBD
+- standard_name: DomainName
   standard_type: TBD
   name: logon_domain
   type: TEXT
-  description: The name of the domain used to authenticate the owner of the logon session.
+  description: The name of the domain used to authenticate the owner of the logon
+    session.
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
   name: authentication_package
   type: TEXT
-  description: The authentication package used to authenticate the owner of the logon session.
+  description: The authentication package used to authenticate the owner of the logon
+    session.
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
@@ -41,7 +43,7 @@ event_fields:
   type: INTEGER
   description: The Terminal Services session identifier.
   sample_value: TBD
-- standard_name: TBD
+- standard_name: UserSid
   standard_type: TBD
   name: logon_sid
   type: TEXT
@@ -57,15 +59,16 @@ event_fields:
   standard_type: TBD
   name: logon_server
   type: TEXT
-  description: The name of the server used to authenticate the owner of the logon session.
+  description: The name of the server used to authenticate the owner of the logon
+    session.
   sample_value: TBD
-- standard_name: TBD
+- standard_name: DnsDomainName
   standard_type: TBD
   name: dns_domain_name
   type: TEXT
   description: The DNS name for the owner of the logon session.
   sample_value: TBD
-- standard_name: TBD
+- standard_name: UserUpn
   standard_type: TBD
   name: upn
   type: TEXT
@@ -77,13 +80,13 @@ event_fields:
   type: TEXT
   description: The script used for logging on.
   sample_value: TBD
-- standard_name: TBD
+- standard_name: ProfilePath
   standard_type: TBD
   name: profile_path
   type: TEXT
   description: The home directory for the logon session.
   sample_value: TBD
-- standard_name: TBD
+- standard_name: HomeDirectory
   standard_type: TBD
   name: home_directory
   type: TEXT

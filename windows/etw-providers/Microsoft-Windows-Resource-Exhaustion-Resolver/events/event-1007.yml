@@ -1,5 +1,5 @@
 name: Event 1007 - LifecycleEvents
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Resource-Exhaustion-Resolver
 event_id: '1007'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: RequestSize
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ErrorCode
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_keywords_RDR_RES_KEYWORD_LIFECYCLE

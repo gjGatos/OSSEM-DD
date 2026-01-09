@@ -1,5 +1,5 @@
 name: Event 57 - LockScreenContent_Slide_Initialize
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Shell-LockScreenContent
 event_id: '57'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: Result
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_LockScreenContent

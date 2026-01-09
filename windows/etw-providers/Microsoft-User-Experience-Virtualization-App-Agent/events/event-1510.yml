@@ -1,5 +1,5 @@
 name: Event 1510 - SettingsTemplateCatalogProcessing
-description:
+description: null
 platform: windows
 log_source: Microsoft-User Experience Virtualization-App Agent
 event_id: '1510'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: WString1
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_opcode_ApplySettingsLocationTemplateCatalog

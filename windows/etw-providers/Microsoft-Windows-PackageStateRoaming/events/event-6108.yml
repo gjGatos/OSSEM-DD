@@ -1,17 +1,17 @@
 name: Event 6108 - Debug_PackageActivityMonitor_EndQuiescentPeriod
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-PackageStateRoaming
 event_id: '6108'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: SoftwareName
   standard_type: TBD
   name: PackageFamilyName
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_Stop

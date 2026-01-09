@@ -1,17 +1,17 @@
 name: Event 806 - FUE_PATH_TAKEN
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-WMP-Setup_WM
 event_id: '806'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: WMPSetupID
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_FUE_PATH_TAKEN

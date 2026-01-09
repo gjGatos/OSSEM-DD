@@ -1,17 +1,17 @@
 name: Event 5273 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-AppXDeployment-Server
 event_id: '5273'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: FileName
   standard_type: TBD
   name: filename
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_STATE_DEH_KEYWORD

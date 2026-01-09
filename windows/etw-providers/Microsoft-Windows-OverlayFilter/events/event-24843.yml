@@ -1,29 +1,29 @@
 name: Event 24843 - TheWindowsOverlayTask
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-OverlayFilter
 event_id: '24843'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: FileHashSha1
   standard_type: TBD
   name: wimHashFile
   type: UnicodeString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: FileName
   standard_type: TBD
   name: wimFile
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: hr
   type: Int32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_opcode_GenerateHashFileError

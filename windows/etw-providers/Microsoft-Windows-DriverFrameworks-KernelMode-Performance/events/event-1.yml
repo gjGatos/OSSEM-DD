@@ -1,5 +1,5 @@
 name: Event 1 - FxRequestTask
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-DriverFrameworks-KernelMode-Performance
 event_id: '1'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: Type
   type: UInt8
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: DrvPtr
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: DevPtr
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_opcode_Start

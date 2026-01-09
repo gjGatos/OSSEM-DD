@@ -1,5 +1,5 @@
 name: Event 1000 - SoftKeyboard_PointerDevice_Size
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-TabletPC-InputPanel
 event_id: '1000'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: ResolutionWidth
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ResolutionHeight
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PhysicalWidthInHiMetric
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PhysicalHeightInHiMetric
   type: Int32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_TabletPC_InputPanel_Keyword

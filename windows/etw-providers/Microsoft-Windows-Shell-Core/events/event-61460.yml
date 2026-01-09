@@ -1,5 +1,5 @@
 name: Event 61460 - ShellOplocks_NotGranted
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Shell-Core
 event_id: '61460'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: Signature
   type: UInt64
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: FileName
   standard_type: TBD
   name: szFilename
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_keywords_Shell

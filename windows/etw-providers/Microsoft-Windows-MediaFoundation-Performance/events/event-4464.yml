@@ -1,5 +1,5 @@
 name: Event 4464 - AudioRender
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-MediaFoundation-Performance
 event_id: '4464'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: SoundLevel
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_AudioRender

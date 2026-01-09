@@ -1,5 +1,5 @@
 name: Event 265 - SphericalVideoPropertiesChangedTask
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-MediaEngine
 event_id: '265'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: QuaternionW
   type: Float
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: QuaternionX
   type: Float
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: QuaternionY
   type: Float
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: QuaternionZ
   type: Float
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: FieldOfView
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_task_SphericalVideoPropertiesChangedTask

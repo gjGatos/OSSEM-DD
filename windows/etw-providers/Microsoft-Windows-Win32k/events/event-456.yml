@@ -1,5 +1,5 @@
 name: Event 456 - GdiHandleOperation
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Win32k
 event_id: '456'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: HandleValue
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: HandleType
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SessionId
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: OwnerProcessId
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_keyword_10000000000

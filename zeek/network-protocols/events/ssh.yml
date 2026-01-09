@@ -1,11 +1,11 @@
 name: SSH Log
-description:
+description: null
 platform: zeek
 log_source: network-protocols
 event_id: ssh
 event_version: '0'
 event_fields:
-- standard_name: '@timestamp'
+- standard_name: NetworkTrafficStart
   standard_type: TBD
   name: ts
   type: date_time
@@ -35,7 +35,7 @@ event_fields:
   type: integer
   description: The responding/destination port
   sample_value: '22'
-- standard_name: EventUid
+- standard_name: UserUid
   standard_type: TBD
   name: uid
   type: string
@@ -45,13 +45,18 @@ event_fields:
   standard_type: TBD
   name: direction
   type: string
-  description: Direction of the connection. If the client was a local host logging into an external host, this would be OUTBOUND. INBOUND would be set for the opposite situation
+  description: Direction of the connection. If the client was a local host logging
+    into an external host, this would be OUTBOUND. INBOUND would be set for the opposite
+    situation
   sample_value: '``'
 - standard_name: TBD
   standard_type: TBD
   name: auth_attempts
   type: integer
-  description: The number of authentication attemps we observed. There's always at least one, since some servers might support no authentication at all. It's important to note that not all of these are failures, since some servers require two-factor auth (e.g. password AND pubkey)
+  description: The number of authentication attemps we observed. There's always at
+    least one, since some servers might support no authentication at all. It's important
+    to note that not all of these are failures, since some servers require two-factor
+    auth (e.g. password AND pubkey)
   sample_value: '``'
 - standard_name: TBD
   standard_type: TBD
@@ -65,7 +70,7 @@ event_fields:
   type: string
   description: The encryption algorithm in use
   sample_value: aes256-cbc
-- standard_name: TBD
+- standard_name: SoftwareName
   standard_type: TBD
   name: client
   type: string
@@ -137,7 +142,7 @@ event_fields:
   type: string
   description: The signing (MAC) algorithm in use
   sample_value: hmac-sha2-512
-- standard_name: TBD
+- standard_name: SoftwareName
   standard_type: TBD
   name: server
   type: string

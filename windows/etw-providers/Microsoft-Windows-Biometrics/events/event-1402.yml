@@ -1,5 +1,5 @@
 name: Event 1402 - BioCredProv
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Biometrics
 event_id: '1402'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: Username
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_task_BioCredProv

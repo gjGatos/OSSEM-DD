@@ -1,5 +1,6 @@
 name: 'Event ID 20: WmiEvent (WmiEventConsumer activity detected)'
-description: This event logs the **registration of WMI consumers**, recording the consumer name, log, and destination.
+description: This event logs the **registration of WMI consumers**, recording the
+  consumer name, log, and destination.
 platform: windows
 log_source: Microsoft-Windows-Sysmon
 event_id: '20'
@@ -11,7 +12,7 @@ event_fields:
   type: string
   description: custom tag mapped to event. i.e ATT&CK technique ID
   sample_value: T1114
-- standard_name: EventType
+- standard_name: ApiCallName
   standard_type: TBD
   name: EventType
   type: string
@@ -29,7 +30,7 @@ event_fields:
   type: string
   description: wmievent filter operation
   sample_value: Created
-- standard_name: UserName
+- standard_name: UserNetworkAccountName
   standard_type: TBD
   name: User
   type: string
@@ -52,7 +53,8 @@ event_fields:
   name: Destination
   type: string
   description: command of consumer
-  sample_value: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -nop -exec bypass -win hidden -noni -enc bm90ZXBhZC5leGU=
+  sample_value: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -nop -exec
+    bypass -win hidden -noni -enc bm90ZXBhZC5leGU=
 references:
 - text: Sysmon Source
   link: https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-20-wmievent-wmieventconsumer-activity-detected

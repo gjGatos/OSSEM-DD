@@ -1,11 +1,12 @@
 name: Cowrie login success
-description: This dictionary details the fields for the login success event of the Cowrie honeypot.
+description: This dictionary details the fields for the login success event of the
+  Cowrie honeypot.
 platform: cowrie
 log_source: honeypot
-event_id: 'cowrie.login.success'
+event_id: cowrie.login.success
 event_version: '0'
 event_fields:
-- standard_name: EventTimestamp
+- standard_name: NetworkTrafficStart
   standard_type: date_time
   name: timestamp
   type: string
@@ -16,7 +17,7 @@ event_fields:
   name: src_ip
   type: string
   description: The originating/source IP address of the SSH connection
-  sample_value: '192.168.1.4'
+  sample_value: 192.168.1.4
 - standard_name: EventMessage
   standard_type: string
   name: message
@@ -28,7 +29,7 @@ event_fields:
   name: sensor
   type: string
   description: The name of the device that generated the event
-  sample_value: 'hk-lab1'
+  sample_value: hk-lab1
 - standard_name: NetworkSessionId
   standard_type: string
   name: session

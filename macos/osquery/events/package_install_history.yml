@@ -17,13 +17,13 @@ event_fields:
   type: INTEGER
   description: Label date as UNIX timestamp
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareName
   standard_type: TBD
   name: name
   type: TEXT
   description: Package display name
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareVersion
   standard_type: TBD
   name: version
   type: TEXT

@@ -1,17 +1,17 @@
 name: Event 1003 - DocPerf_Task_SpoolDocument
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Documents
 event_id: '1003'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: JobId
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_DocPerf

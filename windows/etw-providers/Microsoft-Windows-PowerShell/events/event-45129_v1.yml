@@ -1,5 +1,5 @@
 name: Event 45129 - None
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-PowerShell
 event_id: '45129'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: checkpointPath
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: configProviderId
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: userName
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: path
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_PSWorkflow

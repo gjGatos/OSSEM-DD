@@ -1,5 +1,5 @@
 name: Event 28 - AppInteractivityState
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Energy-Estimation-Engine
 event_id: '28'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: UniqueProcessId
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: InteractivityState
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_AppInteractivityState

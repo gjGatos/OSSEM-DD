@@ -1,5 +1,5 @@
 name: Event 3000 - Fail
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Diagnostics-Networking
 event_id: '3000'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: ResultHR
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_keywords_ndf:NDFCoreEvents keyword_400000000000

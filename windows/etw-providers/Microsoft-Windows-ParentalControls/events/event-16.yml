@@ -1,5 +1,5 @@
 name: Event 16 - ApplicationBlocked
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-ParentalControls
 event_id: '16'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: Timestamp
   type: SYSTEMTIME
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: UserId
   standard_type: TBD
   name: UserID
   type: UnicodeString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: FilePath
   standard_type: TBD
   name: Path
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: RuleID
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_WPC

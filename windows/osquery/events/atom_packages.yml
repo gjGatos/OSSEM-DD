@@ -5,43 +5,43 @@ log_source: osquery
 event_id: atom_packages
 event_version: 5.0.1
 event_fields:
-- standard_name: TBD
+- standard_name: SoftwareName
   standard_type: TBD
   name: name
   type: TEXT
   description: Package display name
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareVersion
   standard_type: TBD
   name: version
   type: TEXT
   description: Package supplied version
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: description
   type: TEXT
   description: Package supplied description
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: path
   type: TEXT
   description: Package's package.json path
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: license
   type: TEXT
   description: License for package
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: homepage
   type: TEXT
   description: Package supplied homepage
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: uid
   type: BIGINT

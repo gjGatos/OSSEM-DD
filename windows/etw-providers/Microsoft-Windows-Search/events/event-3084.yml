@@ -1,5 +1,5 @@
 name: Event 3084 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Search
 event_id: '3084'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: ExtraInfo
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ProtocolHandler
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ErrorMessage
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_opcode_opcode_192

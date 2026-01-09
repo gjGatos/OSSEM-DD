@@ -1,5 +1,5 @@
 name: Event 79 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider
 event_id: '79'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: HRESULT
   type: HexInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Warning
 - etw_task_task_0

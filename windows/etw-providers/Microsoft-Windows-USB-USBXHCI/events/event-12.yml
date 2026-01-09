@@ -1,5 +1,5 @@
 name: Event 12 - USBXHCIEndpointUpdate
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-USB-USBXHCI
 event_id: '12'
@@ -9,39 +9,39 @@ event_fields:
   standard_type: TBD
   name: fid_UcxController
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: fid_UsbDevice
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: fid_Endpoint
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: fid_USB_Endpoint_Descriptor
   type: UInt16
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: fid_USB_SuperSpeed_Endpoint_Companion_Descriptor
   type: Double
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: fid_USB_SuperSpeedPlus_Isoch_Endpoint_Companion_Descriptor
   type: FILETIME
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Default

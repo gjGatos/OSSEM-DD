@@ -1,5 +1,5 @@
 name: Event 5503 - das_Query
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-DeviceAssociationService
 event_id: '5503'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: DasContext
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_DeviceAssociationService query

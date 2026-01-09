@@ -11,7 +11,7 @@ event_fields:
   type: BIGINT
   description: The local user that owns the extension
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareName
   standard_type: TBD
   name: name
   type: TEXT
@@ -29,7 +29,7 @@ event_fields:
   type: TEXT
   description: Extension identifier
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareVersion
   standard_type: TBD
   name: version
   type: TEXT

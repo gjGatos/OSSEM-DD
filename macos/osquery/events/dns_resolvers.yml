@@ -17,7 +17,7 @@ event_fields:
   type: TEXT
   description: 'Address type: sortlist, nameserver, search'
   sample_value: TBD
-- standard_name: TBD
+- standard_name: IpAddress
   standard_type: TBD
   name: address
   type: TEXT

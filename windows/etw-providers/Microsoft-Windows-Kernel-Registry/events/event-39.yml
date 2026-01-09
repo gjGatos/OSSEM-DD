@@ -1,23 +1,23 @@
 name: Event 39 - Thisgroupofeventstrackstheperformanceofrestoringhives.
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Kernel-Registry
 event_id: '39'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: SrcFilePath
   standard_type: TBD
   name: SourceFile
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Flags
   type: HexInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_Start

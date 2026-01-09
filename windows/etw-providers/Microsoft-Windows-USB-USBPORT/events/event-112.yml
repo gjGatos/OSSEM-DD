@@ -1,5 +1,5 @@
 name: Event 112 - USBUSER_OP_SEND_ONE_PACKET
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-USB-USBPORT
 event_id: '112'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: fid_USBPORT_HC
   type: UInt8
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: fid_USBPORT_Usbuser_Op_Send_One_Packet
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: fid_PacketDataLength
   type: UInt16
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: fid_PacketData
   type: UInt8
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Diagnostic

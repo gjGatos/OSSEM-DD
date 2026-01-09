@@ -1,5 +1,5 @@
 name: Event 209 - MicrosoftWindowsRuntimeCaptureEngineStartPreviewTask
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Runtime-Media
 event_id: '209'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: WinRTCaptureEngine
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: AsyncOp
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: OpStatus
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_keyword_800000000000

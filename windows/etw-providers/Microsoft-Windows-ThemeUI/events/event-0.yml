@@ -1,5 +1,5 @@
 name: Event 0 - ThemeLoaded
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-ThemeUI
 event_id: '0'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: psz
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_ThemeLoaded

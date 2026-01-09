@@ -1,5 +1,7 @@
 name: 'Event ID 12: RegistryEvent (Object create and delete)'
-description: '**Registry key and value create and delete** operations map to this event type, which can be useful for monitoring for changes to Registry autostart locations, or specific malware registry modifications.'
+description: '**Registry key and value create and delete** operations map to this
+  event type, which can be useful for monitoring for changes to Registry autostart
+  locations, or specific malware registry modifications.'
 platform: windows
 log_source: Microsoft-Windows-Sysmon
 event_id: '12'
@@ -33,9 +35,10 @@ event_fields:
   standard_type: TBD
   name: ProcessId
   type: integer
-  description: Process ID used by the os to identify the process that created or deleted a registry key
+  description: Process ID used by the os to identify the process that created or deleted
+    a registry key
   sample_value: '2052'
-- standard_name: ProcessFilePath
+- standard_name: ProcessFileName
   standard_type: TBD
   name: Image
   type: string
@@ -47,7 +50,7 @@ event_fields:
   type: string
   description: complete path of the registry key
   sample_value: HKU.DEFAULT\Software\Microsoft\Office\16.0\Common
-- standard_name: UserName
+- standard_name: UserNetworkAccountName
   standard_type: TBD
   name: User
   type: string
@@ -61,58 +64,32 @@ references:
 tags: []
 event_sample:
 - format: friendly view
-  sample: |-
-    Log Name:      Microsoft-Windows-Sysmon/Operational
-    Source:        Microsoft-Windows-Sysmon
-    Date:          9/22/2022 5:31:03 PM
-    Event ID:      12
-    Task Category: Registry object added or deleted (rule: RegistryEvent)
-    Level:         Information
-    Keywords:      
-    User:          SYSTEM
-    Computer:      pedro-computer
-    Description:
-    The description for Event ID 12 from source Microsoft-Windows-Sysmon cannot be found. Either the component that raises this event is not installed on your local computer or the installation is corrupted. You can install or repair the component on the local computer.
-    If the event originated on another computer, the display information had to be saved with the event.
-    The following information was included with the event: 
-
-    -
-    CreateKey
-    2022-09-23 00:31:03.595
-    EV_RenderedValue_3.00
-    2604
-    C:\Windows\Explorer.EXE
-    HKLM\System\CurrentControlSet\Control\Hvsi
-    PEDRO-COMPUTER\pedro
-
-    The publisher has been disabled and its resource is not available. This usually occurs when the publisher is in the process of being uninstalled or upgraded
+  sample: "Log Name:      Microsoft-Windows-Sysmon/Operational\nSource:        Microsoft-Windows-Sysmon\n\
+    Date:          9/22/2022 5:31:03 PM\nEvent ID:      12\nTask Category: Registry\
+    \ object added or deleted (rule: RegistryEvent)\nLevel:         Information\n\
+    Keywords:      \nUser:          SYSTEM\nComputer:      pedro-computer\nDescription:\n\
+    The description for Event ID 12 from source Microsoft-Windows-Sysmon cannot be\
+    \ found. Either the component that raises this event is not installed on your\
+    \ local computer or the installation is corrupted. You can install or repair the\
+    \ component on the local computer.\nIf the event originated on another computer,\
+    \ the display information had to be saved with the event.\nThe following information\
+    \ was included with the event: \n\n-\nCreateKey\n2022-09-23 00:31:03.595\nEV_RenderedValue_3.00\n\
+    2604\nC:\\Windows\\Explorer.EXE\nHKLM\\System\\CurrentControlSet\\Control\\Hvsi\n\
+    PEDRO-COMPUTER\\pedro\n\nThe publisher has been disabled and its resource is not\
+    \ available. This usually occurs when the publisher is in the process of being\
+    \ uninstalled or upgraded"
 - format: xml
-  sample: |-
-    <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
-      <System>
-        <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
-        <EventID>12</EventID>
-        <Version>2</Version>
-        <Level>4</Level>
-        <Task>12</Task>
-        <Opcode>0</Opcode>
-        <Keywords>0x8000000000000000</Keywords>
-        <TimeCreated SystemTime="2022-09-23T00:31:03.608246900Z" />
-        <EventRecordID>2523096</EventRecordID>
-        <Correlation />
-        <Execution ProcessID="6152" ThreadID="7900" />
-        <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
-        <Computer>pedro-computer</Computer>
-        <Security UserID="S-1-5-18" />
-      </System>
-      <EventData>
-        <Data Name="RuleName">-</Data>
-        <Data Name="EventType">CreateKey</Data>
-        <Data Name="UtcTime">2022-09-23 00:31:03.595</Data>
-        <Data Name="ProcessGuid">{564ff025-e161-62f6-ad03-000000000500}</Data>
-        <Data Name="ProcessId">2604</Data>
-        <Data Name="Image">C:\Windows\Explorer.EXE</Data>
-        <Data Name="TargetObject">HKLM\System\CurrentControlSet\Control\Hvsi</Data>
-        <Data Name="User">PEDRO-COMPUTER\pedro</Data>
-      </EventData>
-    </Event>
+  sample: "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"\
+    >\n  <System>\n    <Provider Name=\"Microsoft-Windows-Sysmon\" Guid=\"{5770385f-c22a-43e0-bf4c-06f5698ffbd9}\"\
+    \ />\n    <EventID>12</EventID>\n    <Version>2</Version>\n    <Level>4</Level>\n\
+    \    <Task>12</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000000</Keywords>\n\
+    \    <TimeCreated SystemTime=\"2022-09-23T00:31:03.608246900Z\" />\n    <EventRecordID>2523096</EventRecordID>\n\
+    \    <Correlation />\n    <Execution ProcessID=\"6152\" ThreadID=\"7900\" />\n\
+    \    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>\n    <Computer>pedro-computer</Computer>\n\
+    \    <Security UserID=\"S-1-5-18\" />\n  </System>\n  <EventData>\n    <Data Name=\"\
+    RuleName\">-</Data>\n    <Data Name=\"EventType\">CreateKey</Data>\n    <Data\
+    \ Name=\"UtcTime\">2022-09-23 00:31:03.595</Data>\n    <Data Name=\"ProcessGuid\"\
+    >{564ff025-e161-62f6-ad03-000000000500}</Data>\n    <Data Name=\"ProcessId\">2604</Data>\n\
+    \    <Data Name=\"Image\">C:\\Windows\\Explorer.EXE</Data>\n    <Data Name=\"\
+    TargetObject\">HKLM\\System\\CurrentControlSet\\Control\\Hvsi</Data>\n    <Data\
+    \ Name=\"User\">PEDRO-COMPUTER\\pedro</Data>\n  </EventData>\n</Event>"

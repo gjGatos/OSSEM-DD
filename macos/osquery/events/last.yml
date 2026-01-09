@@ -17,7 +17,7 @@ event_fields:
   type: TEXT
   description: Entry terminal
   sample_value: TBD
-- standard_name: TBD
+- standard_name: ProcessId
   standard_type: TBD
   name: pid
   type: INTEGER
@@ -35,7 +35,7 @@ event_fields:
   type: INTEGER
   description: Entry timestamp
   sample_value: TBD
-- standard_name: TBD
+- standard_name: HostDomain
   standard_type: TBD
   name: host
   type: TEXT

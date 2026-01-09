@@ -1,5 +1,5 @@
 name: Event 14 - JobTerminate
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Kernel-Process
 event_id: '14'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: ContainerID
   type: GUID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: JobID
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: StatusCode
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_WINEVENT_KEYWORD_JOB

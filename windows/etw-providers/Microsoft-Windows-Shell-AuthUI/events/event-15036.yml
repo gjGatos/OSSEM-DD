@@ -1,5 +1,5 @@
 name: Event 15036 - Common_StartCredProvsForUsageScenario
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Shell-AuthUI
 event_id: '15036'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: DWORD1
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: DWORD2
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_Common_StartCredProvsForUsageScenario

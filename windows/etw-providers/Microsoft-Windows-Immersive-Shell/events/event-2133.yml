@@ -1,5 +1,5 @@
 name: Event 2133 - PerfTrack_Picker_Launch_Open_Tile_ViewComplete
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Immersive-Shell
 event_id: '2133'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: TotalCount
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_Stop

@@ -1,5 +1,5 @@
 name: Event 553 - Smb2SessionBind
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-SMBServer
 event_id: '553'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: SessionGUID
   type: GUID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ConnectionGUID
   type: GUID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: BindingSessionGUID
   type: GUID
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Session

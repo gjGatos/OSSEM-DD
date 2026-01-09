@@ -5,31 +5,31 @@ log_source: osquery
 event_id: authenticode
 event_version: 5.0.1
 event_fields:
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: path
   type: TEXT
   description: Must provide a path or directory
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareName
   standard_type: TBD
   name: original_program_name
   type: TEXT
   description: The original program name that the publisher has signed
   sample_value: TBD
-- standard_name: TBD
+- standard_name: CertificateSerialNumber
   standard_type: TBD
   name: serial_number
   type: TEXT
   description: The certificate serial number
   sample_value: TBD
-- standard_name: TBD
+- standard_name: CertificateIssuer
   standard_type: TBD
   name: issuer_name
   type: TEXT
   description: The certificate issuer name
   sample_value: TBD
-- standard_name: TBD
+- standard_name: CertificateSubject
   standard_type: TBD
   name: subject_name
   type: TEXT

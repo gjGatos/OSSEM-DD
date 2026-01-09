@@ -1,17 +1,17 @@
 name: Event 235 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-PDFReader
 event_id: '235'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: ApiCallDescription
   standard_type: TBD
   name: Description
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Reader

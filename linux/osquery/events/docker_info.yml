@@ -69,13 +69,15 @@ event_fields:
   standard_type: TBD
   name: cpu_cfs_period
   type: INTEGER
-  description: 1 if CPU Completely Fair Scheduler (CFS) period support is enabled. 0 otherwise
+  description: 1 if CPU Completely Fair Scheduler (CFS) period support is enabled.
+    0 otherwise
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
   name: cpu_cfs_quota
   type: INTEGER
-  description: 1 if CPU Completely Fair Scheduler (CFS) quota support is enabled. 0 otherwise
+  description: 1 if CPU Completely Fair Scheduler (CFS) quota support is enabled.
+    0 otherwise
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
@@ -89,7 +91,7 @@ event_fields:
   type: INTEGER
   description: 1 if CPU set selection support is enabled. 0 otherwise
   sample_value: TBD
-- standard_name: TBD
+- standard_name: Ipv4
   standard_type: TBD
   name: ipv4_forwarding
   type: INTEGER
@@ -177,7 +179,8 @@ event_fields:
   standard_type: TBD
   name: no_proxy
   type: TEXT
-  description: Comma-separated list of domain extensions proxy should not be used for
+  description: Comma-separated list of domain extensions proxy should not be used
+    for
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD

@@ -1,5 +1,5 @@
 name: Event 122 - SPERF_TAG_LOAD_XMLDOM
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-MCCS-SyncUtil
 event_id: '122'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: P1_UnicodeString
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Performance

@@ -1,23 +1,23 @@
 name: Event 108 - ProtocolHostNameConflict_FailedToKill
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Search-Core
 event_id: '108'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: ProcessId
   standard_type: TBD
   name: ProcessID
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SID
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_keywords_Service

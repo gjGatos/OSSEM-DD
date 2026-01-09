@@ -1,5 +1,5 @@
 name: Event 1 - HealthCenter_ProviderDisabled
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-HealthCenter
 event_id: '1'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: CLSID
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: HRESULT
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_HealthCenter_ProviderDisabled

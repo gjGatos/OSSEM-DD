@@ -1,5 +1,6 @@
 name: 'Event ID 4: Sysmon service state changed'
-description: The **service state change** event reports the state of the Sysmon service (started or stopped).
+description: The **service state change** event reports the state of the Sysmon service
+  (started or stopped).
 platform: linux
 log_source: sysmon
 event_id: '4'
@@ -22,12 +23,12 @@ event_fields:
   name: Version
   type: string
   description: sysmon version
-  sample_value: '1.0.0'
+  sample_value: 1.0.0
 - standard_name: SysmonSchemaVersion
   standard_type: TBD
   name: SchemaVersion
   type: string
   description: sysmon config schema version
   sample_value: '4.81'
-references:
+references: null
 tags: []

@@ -1,5 +1,5 @@
 name: Event 218 - TransformAgeDecay
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Win32k
 event_id: '218'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: InputTransformList
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PerformanceCount
   type: UInt64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_TransformAgeDecay

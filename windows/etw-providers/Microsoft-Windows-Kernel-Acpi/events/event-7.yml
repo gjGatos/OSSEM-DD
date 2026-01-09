@@ -1,5 +1,5 @@
 name: Event 7 - AmlMethodTrace
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Kernel-Acpi
 event_id: '7'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: AmlMethodNameLength
   type: UInt16
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: AmlMethodName
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: AmlMethodState
   type: UInt16
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: AmlElapsedTime
   type: UInt64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_acpi:Diagnostic keyword_200000000000

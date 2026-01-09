@@ -23,7 +23,7 @@ event_fields:
   type: INTEGER
   description: Port inside the container
   sample_value: TBD
-- standard_name: TBD
+- standard_name: IpAddress
   standard_type: TBD
   name: host_ip
   type: TEXT

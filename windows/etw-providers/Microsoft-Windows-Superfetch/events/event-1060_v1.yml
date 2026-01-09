@@ -1,5 +1,5 @@
 name: Event 1060 - PrefetchDecision
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Superfetch
 event_id: '1060'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: AppKey
   type: HexInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: FullPackageName
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ACPowered
   type: Boolean
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Threshold
   type: Double
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Probability
   type: Double
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_PfAp

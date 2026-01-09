@@ -1,17 +1,17 @@
 name: Event 10001 - PerfTrackmeasurementofauto_rotation
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Sensors
 event_id: '10001'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: EventId
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_SensPerf

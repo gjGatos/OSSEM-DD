@@ -1,5 +1,7 @@
-name: 'Event ID 4932: Synchronization of a replica of an Active Directory naming context has begun'
-description: This event generates every time synchronization of a replica of an Active Directory naming context has begun.
+name: 'Event ID 4932: Synchronization of a replica of an Active Directory naming context
+  has begun'
+description: This event generates every time synchronization of a replica of an Active
+  Directory naming context has begun.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
 event_id: '4932'
@@ -33,7 +35,10 @@ event_fields:
   standard_type: TBD
   name: SessionID
   type: UInt32
-  description: 'unique identifier of replication session. Using this field you can find "4932: Synchronization of a replica of an Active Directory naming context has begun." and "4933: Synchronization of a replica of an Active Directory naming context has ended." events for the same session.'
+  description: 'unique identifier of replication session. Using this field you can
+    find "4932: Synchronization of a replica of an Active Directory naming context
+    has begun." and "4933: Synchronization of a replica of an Active Directory naming
+    context has ended." events for the same session.'
   sample_value: '48'
 - standard_name: StartUsn
   standard_type: TBD

@@ -5,13 +5,13 @@ log_source: osquery
 event_id: shortcut_files
 event_version: 5.0.1
 event_fields:
-- standard_name: TBD
+- standard_name: FolderPath
   standard_type: TBD
   name: path
   type: TEXT
   description: Directory name
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: target_path
   type: TEXT
@@ -35,25 +35,25 @@ event_fields:
   type: INTEGER
   description: Target Accessed time
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FileSize
   standard_type: TBD
   name: target_size
   type: BIGINT
   description: Size of target file
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: relative_path
   type: TEXT
   description: Relative path to target file from lnk file
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: local_path
   type: TEXT
   description: Local system path to target file
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: working_path
   type: TEXT
@@ -65,13 +65,13 @@ event_fields:
   type: TEXT
   description: Lnk file icon location
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: common_path
   type: TEXT
   description: Common system path to target file
   sample_value: TBD
-- standard_name: TBD
+- standard_name: CommandLine
   standard_type: TBD
   name: command_args
   type: TEXT
@@ -113,7 +113,7 @@ event_fields:
   type: INTEGER
   description: Target mft sequence
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FileDescription
   standard_type: TBD
   name: description
   type: TEXT

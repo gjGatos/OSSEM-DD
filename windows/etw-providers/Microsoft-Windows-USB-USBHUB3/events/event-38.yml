@@ -1,5 +1,5 @@
 name: Event 38 - SurpriseRemoval
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-USB-USBHUB3
 event_id: '38'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: fid_UsbDevice
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Default PnP

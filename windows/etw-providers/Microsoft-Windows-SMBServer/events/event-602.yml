@@ -1,5 +1,5 @@
 name: Event 602 - Smb2TreeConnectTerminate
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-SMBServer
 event_id: '602'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: TreeConnectGUID
   type: GUID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SessionGUID
   type: GUID
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_TreeConnect

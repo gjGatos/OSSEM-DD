@@ -1,5 +1,5 @@
 name: Event 64 - Service_OptInLevelChange
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-UniversalTelemetryClient
 event_id: '64'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: Environment
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: OldInfo
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: NewInfo
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SettingAuthority
   type: Int32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Service

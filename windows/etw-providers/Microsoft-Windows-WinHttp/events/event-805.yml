@@ -1,5 +1,5 @@
 name: Event 805 - WINHTTP_AUTOPROXY_DNS
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-WinHttp
 event_id: '805'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: DetectFlags
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_WINHTTP_KEYWORD_AUTOPROXY

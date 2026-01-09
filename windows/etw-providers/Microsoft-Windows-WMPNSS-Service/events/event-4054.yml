@@ -1,5 +1,5 @@
 name: Event 4054 - CPR_Get_Attrib
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-WMPNSS-Service
 event_id: '4054'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: Index
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: WMPAtom
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: CodeDescription
   standard_type: TBD
   name: ErrorCode
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_Start

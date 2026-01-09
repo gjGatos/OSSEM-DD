@@ -1,5 +1,5 @@
 name: Event 2012 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows Networking VPN Plugin Platform
 event_id: '2012'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: string
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_keyword_20000000000

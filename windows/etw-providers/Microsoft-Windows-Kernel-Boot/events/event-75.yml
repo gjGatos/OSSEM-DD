@@ -1,5 +1,5 @@
 name: Event 75 - VsmLKeyProvisioningStatus
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Kernel-Boot
 event_id: '75'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: CachedCopyStatus
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: KeyGenerationStatus
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SealAndSaveStatus
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: UEFIKeysStatus
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_VsmLKeyProvisioningStatus

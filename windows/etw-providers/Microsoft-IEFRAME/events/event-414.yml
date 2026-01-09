@@ -1,5 +1,5 @@
 name: Event 414 - Browseui_Tabs_MakeBlockingCallToTab
-description:
+description: null
 platform: windows
 log_source: Microsoft-IEFRAME
 event_id: '414'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: TabID
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_hang

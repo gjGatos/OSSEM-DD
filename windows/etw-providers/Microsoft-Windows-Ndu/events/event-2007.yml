@@ -1,5 +1,5 @@
 name: Event 2007 - PerFlowStats
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Ndu
 event_id: '2007'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: _IfLuid
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: _FlowHandle
   type: UInt64
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: SrcBytes
   standard_type: TBD
   name: _BytesSent
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: DstBytes
   standard_type: TBD
   name: _BytesRecvd
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_KeywordNduPerFlowStats

@@ -1,5 +1,8 @@
 name: 'Event ID 4661: A handle to an object was requested'
-description: This event indicates that a handle was requested for either an Active Directory object or a Security Account Manager (SAM) object. If access was declined, then Failure event is generated. This event generates only if Success auditing is enabled for the Audit Handle Manipulation subcategory.
+description: This event indicates that a handle was requested for either an Active
+  Directory object or a Security Account Manager (SAM) object. If access was declined,
+  then Failure event is generated. This event generates only if Success auditing is
+  enabled for the Audit Handle Manipulation subcategory.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
 event_id: '4661'
@@ -17,17 +20,19 @@ event_fields:
   type: UnicodeString
   description: the name of the account that requested a handle to an object.
   sample_value: dadmin
-- standard_name: UserDomain
+- standard_name: DomainName
   standard_type: TBD
   name: SubjectDomainName
   type: UnicodeString
   description: subject's domain or computer name.
   sample_value: CONTOSO
-- standard_name: UserLogonId
+- standard_name: UserId
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: 'hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, "4624: An account was successfully logged on."'
+  description: 'hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID, for example, "4624: An account was
+    successfully logged on."'
   sample_value: '0x4280e'
 - standard_name: ObjectServer
   standard_type: TBD
@@ -51,19 +56,25 @@ event_fields:
   standard_type: TBD
   name: HandleId
   type: Pointer
-  description: 'hexadecimal value of a handle to Object Name. This field can help you correlate this event with other events that might contain the same Handle ID, for example, "4662: An operation was performed on an object." This parameter might not be captured in the event, and in that case appears as "0x0".'
+  description: 'hexadecimal value of a handle to Object Name. This field can help
+    you correlate this event with other events that might contain the same Handle
+    ID, for example, "4662: An operation was performed on an object." This parameter
+    might not be captured in the event, and in that case appears as "0x0".'
   sample_value: '0xdd64d36870'
 - standard_name: TransactionGuid
   standard_type: TBD
   name: TransactionId
   type: GUID
-  description: 'unique GUID of the transaction. This field can help you correlate this event with other events that might contain the same the Transaction ID, such as "4660(S): An object was deleted."'
+  description: 'unique GUID of the transaction. This field can help you correlate
+    this event with other events that might contain the same the Transaction ID, such
+    as "4660(S): An object was deleted."'
   sample_value: '{00000000-0000-0000-0000-000000000000}'
 - standard_name: ObjectAccessList
   standard_type: TBD
   name: AccessList
   type: UnicodeString
-  description: the list of access rights which were requested by Subject\Security ID. These access rights depend on Object Type.
+  description: the list of access rights which were requested by Subject\Security
+    ID. These access rights depend on Object Type.
   sample_value: '%%5400'
 - standard_name: ObjectAccessMask
   standard_type: TBD
@@ -75,27 +86,34 @@ event_fields:
   standard_type: TBD
   name: PrivilegeList
   type: UnicodeString
-  description: the list of user privileges which were used during the operation, for example, SeBackupPrivilege. This parameter might not be captured in the event, and in that case appears as "-".
+  description: the list of user privileges which were used during the operation, for
+    example, SeBackupPrivilege. This parameter might not be captured in the event,
+    and in that case appears as "-".
   sample_value: '-'
 - standard_name: ObjectProperties
   standard_type: TBD
   name: Properties
   type: UnicodeString
-  description: 'depends on Object Type. This field can be empty or contain the list of the object properties that were accessed. See more detailed information in "4661: A handle to an object was requested" from Audit SAM subcategory.'
+  description: 'depends on Object Type. This field can be empty or contain the list
+    of the object properties that were accessed. See more detailed information in
+    "4661: A handle to an object was requested" from Audit SAM subcategory.'
   sample_value: '-'
 - standard_name: ObjectRestrictedSidCount
   standard_type: TBD
   name: RestrictedSidCount
   type: UInt32
-  description: Number of restricted SIDs in the token. Applicable to only specific Object Types.
+  description: Number of restricted SIDs in the token. Applicable to only specific
+    Object Types.
   sample_value: '-'
 - standard_name: ProcessId
   standard_type: TBD
   name: ProcessId
   type: Pointer
-  description: hexadecimal Process ID of the process that requested the handle. Process ID (PID) is a number used by the operating system to uniquely identify an active process.
+  description: hexadecimal Process ID of the process that requested the handle. Process
+    ID (PID) is a number used by the operating system to uniquely identify an active
+    process.
   sample_value: '0x9000a000d002d'
-- standard_name: ProcessPath
+- standard_name: ProcessName
   standard_type: TBD
   name: ProcessName
   type: UnicodeString

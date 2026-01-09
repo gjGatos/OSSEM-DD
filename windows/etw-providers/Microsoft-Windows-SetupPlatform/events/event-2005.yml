@@ -1,5 +1,5 @@
 name: Event 2005 - InstallWindowsTask
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-SetupPlatform
 event_id: '2005'
@@ -9,39 +9,39 @@ event_fields:
   standard_type: TBD
   name: Installationchoice
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: HostOSMajorversion
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: HostOSMinorversion
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: HostOSBuildnumber
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: HostOSServicepackmajornumber
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: HostOSServicepackminornumber
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_InstallWindowsTask

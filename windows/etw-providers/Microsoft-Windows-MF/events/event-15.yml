@@ -1,5 +1,5 @@
 name: Event 15 - MediaFoundationDevproxyVideoPluginProcessInput
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-MF
 event_id: '15'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: PinPtr
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SamplePtr
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_Start

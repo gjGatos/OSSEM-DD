@@ -1,5 +1,5 @@
 name: Event 423 - IHM_SlideOut
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-TabletPC-InputPanel
 event_id: '423'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: StoryBoardID
   type: Int32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_TabletPC_InputPanel_Keyword

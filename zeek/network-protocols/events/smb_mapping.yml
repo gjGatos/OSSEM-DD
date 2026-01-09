@@ -1,5 +1,5 @@
 name: SMB Mapping Log
-description:
+description: null
 platform: zeek
 log_source: network-protocols
 event_id: smb_mapping
@@ -35,7 +35,7 @@ event_fields:
   type: integer
   description: The responding/destination port
   sample_value: '445'
-- standard_name: EventUid
+- standard_name: UserUid
   standard_type: TBD
   name: uid
   type: string
@@ -47,7 +47,7 @@ event_fields:
   type: string
   description: File system of the tree.
   sample_value: NTFS
-- standard_name: ShareName
+- standard_name: ShareLocalPath
   standard_type: TBD
   name: path
   type: string
@@ -57,13 +57,15 @@ event_fields:
   standard_type: TBD
   name: share_type
   type: string
-  description: If this is SMB2, a share type will be included. For SMB1, the type of share will be deduced and included as well.
+  description: If this is SMB2, a share type will be included. For SMB1, the type
+    of share will be deduced and included as well.
   sample_value: DISK
 - standard_name: TBD
   standard_type: TBD
   name: service
   type: string
-  description: The type of resource of the tree (disk share, printer share, named pipe, etc.).
+  description: The type of resource of the tree (disk share, printer share, named
+    pipe, etc.).
   sample_value: ''
 references: []
 tags: []

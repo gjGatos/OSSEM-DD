@@ -1,5 +1,5 @@
 name: Event 44 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Kernel-Boot
 event_id: '44'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: CachedCopyStatus
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: IdkGenerationStatus
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: MeasuringStatus
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SealingAndCachingStatus
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_keywords_keyword_80000000000

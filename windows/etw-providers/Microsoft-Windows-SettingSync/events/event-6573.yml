@@ -1,5 +1,5 @@
 name: Event 6573 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-SettingSync
 event_id: '6573'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: HasInternetConnection
   type: Boolean
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: IsRoaming
   type: Boolean
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Warning
 - etw_task_task_0

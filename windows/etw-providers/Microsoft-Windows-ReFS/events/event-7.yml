@@ -1,5 +1,5 @@
 name: Event 7 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-ReFS
 event_id: '7'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: Context
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: MajorVersionExpected
   type: UInt8
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: MinorVersionExpected
   type: UInt8
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: MajorVersionOnDisk
   type: UInt8
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: MinorVersionOnDisk
   type: UInt8
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_keywords_VolumeMount

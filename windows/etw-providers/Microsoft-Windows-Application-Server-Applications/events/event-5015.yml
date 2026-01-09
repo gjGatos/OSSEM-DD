@@ -1,5 +1,5 @@
 name: Event 5015 - GenerateSerializer
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Application Server-Applications
 event_id: '5015'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: AppDomain
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_Serialization

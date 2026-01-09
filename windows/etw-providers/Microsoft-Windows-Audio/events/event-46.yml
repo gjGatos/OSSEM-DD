@@ -1,5 +1,5 @@
 name: Event 46 - Audio_Glitch_Detection
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Audio
 event_id: '46'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: pCAudioCapturePinStandardStreaming
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ValidPositionEnd
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ValidPositionStart
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: StreamPosition
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ValidPosStartMinusStreamPos
   type: UInt64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_opcode_STCAPCaptureBehind

@@ -1,5 +1,5 @@
 name: Event 16 - Monitor
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-IndirectDisplays-ClassExtension-Events
 event_id: '16'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: IddAdapterLuid
   type: Int64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ConnectorIndex
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_DdiCallbacks

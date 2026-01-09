@@ -1,5 +1,5 @@
 name: Event 844 - Mshtml_WebRTC_Add_Ice_Candidate
-description:
+description: null
 platform: windows
 log_source: Microsoft-IE
 event_id: '844'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: Candidate
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Mid
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SdpMLineIndex
   type: UInt16
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ThisPtr
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_mshtml

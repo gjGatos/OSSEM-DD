@@ -1,17 +1,17 @@
 name: Event 1844 - Tiles_MRT
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Immersive-Shell
 event_id: '1844'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: CodeLanguage
   standard_type: TBD
   name: Language
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_Tiles_MRT

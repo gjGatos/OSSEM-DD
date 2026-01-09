@@ -1,5 +1,5 @@
 name: Event 20 - LeapSecondDataUpdate
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Kernel-General
 event_id: '20'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: UpdateReason
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: EnabledNew
   type: Boolean
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: CountNew
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: CountOld
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_KERNEL_GENERAL_KEYWORD_TIME

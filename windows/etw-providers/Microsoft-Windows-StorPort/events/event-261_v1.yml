@@ -1,5 +1,5 @@
 name: Event 261 - Port
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-StorPort
 event_id: '261'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: PoHandle
   type: Pointer
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: SrcPort
   standard_type: TBD
   name: PortNumber
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Requested_AdapterIdleTimeout_ms
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Actual_AdapterIdleTimeout_ms
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Power

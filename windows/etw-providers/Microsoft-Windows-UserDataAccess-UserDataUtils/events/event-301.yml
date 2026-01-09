@@ -1,5 +1,5 @@
 name: Event 301 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-UserDataAccess-UserDataUtils
 event_id: '301'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: P1_HexInt32
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Prop_Handle
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Prop_Handle2
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_keywords_Error

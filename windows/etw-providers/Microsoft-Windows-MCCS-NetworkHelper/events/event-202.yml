@@ -1,5 +1,5 @@
 name: Event 202 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-MCCS-NetworkHelper
 event_id: '202'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: P1_String
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: P2_Boolean
   type: Boolean
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: P3_String
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: P4_Handle
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_StateTransition

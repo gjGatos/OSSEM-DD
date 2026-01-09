@@ -1,5 +1,5 @@
 name: Event 5403 - Dashboard_ChartScaleChanged
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Diagnosis-AdvancedTaskManager
 event_id: '5403'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: ChartId
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: FromScaleIndex
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: FromScaleString
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ToScaleIndex
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ToScaleString
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_dashboard

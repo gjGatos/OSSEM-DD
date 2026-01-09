@@ -1,41 +1,41 @@
 name: Event 265 - Port
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-StorPort
 event_id: '265'
 event_version: '1'
 event_fields:
-- standard_name: TBD
+- standard_name: DstPort
   standard_type: TBD
   name: PortNumber
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: 'null'
   standard_type: TBD
   name: PreviousPowerHint
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: 'null'
   standard_type: TBD
   name: PreviousResumeLatency_ms
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: 'null'
   standard_type: TBD
   name: NewPowerHint
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: 'null'
   standard_type: TBD
   name: NewResumeLatency_ms
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Power

@@ -1,29 +1,29 @@
 name: Event 14024 - Streaming
-description:
+description: null
 platform: windows
 log_source: Microsoft-AppV-Client
 event_id: '14024'
 event_version: '1'
 event_fields:
-- standard_name: TBD
+- standard_name: FileName
   standard_type: TBD
   name: File
   type: UnicodeString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: ProcessId
   standard_type: TBD
   name: Pid
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Sid
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Streaming

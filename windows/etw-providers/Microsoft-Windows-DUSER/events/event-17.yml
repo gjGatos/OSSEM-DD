@@ -1,5 +1,5 @@
 name: Event 17 - DUser_ForceDestroyDCVisual
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-DUSER
 event_id: '17'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: hGadget
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: pVisual
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: fRoot
   type: Boolean
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Default

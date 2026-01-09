@@ -1,5 +1,5 @@
 name: Event 19 - Proximity_ReceiveSharedContent
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Proximity-Common
 event_id: '19'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: Pointer1
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_Stop

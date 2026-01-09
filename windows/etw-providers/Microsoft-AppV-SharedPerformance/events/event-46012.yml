@@ -1,5 +1,5 @@
 name: Event 46012 - InstallAssembly
-description:
+description: null
 platform: windows
 log_source: Microsoft-AppV-SharedPerformance
 event_id: '46012'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: ustring
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_opcode_Start
 - etw_task_InstallAssembly

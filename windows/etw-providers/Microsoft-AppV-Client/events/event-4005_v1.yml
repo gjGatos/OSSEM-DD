@@ -1,5 +1,5 @@
 name: Event 4005 - ExecuteEmbeddedScripts
-description:
+description: null
 platform: windows
 log_source: Microsoft-AppV-Client
 event_id: '4005'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: ScriptScope
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Package
   type: GUID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: EventType
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_EmbeddedScripting

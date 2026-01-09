@@ -1,5 +1,5 @@
 name: Event 3 - Restore
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-PrintBRM
 event_id: '3'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: DriverName
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: NewDriver
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PrinterName
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_PRINT_QUEUE_KEYWORD

@@ -5,19 +5,19 @@ log_source: osquery
 event_id: process_envs
 event_version: 4.4.2
 event_fields:
-- standard_name: TBD
+- standard_name: ProcessId
   standard_type: TBD
   name: pid
   type: INTEGER
   description: Process (or thread) ID
   sample_value: TBD
-- standard_name: TBD
+- standard_name: ProcessEnvironmentVariables
   standard_type: TBD
   name: key
   type: TEXT
   description: Environment variable name
   sample_value: TBD
-- standard_name: TBD
+- standard_name: ProcessEnvironmentVariables
   standard_type: TBD
   name: value
   type: TEXT

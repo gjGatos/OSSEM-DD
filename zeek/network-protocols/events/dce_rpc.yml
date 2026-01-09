@@ -1,5 +1,5 @@
 name: DCE-RPC Log
-description:
+description: null
 platform: zeek
 log_source: network-protocols
 event_id: dce_rpc
@@ -53,7 +53,7 @@ event_fields:
   type: string
   description: Remote pipe name.
   sample_value: \PIPE\srvsvc
-- standard_name: TBD
+- standard_name: ApiCallName
   standard_type: TBD
   name: operation
   type: string
@@ -63,7 +63,8 @@ event_fields:
   standard_type: TBD
   name: rtt
   type: float
-  description: Round trip time from the request to the response. If either the request or response was not seen, this will be null.
+  description: Round trip time from the request to the response. If either the request
+    or response was not seen, this will be null.
   sample_value: '0.00303'
 references: []
 tags: []

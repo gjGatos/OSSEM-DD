@@ -1,5 +1,5 @@
 name: Event 323 - CHANNELBATCHES_PROCESSED
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Dwm-Core
 event_id: '323'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: channelHandle
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: ProcessId
   standard_type: TBD
   name: processId
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: numberOfBatchesProcessed
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_DwmCore ProcessAttribution

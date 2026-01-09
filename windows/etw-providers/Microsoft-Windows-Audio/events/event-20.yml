@@ -1,5 +1,5 @@
 name: Event 20 - AudioSession_Stream_Resource_Type
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Audio
 event_id: '20'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: Format
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SamplingRate
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: bAudioSrvStreamResourceType
   type: Boolean
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_AudioSession_Stream_Resource_Type

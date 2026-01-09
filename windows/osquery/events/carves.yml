@@ -1,5 +1,6 @@
 name: Carves Table
-description: List the set of completed and in-progress carves. If carve=1 then the query is treated as a new carve request.
+description: List the set of completed and in-progress carves. If carve=1 then the
+  query is treated as a new carve request.
 platform: windows
 log_source: osquery
 event_id: carves
@@ -11,19 +12,19 @@ event_fields:
   type: BIGINT
   description: Time at which the carve was kicked off
   sample_value: TBD
-- standard_name: TBD
+- standard_name: Sha256Hash
   standard_type: TBD
   name: sha256
   type: TEXT
   description: A SHA256 sum of the carved archive
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FileSize
   standard_type: TBD
   name: size
   type: INTEGER
   description: Size of the carved archive
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: path
   type: TEXT
@@ -45,7 +46,8 @@ event_fields:
   standard_type: TBD
   name: request_id
   type: TEXT
-  description: Identifying value of the carve request (e.g., scheduled query name, distributed request, etc)
+  description: Identifying value of the carve request (e.g., scheduled query name,
+    distributed request, etc)
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD

@@ -1,5 +1,5 @@
 name: Event 1141 - MediaFoundationAsyncWrapperCompactedoutput
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-MF
 event_id: '1141'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: WrapperPtr
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SampleTimestamp
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Duration0
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Duration1
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: DurationResult
   type: UInt64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_task_MediaFoundationAsyncWrapperCompactedoutput

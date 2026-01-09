@@ -5,13 +5,13 @@ log_source: osquery
 event_id: autoexec
 event_version: 5.0.1
 event_fields:
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: path
   type: TEXT
   description: Path to the executable
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FileName
   standard_type: TBD
   name: name
   type: TEXT

@@ -1,41 +1,41 @@
 name: Event 350 - StandbyPerformanceMonitoring
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Diagnostics-Performance
 event_id: '350'
 event_version: '1'
 event_fields:
-- standard_name: TBD
+- standard_name: NetworkTrafficStart
   standard_type: TBD
   name: StartTime
   type: FILETIME
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: NameLength
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: SoftwareName
   standard_type: TBD
   name: Name
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: TotalTime
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: DegradationTime
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Warning
 - etw_keywords_EventLog

@@ -1,5 +1,5 @@
 name: Event 1003 - ResolutionEvents
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Resource-Exhaustion-Resolver
 event_id: '1003'
@@ -9,39 +9,39 @@ event_fields:
   standard_type: TBD
   name: TimeSinceLastUI
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: EventGenerationTime
   type: FILETIME
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: EventType
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: DropReasonCode
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: TimesUIShown
   type: UInt8
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: MaxCommit
   type: UInt8
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Warning
 - etw_keywords_RDR_RES_KEYWORD_MEMORY_EXHAUSTION

@@ -1,5 +1,7 @@
 name: 'Event ID 4778: A session was reconnected to a Window Station'
-description: This event is generated when a user reconnects to an existing Terminal Services session, or when a user switches to an existing desktop using Fast User Switching.
+description: This event is generated when a user reconnects to an existing Terminal
+  Services session, or when a user switches to an existing desktop using Fast User
+  Switching.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
 event_id: '4778'
@@ -11,7 +13,7 @@ event_fields:
   type: UnicodeString
   description: the name of the account for which the session was reconnected
   sample_value: ladmin
-- standard_name: UserDomain
+- standard_name: DomainName
   standard_type: TBD
   name: AccountDomain
   type: UnicodeString
@@ -21,7 +23,8 @@ event_fields:
   standard_type: TBD
   name: LogonID
   type: HexInt64
-  description: hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID
+  description: hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID
   sample_value: '0x1e01f6'
 - standard_name: SessionName
   standard_type: TBD
@@ -33,7 +36,8 @@ event_fields:
   standard_type: TBD
   name: ClientName
   type: UnicodeString
-  description: computer name from which the user was reconnected. Has "Unknown" value for console session.
+  description: computer name from which the user was reconnected. Has "Unknown" value
+    for console session.
   sample_value: WIN81
 - standard_name: SrcIpAddr
   standard_type: TBD

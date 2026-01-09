@@ -1,5 +1,5 @@
 name: Event 353 - RME_CLIENT_LIBRARY_METADATA_RESPONSE
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-WMP
 event_id: '353'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: Offset
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: RequestedCount
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ResponseCount
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: TotalCount
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: HRESULT
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_mediaplayer

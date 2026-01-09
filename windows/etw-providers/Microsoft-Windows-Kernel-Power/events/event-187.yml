@@ -1,5 +1,5 @@
 name: Event 187 - NtInitiatePowerActionApiCall
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Kernel-Power
 event_id: '187'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: ApiCallerNameLength
   type: UInt16
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ApiCallerName
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SystemAction
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: LightestSystemState
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_po:Diagnostic po:DiagnosticLight keyword_400000000000

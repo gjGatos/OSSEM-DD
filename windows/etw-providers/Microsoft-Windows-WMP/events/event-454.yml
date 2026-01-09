@@ -1,5 +1,5 @@
 name: Event 454 - PLAYSINGLE_PH_BROWSECDS
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-WMP
 event_id: '454'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: ProtocolHandler
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: UDN
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ObjectID
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ASX
   type: AnsiString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: HResult
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_mediaplayer

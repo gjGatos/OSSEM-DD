@@ -1,5 +1,5 @@
 name: Event 38 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-SENSE
 event_id: '38'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: pollingInterval
   type: UInt16
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: meteredConnectionState
   type: Boolean
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: internetAvailabilityState
   type: Boolean
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: freeNetworkAvailabilityState
   type: Boolean
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: proxyDefined
   type: Boolean
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_task_0

@@ -1,23 +1,23 @@
 name: Event 1027 - ConnectionSequence
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-TerminalServices-ClientActiveXCore
 event_id: '1027'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: DomainName
   standard_type: TBD
   name: DomainName
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SessionId
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_Thiseventisraisedduringtheconnectionprocess

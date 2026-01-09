@@ -29,7 +29,7 @@ event_fields:
   type: TEXT
   description: The name of the root of the DNS tree.
   sample_value: TBD
-- standard_name: TBD
+- standard_name: IpAddress
   standard_type: TBD
   name: domain_controller_address
   type: TEXT
@@ -41,7 +41,7 @@ event_fields:
   type: TEXT
   description: The name of the discovered domain controller.
   sample_value: TBD
-- standard_name: TBD
+- standard_name: DomainName
   standard_type: TBD
   name: domain_name
   type: TEXT

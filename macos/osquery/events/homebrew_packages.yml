@@ -17,7 +17,7 @@ event_fields:
   type: TEXT
   description: Package install path
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareVersion
   standard_type: TBD
   name: version
   type: TEXT

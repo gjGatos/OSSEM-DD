@@ -1,5 +1,5 @@
 name: Event 17 - WorkQueue:TimerSet
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-RTWorkQueue-Extended
 event_id: '17'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: WorkQueuePointer
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: WorkQueueID
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Mode
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Delta
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_task_WorkQueue:TimerSet

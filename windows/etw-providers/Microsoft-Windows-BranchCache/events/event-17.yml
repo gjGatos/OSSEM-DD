@@ -1,35 +1,35 @@
 name: Event 17 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-BranchCache
 event_id: '17'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: EmailFromAddress
   standard_type: TBD
   name: FromAddress
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: MessageType
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: CodeDescription
   standard_type: TBD
   name: ErrorCode
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: CodeDescription
   standard_type: TBD
   name: ErrorMessage
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Warning
 - etw_opcode_Downloadingcontent.

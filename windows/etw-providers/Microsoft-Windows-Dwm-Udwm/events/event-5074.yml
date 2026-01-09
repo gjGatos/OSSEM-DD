@@ -1,5 +1,5 @@
 name: Event 5074 - UdwmIndirectTouchVisual
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Dwm-Udwm
 event_id: '5074'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: PointerID
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Enum
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Udwm UdwmInput

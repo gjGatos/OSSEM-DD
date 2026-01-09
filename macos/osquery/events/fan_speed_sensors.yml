@@ -11,7 +11,7 @@ event_fields:
   type: TEXT
   description: Fan number
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FileName
   standard_type: TBD
   name: name
   type: TEXT

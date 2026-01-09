@@ -1,29 +1,29 @@
 name: Event 866 - CreatingaPlugandPlaydeviceobjectinstanceforaprinter
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-PrintService
 event_id: '866'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: SoftwareName
   standard_type: TBD
   name: PrinterName
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: DeviceObjectInstanceIdentifier
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: HResultErrorCode
   type: HexInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_keywords_SPOOLER_KEYWORD_LOCALSPL SPOOLER_KEYWORD_PRINTER

@@ -1,5 +1,5 @@
 name: Event 5213 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-AppXDeployment-Server
 event_id: '5213'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: ReturnVal
   type: HexInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Warning
 - etw_keywords_STATE_DEH_KEYWORD

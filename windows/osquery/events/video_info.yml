@@ -11,7 +11,7 @@ event_fields:
   type: INTEGER
   description: The amount of bits per pixel to represent color.
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareName
   standard_type: TBD
   name: driver
   type: TEXT
@@ -23,13 +23,13 @@ event_fields:
   type: TEXT
   description: The date listed on the installed driver.
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareVersion
   standard_type: TBD
   name: driver_version
   type: TEXT
   description: The version of the installed driver.
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareVendor
   standard_type: TBD
   name: manufacturer
   type: TEXT

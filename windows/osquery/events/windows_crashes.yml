@@ -77,7 +77,7 @@ event_fields:
   type: TEXT
   description: The values of the system registers
   sample_value: TBD
-- standard_name: TBD
+- standard_name: CommandLine
   standard_type: TBD
   name: command_line
   type: TEXT

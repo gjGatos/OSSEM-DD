@@ -5,31 +5,31 @@ log_source: osquery
 event_id: office_mru
 event_version: 5.0.1
 event_fields:
-- standard_name: TBD
+- standard_name: SoftwareName
   standard_type: TBD
   name: application
   type: TEXT
   description: Associated Office application
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareVersion
   standard_type: TBD
   name: version
   type: TEXT
   description: Office application version number
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: path
   type: TEXT
   description: File path
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: last_opened_time
   type: BIGINT
   description: Most recent opened time file was opened
   sample_value: TBD
-- standard_name: TBD
+- standard_name: UserSid
   standard_type: TBD
   name: sid
   type: TEXT

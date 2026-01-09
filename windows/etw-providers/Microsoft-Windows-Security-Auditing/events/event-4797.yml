@@ -1,5 +1,7 @@
-name: 'Event ID 4797: An attempt was made to query the existence of a blank password for an account.'
-description: This event generates when a process enumerates a blank password for an account.
+name: 'Event ID 4797: An attempt was made to query the existence of a blank password
+  for an account.'
+description: This event generates when a process enumerates a blank password for an
+  account.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
 event_id: '4797'
@@ -11,13 +13,14 @@ event_fields:
   type: SID
   description: SID of account that requested the "enumerate usblank passwords" operation.
   sample_value: S-1-5-21-1377283216-344919071-3415362939-1104
-- standard_name: UserName
+- standard_name: InitiatingProcessUserName
   standard_type: TBD
   name: SubjectUserName
   type: UnicodeString
-  description: the name of the account that requested the "enumerate blank password" operation.
+  description: the name of the account that requested the "enumerate blank password"
+    operation.
   sample_value: dadmin
-- standard_name: UserDomain
+- standard_name: Domain
   standard_type: TBD
   name: SubjectDomainName
   type: UnicodeString
@@ -27,21 +30,25 @@ event_fields:
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: 'hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, "4624: An account was successfully logged on."'
+  description: 'hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID, for example, "4624: An account was
+    successfully logged on."'
   sample_value: '0x72d9d'
-- standard_name: SourceHostName
+- standard_name: TargetHostSamName
   standard_type: TBD
   name: Workstation
   type: UnicodeString
-  description: the name of computer account from which the password was queried from For example "DC01". If the change request was sent locally (from the same server) this field will have the same name as the computer account
+  description: the name of computer account from which the password was queried from
+    For example "DC01". If the change request was sent locally (from the same server)
+    this field will have the same name as the computer account
   sample_value: WIN10-1
-- standard_name: TargetUserName
+- standard_name: TargetUserSamName
   standard_type: TBD
   name: TargetUserName
   type: UnicodeString
   description: the name of the account whose groups were enumerated.
   sample_value: Administrator
-- standard_name: TargetUserDomain
+- standard_name: Domain
   standard_type: TBD
   name: TargetDomainName
   type: UnicodeString

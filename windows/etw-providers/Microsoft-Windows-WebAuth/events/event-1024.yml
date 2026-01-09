@@ -1,23 +1,23 @@
 name: Event 1024 - NavigationNewWindow
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-WebAuth
 event_id: '1024'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: UrlOriginal
   standard_type: TBD
   name: Url
   type: UnicodeString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: UrlOriginal
   standard_type: TBD
   name: ReferrerUrl
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_AuthHost

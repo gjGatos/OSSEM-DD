@@ -1,5 +1,5 @@
 name: Event 861 - IDXGISwapChain_GetFrameLatencyWaitableObject
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-DXGI
 event_id: '861'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: m_Ret
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_opcode_Stop

@@ -35,7 +35,7 @@ event_fields:
   type: TEXT
   description: Sender's facility.  Default is 'user'.
   sample_value: TBD
-- standard_name: TBD
+- standard_name: ProcessId
   standard_type: TBD
   name: pid
   type: INTEGER
@@ -81,7 +81,8 @@ event_fields:
   standard_type: TBD
   name: extra
   type: TEXT
-  description: Extra columns, in JSON format. Queries against this column are performed entirely in SQLite, so do not benefit from efficient querying via asl.h.
+  description: Extra columns, in JSON format. Queries against this column are performed
+    entirely in SQLite, so do not benefit from efficient querying via asl.h.
   sample_value: TBD
 references:
 - text: OSQuery table documentation

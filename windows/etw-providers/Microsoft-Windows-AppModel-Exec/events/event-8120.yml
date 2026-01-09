@@ -1,5 +1,5 @@
 name: Event 8120 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-AppModel-Exec
 event_id: '8120'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: p1_UInt32
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: p2_UInt32
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: p3_UInt32
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_ExecProductionCircular ExecDevPlatCircular AgHost

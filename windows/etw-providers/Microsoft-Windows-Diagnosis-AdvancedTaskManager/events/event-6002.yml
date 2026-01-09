@@ -1,5 +1,5 @@
 name: Event 6002 - Actions_InvokeMenu
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Diagnosis-AdvancedTaskManager
 event_id: '6002'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: ItemType
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: MenuId
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_ui

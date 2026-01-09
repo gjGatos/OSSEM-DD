@@ -1,17 +1,17 @@
 name: Event 70 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Bits-Client
 event_id: '70'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: IpAddress
   standard_type: TBD
   name: clientAddress
   type: Binary
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_Start

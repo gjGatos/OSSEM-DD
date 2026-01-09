@@ -1,5 +1,5 @@
 name: Event 8010 - LMStateMachine
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Store
 event_id: '8010'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: StateMachine
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ThreadID
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: StateMachineName
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: EventName
   type: AnsiString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_keyword_200000000000

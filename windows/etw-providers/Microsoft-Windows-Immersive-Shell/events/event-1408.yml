@@ -1,5 +1,5 @@
 name: Event 1408 - BackstackManager_RemoveApp
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Immersive-Shell
 event_id: '1408'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: AppUserModelID
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_BackstackManager_RemoveApp

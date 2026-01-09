@@ -17,7 +17,7 @@ event_fields:
   type: UnicodeString
   description: the name of the account that requested the "modify/change object" operation.
   sample_value: dadmin
-- standard_name: UserDomain
+- standard_name: DomainName
   standard_type: TBD
   name: SubjectUserDomainName
   type: UnicodeString
@@ -27,7 +27,9 @@ event_fields:
   standard_type: TBD
   name: SubjectLogonId
   type: UInt64
-  description: 'hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, "4624: An account was successfully logged on."'
+  description: 'hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID, for example, "4624: An account was
+    successfully logged on."'
   sample_value: '222443'
 - standard_name: ObjectCollectionName
   standard_type: TBD
@@ -39,7 +41,8 @@ event_fields:
   standard_type: TBD
   name: ObjectIdentifyingProperties
   type: UnicodeString
-  description: object-specific fields with the names and identifiers for the modified object.
+  description: object-specific fields with the names and identifiers for the modified
+    object.
   sample_value: ID = {1D34B2DC-0E43-4040-BA7B-2F1C181FD86A} AppPartitionID = {41E90F3E-56C1-4633-81C3-6E8BAC8BDD70}
 - standard_name: ObjectModifiedProperties
   standard_type: TBD

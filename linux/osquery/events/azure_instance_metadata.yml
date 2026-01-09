@@ -11,7 +11,7 @@ event_fields:
   type: TEXT
   description: Azure Region the VM is running in
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareName
   standard_type: TBD
   name: name
   type: TEXT
@@ -23,7 +23,7 @@ event_fields:
   type: TEXT
   description: Offer information for the VM image (Azure image gallery VMs only)
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareVendor
   standard_type: TBD
   name: publisher
   type: TEXT
@@ -35,7 +35,7 @@ event_fields:
   type: TEXT
   description: SKU for the VM image
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareVersion
   standard_type: TBD
   name: version
   type: TEXT
@@ -65,7 +65,7 @@ event_fields:
   type: TEXT
   description: Unique identifier for the VM
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareName
   standard_type: TBD
   name: vm_size
   type: TEXT

@@ -1,5 +1,5 @@
 name: Event 6 - SamplingPeriodChange
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Power-Meter-Polling
 event_id: '6'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: MeterType
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PeriodInMs
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_SamplingPeriodChange

@@ -1,5 +1,5 @@
 name: Event 211 - Transform_SetInputType
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-MediaFoundation-MFReadWrite
 event_id: '211'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: Object
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: TransformType
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: MediaType
   type: AnsiString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_Transform_SetInputType

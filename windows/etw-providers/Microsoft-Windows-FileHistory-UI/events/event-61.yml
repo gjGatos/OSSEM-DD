@@ -1,17 +1,17 @@
 name: Event 61 - Launch
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-FileHistory-UI
 event_id: '61'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: ProcessCommandLine
   standard_type: TBD
   name: CommandLineParameters
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_opcode_Stop

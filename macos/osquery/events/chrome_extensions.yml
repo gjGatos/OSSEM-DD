@@ -29,13 +29,13 @@ event_fields:
   type: TEXT
   description: Extension identifier
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareVersion
   standard_type: TBD
   name: version
   type: TEXT
   description: Extension-supplied version
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareDescription
   standard_type: TBD
   name: description
   type: TEXT
@@ -53,13 +53,13 @@ event_fields:
   type: TEXT
   description: Extension-supplied update URI
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareVendor
   standard_type: TBD
   name: author
   type: TEXT
   description: Optional extension author
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: path
   type: TEXT

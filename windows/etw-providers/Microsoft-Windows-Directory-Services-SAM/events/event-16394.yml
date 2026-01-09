@@ -1,5 +1,5 @@
 name: Event 16394 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Directory-Services-SAM
 event_id: '16394'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: AccountRID
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: GroupName
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: __binLength
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ErrorCode
   type: Binary
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Warning
 - etw_task_task_0

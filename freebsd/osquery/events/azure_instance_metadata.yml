@@ -11,7 +11,7 @@ event_fields:
   type: TEXT
   description: Azure Region the VM is running in
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FileName
   standard_type: TBD
   name: name
   type: TEXT

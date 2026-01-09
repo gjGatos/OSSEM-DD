@@ -1,5 +1,5 @@
 name: Event 11 - IUIManager_OnTargetPositionChanged
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-TSF-UIManager
 event_id: '11'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: targetRangeLeft
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: targetRangeTop
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: targetRangeRight
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: targetRangeBottom
   type: Int32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_TSF_UIManager

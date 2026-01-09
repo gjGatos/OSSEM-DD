@@ -1,5 +1,5 @@
 name: Event 204 - SCHEDULE_PRESENT_STATS_DELTAS
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Dwm-Core
 event_id: '204'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: DisplayID
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SyncRefreshCountDelta
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SyncTimeDeltaMS
   type: Float
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_DwmCore

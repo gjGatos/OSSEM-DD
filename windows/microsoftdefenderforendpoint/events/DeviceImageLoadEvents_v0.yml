@@ -53,13 +53,13 @@ event_fields:
   type: string
   description: MD5 hash of the file that the recorded action was applied to
   sample_value: ''
-- standard_name: UserDomain
+- standard_name: Domain
   standard_type: TBD
   name: InitiatingProcessAccountDomain
   type: string
   description: Domain of the account that ran the process responsible for the event
   sample_value: ''
-- standard_name: UserName
+- standard_name: InitiatingProcessAccountName
   standard_type: TBD
   name: InitiatingProcessAccountName
   type: string
@@ -69,19 +69,24 @@ event_fields:
   standard_type: TBD
   name: InitiatingProcessAccountSid
   type: string
-  description: Security Identifier (SID) of the account that ran the process responsible for the event
+  description: Security Identifier (SID) of the account that ran the process responsible
+    for the event
   sample_value: ''
 - standard_name: ProcessIntegrityLevel
   standard_type: TBD
   name: InitiatingProcessIntegrityLevel
   type: string
-  description: Integrity level of the process that initiated the event. Windows assigns integrity levels to processes based on certain characteristics, such as if they were launched from an internet download. These integrity levels influence permissions to resources.
+  description: Integrity level of the process that initiated the event. Windows assigns
+    integrity levels to processes based on certain characteristics, such as if they
+    were launched from an internet download. These integrity levels influence permissions
+    to resources.
   sample_value: ''
 - standard_name: ProcessTokenElevation
   standard_type: TBD
   name: InitiatingProcessTokenElevation
   type: string
-  description: Token type indicating the presence or absence of User Access Control (UAC) privilege elevation applied to the process that initiated the event
+  description: Token type indicating the presence or absence of User Access Control
+    (UAC) privilege elevation applied to the process that initiated the event
   sample_value: ''
 - standard_name: ProcessHashSha1
   standard_type: TBD
@@ -113,13 +118,13 @@ event_fields:
   type: string
   description: Command line used to run the process that initiated the event
   sample_value: ''
-- standard_name: ProcessCreationTime
+- standard_name: InitiatingProcessParentCreationTime
   standard_type: TBD
   name: InitiatingProcessCreationTime
   type: date
   description: Date and time when the process that initiated the event was started
   sample_value: ''
-- standard_name: ProcessPath
+- standard_name: InitiatingProcessFolderPath
   standard_type: TBD
   name: InitiatingProcessFolderPath
   type: string
@@ -129,31 +134,36 @@ event_fields:
   standard_type: TBD
   name: InitiatingProcessParentId
   type: int
-  description: Process ID (PID) of the parent process that spawned the process responsible for the event
+  description: Process ID (PID) of the parent process that spawned the process responsible
+    for the event
   sample_value: ''
 - standard_name: ProcessParentName
   standard_type: TBD
   name: InitiatingProcessParentFileName
   type: string
-  description: Name of the parent process that spawned the process responsible for the event
+  description: Name of the parent process that spawned the process responsible for
+    the event
   sample_value: ''
-- standard_name: ProcessParentCreationTime
+- standard_name: InitiatingProcessParentCreationTime
   standard_type: TBD
   name: InitiatingProcessParentCreationTime
   type: date
-  description: Date and time when the parent of the process responsible for the event was started
+  description: Date and time when the parent of the process responsible for the event
+    was started
   sample_value: ''
 - standard_name: ReportId
   standard_type: TBD
   name: ReportId
   type: long
-  description: Event identifier based on a repeating counter. To identify unique events, this column must be used in conjunction with the ComputerName and EventTime columns.
+  description: Event identifier based on a repeating counter. To identify unique events,
+    this column must be used in conjunction with the ComputerName and EventTime columns.
   sample_value: ''
 - standard_name: AppGuardContainerId
   standard_type: TBD
   name: AppGuardContainerId
   type: string
-  description: Identifier for the virtualized container used by Application Guard to isolate browser activity
+  description: Identifier for the virtualized container used by Application Guard
+    to isolate browser activity
   sample_value: ''
 references: []
 tags: []

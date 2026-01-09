@@ -1,5 +1,5 @@
 name: Event 1042 - MiracastUmdOpenMiracastSessionDataRate
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-DxgKrnl
 event_id: '1042'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: EncoderBitRate
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: MaxLocalRate
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: MaxRemoteRate
   type: UInt64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_Miracast

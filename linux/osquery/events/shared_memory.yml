@@ -11,25 +11,25 @@ event_fields:
   type: INTEGER
   description: Shared memory segment ID
   sample_value: TBD
-- standard_name: TBD
+- standard_name: UserUid
   standard_type: TBD
   name: owner_uid
   type: BIGINT
   description: User ID of owning process
   sample_value: TBD
-- standard_name: TBD
+- standard_name: UserUid
   standard_type: TBD
   name: creator_uid
   type: BIGINT
   description: User ID of creator process
   sample_value: TBD
-- standard_name: TBD
+- standard_name: ProcessId
   standard_type: TBD
   name: pid
   type: BIGINT
   description: Process ID to last use the segment
   sample_value: TBD
-- standard_name: TBD
+- standard_name: ProcessId
   standard_type: TBD
   name: creator_pid
   type: BIGINT
@@ -59,7 +59,7 @@ event_fields:
   type: TEXT
   description: Memory segment permissions
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FileSize
   standard_type: TBD
   name: size
   type: BIGINT

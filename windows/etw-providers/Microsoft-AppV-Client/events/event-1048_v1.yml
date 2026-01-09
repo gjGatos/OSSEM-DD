@@ -1,5 +1,5 @@
 name: Event 1048 - PublishVirtualApplicationConnectionGroup
-description:
+description: null
 platform: windows
 log_source: Microsoft-AppV-Client
 event_id: '1048'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: ConnectionGroup
   type: GUID
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: SoftwareVersion
   standard_type: TBD
   name: GroupVersion
   type: GUID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Package
   type: GUID
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: SoftwareVersion
   standard_type: TBD
   name: PackageVersion
   type: GUID
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_keywords_Publishing

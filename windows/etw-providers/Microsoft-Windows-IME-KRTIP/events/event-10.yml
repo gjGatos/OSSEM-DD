@@ -1,5 +1,5 @@
 name: Event 10 - TaskID:IME_KOR_HWKBD_CandUIProcess
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-IME-KRTIP
 event_id: '10'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: Duration
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: IMEType
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_TaskID:IME_KOR_HWKBD_CandUIProcess

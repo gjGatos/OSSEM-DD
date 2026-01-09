@@ -1,5 +1,5 @@
 name: Event 577 - Terminate_Browser_Tab_Process
-description:
+description: null
 platform: windows
 log_source: Microsoft-IEFRAME
 event_id: '577'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: TabID
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: AllowRecovery
   type: Boolean
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: UseWER
   type: Boolean
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: HangUIShowing
   type: Boolean
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Result
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_hang

@@ -1,5 +1,5 @@
 name: Event 55
-description:
+description: null
 platform: windows
 log_source: Heap Trace Provider
 event_id: '55'
@@ -9,7 +9,7 @@ event_fields:
   standard_type: TBD
   name: SlotIndex
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags: []

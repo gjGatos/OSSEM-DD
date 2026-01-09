@@ -1,5 +1,5 @@
 name: Event 1002 - DnsServerQueryChange
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-DNS-Client
 event_id: '1002'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: Interface
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: AddressLength
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: IpAddress
   standard_type: TBD
   name: Address
   type: Binary
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_DnsServerQueryChange

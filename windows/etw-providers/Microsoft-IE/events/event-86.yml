@@ -1,5 +1,5 @@
 name: Event 86 - Mshtml_HtmPost_PostManExecute
-description:
+description: null
 platform: windows
 log_source: Microsoft-IE
 event_id: '86'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: PtrIn
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: dwTimeout
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_primarynav mshtml pageloadbreakdown

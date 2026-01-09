@@ -1,5 +1,5 @@
 name: Event 27 - URB_FUNCTION_ISOCH_TRANSFER
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-USB-USBPORT
 event_id: '27'
@@ -9,57 +9,57 @@ event_fields:
   standard_type: TBD
   name: fid_USBPORT_HC
   type: Int64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: fid_USBPORT_Device
   type: GUID
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: SoftwareName
   standard_type: TBD
   name: fid_USBPORT_Endpoint
   type: CountedUtf16String
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: fid_USBPORT_Endpoint_Descriptor
   type: '25'
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: fid_IRP_Ptr
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: fid_URB_Ptr
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: fid_USBPORT_URB_NumberOfPackets
   type: UInt16
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: fid_USBPORT_URB_ISOCH_TRANSFER
   type: '31'
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: fid_USBPORT_URB_ISO_PACKETS
   type: '46'
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Diagnostic

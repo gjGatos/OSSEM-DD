@@ -5,7 +5,7 @@ log_source: osquery
 event_id: groups
 event_version: 4.4.2
 event_fields:
-- standard_name: TBD
+- standard_name: GroupSid
   standard_type: TBD
   name: gid
   type: BIGINT
@@ -23,7 +23,7 @@ event_fields:
   type: TEXT
   description: Canonical local group name
   sample_value: TBD
-- standard_name: TBD
+- standard_name: GroupSid
   standard_type: TBD
   name: group_sid
   type: TEXT
@@ -35,7 +35,7 @@ event_fields:
   type: TEXT
   description: Remarks or comments associated with the group [WINDOWS]
   sample_value: TBD
-- standard_name: TBD
+- standard_name: ProcessIsHidden
   standard_type: TBD
   name: is_hidden
   type: INTEGER

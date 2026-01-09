@@ -1,5 +1,5 @@
 name: Event 29 - Audio_Glitch_Detection
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Audio
 event_id: '29'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: pCCrossProcessClientInputEndpoint
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Unused
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_opcode_CPClientInputEndpoint_NoMessagesinqueue

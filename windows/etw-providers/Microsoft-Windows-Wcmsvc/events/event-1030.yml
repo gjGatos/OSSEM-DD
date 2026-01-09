@@ -1,29 +1,29 @@
 name: Event 1030 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Wcmsvc
 event_id: '1030'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: ProfilePath
   standard_type: TBD
   name: ProfileName
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: InterfaceGuid
   type: GUID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ProfileUpdatedorDeleted
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_task_0

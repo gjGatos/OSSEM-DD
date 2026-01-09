@@ -1,5 +1,5 @@
 name: Event 1203 - Wininet_CacheServerContainer
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-WinINet
 event_id: '1203'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: Object
   type: Pointer
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: FileName
   standard_type: TBD
   name: Filename
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_WININET_KEYWORD_IE

@@ -1,29 +1,29 @@
 name: Event 28 - RundownSmartUserPresenceIntevals
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-UserModePowerService
 event_id: '28'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: UserSid
   standard_type: TBD
   name: UserSid
   type: SID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: IntervalCount
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: AwayIntervals
   type: Int8
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_SmartUserPresence

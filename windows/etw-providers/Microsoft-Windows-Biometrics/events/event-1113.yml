@@ -1,5 +1,5 @@
 name: Event 1113 - WBioSrvc
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Biometrics
 event_id: '1113'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: ModulePath
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_WBioSrvc

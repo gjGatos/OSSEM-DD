@@ -1,5 +1,5 @@
 name: Event 3068 - PerfTrack:VideoCaptureStartRequest
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-MediaFoundation-Performance
 event_id: '3068'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: object
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_PerfTrack:VideoCaptureStartRequest

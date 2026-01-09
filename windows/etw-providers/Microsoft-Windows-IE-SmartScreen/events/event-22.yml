@@ -1,23 +1,23 @@
 name: Event 22 - URLReputationCheck
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-IE-SmartScreen
 event_id: '22'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: RemoteUrl
   standard_type: TBD
   name: URL
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: CanonURL
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_functionality

@@ -1,17 +1,18 @@
 name: 'Event ID 4928: An Active Directory replica source naming context was established.'
-description: This event generates every time a new Active Directory replica source naming context is established.
+description: This event generates every time a new Active Directory replica source
+  naming context is established.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
 event_id: '4928'
 event_version: '0'
 event_fields:
-- standard_name: DestinatonDra
+- standard_name: 'null'
   standard_type: TBD
   name: DestinationDRA
   type: UnicodeString
   description: destination directory replication agent distinguished name.
   sample_value: CN=NTDS Settings,CN=DC01,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=contoso,DC=local
-- standard_name: SourceDra
+- standard_name: 'null'
   standard_type: TBD
   name: SourceDRA
   type: UnicodeString
@@ -23,19 +24,19 @@ event_fields:
   type: UnicodeString
   description: DNS record of the server from which information or an update was received.
   sample_value: ddec0cff-6ceb-4a59-b13f-1724c38a0970._msdcs.contoso.local
-- standard_name: NamingContext
+- standard_name: 'null'
   standard_type: TBD
   name: NamingContext
   type: UnicodeString
   description: naming context to replicate.
   sample_value: DC=ForestDnsZones,DC=contoso,DC=local
-- standard_name: Options
+- standard_name: 'null'
   standard_type: TBD
   name: Options
   type: UInt32
   description: decimal value of DRS Options.
   sample_value: '368'
-- standard_name: StatusCode
+- standard_name: 'null'
   standard_type: TBD
   name: StatusCode
   type: UInt32

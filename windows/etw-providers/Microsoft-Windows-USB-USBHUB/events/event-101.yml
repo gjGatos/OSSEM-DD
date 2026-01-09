@@ -1,5 +1,5 @@
 name: Event 101 - USBDevice
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-USB-USBHUB
 event_id: '101'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: fid_USBHUB_HC
   type: AnsiString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: fid_USBHUB_Device
   type: Int32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_keyword_400000000000

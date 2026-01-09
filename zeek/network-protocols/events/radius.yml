@@ -1,5 +1,5 @@
 name: Radius Log
-description:
+description: null
 platform: zeek
 log_source: network-protocols
 event_id: radius
@@ -35,13 +35,13 @@ event_fields:
   type: integer
   description: The responding/destination port
   sample_value: '1812'
-- standard_name: EventUid
+- standard_name: UserUid
   standard_type: TBD
   name: uid
   type: string
   description: Unique ID for the connection.
   sample_value: CHhAvVGS1DHFjwGM9
-- standard_name: TBD
+- standard_name: UserNetworkAccountName
   standard_type: TBD
   name: username
   type: string
@@ -51,7 +51,9 @@ event_fields:
   standard_type: TBD
   name: ttl
   type: float
-  description: The duration between the first request and either the "Access-Accept" message or an error. If the field is empty, it means that either the request or response was not seen
+  description: The duration between the first request and either the "Access-Accept"
+    message or an error. If the field is empty, it means that either the request or
+    response was not seen
   sample_value: '``'
 - standard_name: TBD
   standard_type: TBD
@@ -59,7 +61,7 @@ event_fields:
   type: boolean
   description: Successful or failed authentication.
   sample_value: failed
-- standard_name: TBD
+- standard_name: MacAddr
   standard_type: TBD
   name: mac
   type: string
@@ -75,19 +77,23 @@ event_fields:
   standard_type: TBD
   name: framed_addr
   type: ip
-  description: The address given to the network access server, if present. This is only a hint from the RADIUS server and the network access server is not required to honor the address
+  description: The address given to the network access server, if present. This is
+    only a hint from the RADIUS server and the network access server is not required
+    to honor the address
   sample_value: '``'
 - standard_name: TBD
   standard_type: TBD
   name: reply_msg
   type: string
-  description: Reply message from the server challenge. This is frequently shown to the user authenticating
+  description: Reply message from the server challenge. This is frequently shown to
+    the user authenticating
   sample_value: '``'
 - standard_name: TBD
   standard_type: TBD
   name: tunnel_client
   type: string
-  description: Address (IPv4, IPv6, or FQDN) of the initiator end of the tunnel, if present. This is collected from the Tunnel-Client-Endpoint attribute
+  description: Address (IPv4, IPv6, or FQDN) of the initiator end of the tunnel, if
+    present. This is collected from the Tunnel-Client-Endpoint attribute
   sample_value: '``'
 references: []
 tags: []

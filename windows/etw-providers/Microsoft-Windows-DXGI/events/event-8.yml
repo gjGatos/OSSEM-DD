@@ -1,5 +1,5 @@
 name: Event 8 - Output
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-DXGI
 event_id: '8'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: pIDXGIOutput
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: pIDXGIAdapter
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: VidPnSourceID
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: GDIDeviceName
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_Objects

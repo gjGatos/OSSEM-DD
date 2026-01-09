@@ -1,5 +1,5 @@
 name: Event 1078 - PublishPackage
-description:
+description: null
 platform: windows
 log_source: Microsoft-AppV-Client
 event_id: '1078'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: PackageId
   type: GUID
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: SoftwareVersion
   standard_type: TBD
   name: PackageVersion
   type: GUID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: GroupId
   type: GUID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: GroupVersion
   type: GUID
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Warning
 - etw_keywords_Publishing

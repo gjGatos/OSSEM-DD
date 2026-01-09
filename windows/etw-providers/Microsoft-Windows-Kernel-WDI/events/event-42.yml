@@ -1,5 +1,5 @@
 name: Event 42 - SEMInitialization
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Kernel-WDI
 event_id: '42'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: ProviderID
   type: GUID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: EventID
   type: UInt16
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: NTStatus
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_opcode_ThereisaninvalidconfigurationparameterintheSEMregistrynamespace.

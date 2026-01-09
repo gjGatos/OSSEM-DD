@@ -1,5 +1,5 @@
 name: Event 4481 - WorkQueue:AddDeadline
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-RTWorkQueue-Threading
 event_id: '4481'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: WorkQueuePointer
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: WorkQueueID
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ItemPointer
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: GlobalDeadline
   type: Int64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: DeltaAhead_usec
   type: Int64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_opcode_Stop

@@ -1,5 +1,5 @@
 name: Event 5 - VC1ENC_FRAME_BUFFERLEVEL_INFO
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-WMVENCOD
 event_id: '5'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: BufferLevelInfo
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SampleTime
   type: Int64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: EncoderInstance
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_task_VC1ENC_FRAME_BUFFERLEVEL_INFO

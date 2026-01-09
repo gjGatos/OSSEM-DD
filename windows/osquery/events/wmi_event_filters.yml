@@ -15,7 +15,9 @@ event_fields:
   standard_type: TBD
   name: query
   type: TEXT
-  description: Windows Management Instrumentation Query Language (WQL) event query that specifies the set of events for consumer notification, and the specific conditions for notification.
+  description: Windows Management Instrumentation Query Language (WQL) event query
+    that specifies the set of events for consumer notification, and the specific conditions
+    for notification.
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD

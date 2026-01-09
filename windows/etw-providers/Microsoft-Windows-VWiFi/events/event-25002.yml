@@ -1,5 +1,5 @@
 name: Event 25002 - DisableVWiFi
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-VWiFi
 event_id: '25002'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: IfGuid
   type: GUID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: FriendlyName
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_Start

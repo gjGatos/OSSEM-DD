@@ -1,5 +1,5 @@
 name: Event 217 - OVERLAY_CHECKOCCLUSION
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Dwm-Core
 event_id: '217'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: hCompSurf
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: fOccluded
   type: Int32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_DwmCore

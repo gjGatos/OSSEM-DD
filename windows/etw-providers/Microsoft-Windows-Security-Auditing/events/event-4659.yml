@@ -11,23 +11,24 @@ event_fields:
   type: SID
   description: SID of account to which special privileges were assigned
   sample_value: S-1-5-21-3457937927-2839227994-823803824-1104
-- standard_name: UserName
+- standard_name: UserDisplayName
   standard_type: TBD
   name: SubjectUserName
   type: UnicodeString
   description: the name of the account to which special privileges were assigned
   sample_value: dadmin
-- standard_name: UserDomain
+- standard_name: DomainName
   standard_type: TBD
   name: SubjectDomainName
   type: UnicodeString
-  description: "subject’s domain or computer name"
+  description: subject’s domain or computer name
   sample_value: CONTOSO
-- standard_name: UserLogonId
+- standard_name: UserSid
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID
+  description: hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID
   sample_value: '0x671101'
 - standard_name: ObjectServer
   standard_type: TBD
@@ -51,13 +52,15 @@ event_fields:
   standard_type: TBD
   name: HandleId
   type: Pointer
-  description: hexadecimal value of a handle to Object Name. This field can help you correlate this event with other events that might contain the same Handle ID
+  description: hexadecimal value of a handle to Object Name. This field can help you
+    correlate this event with other events that might contain the same Handle ID
   sample_value: '0x0'
 - standard_name: TransactionGuid
   standard_type: TBD
   name: TransactionId
   type: GUID
-  description: unique GUID of the transaction. This field can help you correlate this event with other events that might contain the same Transaction ID
+  description: unique GUID of the transaction. This field can help you correlate this
+    event with other events that might contain the same Transaction ID
   sample_value: '-'
 - standard_name: ObjectAccessList
   standard_type: TBD
@@ -69,13 +72,16 @@ event_fields:
   standard_type: TBD
   name: AccessMask
   type: HexInt32
-  description: "The desired access mask. This mask depends on Object Server and Object Type parameters values. The value of this parameter is in decimal format. There is no detailed information about this parameter in this document. If Desired Access is not presented, then this parameter will have “0” value."
+  description: The desired access mask. This mask depends on Object Server and Object
+    Type parameters values. The value of this parameter is in decimal format. There
+    is no detailed information about this parameter in this document. If Desired Access
+    is not presented, then this parameter will have “0” value.
   sample_value: '-'
 - standard_name: UserPrivilegeList
   standard_type: TBD
   name: PrivilegeList
   type: UnicodeString
-  description:
+  description: null
   sample_value: '-'
 - standard_name: ProcessId
   standard_type: TBD

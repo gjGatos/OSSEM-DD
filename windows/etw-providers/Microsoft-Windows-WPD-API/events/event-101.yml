@@ -1,5 +1,5 @@
 name: Event 101 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-WPD-API
 event_id: '101'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: WpdAPICommandCategoryGUID
   type: GUID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: WpdAPICommandID
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: WPDAPIOPerationHR
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: WpdSerializedData_Length
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: WpdSerializedData_Buffer
   type: Binary
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_task_0

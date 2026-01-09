@@ -5,19 +5,19 @@ log_source: osquery
 event_id: user_events
 event_version: 4.4.2
 event_fields:
-- standard_name: TBD
+- standard_name: UserId
   standard_type: TBD
   name: uid
   type: BIGINT
   description: User ID
   sample_value: TBD
-- standard_name: TBD
+- standard_name: UserUid
   standard_type: TBD
   name: auid
   type: BIGINT
   description: Audit User ID
   sample_value: TBD
-- standard_name: TBD
+- standard_name: ProcessId
   standard_type: TBD
   name: pid
   type: BIGINT
@@ -35,13 +35,13 @@ event_fields:
   type: INTEGER
   description: The file description for the process socket
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: path
   type: TEXT
   description: Supplied path from event
   sample_value: TBD
-- standard_name: TBD
+- standard_name: IpAddress
   standard_type: TBD
   name: address
   type: TEXT

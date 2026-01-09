@@ -1,5 +1,5 @@
 name: Event 136 - VideoExtensionCommand
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Direct3D12
 event_id: '136'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: pID3D12Device
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: pID3D12VideoExtensionCommand
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: NodeMask
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: CommandId
   type: GUID
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_Resources ObjectLifetime

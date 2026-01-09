@@ -5,19 +5,19 @@ log_source: Microsoft-Windows-Eventlog
 event_id: '104'
 event_version: '0'
 event_fields:
-- standard_name: UserName
+- standard_name: UserDisplayName
   standard_type: TBD
   name: SubjectUserName
   type: UnicodeString
   description: The name of the account that cleared the log file
   sample_value: pedro
-- standard_name: UserDomain
+- standard_name: Domain
   standard_type: TBD
   name: SubjectDomainName
   type: UnicodeString
   description: Subject's domain or computer name
   sample_value: PEDRO01
-- standard_name: TBD
+- standard_name: FileName
   standard_type: TBD
   name: Channel
   type: UnicodeString
@@ -27,38 +27,23 @@ event_fields:
   standard_type: TBD
   name: BackupPath
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_Logclear
 event_sample:
 - format: xml
-  sample: |-
-    <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"> 
-      <System> 
-        <Provider Name="Microsoft-Windows-Eventlog" Guid="{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}" /> 
-        <EventID>104</EventID> 
-        <Version>0</Version> 
-        <Level>4</Level> 
-        <Task>104</Task> 
-        <Opcode>0</Opcode> 
-        <Keywords>0x8000000000000000</Keywords> 
-        <TimeCreated SystemTime="2022-08-09T14:44:05.786938100Z" /> 
-        <EventRecordID>1113</EventRecordID> 
-        <Correlation /> 
-        <Execution ProcessID="1444" ThreadID="2044" /> 
-        <Channel>System</Channel> 
-        <Computer>Pedro01</Computer> 
-        <Security UserID="S-1-5-21-968647429-258479840-2507984072-1001" /> 
-      </System> 
-      <UserData> 
-        <LogFileCleared xmlns="http://manifests.microsoft.com/win/2004/08/windows/eventlog"> 
-          <SubjectUserName>pedro</SubjectUserName> 
-          <SubjectDomainName>PEDRO01</SubjectDomainName> 
-          <Channel>Microsoft-Windows-PowerShell/Operational</Channel> 
-          <BackupPath> </BackupPath> 
-        </LogFileCleared> 
-      </UserData> 
-    </Event> 
+  sample: "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"\
+    > \n  <System> \n    <Provider Name=\"Microsoft-Windows-Eventlog\" Guid=\"{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}\"\
+    \ /> \n    <EventID>104</EventID> \n    <Version>0</Version> \n    <Level>4</Level>\
+    \ \n    <Task>104</Task> \n    <Opcode>0</Opcode> \n    <Keywords>0x8000000000000000</Keywords>\
+    \ \n    <TimeCreated SystemTime=\"2022-08-09T14:44:05.786938100Z\" /> \n    <EventRecordID>1113</EventRecordID>\
+    \ \n    <Correlation /> \n    <Execution ProcessID=\"1444\" ThreadID=\"2044\"\
+    \ /> \n    <Channel>System</Channel> \n    <Computer>Pedro01</Computer> \n   \
+    \ <Security UserID=\"S-1-5-21-968647429-258479840-2507984072-1001\" /> \n  </System>\
+    \ \n  <UserData> \n    <LogFileCleared xmlns=\"http://manifests.microsoft.com/win/2004/08/windows/eventlog\"\
+    > \n      <SubjectUserName>pedro</SubjectUserName> \n      <SubjectDomainName>PEDRO01</SubjectDomainName>\
+    \ \n      <Channel>Microsoft-Windows-PowerShell/Operational</Channel> \n     \
+    \ <BackupPath> </BackupPath> \n    </LogFileCleared> \n  </UserData> \n</Event> "

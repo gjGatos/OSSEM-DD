@@ -11,19 +11,19 @@ event_fields:
   type: TEXT
   description: Container ID
   sample_value: TBD
-- standard_name: TBD
+- standard_name: ProcessId
   standard_type: TBD
   name: pid
   type: BIGINT
   description: Process ID
   sample_value: TBD
-- standard_name: TBD
+- standard_name: ProcessName
   standard_type: TBD
   name: name
   type: TEXT
   description: The process path or shorthand argv[0]
   sample_value: TBD
-- standard_name: TBD
+- standard_name: CommandLine
   standard_type: TBD
   name: cmdline
   type: TEXT
@@ -35,7 +35,7 @@ event_fields:
   type: TEXT
   description: Process state
   sample_value: TBD
-- standard_name: TBD
+- standard_name: UserId
   standard_type: TBD
   name: uid
   type: BIGINT
@@ -47,25 +47,25 @@ event_fields:
   type: BIGINT
   description: Group ID
   sample_value: TBD
-- standard_name: TBD
+- standard_name: UserId
   standard_type: TBD
   name: euid
   type: BIGINT
   description: Effective user ID
   sample_value: TBD
-- standard_name: TBD
+- standard_name: GroupSid
   standard_type: TBD
   name: egid
   type: BIGINT
   description: Effective group ID
   sample_value: TBD
-- standard_name: TBD
+- standard_name: UserId
   standard_type: TBD
   name: suid
   type: BIGINT
   description: Saved user ID
   sample_value: TBD
-- standard_name: TBD
+- standard_name: GroupSid
   standard_type: TBD
   name: sgid
   type: BIGINT

@@ -1,5 +1,5 @@
 name: Event 1131 - InvokeMethod
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Application Server-Applications
 event_id: '1131'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: data1
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: data2
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: data3
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: AppDomain
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_WFRuntime

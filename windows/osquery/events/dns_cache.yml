@@ -1,23 +1,24 @@
 name: Dns_cache Table
-description: Enumerate the DNS cache using the undocumented DnsGetCacheDataTable function in dnsapi.dll.
+description: Enumerate the DNS cache using the undocumented DnsGetCacheDataTable function
+  in dnsapi.dll.
 platform: windows
 log_source: osquery
 event_id: dns_cache
 event_version: 5.0.1
 event_fields:
-- standard_name: TBD
+- standard_name: DnsName
   standard_type: TBD
   name: name
   type: TEXT
   description: DNS record name
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: type
   type: TEXT
   description: DNS record type
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: flags
   type: INTEGER

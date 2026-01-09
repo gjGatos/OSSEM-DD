@@ -1,23 +1,23 @@
 name: Event 1001 - Startupofthedrivermanagerservice.
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-DriverFrameworks-UserMode
 event_id: '1001'
 event_version: '1'
 event_fields:
-- standard_name: TBD
+- standard_name: SoftwareVersion
   standard_type: TBD
   name: Version
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Error
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Critical
 - etw_opcode_Stop

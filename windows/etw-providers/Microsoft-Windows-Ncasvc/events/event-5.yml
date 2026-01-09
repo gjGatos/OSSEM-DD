@@ -1,5 +1,5 @@
 name: Event 5 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Ncasvc
 event_id: '5'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: EvColl
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Old
   type: Boolean
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: New
   type: Boolean
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: UserId
   standard_type: TBD
   name: UserId
   type: UInt64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_task_0

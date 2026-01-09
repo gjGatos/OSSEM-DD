@@ -1,5 +1,5 @@
 name: Event 111 - FreePersistedMemory
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Kernel-Boot
 event_id: '111'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: ApplicationId
   type: GUID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: FreePersistentPages
   type: Boolean
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_MemoryPreservation

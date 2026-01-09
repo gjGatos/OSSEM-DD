@@ -1,5 +1,5 @@
 name: Event 25 - Jscript_Projection_AddEventListener
-description:
+description: null
 platform: windows
 log_source: Microsoft-JScript
 event_id: '25'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: TypeName
   type: UnicodeString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: ApiCallName
   standard_type: TBD
   name: MethodName
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_JScriptProjection

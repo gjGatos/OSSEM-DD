@@ -5,37 +5,37 @@ log_source: osquery
 event_id: shellbags
 event_version: 5.0.1
 event_fields:
-- standard_name: TBD
+- standard_name: UserSid
   standard_type: TBD
   name: sid
   type: TEXT
   description: User SID
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: source
   type: TEXT
   description: Shellbags source Registry file
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FolderPath
   standard_type: TBD
   name: path
   type: TEXT
   description: Directory name
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: modified_time
   type: BIGINT
   description: Directory Modified time
   sample_value: TBD
-- standard_name: TBD
+- standard_name: RegistryKeyModifiedTime
   standard_type: TBD
   name: created_time
   type: BIGINT
   description: Directory Created time
   sample_value: TBD
-- standard_name: TBD
+- standard_name: RegistryKeyModifiedTime
   standard_type: TBD
   name: accessed_time
   type: BIGINT

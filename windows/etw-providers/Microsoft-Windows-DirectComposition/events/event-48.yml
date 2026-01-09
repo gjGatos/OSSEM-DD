@@ -1,5 +1,5 @@
 name: Event 48 - ALLOCATE_FROM_SHARED_MEMORY_SECTION
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-DirectComposition
 event_id: '48'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: section
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: allocationSize
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: sectionSize
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: heap
   type: Boolean
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_DCompDiagnostic DCompSharedMemory

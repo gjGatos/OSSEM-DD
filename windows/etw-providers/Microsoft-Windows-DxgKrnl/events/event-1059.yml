@@ -1,5 +1,5 @@
 name: Event 1059 - IndirectSwapChainCloseHandle
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-DxgKrnl
 event_id: '1059'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: pSwapChain
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_IndirectSwapChain MixedReality

@@ -1,5 +1,7 @@
-name: 'Event ID 5155: The Windows Filtering Platform has blocked an application or service from listening on a port for incoming connections'
-description: This event generates every time the Windows Filtering Platform blocks an application or service from listening on a port for incoming connections.
+name: 'Event ID 5155: The Windows Filtering Platform has blocked an application or
+  service from listening on a port for incoming connections'
+description: This event generates every time the Windows Filtering Platform blocks
+  an application or service from listening on a port for incoming connections.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
 event_id: '5155'
@@ -9,9 +11,10 @@ event_fields:
   standard_type: TBD
   name: ProcessId
   type: UInt64
-  description: Hexadecimal Process ID (PID) of the process which was permitted to bind to the local port.
+  description: Hexadecimal Process ID (PID) of the process which was permitted to
+    bind to the local port.
   sample_value: '2628'
-- standard_name: ProcessPath
+- standard_name: ProcessFileName
   standard_type: TBD
   name: Application
   type: UnicodeString
@@ -39,7 +42,8 @@ event_fields:
   standard_type: TBD
   name: FilterRTID
   type: UInt64
-  description: A unique filter ID which blocks the application from binding to the port.
+  description: A unique filter ID which blocks the application from binding to the
+    port.
   sample_value: '84576'
 - standard_name: TBD
   standard_type: TBD

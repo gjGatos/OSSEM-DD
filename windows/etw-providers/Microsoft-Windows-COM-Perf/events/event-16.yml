@@ -1,5 +1,5 @@
 name: Event 16 - ExtensionCatalog_RoGetExtensionRegistrationByExtensionId
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-COM-Perf
 event_id: '16'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: HRESULT
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ContractId
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ExtensionId
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: InboxAppsRegistrationScope
   type: Boolean
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_Stop

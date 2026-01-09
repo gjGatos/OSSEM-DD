@@ -1,11 +1,11 @@
 name: SIP Log
-description:
+description: null
 platform: zeek
 log_source: network-protocols
 event_id: sip
 event_version: '0'
 event_fields:
-- standard_name: '@timestamp'
+- standard_name: NetworkTrafficStart
   standard_type: TBD
   name: ts
   type: date_time
@@ -35,7 +35,7 @@ event_fields:
   type: integer
   description: The responding/destination port
   sample_value: '5060'
-- standard_name: EventUid
+- standard_name: UserUid
   standard_type: TBD
   name: uid
   type: string
@@ -81,14 +81,16 @@ event_fields:
   standard_type: TBD
   name: request_from
   type: string
-  description: 'Contents of the request From: header Note: The tag= value that''s usually appended to the sender is stripped off and not logged.'
+  description: 'Contents of the request From: header Note: The tag= value that''s
+    usually appended to the sender is stripped off and not logged.'
   sample_value: '"sipvicious"<sip:100@1.1.1.1>'
 - standard_name: TBD
   standard_type: TBD
   name: request_path
   type: array_string
   description: The client message transmission path, as extracted from the headers.
-  sample_value: '[ "SIP/2.0/UDP 10.247.109.112:5065", "SIP/7.0/UDP 10.247.109.112:5065" ]'
+  sample_value: '[ "SIP/2.0/UDP 10.247.109.112:5065", "SIP/7.0/UDP 10.247.109.112:5065"
+    ]'
 - standard_name: TBD
   standard_type: TBD
   name: request_to
@@ -105,14 +107,16 @@ event_fields:
   standard_type: TBD
   name: response_from
   type: string
-  description: 'Contents of the response From: header Note: The tag= value that''s usually appended to the sender is stripped off and not logged.'
+  description: 'Contents of the response From: header Note: The tag= value that''s
+    usually appended to the sender is stripped off and not logged.'
   sample_value: sip:777@8.8.8.8
 - standard_name: TBD
   standard_type: TBD
   name: response_path
   type: array_string
   description: The server message transmission path, as extracted from the headers.
-  sample_value: '[ "SIP/2.0/UDP 10.247.109.11:7082", "SIP/2.0/UDP 10.247.109.11:7082" ]'
+  sample_value: '[ "SIP/2.0/UDP 10.247.109.11:7082", "SIP/2.0/UDP 10.247.109.11:7082"
+    ]'
 - standard_name: TBD
   standard_type: TBD
   name: response_to
@@ -137,7 +141,7 @@ event_fields:
   type: string
   description: Status message returned by the server.
   sample_value: OK
-- standard_name: TBD
+- standard_name: EmailSubject
   standard_type: TBD
   name: subject
   type: string
@@ -147,9 +151,10 @@ event_fields:
   standard_type: TBD
   name: trans_depth
   type: integer
-  description: Represents the pipelined depth into the connection of this request/response transaction.
+  description: Represents the pipelined depth into the connection of this request/response
+    transaction.
   sample_value: ''
-- standard_name: TBD
+- standard_name: UrlOriginal
   standard_type: TBD
   name: uri
   type: string

@@ -41,7 +41,7 @@ event_fields:
   type: integer
   description: The responding/destination port
   sample_value: '80'
-- standard_name: EventUid
+- standard_name: UserUid
   standard_type: TBD
   name: uid
   type: string
@@ -63,7 +63,8 @@ event_fields:
   standard_type: TBD
   name: packet_segment
   type: string
-  description: present if policy/frameworks/dpd/packet-segment-logging.bro is loaded A chunk of the payload that most likely resulted in the protocol violation.
+  description: present if policy/frameworks/dpd/packet-segment-logging.bro is loaded
+    A chunk of the payload that most likely resulted in the protocol violation.
   sample_value: '``'
 references: []
 tags: []

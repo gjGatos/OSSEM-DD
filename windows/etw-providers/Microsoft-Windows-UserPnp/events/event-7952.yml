@@ -1,5 +1,5 @@
 name: Event 7952 - PnP_DMRC_Query
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-UserPnp
 event_id: '7952'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: Message
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: NetworkErrorCode
   type: HexInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: HttpStatusCode
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Warning
 - etw_keywords_UserPnp

@@ -5,7 +5,7 @@ log_source: osquery
 event_id: device_file
 event_version: 4.4.2
 event_fields:
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: device
   type: TEXT
@@ -17,13 +17,13 @@ event_fields:
   type: TEXT
   description: A partition number
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: path
   type: TEXT
   description: A logical path within the device node
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FileName
   standard_type: TBD
   name: filename
   type: TEXT
@@ -35,7 +35,7 @@ event_fields:
   type: BIGINT
   description: Filesystem inode number
   sample_value: TBD
-- standard_name: TBD
+- standard_name: UserId
   standard_type: TBD
   name: uid
   type: BIGINT
@@ -53,7 +53,7 @@ event_fields:
   type: TEXT
   description: Permission bits
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FileSize
   standard_type: TBD
   name: size
   type: BIGINT

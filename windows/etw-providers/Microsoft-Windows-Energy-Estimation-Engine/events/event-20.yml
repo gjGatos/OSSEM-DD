@@ -1,5 +1,5 @@
 name: Event 20 - DisplayEnergy
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Energy-Estimation-Engine
 event_id: '20'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: PreviousValue
   type: UInt8
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: CurrentValue
   type: UInt8
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_PolicyBrightness

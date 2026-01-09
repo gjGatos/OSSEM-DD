@@ -1,5 +1,7 @@
 name: 'Event ID 4752: A member was removed from a security-disabled global group'
-description: This event generates every time member was removed from the security-disabled (distribution) global group. This event generates only on domain controllers. For every removed member you will get separate 4752 event.
+description: This event generates every time member was removed from the security-disabled
+  (distribution) global group. This event generates only on domain controllers. For
+  every removed member you will get separate 4752 event.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
 event_id: '4752'
@@ -9,19 +11,25 @@ event_fields:
   standard_type: TBD
   name: MemberName
   type: UnicodeString
-  description: 'distinguished name of account that was removed from the group. For example: "CN=Auditor,CN=Users,DC=contoso,DC=local". For some well-known security principals, such as LOCAL SERVICE or ANONYMOUS LOGON, the value of this field is "-".'
+  description: 'distinguished name of account that was removed from the group. For
+    example: "CN=Auditor,CN=Users,DC=contoso,DC=local". For some well-known security
+    principals, such as LOCAL SERVICE or ANONYMOUS LOGON, the value of this field
+    is "-".'
   sample_value: CN=Auditor,CN=Users,DC=contoso,DC=local
-- standard_name: TargetUserSid
+- standard_name: UserSid
   standard_type: TBD
   name: MemberSid
   type: SID
-  description: SID of account that was removed from the group. Event Viewer automatically tries to resolve SIDs and show the group name. If the SID cannot be resolved, you will see the source data in the event.
+  description: SID of account that was removed from the group. Event Viewer automatically
+    tries to resolve SIDs and show the group name. If the SID cannot be resolved,
+    you will see the source data in the event.
   sample_value: S-1-5-21-3457937927-2839227994-823803824-2104
 - standard_name: GroupName
   standard_type: TBD
   name: TargetUserName
   type: UnicodeString
-  description: 'the name of the group from which the member was removed. For example: ServiceDesk'
+  description: 'the name of the group from which the member was removed. For example:
+    ServiceDesk'
   sample_value: ServiceDeskSecond
 - standard_name: GroupDomain
   standard_type: TBD
@@ -33,21 +41,25 @@ event_fields:
   standard_type: TBD
   name: TargetSid
   type: SID
-  description: SID of the group from which the member was removed. Event Viewer automatically tries to resolve SIDs and show the group name. If the SID cannot be resolved, you will see the source data in the event.
+  description: SID of the group from which the member was removed. Event Viewer automatically
+    tries to resolve SIDs and show the group name. If the SID cannot be resolved,
+    you will see the source data in the event.
   sample_value: S-1-5-21-3457937927-2839227994-823803824-6119
 - standard_name: UserSid
   standard_type: TBD
   name: SubjectUserSid
   type: SID
-  description: SID of account that requested the "remove member from the group" operation. Event Viewer automatically tries to resolve SIDs and show the account name.
+  description: SID of account that requested the "remove member from the group" operation.
+    Event Viewer automatically tries to resolve SIDs and show the account name.
   sample_value: S-1-5-21-3457937927-2839227994-823803824-1104
 - standard_name: UserName
   standard_type: TBD
   name: SubjectUserName
   type: UnicodeString
-  description: the name of the account that requested the "remove member from the group" operation.
+  description: the name of the account that requested the "remove member from the
+    group" operation.
   sample_value: dadmin
-- standard_name: UserDomain
+- standard_name: Domain
   standard_type: TBD
   name: SubjectDomainName
   type: UnicodeString
@@ -57,13 +69,16 @@ event_fields:
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: 'hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, "4624: An account was successfully logged on."'
+  description: 'hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID, for example, "4624: An account was
+    successfully logged on."'
   sample_value: '0x3007b'
 - standard_name: UserPrivilegeList
   standard_type: TBD
   name: PrivilegeList
   type: UnicodeString
-  description: the list of user privileges which were used during the operation, for example, SeBackupPrivilege.
+  description: the list of user privileges which were used during the operation, for
+    example, SeBackupPrivilege.
   sample_value: '-'
 references:
 - text: MS Source

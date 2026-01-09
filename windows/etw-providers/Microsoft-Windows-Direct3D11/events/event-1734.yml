@@ -1,5 +1,5 @@
 name: Event 1734 - ID3D11VideoDecoder_Release
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Direct3D11
 event_id: '1734'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: pThis
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_opcode_Start

@@ -1,5 +1,5 @@
 name: Event 11 - WMPHOTO_Decoder_FrameParamsTransform_Info
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Photo-Image-Codec
 event_id: '11'
@@ -9,45 +9,45 @@ event_fields:
   standard_type: TBD
   name: ROIWidth
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ROIHeight
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ROIX
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ROIY
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: OutWidth
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: OutHeight
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Orientation
   type: UInt8
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_task_WMPHOTO_Decoder_FrameParamsTransform_Info

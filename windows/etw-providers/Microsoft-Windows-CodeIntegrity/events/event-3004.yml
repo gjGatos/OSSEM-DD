@@ -1,5 +1,5 @@
 name: Event 3004 - CreateSection
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-CodeIntegrity
 event_id: '3004'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: FileNameLength
   type: UInt16
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: FileName
   standard_type: TBD
   name: FileNameBuffer
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_opcode_FileHashNotFound

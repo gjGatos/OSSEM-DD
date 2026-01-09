@@ -1,5 +1,5 @@
 name: Event 108 - CommandIssued
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Sdbus
 event_id: '108'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: SDHostPhysicalAddress
   type: HexInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Command
   type: UInt8
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Argument
   type: HexInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Size
   type: UInt64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Perf

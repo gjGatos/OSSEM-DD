@@ -1,5 +1,5 @@
 name: Event 1207 - ConnectionEstablishment
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-PushNotifications-Platform
 event_id: '1207'
@@ -9,17 +9,18 @@ event_fields:
   standard_type: TBD
   name: ConnectionType
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: HostDomain
   standard_type: TBD
   name: HostName
   type: AnsiString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
-- etw_keywords_wpnperf_FirstCloudNotification wpnperf_FirstCloudNotificationWithCloudImage wnptrans
+- etw_keywords_wpnperf_FirstCloudNotification wpnperf_FirstCloudNotificationWithCloudImage
+  wnptrans
 - etw_opcode_Start
 - etw_task_ConnectionEstablishment

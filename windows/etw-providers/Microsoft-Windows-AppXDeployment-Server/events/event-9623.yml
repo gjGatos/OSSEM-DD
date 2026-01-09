@@ -1,5 +1,5 @@
 name: Event 9623 - AppXDeployment.Task.Server.OSIM
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-AppXDeployment-Server
 event_id: '9623'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: ErrorCode
   type: HexInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_OSIM_KEYWORD keyword_80000000000

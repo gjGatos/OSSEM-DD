@@ -1,5 +1,5 @@
 name: Event 314 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-WiFiNetworkManager
 event_id: '314'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: ssidLen
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: NetworkTrafficDescription
   standard_type: TBD
   name: ssid
   type: Binary
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_ScnEvt

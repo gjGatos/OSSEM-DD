@@ -41,13 +41,13 @@ event_fields:
   type: TEXT
   description: Private IPv4 DNS hostname of the first interface of this instance
   sample_value: TBD
-- standard_name: TBD
+- standard_name: Ipv4
   standard_type: TBD
   name: local_ipv4
   type: TEXT
   description: Private IPv4 address of the first interface of this instance
   sample_value: TBD
-- standard_name: TBD
+- standard_name: MacAddr
   standard_type: TBD
   name: mac
   type: TEXT
@@ -63,7 +63,8 @@ event_fields:
   standard_type: TBD
   name: iam_arn
   type: TEXT
-  description: If there is an IAM role associated with the instance, contains instance profile ARN
+  description: If there is an IAM role associated with the instance, contains instance
+    profile ARN
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD

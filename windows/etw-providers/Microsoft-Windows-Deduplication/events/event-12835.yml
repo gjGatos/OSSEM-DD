@@ -1,5 +1,5 @@
 name: Event 12835 - DataDeduplicationScrubbingTask
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Deduplication
 event_id: '12835'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: JobInstanceId
   type: GUID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: VolumeGuidPath
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: VolumeDisplayName
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Threshold
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Warning
 - etw_keywords_Reporting

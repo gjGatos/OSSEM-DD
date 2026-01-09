@@ -1,5 +1,5 @@
 name: Event 80 - DeviceCenter_FDQuery
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-DeviceUx
 event_id: '80'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: querycookie
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: EnumerationTime
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: CountOfItems
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_Start

@@ -11,7 +11,7 @@ event_fields:
   type: INTEGER
   description: Execution order
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: path
   type: TEXT
@@ -27,7 +27,8 @@ event_fields:
   standard_type: TBD
   name: execution_flag
   type: INTEGER
-  description: Boolean Execution flag, 1 for execution, 0 for no execution, -1 for missing (this flag does not exist on Windows 10 and higher)
+  description: Boolean Execution flag, 1 for execution, 0 for no execution, -1 for
+    missing (this flag does not exist on Windows 10 and higher)
   sample_value: TBD
 references:
 - text: OSQuery table documentation

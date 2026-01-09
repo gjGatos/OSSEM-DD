@@ -1,5 +1,5 @@
 name: Event 10009 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-NWiFi
 event_id: '10009'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: ContextHandle
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: AdapterGuid
   type: GUID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: AuthCount
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: AuthAlgorithm
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Ioctls ut:Configuration

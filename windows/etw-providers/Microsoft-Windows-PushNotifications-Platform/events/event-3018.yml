@@ -1,5 +1,5 @@
 name: Event 3018 - NewCloudNotificationArrival
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-PushNotifications-Platform
 event_id: '3018'
@@ -9,16 +9,18 @@ event_fields:
   standard_type: TBD
   name: AppUserModelId
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: TrackingId
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
-- etw_keywords_wpnui wpnperf_FirstCloudNotification wpnperf_FirstCloudNotificationWithCloudImage wpnperf_NewCloudNotificationArrival wpnperf_NewCloudNotificationArrivalWithCloudImage wpndev_NotificationE2E
+- etw_keywords_wpnui wpnperf_FirstCloudNotification wpnperf_FirstCloudNotificationWithCloudImage
+  wpnperf_NewCloudNotificationArrival wpnperf_NewCloudNotificationArrivalWithCloudImage
+  wpndev_NotificationE2E
 - etw_task_NewCloudNotificationArrival

@@ -1,5 +1,5 @@
 name: Event 1 - ConvertibleState
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-GPIOButtons
 event_id: '1'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: ConvertibleState
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_keyword_400000000000

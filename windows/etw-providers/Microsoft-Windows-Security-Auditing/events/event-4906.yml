@@ -1,5 +1,6 @@
 name: 'Event ID 4906: The CrashOnAuditFail value has changed.'
-description: This event generates every time CrashOnAuditFail audit flag value was modified.
+description: This event generates every time CrashOnAuditFail audit flag value was
+  modified.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
 event_id: '4906'
@@ -26,25 +27,13 @@ tags:
 - Audit Policy Change
 event_sample:
 - format: xml
-  sample: |-
-    <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
-      <System>
-        <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" /> 
-        <EventID>4906</EventID> 
-        <Version>0</Version> 
-        <Level>0</Level> 
-        <Task>13568</Task> 
-        <Opcode>0</Opcode> 
-        <Keywords>0x8020000000000000</Keywords> 
-        <TimeCreated SystemTime="2015-10-01T00:45:07.048458800Z" /> 
-        <EventRecordID>1049529</EventRecordID> 
-        <Correlation /> 
-        <Execution ProcessID="516" ThreadID="532" /> 
-        <Channel>Security</Channel> 
-        <Computer>DC01.contoso.local</Computer> 
-        <Security /> 
-      </System>
-      <EventData>
-        <Data Name="CrashOnAuditFailValue">1</Data> 
-      </EventData>
-    </Event>
+  sample: "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"\
+    >\n  <System>\n    <Provider Name=\"Microsoft-Windows-Security-Auditing\" Guid=\"\
+    {54849625-5478-4994-A5BA-3E3B0328C30D}\" /> \n    <EventID>4906</EventID> \n \
+    \   <Version>0</Version> \n    <Level>0</Level> \n    <Task>13568</Task> \n  \
+    \  <Opcode>0</Opcode> \n    <Keywords>0x8020000000000000</Keywords> \n    <TimeCreated\
+    \ SystemTime=\"2015-10-01T00:45:07.048458800Z\" /> \n    <EventRecordID>1049529</EventRecordID>\
+    \ \n    <Correlation /> \n    <Execution ProcessID=\"516\" ThreadID=\"532\" />\
+    \ \n    <Channel>Security</Channel> \n    <Computer>DC01.contoso.local</Computer>\
+    \ \n    <Security /> \n  </System>\n  <EventData>\n    <Data Name=\"CrashOnAuditFailValue\"\
+    >1</Data> \n  </EventData>\n</Event>"

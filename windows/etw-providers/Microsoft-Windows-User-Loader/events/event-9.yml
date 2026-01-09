@@ -1,17 +1,17 @@
 name: Event 9 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-User-Loader
 event_id: '9'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: FileName
   standard_type: TBD
   name: FileName
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Critical
 - etw_keywords_USER_LOADER_KEYWORD_LOAD_FATAL_ERROR

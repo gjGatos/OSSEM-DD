@@ -1,29 +1,29 @@
 name: Event 6006 - PTIModuleLoaded
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Push-To-Install-Service
 event_id: '6006'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: ProcessName
   standard_type: TBD
   name: ProcessName
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ModuleName
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: BuildName
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Messages

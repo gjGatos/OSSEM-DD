@@ -5,7 +5,7 @@ log_source: osquery
 event_id: docker_volumes
 event_version: 4.4.2
 event_fields:
-- standard_name: TBD
+- standard_name: FileName
   standard_type: TBD
   name: name
   type: TEXT
@@ -17,7 +17,7 @@ event_fields:
   type: TEXT
   description: Volume driver
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: mount_point
   type: TEXT

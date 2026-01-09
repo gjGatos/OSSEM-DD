@@ -1,5 +1,5 @@
 name: Event 7193 - ConnectedSearch_DirectQueryInst
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Immersive-Shell
 event_id: '7193'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: ErrorResult
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_Stop

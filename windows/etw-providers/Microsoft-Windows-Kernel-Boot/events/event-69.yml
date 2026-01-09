@@ -1,5 +1,5 @@
 name: Event 69 - MeasuredLaunch
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Kernel-Boot
 event_id: '69'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: AcmMinMleHeaderVer
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: MleHeaderVersion
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_keywords_keyword_80000000000

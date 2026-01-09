@@ -1,5 +1,5 @@
 name: Event 1105 - MediaFoundationIMFInputTrustAuthority_UpdateAccess
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-MF
 event_id: '1105'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: object
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: hr
   type: HexInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_task_MediaFoundationIMFInputTrustAuthority_UpdateAccess

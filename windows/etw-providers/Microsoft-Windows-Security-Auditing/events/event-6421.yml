@@ -1,5 +1,6 @@
 name: 'Event ID 6421: A request was made to enable a device.'
-description: This event generates every time when someone made a request to enable a device.
+description: This event generates every time when someone made a request to enable
+  a device.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
 event_id: '6421'
@@ -17,7 +18,7 @@ event_fields:
   type: UnicodeString
   description: the name of the account that made the request.
   sample_value: ladmin
-- standard_name: UserDomain
+- standard_name: Domain
   standard_type: TBD
   name: SubjectDomainName
   type: UnicodeString
@@ -27,7 +28,9 @@ event_fields:
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: 'hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, "4624: An account was successfully logged on."'
+  description: 'hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID, for example, "4624: An account was
+    successfully logged on."'
   sample_value: '0x3fcc7'
 - standard_name: DeviceId
   standard_type: TBD

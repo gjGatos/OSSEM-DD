@@ -1,5 +1,5 @@
 name: Event 1008 - DocPerf_Task_OpenPrinter2
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Documents
 event_id: '1008'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: Name
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Level
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Status
   type: HexInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_DocPerf

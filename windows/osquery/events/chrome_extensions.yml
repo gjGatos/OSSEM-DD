@@ -9,7 +9,8 @@ event_fields:
   standard_type: TBD
   name: browser_type
   type: TEXT
-  description: The browser type (Valid values - chrome, chromium, opera, yandex, brave, edge, edge_beta)
+  description: The browser type (Valid values - chrome, chromium, opera, yandex, brave,
+    edge, edge_beta)
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
@@ -29,7 +30,7 @@ event_fields:
   type: TEXT
   description: The Chrome profile that contains this extension
   sample_value: TBD
-- standard_name: TBD
+- standard_name: ProfilePath
   standard_type: TBD
   name: profile_path
   type: TEXT
@@ -39,13 +40,15 @@ event_fields:
   standard_type: TBD
   name: referenced_identifier
   type: TEXT
-  description: Extension identifier, as specified by the preferences file. Empty if the extension is not in the profile.
+  description: Extension identifier, as specified by the preferences file. Empty if
+    the extension is not in the profile.
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
   name: identifier
   type: TEXT
-  description: Extension identifier, computed from its manifest. Empty in case of error.
+  description: Extension identifier, computed from its manifest. Empty in case of
+    error.
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
@@ -89,7 +92,7 @@ event_fields:
   type: INTEGER
   description: 1 If extension is persistent across all tabs else 0
   sample_value: TBD
-- standard_name: TBD
+- standard_name: ShareLocalPath
   standard_type: TBD
   name: path
   type: TEXT
@@ -113,14 +116,13 @@ event_fields:
   type: TEXT
   description: The permissions optionally required by the extensions
   sample_value: TBD
-
 - standard_name: TBD
   standard_type: TBD
   name: optional_permissions_json
   type: TEXT
   description: The JSON-encoded permissions optionally required by the extensions
   sample_value: TBD
-- standard_name: TBD
+- standard_name: HashSha256
   standard_type: TBD
   name: manifest_hash
   type: TEXT

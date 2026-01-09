@@ -5,61 +5,62 @@ log_source: osquery
 event_id: carbon_black_info
 event_version: 5.0.1
 event_fields:
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: sensor_id
   type: INTEGER
   description: Sensor ID of the Carbon Black sensor
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: config_name
   type: TEXT
   description: Sensor group
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: collect_store_files
   type: INTEGER
-  description: If the sensor is configured to send back binaries to the Carbon Black server
+  description: If the sensor is configured to send back binaries to the Carbon Black
+    server
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: collect_module_loads
   type: INTEGER
   description: If the sensor is configured to capture module loads
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: collect_module_info
   type: INTEGER
   description: If the sensor is configured to collect metadata of binaries
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: collect_file_mods
   type: INTEGER
   description: If the sensor is configured to collect file modification events
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: collect_reg_mods
   type: INTEGER
   description: If the sensor is configured to collect registry modification events
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: collect_net_conns
   type: INTEGER
   description: If the sensor is configured to collect network connections
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: collect_processes
   type: INTEGER
   description: If the sensor is configured to process events
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: collect_cross_processes
   type: INTEGER
@@ -77,7 +78,7 @@ event_fields:
   type: INTEGER
   description: If the sensor is configured to collect non binary file writes
   sample_value: TBD
-- standard_name: TBD
+- standard_name: ProcessUserName
   standard_type: TBD
   name: collect_process_user_context
   type: INTEGER
@@ -107,7 +108,7 @@ event_fields:
   type: INTEGER
   description: If the sensor is configured to report tamper events
   sample_value: TBD
-- standard_name: TBD
+- standard_name: IpAddress
   standard_type: TBD
   name: sensor_ip_addr
   type: TEXT

@@ -1,5 +1,5 @@
 name: Event 41 - Mshtml_CHtmPre_Suspend
-description:
+description: null
 platform: windows
 log_source: Microsoft-IE
 event_id: '41'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: DOC
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: HtmlTag
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_primarynav

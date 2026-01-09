@@ -1,23 +1,23 @@
 name: Event 6202 - DocPerf_Task_USBMon_BidiQuery
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Documents
 event_id: '6202'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: SrcPort
   standard_type: TBD
   name: PortName
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Action
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_DocPerf

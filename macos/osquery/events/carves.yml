@@ -11,7 +11,7 @@ event_fields:
   type: BIGINT
   description: Time at which the carve was kicked off
   sample_value: TBD
-- standard_name: TBD
+- standard_name: HashSha256
   standard_type: TBD
   name: sha256
   type: TEXT
@@ -23,7 +23,7 @@ event_fields:
   type: INTEGER
   description: Size of the carved archive
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: path
   type: TEXT

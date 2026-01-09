@@ -1,5 +1,5 @@
 name: Event 84 - DUser_StagingBufferCopy
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-DUSER
 event_id: '84'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: surfaceId
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: surfaceX
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: surfaceY
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: surfaceWidth
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: surfaceHeight
   type: Int32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_DUserSurface

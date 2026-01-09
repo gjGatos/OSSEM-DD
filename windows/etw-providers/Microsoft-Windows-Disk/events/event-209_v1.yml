@@ -1,5 +1,5 @@
 name: Event 209 - Class
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Disk
 event_id: '209'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: DeviceNumber
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Irp
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: CurrentRetryCount
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Read Write PagingRead PagingWrite LowMemoryRead LowMemoryWrite

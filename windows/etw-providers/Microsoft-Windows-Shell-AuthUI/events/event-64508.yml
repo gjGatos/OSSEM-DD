@@ -1,5 +1,5 @@
 name: Event 64508 - LockScreenCallBroker_HostExited
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Shell-AuthUI
 event_id: '64508'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: guid
   type: GUID
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_LockScreenCallBroker_HostExited

@@ -1,5 +1,5 @@
 name: Event 10005 - NcaSvc_PerfTrack_InternetConnected_DAConnected
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Ncasvc
 event_id: '10005'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: MachineIdentifier
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SessionIdentifier
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: DeploymentIdentifier
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: StopState
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_Start

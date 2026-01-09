@@ -1,5 +1,5 @@
 name: Event 6611 - ConnectCharm_Play
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Immersive-Shell
 event_id: '6611'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: DeviceInstanceID
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_Start

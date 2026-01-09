@@ -1,5 +1,5 @@
 name: Event 1007 - SyncService1007
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-TenantRestrictions
 event_id: '1007'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: LastSuccessfulSync
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: TimeInHours
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ErrorCode
   type: Int32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Warning
 - etw_task_SyncService

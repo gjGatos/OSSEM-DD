@@ -1,5 +1,5 @@
 name: Event 4510 - Platform:Shutdown
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-RTWorkQueue-Threading
 event_id: '4510'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: Platform
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Telemetry

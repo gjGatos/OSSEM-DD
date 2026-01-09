@@ -11,7 +11,7 @@ event_fields:
   type: TEXT
   description: Service name
   sample_value: TBD
-- standard_name: TBD
+- standard_name: DstPort
   standard_type: TBD
   name: port
   type: INTEGER

@@ -5,7 +5,7 @@ log_source: osquery
 event_id: process_memory_map
 event_version: 5.0.1
 event_fields:
-- standard_name: TBD
+- standard_name: ProcessId
   standard_type: TBD
   name: pid
   type: INTEGER
@@ -47,7 +47,7 @@ event_fields:
   type: INTEGER
   description: Mapped path inode, 0 means uninitialized (BSS)
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: path
   type: TEXT

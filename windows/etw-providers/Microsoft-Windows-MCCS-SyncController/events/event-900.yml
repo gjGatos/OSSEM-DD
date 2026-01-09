@@ -1,5 +1,5 @@
 name: Event 900 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-MCCS-SyncController
 event_id: '900'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: P1_Boolean
   type: Boolean
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_CommsService

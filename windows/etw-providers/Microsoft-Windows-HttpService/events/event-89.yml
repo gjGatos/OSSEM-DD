@@ -1,5 +1,5 @@
 name: Event 89 - HTTPSSLTraceTask
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-HttpService
 event_id: '89'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: ConnectionObj
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Status
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SniLength
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SniHost
   type: Binary
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: NormalizedHost
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_HTTP_KEYWORD_ENDPOINT HTTP_KEYWORD_SSL

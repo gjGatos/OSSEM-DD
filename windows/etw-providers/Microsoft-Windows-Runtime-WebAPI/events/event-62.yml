@@ -1,17 +1,17 @@
 name: Event 62 - Parse
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Runtime-WebAPI
 event_id: '62'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: UrlOriginal
   standard_type: TBD
   name: uri
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Warning
 - etw_keywords_keywords.Format

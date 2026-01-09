@@ -1,5 +1,5 @@
 name: Event 45 - ApipDxGetWindowSharedSurface
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Dwm-Api
 event_id: '45'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: Hwnd
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: luidAdapter
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: hmonAssociation
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: dwFlags
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: DxgiFormat
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_DwmApi

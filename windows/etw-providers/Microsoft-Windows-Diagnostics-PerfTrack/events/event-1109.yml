@@ -1,5 +1,5 @@
 name: Event 1109 - IdleDetection_Disk_OpenedDisk
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Diagnostics-PerfTrack
 event_id: '1109'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: DevicePath
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_PerfTrackStatus

@@ -1,5 +1,5 @@
 name: Event 2451 - PerfTrack_PLM_SuspendApplication
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Immersive-Shell
 event_id: '2451'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: PsmKey
   type: UnicodeString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: SoftwareName
   standard_type: TBD
   name: PackageFullName
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: AppUserModelId
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Packed_Hi_RequestedTimeoutExtensionMs16_Flags11_Crashed1_Throttled1_EnforceTimeout1_IsChild1_TimedOut1_Lo
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Packed_Hi_ModeSwitchesToUnthrottledCount2_IoOpportunityTime100Ms10_CpuReadyTime100Ms10_CpuRunningTime100Ms10_Lo
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_PLMComponent keyword_200000000000

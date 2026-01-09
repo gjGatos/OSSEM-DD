@@ -1,5 +1,5 @@
 name: Event 3020 - PnporPowerManagementoperationtoaparticulardriverinadevicestack.
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-DriverFrameworks-UserMode
 event_id: '3020'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: LifetimeId
   type: GUID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: InstanceId
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Level
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: StateMachine
   type: UInt8
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Event
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_opcode_Stop

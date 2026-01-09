@@ -1,5 +1,5 @@
 name: Event 3047 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-UserDataAccess-UnifiedStore
 event_id: '3047'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: P1_HResult
   type: Int32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Critical
 - etw_keywords_Error StateTransition keyword_400000000000

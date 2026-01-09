@@ -1,5 +1,5 @@
 name: Event 1092 - task_01092
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-ZTraceMaps
 event_id: '1092'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: Function
   type: AnsiString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Message
   type: AnsiString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Line
   type: Int32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_task_task_0

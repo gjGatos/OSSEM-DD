@@ -1,35 +1,35 @@
 name: Event 1107 - SensorServiceprocessingsensordatafororientation,readingsensordatasuccessful
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Sensors
 event_id: '1107'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: AccelerationX
   type: Float
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: 'null'
   standard_type: TBD
   name: AccelerationY
   type: Float
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: 'null'
   standard_type: TBD
   name: AccelerationZ
   type: Float
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: 'null'
   standard_type: TBD
   name: PitchCalibration
   type: Float
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_SensPerf

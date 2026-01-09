@@ -1,5 +1,5 @@
 name: Event 1305 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-PushNotifications-Platform
 event_id: '1305'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: ErrorCode
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: InitCount
   type: Int64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PdcReason
   type: Int64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ConnectionType
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_wpnprv

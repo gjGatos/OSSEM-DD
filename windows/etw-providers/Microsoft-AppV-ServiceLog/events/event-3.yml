@@ -1,5 +1,5 @@
 name: Event 3 - DebugAppVClient
-description:
+description: null
 platform: windows
 log_source: Microsoft-AppV-ServiceLog
 event_id: '3'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: Message
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Function
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Line
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_DebugTrace

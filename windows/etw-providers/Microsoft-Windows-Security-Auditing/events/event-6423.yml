@@ -1,5 +1,6 @@
 name: 'Event ID 6423: The installation of this device is forbidden by system policy.'
-description: This event generates every time installation of this device is forbidden by system policy.
+description: This event generates every time installation of this device is forbidden
+  by system policy.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
 event_id: '6423'
@@ -11,13 +12,13 @@ event_fields:
   type: SID
   description: SID of account that forbids the device installation.
   sample_value: S-1-5-18
-- standard_name: UserName
+- standard_name: UserNetworkAccountName
   standard_type: TBD
   name: SubjectUserName
   type: UnicodeString
   description: the name of the account that forbids the device installation.
   sample_value: DESKTOP-NFC0HVN$
-- standard_name: UserDomain
+- standard_name: DomainName
   standard_type: TBD
   name: SubjectDomainName
   type: UnicodeString
@@ -27,7 +28,9 @@ event_fields:
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: 'hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, "4624: An account was successfully logged on."'
+  description: 'hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID, for example, "4624: An account was
+    successfully logged on."'
   sample_value: '0x3e7'
 - standard_name: DeviceId
   standard_type: TBD

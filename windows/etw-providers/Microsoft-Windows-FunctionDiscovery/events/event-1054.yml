@@ -1,5 +1,5 @@
 name: Event 1054 - FunDisc_PropertiesSetValue
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-FunctionDiscovery
 event_id: '1054'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: FunctionInstanceID
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: fmtid
   type: GUID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: pid
   type: HexInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_Start

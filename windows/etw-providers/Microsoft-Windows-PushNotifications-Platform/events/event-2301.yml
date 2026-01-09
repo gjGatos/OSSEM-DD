@@ -1,5 +1,5 @@
 name: Event 2301 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-PushNotifications-Platform
 event_id: '2301'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: PackageFullName
   type: UnicodeString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: SoftwareName
   standard_type: TBD
   name: PackageRelativeApplicationId
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_wpnend

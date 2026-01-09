@@ -1,23 +1,23 @@
 name: Event 10011 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-OtpCredentialProviderEvt
 event_id: '10011'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: UserId
   standard_type: TBD
   name: user
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: errorCode
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_task_task_0

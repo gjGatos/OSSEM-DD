@@ -11,7 +11,7 @@ event_fields:
   type: BIGINT
   description: The local user that owns the plugin
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FileName
   standard_type: TBD
   name: name
   type: TEXT
@@ -23,7 +23,7 @@ event_fields:
   type: TEXT
   description: Plugin identifier
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareVersion
   standard_type: TBD
   name: version
   type: TEXT
@@ -35,7 +35,7 @@ event_fields:
   type: TEXT
   description: Build SDK used to compile plugin
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FileDescription
   standard_type: TBD
   name: description
   type: TEXT
@@ -53,7 +53,7 @@ event_fields:
   type: INTEGER
   description: Plugin requires native execution
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: path
   type: TEXT

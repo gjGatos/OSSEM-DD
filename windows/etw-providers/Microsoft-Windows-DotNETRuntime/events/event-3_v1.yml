@@ -1,5 +1,5 @@
 name: Event 3 - GC
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-DotNETRuntime
 event_id: '3'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: ClrInstanceID
   type: UInt16
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_GCKeyword

@@ -5,43 +5,43 @@ log_source: osquery
 event_id: interface_addresses
 event_version: 5.0.1
 event_fields:
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: interface
   type: TEXT
   description: Interface name
   sample_value: TBD
-- standard_name: TBD
+- standard_name: IpAddress
   standard_type: TBD
   name: address
   type: TEXT
   description: Specific address for interface
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: mask
   type: TEXT
   description: Interface netmask
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: broadcast
   type: TEXT
   description: Broadcast address for the interface
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: point_to_point
   type: TEXT
   description: PtP address for the interface
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: type
   type: TEXT
   description: Type of address. One of dhcp, manual, auto, other, unknown
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: friendly_name
   type: TEXT

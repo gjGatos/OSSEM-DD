@@ -1,5 +1,5 @@
 name: Event 105 - HPIIO
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Sdbus
 event_id: '105'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: SDHostPhysicalAddress
   type: HexInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: HpiIoCount
   type: UInt64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Emmc

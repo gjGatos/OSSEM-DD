@@ -1,5 +1,5 @@
 name: Event 206 - WININET_KEEP_ALIVE_CONNECTION_REUSED
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-WinINet
 event_id: '206'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: ConnectionHandle
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SocketHandle
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_WININET_KEYWORD_HTTP

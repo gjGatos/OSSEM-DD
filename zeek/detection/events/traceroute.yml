@@ -1,5 +1,5 @@
 name: Traceroute Log
-description:
+description: null
 platform: zeek
 log_source: detection
 event_id: traceroute
@@ -17,13 +17,13 @@ event_fields:
   type: string
   description: Protocol used for the traceroute
   sample_value: tcp
-- standard_name: TBD
+- standard_name: SrcIpAddr
   standard_type: TBD
   name: src
   type: ip
   description: Address initiating the traceroute
   sample_value: 10.1.1.1.1
-- standard_name: TBD
+- standard_name: DstIpAddr
   standard_type: TBD
   name: dst
   type: ip

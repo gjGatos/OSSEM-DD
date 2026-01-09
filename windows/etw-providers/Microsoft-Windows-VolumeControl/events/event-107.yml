@@ -1,5 +1,5 @@
 name: Event 107 - task_VolumeLimit_UI
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-VolumeControl
 event_id: '107'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: object
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PrevChangeStamp
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ChangeStamp
   type: Int32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_VolumeLimit_WnfCallback_Skip

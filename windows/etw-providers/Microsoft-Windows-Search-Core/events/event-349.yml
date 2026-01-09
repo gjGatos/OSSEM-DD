@@ -1,5 +1,5 @@
 name: Event 349 - RobotThread_GetWordBreaker
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Search-Core
 event_id: '349'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: fmtid
   type: GUID
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: ProcessId
   standard_type: TBD
   name: pid
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: LocaleID
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: LocaleSource
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_IndexingChunk Gatherer

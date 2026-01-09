@@ -1,5 +1,5 @@
 name: Event 17 - PluginManager
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-MediaFoundation-Platform
 event_id: '17'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: MFTName
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_PluginManager

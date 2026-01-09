@@ -1,24 +1,25 @@
 name: Event 499 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Application Server-Applications
 event_id: '499'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: HostDomain
   standard_type: TBD
   name: HostReference
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: AppDomain
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
-- etw_keywords_ServiceHost ServiceModel WCFMessageLogging WFTracking EndToEndMonitoring Troubleshooting UserEvents
+- etw_keywords_ServiceHost ServiceModel WCFMessageLogging WFTracking EndToEndMonitoring
+  Troubleshooting UserEvents
 - etw_task_task_0

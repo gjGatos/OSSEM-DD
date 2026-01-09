@@ -1,5 +1,5 @@
 name: Event 14016 - ConfigurePackageComponent
-description:
+description: null
 platform: windows
 log_source: Microsoft-AppV-SharedPerformance
 event_id: '14016'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: Component
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_opcode_Stop
 - etw_task_ConfigurePackageComponent

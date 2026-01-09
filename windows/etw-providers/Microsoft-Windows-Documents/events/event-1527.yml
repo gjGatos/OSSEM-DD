@@ -1,17 +1,17 @@
 name: Event 1527 - DocPerf_Task_ScanRT_FromIdAsync
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Documents
 event_id: '1527'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: Id
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_DocPerf

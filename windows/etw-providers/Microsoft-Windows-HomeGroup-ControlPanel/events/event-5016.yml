@@ -1,5 +1,5 @@
 name: Event 5016 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-HomeGroup-ControlPanel
 event_id: '5016'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: Error
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: guid
   type: GUID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: DWORD
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_task_task_0

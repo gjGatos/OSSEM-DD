@@ -1,5 +1,5 @@
 name: Event 7 - SCHEDULE_WFVB
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Dwm-Core
 event_id: '7'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: fUseSleep
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: dwSleep
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_DwmCore DwmFrameRate

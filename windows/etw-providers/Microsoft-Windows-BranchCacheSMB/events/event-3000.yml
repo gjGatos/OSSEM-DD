@@ -1,5 +1,5 @@
 name: Event 3000 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-BranchCacheSMB
 event_id: '3000'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: MinHashVersion
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: MaxHashVersion
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_CscEvtKeywd_SMBBranchCache

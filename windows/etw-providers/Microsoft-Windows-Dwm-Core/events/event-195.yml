@@ -1,5 +1,5 @@
 name: Event 195 - MILEVENT_MEDIA_UCE_PROCESSSURFACEUPDATES
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Dwm-Core
 event_id: '195'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: cTotalTokenCount
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: cIterationCount
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_DwmCore

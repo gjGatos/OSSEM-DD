@@ -5,7 +5,7 @@ log_source: osquery
 event_id: docker_container_mounts
 event_version: 4.4.2
 event_fields:
-- standard_name: TBD
+- standard_name: ProcessId
   standard_type: TBD
   name: id
   type: TEXT
@@ -23,13 +23,13 @@ event_fields:
   type: TEXT
   description: Optional mount name
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: source
   type: TEXT
   description: Source path on host
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: destination
   type: TEXT

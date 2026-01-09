@@ -1,5 +1,5 @@
 name: Event 9 - RedirProcessLogicalSurface
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Dwm-Redir
 event_id: '9'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: logicalSurfaceHandle
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: spriteHandle
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: windowHandle
   type: UInt64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_DwmRedir

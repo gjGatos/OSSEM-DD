@@ -1,5 +1,5 @@
 name: Event 235 - Mshtml_MediaEngine_AudioDataPresented
-description:
+description: null
 platform: windows
 log_source: Microsoft-IE
 event_id: '235'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: MediaEngineID
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: sampletime
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: dataPresented
   type: Float
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_mediaengine

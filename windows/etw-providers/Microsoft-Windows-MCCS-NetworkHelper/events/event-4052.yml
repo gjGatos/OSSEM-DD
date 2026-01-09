@@ -1,5 +1,5 @@
 name: Event 4052 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-MCCS-NetworkHelper
 event_id: '4052'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: P1_Int32
   type: Int32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_Debug

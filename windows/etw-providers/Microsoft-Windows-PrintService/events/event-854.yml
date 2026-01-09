@@ -1,5 +1,5 @@
 name: Event 854 - Client_siderendering
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-PrintService
 event_id: '854'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: Error
   type: HexInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: FileName
   standard_type: TBD
   name: PrinterName
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_SPOOLER_KEYWORD_CSR

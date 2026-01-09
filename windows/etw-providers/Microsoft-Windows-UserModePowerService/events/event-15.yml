@@ -1,5 +1,5 @@
 name: Event 15 - RundownOverrideConfiguration
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-UserModePowerService
 event_id: '15'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: Flags
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ProcessorVendor
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ProcessorType
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_RundownOverrideConfiguration

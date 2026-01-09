@@ -1,5 +1,5 @@
 name: Event 3 - BatteryBayRundown
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Battery
 event_id: '3'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: Handle
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: BatteryPresent
   type: Boolean
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_BatteryBayRundown

@@ -1,5 +1,5 @@
 name: Event 1002 - WinNatSessionTimerUpdate
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-WinNat
 event_id: '1002'
@@ -9,63 +9,63 @@ event_fields:
   standard_type: TBD
   name: InternalAddrLen
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: SrcIpAddr
   standard_type: TBD
   name: InternalSrcAddr
   type: Binary
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: DstIpAddr
   standard_type: TBD
   name: InternalDstAddr
   type: Binary
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ExternalAddrLen
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: SrcIpAddr
   standard_type: TBD
   name: ExternalSrcAddr
   type: Binary
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: DstIpAddr
   standard_type: TBD
   name: ExternalDstAddr
   type: Binary
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: TransportProtocol
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Lifetime
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: TcpSessionState
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: InternalCompartmentId
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_ut:Session

@@ -1,5 +1,5 @@
 name: Event 1079 - iaLPSS2_I2CSPBDDIcalls
-description:
+description: null
 platform: windows
 log_source: Intel-iaLPSS2-I2C
 event_id: '1079'
@@ -9,39 +9,39 @@ event_fields:
   standard_type: TBD
   name: SpbController
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SpbTarget
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SpbRequest
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: InputLength
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: OutputLength
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: IoControlCode
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_iaLPSS2_I2CSPBDDIcalls

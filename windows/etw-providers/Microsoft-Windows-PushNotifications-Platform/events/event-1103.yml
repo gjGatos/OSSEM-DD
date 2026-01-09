@@ -1,5 +1,5 @@
 name: Event 1103 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-PushNotifications-Platform
 event_id: '1103'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: TransactionId
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: TrID
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_wpnprv

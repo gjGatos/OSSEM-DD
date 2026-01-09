@@ -1,5 +1,5 @@
 name: Event 24626 - Readchunkdatafromstreamstore
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Deduplication
 event_id: '24626'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: Stream
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Filter

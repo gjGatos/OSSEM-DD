@@ -1,5 +1,5 @@
 name: Event 267 - MFCaptureEngine_Camera_Sound_QueuePlaybackTask
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-MediaFoundation-MFCaptureEngine
 event_id: '267'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: CaptureEngineObject
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: QueuingResult
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_Stop

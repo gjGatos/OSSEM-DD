@@ -1,23 +1,23 @@
 name: Event 3 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-RPC-FirewallManager
 event_id: '3'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: FilterKey
   standard_type: TBD
   name: FilterKey
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ErrorStatus
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_opcode_opcode_128

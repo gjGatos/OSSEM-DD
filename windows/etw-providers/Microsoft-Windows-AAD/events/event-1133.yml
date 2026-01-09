@@ -1,23 +1,23 @@
 name: Event 1133 - AadCloudAPPluginOperation
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-AAD
 event_id: '1133'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: ApiCallDescription
   standard_type: TBD
   name: Status
   type: HexInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: 'null'
   standard_type: TBD
   name: CorrelationID
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Warning
 - etw_keywords_Operational Warning

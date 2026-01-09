@@ -1,5 +1,5 @@
 name: Event 260 - DpiFdoThermalActiveCooling
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-DxgKrnl
 event_id: '260'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: FunctionalDeviceObject
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Engaged
   type: Boolean
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_DxgKrnl_Power

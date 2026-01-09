@@ -1,5 +1,5 @@
 name: Event 80 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-PktMon
 event_id: '80'
@@ -9,45 +9,45 @@ event_fields:
   standard_type: TBD
   name: ComponentId
   type: UInt16
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: DirTagIn
   type: UInt16
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: SrcPackets
   standard_type: TBD
   name: PacketsIn
   type: UInt64
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: SrcBytes
   standard_type: TBD
   name: BytesIn
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: DirTagOut
   type: UInt16
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: DstPackets
   standard_type: TBD
   name: PacketsOut
   type: UInt64
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: DstBytes
   standard_type: TBD
   name: BytesOut
   type: UInt64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Rundown

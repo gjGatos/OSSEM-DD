@@ -1,11 +1,13 @@
 name: Cowrie file upload
-description: This dictionary details the fields for the file upload event of the Cowrie honeypot, which triggers when a file is downloaded to the honeypot, for example with wget.
+description: This dictionary details the fields for the file upload event of the Cowrie
+  honeypot, which triggers when a file is downloaded to the honeypot, for example
+  with wget.
 platform: cowrie
 log_source: honeypot
-event_id: 'cowrie.session.file_download'
+event_id: cowrie.session.file_download
 event_version: '0'
 event_fields:
-- standard_name: EventTimestamp
+- standard_name: 'null'
   standard_type: date_time
   name: timestamp
   type: string
@@ -16,20 +18,20 @@ event_fields:
   name: src_ip
   type: string
   description: The originating/source IP address of the SSH connection
-  sample_value: '192.168.1.4'
-- standard_name: EventMessage
+  sample_value: 192.168.1.4
+- standard_name: 'null'
   standard_type: string
   name: message
   type: string
   description: The message contained in the event
   sample_value: 'SSH client hassh fingerprint: aaaabbbbcccc11112222'
-- standard_name: DvcHostname
+- standard_name: 'null'
   standard_type: string
   name: sensor
   type: string
   description: The name of the device that generated the event
-  sample_value: 'hk-lab1'
-- standard_name: NetworkSessionId
+  sample_value: hk-lab1
+- standard_name: 'null'
   standard_type: string
   name: session
   type: string
@@ -40,31 +42,32 @@ event_fields:
   name: filename
   type: string
   description: The name of the file downloaded
-  sample_value: 'bad.exe'
+  sample_value: bad.exe
 - standard_name: FilePath
   standard_type: string
   name: outfile
   type: string
-  description: The path where the file is stored on the file system (outside of the honeypot)
-  sample_value: 'var/lib/cowrie/downloads/2267ef2579a94a6c2b0ba83e56a52031d4c21e916e1c45b7dfd1e01c98d6c5d9'
+  description: The path where the file is stored on the file system (outside of the
+    honeypot)
+  sample_value: var/lib/cowrie/downloads/2267ef2579a94a6c2b0ba83e56a52031d4c21e916e1c45b7dfd1e01c98d6c5d9
 - standard_name: FileHashSha256
   standard_type: string
   name: shasum
   type: string
   description: The SHA256 hash of the file
   sample_value: 2267ef2579a94a6c2b0ba83e56a52031d4c21e916e1c45b7dfd1e01c98d6c5d9
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: destfile
   type: string
   description: The path where the file is stored on the honeypot file system
-  sample_value: '/root/bad.exe'
+  sample_value: /root/bad.exe
 - standard_name: UrlOriginal
   standard_type: string
   name: url
   type: string
   description: The url from which the file was downloaded
-  sample_value: 'https://google.com'
+  sample_value: https://google.com
 references:
 - text: Cowrie code
   link: TODO

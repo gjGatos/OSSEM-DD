@@ -1,5 +1,5 @@
 name: Event 4065 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Iphlpsvc-Trace
 event_id: '4065'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: AddrLength
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PrimaryorSecondary
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SocketAddress
   type: Binary
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_teredo

@@ -27,7 +27,9 @@ event_fields:
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: 'hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, "4624: An account was successfully logged on".'
+  description: 'hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID, for example, "4624: An account was
+    successfully logged on".'
   sample_value: '0x48f29'
 - standard_name: TBD
   standard_type: TBD
@@ -45,9 +47,11 @@ event_fields:
   standard_type: TBD
   name: ProcessId
   type: Pointer
-  description: hexadecimal Process ID of the process that changed the system time. Process ID (PID) is a number used by the operating system to uniquely identify an active process.
+  description: hexadecimal Process ID of the process that changed the system time.
+    Process ID (PID) is a number used by the operating system to uniquely identify
+    an active process.
   sample_value: '0x1074'
-- standard_name: ProcessPath
+- standard_name: ProcessName
   standard_type: TBD
   name: ProcessName
   type: UnicodeString

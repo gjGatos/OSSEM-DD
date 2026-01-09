@@ -1,5 +1,5 @@
 name: Event 59994 - ThreadToken
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-WebIO
 event_id: '59994'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: Token
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SID
   type: SID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Error
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_opcode_Get

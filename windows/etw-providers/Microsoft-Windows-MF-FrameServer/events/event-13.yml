@@ -1,5 +1,5 @@
 name: Event 13 - FrameServerWatchdogTimerTask
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-MF-FrameServer
 event_id: '13'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: TimerScope
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: TimerScopeId
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: WatchdogOperation
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: hr
   type: HexInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_opcode_Stop

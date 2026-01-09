@@ -1,5 +1,5 @@
 name: Event 257 - ExecuteJavascript
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-PDFReader
 event_id: '257'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: ScriptUniqueIdentifier
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ScriptMetadata
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ScriptCompletedSuccessfully
   type: Boolean
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Reader

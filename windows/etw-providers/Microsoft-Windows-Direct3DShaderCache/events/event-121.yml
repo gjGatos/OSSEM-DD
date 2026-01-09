@@ -1,35 +1,35 @@
 name: Event 121 - L2WriteQueueFull
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Direct3DShaderCache
 event_id: '121'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: FileSize
   standard_type: TBD
   name: CurrentFileSize
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: CurrentWriteQueueSize
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: MaximimWriteQueueSize
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: NewValueSize
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Events

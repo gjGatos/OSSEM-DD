@@ -1,5 +1,5 @@
 name: Event 2001 - WaitforCorporateConnectivity
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-NCSI
 event_id: '2001'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: CorpCheckDisabledReason
   type: UInt8
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Warning
 - etw_keywords_LwtDiagnostic ut:L3ConnectPath

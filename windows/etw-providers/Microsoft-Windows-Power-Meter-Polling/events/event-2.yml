@@ -1,5 +1,5 @@
 name: Event 2 - EnergyMeterRundown
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Power-Meter-Polling
 event_id: '2'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: MeterId
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: DefaultSamplingPeriodInMs
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ChannelNameLength
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ChannelName
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_EnergyMeterRundown

@@ -1,5 +1,5 @@
 name: Event 23 - DShow_NotifyQuality
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-MSMPEG2VDEC
 event_id: '23'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: QualityType
   type: UInt8
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Proportion
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Late
   type: Int64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: TimeStamp
   type: Int64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_task_DShow_NotifyQuality

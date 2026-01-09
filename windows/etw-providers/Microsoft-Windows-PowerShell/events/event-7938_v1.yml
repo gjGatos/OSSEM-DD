@@ -1,5 +1,5 @@
 name: Event 7938 - None
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-PowerShell
 event_id: '7938'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: ContextInfo
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: UserData
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Payload
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Cmdlets

@@ -1,5 +1,5 @@
 name: Event 3 - ParentDevNode
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Kernel-PnP-Rundown
 event_id: '3'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: DevNode
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ParentDevNode
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: InstancePathLength
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: InstancePath
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_SleepStudy

@@ -1,17 +1,17 @@
 name: Event 603 - Client_siderendering
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-PrintService
 event_id: '603'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: RegistryKey
   standard_type: TBD
   name: RegistryKey
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_keywords_SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_CSR

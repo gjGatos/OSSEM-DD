@@ -1,5 +1,5 @@
 name: Event 44 - Audio_Glitch_Detection
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Audio
 event_id: '44'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: pCAudioRenderPinRealtimeStreaming
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: WritePosition
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PlayPosition
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: TotalPosition
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: WritePosMinusTotalPos
   type: UInt64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_opcode_RTRENWritePosExceedsTotalPos

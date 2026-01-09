@@ -1,5 +1,5 @@
 name: Event 107 - Jscript_Recycler_Allocation
-description:
+description: null
 platform: windows
 log_source: Microsoft-JScript
 event_id: '107'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: MemoryAddress
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: BlockSize
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ObjectSize
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_JScriptObjectCleanup

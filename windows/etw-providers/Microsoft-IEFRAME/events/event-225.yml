@@ -1,17 +1,17 @@
 name: Event 225 - IdleTask_Execution_Time
-description:
+description: null
 platform: windows
 log_source: Microsoft-IEFRAME
 event_id: '225'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: TimeElapsed
   type: UInt64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_primarynav

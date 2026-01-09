@@ -5,13 +5,13 @@ log_source: osquery
 event_id: apparmor_profiles
 event_version: 4.4.2
 event_fields:
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: path
   type: TEXT
   description: Unique, aa-status compatible, policy identifier.
   sample_value: TBD
-- standard_name: TBD
+- standard_name: ProfilePath
   standard_type: TBD
   name: name
   type: TEXT
@@ -29,7 +29,7 @@ event_fields:
   type: TEXT
   description: How the policy is applied.
   sample_value: TBD
-- standard_name: TBD
+- standard_name: Sha1Hash
   standard_type: TBD
   name: sha1
   type: TEXT

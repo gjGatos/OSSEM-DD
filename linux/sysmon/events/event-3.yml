@@ -1,5 +1,8 @@
 name: 'Event ID 3: Network connection'
-description: The **network connection** event logs TCP/UDP connections on the machine. It is disabled by default. Each connection is linked to a process through the ProcessId and ProcessGUID fields. The event also contains the source and destination host names IP addresses, port numbers and IPv6 status.
+description: The **network connection** event logs TCP/UDP connections on the machine.
+  It is disabled by default. Each connection is linked to a process through the ProcessId
+  and ProcessGUID fields. The event also contains the source and destination host
+  names IP addresses, port numbers and IPv6 status.
 platform: linux
 log_source: sysmon
 event_id: '3'
@@ -17,7 +20,7 @@ event_fields:
   type: date
   description: Time in UTC when event was created
   sample_value: '2021-10-13T20:06:22.6600000Z'
-- standard_name: ActingProcessGuid
+- standard_name: ProcessId
   standard_type: TBD
   name: ProcessGuid
   type: string
@@ -27,9 +30,10 @@ event_fields:
   standard_type: TBD
   name: ProcessId
   type: integer
-  description: Process ID used by the os to identify the process that made the network connection
+  description: Process ID used by the os to identify the process that made the network
+    connection
   sample_value: '5079'
-- standard_name: ActingProcessFilePath
+- standard_name: ProcessFileName
   standard_type: TBD
   name: Image
   type: string
@@ -39,7 +43,8 @@ event_fields:
   standard_type: TBD
   name: User
   type: string
-  description: Name of the account who made the network connection. It usually containes domain name and user name
+  description: Name of the account who made the network connection. It usually containes
+    domain name and user name
   sample_value: root
 - standard_name: NetworkProtocol
   standard_type: TBD
@@ -71,7 +76,7 @@ event_fields:
   type: string
   description: name of the host that made the network connection
   sample_value: ''
-- standard_name: SrcPortNumber
+- standard_name: SrcPort
   standard_type: TBD
   name: SourcePort
   type: integer
@@ -101,7 +106,7 @@ event_fields:
   type: string
   description: name of the host that received the network connection
   sample_value: ''
-- standard_name: DstPortNumber
+- standard_name: DstPort
   standard_type: TBD
   name: DestinationPort
   type: integer

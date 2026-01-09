@@ -1,5 +1,5 @@
 name: Event 15003 - TemplateConsole_1016
-description:
+description: null
 platform: windows
 log_source: Microsoft-User Experience Virtualization-App Agent
 event_id: '15003'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: stringValue1
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: stringValue2
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_opcode_TemplateConsole

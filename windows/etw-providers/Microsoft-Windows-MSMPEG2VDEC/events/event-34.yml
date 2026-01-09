@@ -1,5 +1,5 @@
 name: Event 34 - MFT_NotifySampleLag
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-MSMPEG2VDEC
 event_id: '34'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: SampleLag
   type: Int64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_task_MFT_NotifySampleLag

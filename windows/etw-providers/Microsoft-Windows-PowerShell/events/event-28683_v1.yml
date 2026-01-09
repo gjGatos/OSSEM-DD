@@ -1,5 +1,5 @@
 name: Event 28683 - Serializeordeserializeremotingpayload
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-PowerShell
 event_id: '28683'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: LineNumber
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: LinePosition
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Exception
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_keywords_Serializer

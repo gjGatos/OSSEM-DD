@@ -1,5 +1,5 @@
 name: Event 1021 - SrvLmCompatibilityLevelNonDefault
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-SMBServer
 event_id: '1021'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: ConfiguredLmCompatibilityLevel
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: DefaultLmCompatibilityLevel
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Operational

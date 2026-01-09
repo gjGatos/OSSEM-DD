@@ -1,5 +1,5 @@
 name: Event 1018 - ReadyBoot
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-ReadyBoost
 event_id: '1018'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: DiskAssessmentTimestamp
   type: FILETIME
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ErrorCode
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Durationms
   type: UInt16
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_ReadyBoot

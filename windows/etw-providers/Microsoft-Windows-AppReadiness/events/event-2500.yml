@@ -1,5 +1,5 @@
 name: Event 2500 - AppReadiness_BrokerSession
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-AppReadiness
 event_id: '2500'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: User
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_BrokerSession

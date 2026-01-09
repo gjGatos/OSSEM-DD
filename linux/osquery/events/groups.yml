@@ -23,7 +23,7 @@ event_fields:
   type: TEXT
   description: Canonical local group name
   sample_value: TBD
-- standard_name: TBD
+- standard_name: GroupSid
   standard_type: TBD
   name: group_sid
   type: TEXT

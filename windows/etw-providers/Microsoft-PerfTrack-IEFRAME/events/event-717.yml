@@ -1,5 +1,5 @@
 name: Event 717 - Browseui_Tabs_Tearoff_BetweenWindows_TabProc
-description:
+description: null
 platform: windows
 log_source: Microsoft-PerfTrack-IEFRAME
 event_id: '717'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: Object
   type: UInt64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_Browseui_Tabs_Tearoff_BetweenWindows_TabProc

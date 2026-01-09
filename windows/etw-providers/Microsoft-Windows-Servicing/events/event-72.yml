@@ -1,23 +1,23 @@
 name: Event 72 - Generic_Task
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Servicing
 event_id: '72'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: CodeDescription
   standard_type: TBD
   name: DescString
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: InstallerEndEvent
   type: UInt64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_opcode_Stop

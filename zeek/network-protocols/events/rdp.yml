@@ -1,11 +1,11 @@
 name: RDP Log
-description:
+description: null
 platform: zeek
 log_source: network-protocols
 event_id: rdp
 event_version: '0'
 event_fields:
-- standard_name: '@timestamp'
+- standard_name: EmailDate
   standard_type: TBD
   name: ts
   type: date_time
@@ -35,7 +35,7 @@ event_fields:
   type: integer
   description: The responding/destination port
   sample_value: '3389'
-- standard_name: EventUid
+- standard_name: UserUid
   standard_type: TBD
   name: uid
   type: string
@@ -45,19 +45,22 @@ event_fields:
   standard_type: TBD
   name: cert_count
   type: integer
-  description: The number of certs seen. X.509 can transfer an entire certificate chain.
+  description: The number of certs seen. X.509 can transfer an entire certificate
+    chain.
   sample_value: '4'
 - standard_name: TBD
   standard_type: TBD
   name: cert_permanent
   type: boolean
-  description: Indicates if the provided certificate or certificate chain is permanent or temporary.
+  description: Indicates if the provided certificate or certificate chain is permanent
+    or temporary.
   sample_value: 'true'
 - standard_name: TBD
   standard_type: TBD
   name: cert_type
   type: string
-  description: If the connection is being encrypted with native RDP encryption, this is the type of cert being used.
+  description: If the connection is being encrypted with native RDP encryption, this
+    is the type of cert being used.
   sample_value: RSA
 - standard_name: TBD
   standard_type: TBD
@@ -71,7 +74,7 @@ event_fields:
   type: string
   description: Product ID of the client machine.
   sample_value: bdedcf4e-aa02-4441-5013-f32139f
-- standard_name: TBD
+- standard_name: HostDomain
   standard_type: TBD
   name: client_name
   type: string
@@ -81,7 +84,8 @@ event_fields:
   standard_type: TBD
   name: cookie
   type: string
-  description: Cookie value used by the client machine. This is typically a username. Even during encrypted sessions, this will contain the first few characters.
+  description: Cookie value used by the client machine. This is typically a username.
+    Even during encrypted sessions, this will contain the first few characters.
   sample_value: Administr
 - standard_name: TBD
   standard_type: TBD
@@ -123,7 +127,8 @@ event_fields:
   standard_type: TBD
   name: result
   type: string
-  description: Status result for the connection. It's a mix between RDP negotation failure messages and GCC server create response messages.
+  description: Status result for the connection. It's a mix between RDP negotation
+    failure messages and GCC server create response messages.
   sample_value: HYBRID_REQUIRED_BY_SERVER
 - standard_name: TBD
   standard_type: TBD
@@ -135,7 +140,8 @@ event_fields:
   standard_type: TBD
   name: ssl
   type: boolean
-  description: present if policy/protocols/rdp/indicate_ssl.bro is loaded Flag the connection if it was seen over SSL.
+  description: present if policy/protocols/rdp/indicate_ssl.bro is loaded Flag the
+    connection if it was seen over SSL.
   sample_value: 'true'
 references: []
 tags: []

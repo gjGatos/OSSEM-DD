@@ -11,7 +11,7 @@ event_fields:
   type: TEXT
   description: Login type
   sample_value: TBD
-- standard_name: TBD
+- standard_name: UserNetworkAccountName
   standard_type: TBD
   name: user
   type: TEXT
@@ -35,19 +35,19 @@ event_fields:
   type: INTEGER
   description: Time entry was made
   sample_value: TBD
-- standard_name: TBD
+- standard_name: ProcessId
   standard_type: TBD
   name: pid
   type: INTEGER
   description: Process (or thread) ID
   sample_value: TBD
-- standard_name: TBD
+- standard_name: UserSid
   standard_type: TBD
   name: sid
   type: TEXT
   description: The user's unique security identifier [WINDOWS]
   sample_value: TBD
-- standard_name: TBD
+- standard_name: RegistryKeyPath
   standard_type: TBD
   name: registry_hive
   type: TEXT

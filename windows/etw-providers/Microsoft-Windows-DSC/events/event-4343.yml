@@ -1,5 +1,5 @@
 name: Event 4343 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-DSC
 event_id: '4343'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: flag
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_task_0

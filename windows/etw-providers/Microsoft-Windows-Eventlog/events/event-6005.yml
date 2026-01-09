@@ -17,21 +17,10 @@ tags:
 - etw_level_Informational
 event_sample:
 - format: xml
-  sample: |-
-    <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"> 
-      <System> 
-        <Provider Name="EventLog" /> 
-        <EventID Qualifiers="32768">6005</EventID> 
-        <Level>4</Level> 
-        <Task>0</Task> 
-        <Keywords>0x80000000000000</Keywords> 
-        <TimeCreated SystemTime="2022-08-09T16:09:27.056581000Z" /> 
-        <EventRecordID>686</EventRecordID> 
-        <Channel>System</Channel> 
-        <Computer>Pedro01</Computer> 
-        <Security /> 
-      </System> 
-      <EventData> 
-        <Binary>E607080002000900100009001B0038000000000000000000</Binary> 
-      </EventData> 
-    </Event> 
+  sample: "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"\
+    > \n  <System> \n    <Provider Name=\"EventLog\" /> \n    <EventID Qualifiers=\"\
+    32768\">6005</EventID> \n    <Level>4</Level> \n    <Task>0</Task> \n    <Keywords>0x80000000000000</Keywords>\
+    \ \n    <TimeCreated SystemTime=\"2022-08-09T16:09:27.056581000Z\" /> \n    <EventRecordID>686</EventRecordID>\
+    \ \n    <Channel>System</Channel> \n    <Computer>Pedro01</Computer> \n    <Security\
+    \ /> \n  </System> \n  <EventData> \n    <Binary>E607080002000900100009001B0038000000000000000000</Binary>\
+    \ \n  </EventData> \n</Event> "

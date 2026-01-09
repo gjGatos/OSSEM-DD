@@ -1,5 +1,5 @@
 name: Event 490 - Mshtml_IndependentHitTest
-description:
+description: null
 platform: windows
 log_source: Microsoft-IE
 event_id: '490'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: PointerID
   type: Int32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_mshtml

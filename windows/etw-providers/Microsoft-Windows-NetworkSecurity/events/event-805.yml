@@ -1,5 +1,5 @@
 name: Event 805 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-NetworkSecurity
 event_id: '805'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: SaContextID
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SPI
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_task_task_0

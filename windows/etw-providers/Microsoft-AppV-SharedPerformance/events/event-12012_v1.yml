@@ -1,17 +1,17 @@
 name: Event 12012 - VEMgrProcessLaunch
-description:
+description: null
 platform: windows
 log_source: Microsoft-AppV-SharedPerformance
 event_id: '12012'
 event_version: '1'
 event_fields:
-- standard_name: TBD
+- standard_name: ProcessId
   standard_type: TBD
   name: pid
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_opcode_Start
 - etw_task_VEMgrProcessLaunch

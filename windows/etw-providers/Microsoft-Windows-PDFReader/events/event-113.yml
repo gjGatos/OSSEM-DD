@@ -1,5 +1,5 @@
 name: Event 113 - ManipulateView
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-PDFReader
 event_id: '113'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: Zoom
   type: Float
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Rotation
   type: Float
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_Reader

@@ -11,13 +11,13 @@ event_fields:
   type: BIGINT
   description: The transient ID assigned for communication
   sample_value: TBD
-- standard_name: TBD
+- standard_name: ExtensionName
   standard_type: TBD
   name: name
   type: TEXT
   description: Extension's name
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareVersion
   standard_type: TBD
   name: version
   type: TEXT
@@ -29,7 +29,7 @@ event_fields:
   type: TEXT
   description: osquery SDK version used to build the extension
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: path
   type: TEXT

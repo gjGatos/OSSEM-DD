@@ -1,5 +1,5 @@
 name: Event 126 - PdcPhaseNotificationCallback
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-PDC
 event_id: '126'
@@ -9,39 +9,39 @@ event_fields:
   standard_type: TBD
   name: CurrentPhase
   type: UInt8
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: CurrentPhaseNotificationsState
   type: UInt8
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: CurrentPhaseNotificationsStatus
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: CurrentPhasePdcSequence
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: CallbackStatus
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: CallbackPdcSequence
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_Cs CsDiag

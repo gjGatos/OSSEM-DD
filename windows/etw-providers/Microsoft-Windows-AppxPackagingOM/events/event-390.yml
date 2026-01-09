@@ -1,17 +1,17 @@
 name: Event 390 - Bundlereader
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-AppxPackagingOM
 event_id: '390'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: SoftwareName
   standard_type: TBD
   name: packageFullName
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_Bundlereader

@@ -5,7 +5,7 @@ log_source: osquery
 event_id: groups
 event_version: 5.0.1
 event_fields:
-- standard_name: TBD
+- standard_name: GroupSid
   standard_type: TBD
   name: gid
   type: BIGINT
@@ -17,13 +17,13 @@ event_fields:
   type: BIGINT
   description: A signed int64 version of gid
   sample_value: TBD
-- standard_name: TBD
+- standard_name: GroupDomain
   standard_type: TBD
   name: groupname
   type: TEXT
   description: Canonical local group name
   sample_value: TBD
-- standard_name: TBD
+- standard_name: GroupSid
   standard_type: TBD
   name: group_sid
   type: TEXT

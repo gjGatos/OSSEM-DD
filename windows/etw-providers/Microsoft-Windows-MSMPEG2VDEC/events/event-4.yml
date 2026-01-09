@@ -1,5 +1,5 @@
 name: Event 4 - H264_DecodeTask
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-MSMPEG2VDEC
 event_id: '4'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: TaskID
   type: UInt8
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: IDRCount
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: POC
   type: Int32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_opcode_Stop

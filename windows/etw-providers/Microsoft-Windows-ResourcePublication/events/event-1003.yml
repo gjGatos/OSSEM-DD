@@ -1,5 +1,5 @@
 name: Event 1003 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-ResourcePublication
 event_id: '1003'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: Function
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: HRESULT
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: CodeEndLine
   standard_type: TBD
   name: Line
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: FileName
   standard_type: TBD
   name: Filename
   type: AnsiString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_keywords_core

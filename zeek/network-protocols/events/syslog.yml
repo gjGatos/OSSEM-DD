@@ -1,47 +1,48 @@
 name: Syslog Log
-description:
+description: null
 platform: zeek
 log_source: network-protocols
 event_id: syslog
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: ts
   type: date_time
   description: ''
   sample_value: '1300475167.096535'
-- standard_name: TBD
+- standard_name: SrcIpAddr
   standard_type: TBD
   name: id.orig_h
   type: ip
   description: The originating/source IP address
   sample_value: 10.1.1.1
-- standard_name: TBD
+- standard_name: SrcPort
   standard_type: TBD
   name: id.orig_p
   type: integer
   description: The originating/source port
   sample_value: '37682'
-- standard_name: NetworkProtocol
+- standard_name: NetworkTrafficDescription
   standard_type: TBD
   name: proto
   type: string
-  description: Protocol over which the message was seen. Typically UDP but can definitely (and should) be TCP in some scenarios
+  description: Protocol over which the message was seen. Typically UDP but can definitely
+    (and should) be TCP in some scenarios
   sample_value: udp
-- standard_name: TBD
+- standard_name: DstIpAddr
   standard_type: TBD
   name: id.resp_h
   type: ip
   description: The responding/destination IP address
   sample_value: 10.2.2.2
-- standard_name: TBD
+- standard_name: DstPort
   standard_type: TBD
   name: id.resp_p
   type: integer
   description: The responding/destination port
   sample_value: '514'
-- standard_name: EventUid
+- standard_name: UserUid
   standard_type: TBD
   name: uid
   type: string

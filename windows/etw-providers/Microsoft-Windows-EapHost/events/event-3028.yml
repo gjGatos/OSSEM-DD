@@ -1,5 +1,5 @@
 name: Event 3028 - Common
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-EapHost
 event_id: '3028'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: debugString
   type: AnsiString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_task_Common

@@ -1,5 +1,5 @@
 name: Event 239 - Memprotect_GC_Unroot
-description:
+description: null
 platform: windows
 log_source: Microsoft-JScript
 event_id: '239'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: HeapHandle
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Address
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Source
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_MemProtectObjectAllocation

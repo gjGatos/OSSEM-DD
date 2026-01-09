@@ -1,17 +1,17 @@
 name: Event 134 - Jscript_GC_ProcessClientTrackedObject
-description:
+description: null
 platform: windows
 log_source: Microsoft-JScript
 event_id: '134'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: RecyclerID
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_JScriptGarbageCollection

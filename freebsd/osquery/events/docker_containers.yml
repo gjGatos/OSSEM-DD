@@ -17,7 +17,7 @@ event_fields:
   type: TEXT
   description: Container name
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareName
   standard_type: TBD
   name: image
   type: TEXT
@@ -29,7 +29,7 @@ event_fields:
   type: TEXT
   description: Docker image ID
   sample_value: TBD
-- standard_name: TBD
+- standard_name: CommandLine
   standard_type: TBD
   name: command
   type: TEXT
@@ -45,7 +45,8 @@ event_fields:
   standard_type: TBD
   name: state
   type: TEXT
-  description: Container state (created, restarting, running, removing, paused, exited, dead)
+  description: Container state (created, restarting, running, removing, paused, exited,
+    dead)
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
@@ -53,7 +54,7 @@ event_fields:
   type: TEXT
   description: Container status information
   sample_value: TBD
-- standard_name: TBD
+- standard_name: ProcessId
   standard_type: TBD
   name: pid
   type: BIGINT
@@ -95,7 +96,7 @@ event_fields:
   type: TEXT
   description: List of container security options
   sample_value: TBD
-- standard_name: TBD
+- standard_name: ProcessEnvironmentVariables
   standard_type: TBD
   name: env_variables
   type: TEXT

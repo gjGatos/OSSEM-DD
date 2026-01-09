@@ -1,5 +1,5 @@
 name: Event 1043 - iaLPSS2_I2CInitroutines
-description:
+description: null
 platform: windows
 log_source: Intel-iaLPSS2-I2C
 event_id: '1043'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: MBAR
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PA
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: LEN
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: VA
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_iaLPSS2_I2CInitroutines

@@ -1,5 +1,5 @@
 name: Event 5519 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Iphlpsvc-Trace
 event_id: '5519'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: Action
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_damultisite

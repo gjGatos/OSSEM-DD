@@ -5,7 +5,7 @@ log_source: osquery
 event_id: curl_certificate
 event_version: 5.0.1
 event_fields:
-- standard_name: TBD
+- standard_name: HostDomain
   standard_type: TBD
   name: hostname
   type: TEXT
@@ -29,7 +29,7 @@ event_fields:
   type: TEXT
   description: Organization unit issued to
   sample_value: TBD
-- standard_name: TBD
+- standard_name: CertificateSerialNumber
   standard_type: TBD
   name: serial_number
   type: TEXT
@@ -65,25 +65,25 @@ event_fields:
   type: TEXT
   description: Period of validity end date
   sample_value: TBD
-- standard_name: TBD
+- standard_name: CertificateHashSha256
   standard_type: TBD
   name: sha256_fingerprint
   type: TEXT
   description: SHA-256 fingerprint
   sample_value: TBD
-- standard_name: TBD
+- standard_name: CertificateHashSha1
   standard_type: TBD
   name: sha1_fingerprint
   type: TEXT
   description: SHA1 fingerprint
   sample_value: TBD
-- standard_name: TBD
+- standard_name: CertificateVersion
   standard_type: TBD
   name: version
   type: INTEGER
   description: Version Number
   sample_value: TBD
-- standard_name: TBD
+- standard_name: CertificateSignatureAlgorithm
   standard_type: TBD
   name: signature_algorithm
   type: TEXT
@@ -189,7 +189,8 @@ event_fields:
   standard_type: TBD
   name: timeout
   type: INTEGER
-  description: Set this value to the timeout in seconds to complete the TLS handshake (default 4s, use 0 for no timeout)
+  description: Set this value to the timeout in seconds to complete the TLS handshake
+    (default 4s, use 0 for no timeout)
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD

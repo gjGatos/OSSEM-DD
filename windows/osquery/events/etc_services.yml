@@ -5,31 +5,31 @@ log_source: osquery
 event_id: etc_services
 event_version: 5.0.1
 event_fields:
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: name
   type: TEXT
   description: Service name
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: port
   type: INTEGER
   description: Service port number
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: protocol
   type: TEXT
   description: Transport protocol (TCP/UDP)
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: aliases
   type: TEXT
   description: Optional space separated list of other names for a service
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: comment
   type: TEXT

@@ -1,5 +1,5 @@
 name: Event 62442 - AppDefaults_UpgradeToRecommendedApp
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Shell-Core
 event_id: '62442'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: ProgId
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: CurrentDefaultProgId
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ExtOrUriScheme
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_AppDefaults_UpgradeToRecommendedApp

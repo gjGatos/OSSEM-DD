@@ -1,5 +1,5 @@
 name: Event 1 - AeSbCall
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-ApplicationExperience-SwitchBack
 event_id: '1'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: SwitchBranchGuid
   type: GUID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SwitchBranchNameLength
   type: UInt16
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SwitchBranchName
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SwitchBranchDescriptionLength
   type: UInt16
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SwitchBranchDescription
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_AeSbCall

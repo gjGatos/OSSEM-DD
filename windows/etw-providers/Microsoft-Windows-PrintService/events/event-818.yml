@@ -1,5 +1,5 @@
 name: Event 818 - EnablingspoolerRPCendpoints
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-PrintService
 event_id: '818'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: ErrorCode
   type: HexInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Context
   type: Int16
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_keywords_SPOOLER_KEYWORD_ROUTER

@@ -1,5 +1,5 @@
 name: Event 4178 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Deduplication
 event_id: '4178'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: Param1
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Param2
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Context
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: DebugInfo
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Warning
 - etw_task_task_0

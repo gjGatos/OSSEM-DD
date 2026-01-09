@@ -1,5 +1,5 @@
 name: Event 644 - History_Journal_Write_Command
-description:
+description: null
 platform: windows
 log_source: Microsoft-IEFRAME
 event_id: '644'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: CommandType
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: EventType
   type: Int32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_HistoryJournal

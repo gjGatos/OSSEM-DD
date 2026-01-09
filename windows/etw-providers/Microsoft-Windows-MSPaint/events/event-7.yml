@@ -1,5 +1,5 @@
 name: Event 7 - Select_Tool
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-MSPaint
 event_id: '7'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: ToolID
   type: Int32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_Start

@@ -1,5 +1,5 @@
 name: Event 25075 - Logon_LogonFrame_OnProviderCredentialsChanged
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Shell-AuthUI
 event_id: '25075'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: Boolean1
   type: Boolean
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_Logon_LogonFrame_OnProviderCredentialsChanged

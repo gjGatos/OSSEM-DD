@@ -1,5 +1,5 @@
 name: Event 1116 - MediaFoundationIMFOutputPolicy_GenerateRequiredSchemas
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-MF
 event_id: '1116'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: attributes
   type: HexInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: outputSubtype
   type: GUID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: cSchemas
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: hr
   type: HexInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_MediaFoundationIMFOutputPolicy_GenerateRequiredSchemas

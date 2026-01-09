@@ -1,5 +1,5 @@
 name: Event 5731 - das_Association
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-DeviceAssociationService
 event_id: '5731'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: DasContext
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_DeviceAssociationService association

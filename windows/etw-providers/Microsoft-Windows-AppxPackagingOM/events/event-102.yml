@@ -1,5 +1,5 @@
 name: Event 102 - Manifest
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-AppxPackagingOM
 event_id: '102'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: errorCode
   type: HexInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: CodeEndLine
   standard_type: TBD
   name: lineNumber
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: columnNumber
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_opcode_ParseManifest

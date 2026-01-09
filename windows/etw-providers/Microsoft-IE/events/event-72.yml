@@ -1,5 +1,5 @@
 name: Event 72 - Mshtml_CImgHelper_RequestLayout
-description:
+description: null
 platform: windows
 log_source: Microsoft-IE
 event_id: '72'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: zero
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: zero1
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_primarynav

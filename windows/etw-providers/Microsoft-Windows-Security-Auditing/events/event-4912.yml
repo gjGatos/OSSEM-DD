@@ -17,7 +17,7 @@ event_fields:
   type: UnicodeString
   description: the name of the account that made a change to per-user audit policy.
   sample_value: dadmin
-- standard_name: UserDomain
+- standard_name: DomainName
   standard_type: TBD
   name: SubjectDomainName
   type: UnicodeString
@@ -27,9 +27,11 @@ event_fields:
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: 'hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, "4624: An account was successfully logged on."'
+  description: 'hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID, for example, "4624: An account was
+    successfully logged on."'
   sample_value: '0x11ae30'
-- standard_name: TargetUserSid
+- standard_name: UserSid
   standard_type: TBD
   name: TargetUserSid
   type: SID
@@ -73,57 +75,31 @@ tags:
 - Audit Policy Change
 event_sample:
 - format: friendly view
-  sample: |-
-    Log Name:      Security 
-    Source:        Microsoft-Windows-Security-Auditing 
-    Date:          8/18/2022 5:30:22 AM 
-    Event ID:      4912 
-    Task Category: Audit Policy Change 
-    Level:         Information 
-    Keywords:      Audit Success 
-    User:          N/A 
-    Computer:      pedro-computer 
-    Description:   Per User Audit Policy was changed. 
-    Subject: 
-      Security ID:		PEDRO-COMPUTER\pedro-admin 
-      Account Name:		pedro-admin 
-      Account Domain:		PEDRO-COMPUTER 
-      Logon ID:		0x85E7CD 
-    Policy For Account: 
-      Security ID:		PEDRO-COMPUTER\pedro 
-    Policy Change Details: 
-      Category:	Account Logon 
-      Subcategory:	Kerberos Authentication Service 
-      Subcategory GUID:	{0cce9242-69ae-11d9-bed3-505054503030} 
-      Changes:	Success include removed, Failure include removed 
+  sample: "Log Name:      Security \nSource:        Microsoft-Windows-Security-Auditing\
+    \ \nDate:          8/18/2022 5:30:22 AM \nEvent ID:      4912 \nTask Category:\
+    \ Audit Policy Change \nLevel:         Information \nKeywords:      Audit Success\
+    \ \nUser:          N/A \nComputer:      pedro-computer \nDescription:   Per User\
+    \ Audit Policy was changed. \nSubject: \n  Security ID:\t\tPEDRO-COMPUTER\\pedro-admin\
+    \ \n  Account Name:\t\tpedro-admin \n  Account Domain:\t\tPEDRO-COMPUTER \n  Logon\
+    \ ID:\t\t0x85E7CD \nPolicy For Account: \n  Security ID:\t\tPEDRO-COMPUTER\\pedro\
+    \ \nPolicy Change Details: \n  Category:\tAccount Logon \n  Subcategory:\tKerberos\
+    \ Authentication Service \n  Subcategory GUID:\t{0cce9242-69ae-11d9-bed3-505054503030}\
+    \ \n  Changes:\tSuccess include removed, Failure include removed "
 - format: xml
-  sample: |-
-    <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"> 
-      <System> 
-        <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" /> 
-        <EventID>4912</EventID> 
-        <Version>0</Version> 
-        <Level>0</Level> 
-        <Task>13568</Task> 
-        <Opcode>0</Opcode> 
-        <Keywords>0x8020000000000000</Keywords> 
-        <TimeCreated SystemTime="2022-08-18T12:30:22.435727300Z" /> 
-        <EventRecordID>158745</EventRecordID> 
-        <Correlation ActivityID="{277c33d3-b30f-0000-e934-7c270fb3d801}" /> 
-        <Execution ProcessID="608" ThreadID="1320" /> 
-        <Channel>Security</Channel> 
-        <Computer>pedro-computer</Computer> 
-        <Security /> 
-      </System> 
-      <EventData> 
-        <Data Name="SubjectUserSid">S-1-5-21-3768430097-3400800235-1714852860-1001</Data> 
-        <Data Name="SubjectUserName">pedro-admin</Data> 
-        <Data Name="SubjectDomainName">PEDRO-COMPUTER</Data> 
-        <Data Name="SubjectLogonId">0x85e7cd</Data> 
-        <Data Name="TargetUserSid">S-1-5-21-3768430097-3400800235-1714852860-1002</Data> 
-        <Data Name="CategoryId">%%8280</Data> 
-        <Data Name="SubcategoryId">%%14339</Data> 
-        <Data Name="SubcategoryGuid">{0cce9242-69ae-11d9-bed3-505054503030}</Data> 
-        <Data Name="AuditPolicyChanges">%%8452, %%8456</Data> 
-      </EventData> 
-    </Event> 
+  sample: "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"\
+    > \n  <System> \n    <Provider Name=\"Microsoft-Windows-Security-Auditing\" Guid=\"\
+    {54849625-5478-4994-a5ba-3e3b0328c30d}\" /> \n    <EventID>4912</EventID> \n \
+    \   <Version>0</Version> \n    <Level>0</Level> \n    <Task>13568</Task> \n  \
+    \  <Opcode>0</Opcode> \n    <Keywords>0x8020000000000000</Keywords> \n    <TimeCreated\
+    \ SystemTime=\"2022-08-18T12:30:22.435727300Z\" /> \n    <EventRecordID>158745</EventRecordID>\
+    \ \n    <Correlation ActivityID=\"{277c33d3-b30f-0000-e934-7c270fb3d801}\" />\
+    \ \n    <Execution ProcessID=\"608\" ThreadID=\"1320\" /> \n    <Channel>Security</Channel>\
+    \ \n    <Computer>pedro-computer</Computer> \n    <Security /> \n  </System> \n\
+    \  <EventData> \n    <Data Name=\"SubjectUserSid\">S-1-5-21-3768430097-3400800235-1714852860-1001</Data>\
+    \ \n    <Data Name=\"SubjectUserName\">pedro-admin</Data> \n    <Data Name=\"\
+    SubjectDomainName\">PEDRO-COMPUTER</Data> \n    <Data Name=\"SubjectLogonId\"\
+    >0x85e7cd</Data> \n    <Data Name=\"TargetUserSid\">S-1-5-21-3768430097-3400800235-1714852860-1002</Data>\
+    \ \n    <Data Name=\"CategoryId\">%%8280</Data> \n    <Data Name=\"SubcategoryId\"\
+    >%%14339</Data> \n    <Data Name=\"SubcategoryGuid\">{0cce9242-69ae-11d9-bed3-505054503030}</Data>\
+    \ \n    <Data Name=\"AuditPolicyChanges\">%%8452, %%8456</Data> \n  </EventData>\
+    \ \n</Event> "

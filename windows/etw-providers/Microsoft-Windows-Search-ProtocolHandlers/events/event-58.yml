@@ -1,5 +1,5 @@
 name: Event 58 - FilterOplockBreak
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Search-ProtocolHandlers
 event_id: '58'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: Description
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_IndexingItem FilePH

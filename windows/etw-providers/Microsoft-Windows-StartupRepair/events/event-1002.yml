@@ -1,5 +1,5 @@
 name: Event 1002 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-StartupRepair
 event_id: '1002'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: StartTime
   type: FILETIME
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: NetworkTrafficEnd
   standard_type: TBD
   name: EndTime
   type: FILETIME
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: NumAttempts
   type: UInt16
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: NumRootCauses
   type: UInt16
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: LaunchType
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_task_0

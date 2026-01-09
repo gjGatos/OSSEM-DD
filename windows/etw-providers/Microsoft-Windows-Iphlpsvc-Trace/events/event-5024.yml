@@ -1,5 +1,5 @@
 name: Event 5024 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Iphlpsvc-Trace
 event_id: '5024'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: PacketType
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: IpAddress
   standard_type: TBD
   name: TargetAddress
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Prefix
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: DefaultRouter
   type: Boolean
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_iphttps

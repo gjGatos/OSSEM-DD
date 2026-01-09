@@ -1,5 +1,5 @@
 name: Event 1021 - EnumerationofSPBCxdriver
-description:
+description: null
 platform: windows
 log_source: Intel-iaLPSS-I2C
 event_id: '1021'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: TxDmaEnabler
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: RxDmaEnabler
   type: Pointer
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: SoftwareName
   standard_type: TBD
   name: WDFDevice
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: MMIO
   type: HexInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Status
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_EnumerationofSPBCxdriver

@@ -1,17 +1,17 @@
 name: Event 3012 - AppXDeployment.Task.Server.OSIM
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-AppXDeployment-Server
 event_id: '3012'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: SoftwareName
   standard_type: TBD
   name: PackageName
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_OSIM_KEYWORD APPXDEPLOYMENTSERVER_PERF_KEYWORD

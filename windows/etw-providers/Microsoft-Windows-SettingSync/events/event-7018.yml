@@ -1,17 +1,17 @@
 name: Event 7018 - Perf_RemoveSettingUnit
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-SettingSync
 event_id: '7018'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: CollectionId
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_RoamingSettings

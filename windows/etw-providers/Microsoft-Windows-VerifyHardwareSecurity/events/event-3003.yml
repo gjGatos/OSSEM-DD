@@ -1,17 +1,17 @@
 name: Event 3003 - CheckSecureBootEnabled
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-VerifyHardwareSecurity
 event_id: '3003'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: hr
   type: Int32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Warning
 - etw_opcode_securebootEnabledFailedToCheck

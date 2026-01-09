@@ -1,5 +1,5 @@
 name: Event 48 - Audio_Glitch_Detection
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Audio
 event_id: '48'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: pCAudioRenderPinStandardStreaming
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: DevicePosition
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: StreamPosition
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: AvailableFrames
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_opcode_STRENDeviceStarved

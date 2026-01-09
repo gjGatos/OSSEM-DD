@@ -1,17 +1,17 @@
 name: Event 702 - INetCfgNotifyObject
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Network-Setup
 event_id: '702'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: CodeDescription
   standard_type: TBD
   name: Code
   type: Int32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Warning
 - etw_opcode_Stop

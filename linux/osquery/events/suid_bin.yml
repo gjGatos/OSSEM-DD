@@ -11,7 +11,7 @@ event_fields:
   type: TEXT
   description: Binary path
   sample_value: TBD
-- standard_name: TBD
+- standard_name: UserDisplayName
   standard_type: TBD
   name: username
   type: TEXT

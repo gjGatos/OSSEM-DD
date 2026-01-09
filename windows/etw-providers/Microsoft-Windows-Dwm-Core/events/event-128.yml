@@ -1,5 +1,5 @@
 name: Event 128 - ETWGUID_STEREO_SWAPCHAINCREATEEVENT
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Dwm-Core
 event_id: '128'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: hmon
   type: UInt64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_DwmCore

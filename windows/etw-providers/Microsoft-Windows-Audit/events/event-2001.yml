@@ -1,5 +1,5 @@
 name: Event 2001 - AuditProcessUnattend
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Audit
 event_id: '2001'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: Pass
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_keyPerformance

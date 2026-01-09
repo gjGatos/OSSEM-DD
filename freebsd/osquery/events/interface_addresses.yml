@@ -11,7 +11,7 @@ event_fields:
   type: TEXT
   description: Interface name
   sample_value: TBD
-- standard_name: TBD
+- standard_name: IpAddress
   standard_type: TBD
   name: address
   type: TEXT

@@ -1,5 +1,5 @@
 name: Event 22 - RetrieveCrossCertificatefromCache
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-CAPI2
 event_id: '22'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: EventWriteData
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_PathDiscovery Cache

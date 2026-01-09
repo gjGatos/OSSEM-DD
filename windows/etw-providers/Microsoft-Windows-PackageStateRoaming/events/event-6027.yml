@@ -1,5 +1,5 @@
 name: Event 6027 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-PackageStateRoaming
 event_id: '6027'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: PackageFullName
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_task_0

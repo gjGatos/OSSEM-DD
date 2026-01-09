@@ -1,5 +1,5 @@
 name: Event 1045 - GpioIOoperations
-description:
+description: null
 platform: windows
 log_source: Intel-iaLPSS-GPIO
 event_id: '1045'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: BankId
   type: HexInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PinCount
   type: UInt16
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ConnectMode
   type: HexInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PullConfig
   type: HexInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_GpioIOoperations

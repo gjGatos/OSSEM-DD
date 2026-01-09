@@ -1,5 +1,5 @@
 name: Event 46 - DUser_DCompCommit
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-DUSER
 event_id: '46'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: nSize
   type: Int32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Default

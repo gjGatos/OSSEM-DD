@@ -5,7 +5,7 @@ log_source: osquery
 event_id: system_info
 event_version: 4.4.2
 event_fields:
-- standard_name: TBD
+- standard_name: HostDomain
   standard_type: TBD
   name: hostname
   type: TEXT
@@ -71,25 +71,25 @@ event_fields:
   type: TEXT
   description: Hardware or board model
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareVersion
   standard_type: TBD
   name: hardware_version
   type: TEXT
   description: Hardware or board version
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: hardware_serial
   type: TEXT
   description: Device or board serial number
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: computer_name
   type: TEXT
   description: Friendly computer name (optional)
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: local_hostname
   type: TEXT

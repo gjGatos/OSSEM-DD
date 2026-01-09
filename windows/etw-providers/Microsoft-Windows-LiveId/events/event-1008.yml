@@ -1,5 +1,5 @@
 name: Event 1008 - IdentityProviderOperation
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-LiveId
 event_id: '1008'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: Result
   type: Int32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Analytic

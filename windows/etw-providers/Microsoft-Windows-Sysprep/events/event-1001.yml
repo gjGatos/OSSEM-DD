@@ -1,5 +1,5 @@
 name: Event 1001 - RunRegistryDlls
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Sysprep
 event_id: '1001'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: BasePath
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Phase
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_keyPerformance keySysprep

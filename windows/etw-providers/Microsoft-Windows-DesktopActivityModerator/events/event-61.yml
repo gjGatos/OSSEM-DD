@@ -1,5 +1,5 @@
 name: Event 61 - IoTrackingCallback
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-DesktopActivityModerator
 event_id: '61'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: DeviceType
   type: UInt16
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: DeviceBucket
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ElapsedTime
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SlowIo
   type: Boolean
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_IoTracking

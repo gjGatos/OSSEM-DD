@@ -1,5 +1,5 @@
 name: Event 30008 - AbovelockToastTask
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-AssignedAccessBroker
 event_id: '30008'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: Operation
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: HResult
   type: HexInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_AbovelockToastTask

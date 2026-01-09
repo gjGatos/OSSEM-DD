@@ -23,7 +23,7 @@ event_fields:
   type: TEXT
   description: A logical path within the device node
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FileName
   standard_type: TBD
   name: filename
   type: TEXT
@@ -53,7 +53,7 @@ event_fields:
   type: TEXT
   description: Permission bits
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FileSize
   standard_type: TBD
   name: size
   type: BIGINT

@@ -1,5 +1,5 @@
 name: Event 28025 - Shell32_AppResolverCache_DevTrace
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Shell-Core
 event_id: '28025'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: psz
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Shell

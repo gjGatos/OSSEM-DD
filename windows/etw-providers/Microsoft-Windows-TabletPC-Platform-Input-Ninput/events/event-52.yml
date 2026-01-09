@@ -1,5 +1,5 @@
 name: Event 52 - NinputMouseWheel
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-TabletPC-Platform-Input-Ninput
 event_id: '52'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: delta
   type: Int32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_NinputMouseWheel

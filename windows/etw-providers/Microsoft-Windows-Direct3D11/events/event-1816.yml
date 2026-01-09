@@ -1,5 +1,5 @@
 name: Event 1816 - ID3D11VideoDevice_DestroyCryptoSession
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Direct3D11
 event_id: '1816'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: pCryptoSession
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_opcode_Stop

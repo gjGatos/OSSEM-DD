@@ -1,5 +1,5 @@
 name: Event 1017 - ResolutionEvents
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Resource-Exhaustion-Resolver
 event_id: '1017'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: UIDisplayTime
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: UserAction
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: MaxCommit
   type: UInt8
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_RDR_RES_KEYWORD_MEMORY_EXHAUSTION

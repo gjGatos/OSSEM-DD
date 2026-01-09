@@ -1,5 +1,5 @@
 name: Event 8 - H264_SetQualityMode
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-MSMPEG2VDEC
 event_id: '8'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: QualityMode
   type: UInt8
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_task_H264_SetQualityMode

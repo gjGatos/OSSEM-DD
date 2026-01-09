@@ -1,5 +1,5 @@
 name: Event 208 - EMEKeysAttribute
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-MediaEngine
 event_id: '208'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: object
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_EMEKeysAttribute

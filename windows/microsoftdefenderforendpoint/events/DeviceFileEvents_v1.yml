@@ -68,7 +68,8 @@ event_fields:
 - standard_name: FilePreviousDirectory
   name: PreviousFolderPath
   type: string
-  description: Original folder containing the file before the recorded action was applied
+  description: Original folder containing the file before the recorded action was
+    applied
   sample_value: ''
 - standard_name: FilePreviousName
   name: PreviousFileName
@@ -80,12 +81,12 @@ event_fields:
   type: string
   description: Size of the file in bytes
   sample_value: ''
-- standard_name: UserDomain
+- standard_name: Domain
   name: InitiatingProcessAccountDomain
   type: string
   description: Domain of the account that ran the process responsible for the event
   sample_value: ''
-- standard_name: UserName
+- standard_name: InitiatingProcessAccountName
   name: InitiatingProcessAccountName
   type: string
   description: User name of the account that ran the process responsible for the event
@@ -93,17 +94,20 @@ event_fields:
 - standard_name: UserSid
   name: InitiatingProcessAccountSid
   type: string
-  description: Security Identifier (SID) of the account that ran the process responsible for the event
+  description: Security Identifier (SID) of the account that ran the process responsible
+    for the event
   sample_value: ''
 - standard_name: UserUpn
   name: InitiatingProcessAccountUpn
   type: string
-  description: User principal name (UPN) of the account that ran the process responsible for the event
+  description: User principal name (UPN) of the account that ran the process responsible
+    for the event
   sample_value: ''
-- standard_name: ProcessUserObjectId
+- standard_name: InitiatingProcessUserObjectId
   name: InitiatingProcessAccountObjectId
   type: string
-  description: Azure AD object ID of the user account that ran the process responsible for the event
+  description: Azure AD object ID of the user account that ran the process responsible
+    for the event
   sample_value: ''
 - standard_name: ProcessHashMd5
   name: InitiatingProcessMD5
@@ -118,9 +122,10 @@ event_fields:
 - standard_name: ProcessHashSha256
   name: InitiatingProcessSHA256
   type: string
-  description: SHA-256 hash of the process (image file) that initiated the event. This field is usually not populated - use the SHA1 column when available
+  description: SHA-256 hash of the process (image file) that initiated the event.
+    This field is usually not populated - use the SHA1 column when available
   sample_value: ''
-- standard_name: ProcessFileDirectory
+- standard_name: InitiatingProcessFolderPath
   name: InitiatingProcessFolderPath
   type: string
   description: Folder containing the process (image file) that initiated the event
@@ -130,40 +135,46 @@ event_fields:
   type: string
   description: Name of the process that initiated the event
   sample_value: ''
-- standard_name: ProcessFileSize
+- standard_name: FileSize
   name: InitiatingProcessFileSize
   type: string
   description: Size of the process (image file) that initiated the event
   sample_value: ''
-- standard_name: ProcessFileCompany
+- standard_name: FileCompany
   name: InitiatingProcessVersionInfoCompanyName
   type: string
-  description: Company name from the version information of the process (image file) responsible for the event
+  description: Company name from the version information of the process (image file)
+    responsible for the event
   sample_value: ''
-- standard_name: ProcessFileProduct
+- standard_name: SoftwareName
   name: InitiatingProcessVersionInfoProductName
   type: string
-  description: Product name from the version information of the process (image file) responsible for the event
+  description: Product name from the version information of the process (image file)
+    responsible for the event
   sample_value: ''
-- standard_name: ProcessFileVersion
+- standard_name: SoftwareVersion
   name: InitiatingProcessVersionInfoProductVersion
   type: string
-  description: Product version from the version information of the process (image file) responsible for the event
+  description: Product version from the version information of the process (image
+    file) responsible for the event
   sample_value: ''
-- standard_name: TBD
+- standard_name: InitiatingProcessFileName
   name: InitiatingProcessVersionInfoInternalFileName
   type: string
-  description: Internal file name from the version information of the process (image file) responsible for the event
+  description: Internal file name from the version information of the process (image
+    file) responsible for the event
   sample_value: ''
-- standard_name: TBD
+- standard_name: InitiatingProcessFileName
   name: InitiatingProcessVersionInfoOriginalFileName
   type: string
-  description: Original file name from the version information of the process (image file) responsible for the event
+  description: Original file name from the version information of the process (image
+    file) responsible for the event
   sample_value: ''
-- standard_name: TBD
+- standard_name: FileDescription
   name: InitiatingProcessVersionInfoFileDescription
   type: string
-  description: Description from the version information of the process (image file) responsible for the event
+  description: Description from the version information of the process (image file)
+    responsible for the event
   sample_value: ''
 - standard_name: ProcessId
   name: InitiatingProcessId
@@ -175,7 +186,7 @@ event_fields:
   type: string
   description: Command line used to run the process that initiated the event
   sample_value: ''
-- standard_name: ProcessCreationTime
+- standard_name: InitiatingProcessParentCreationTime
   name: InitiatingProcessCreationTime
   type: date
   description: Date and time when the process that initiated the event was started
@@ -183,34 +194,42 @@ event_fields:
 - standard_name: ProcessIntegrityLevel
   name: InitiatingProcessIntegrityLevel
   type: string
-  description: Integrity level of the process that initiated the event. Windows assigns integrity levels to processes based on certain characteristics, such as if they were launched from an internet download. These integrity levels influence permissions to resources.
+  description: Integrity level of the process that initiated the event. Windows assigns
+    integrity levels to processes based on certain characteristics, such as if they
+    were launched from an internet download. These integrity levels influence permissions
+    to resources.
   sample_value: ''
 - standard_name: ProcessTokenElevation
   name: InitiatingProcessTokenElevation
   type: string
-  description: Token type indicating the presence or absence of User Access Control (UAC) privilege elevation applied to the process that initiated the event
+  description: Token type indicating the presence or absence of User Access Control
+    (UAC) privilege elevation applied to the process that initiated the event
   sample_value: ''
 - standard_name: ProcessParentId
   name: InitiatingProcessParentId
   type: int
-  description: Process ID (PID) of the parent process that spawned the process responsible for the event
+  description: Process ID (PID) of the parent process that spawned the process responsible
+    for the event
   sample_value: ''
 - standard_name: ProcessParentName
   name: InitiatingProcessParentFileName
   type: string
-  description: Name of the parent process that spawned the process responsible for the event
+  description: Name of the parent process that spawned the process responsible for
+    the event
   sample_value: ''
-- standard_name: ProcessParentCreationTime
+- standard_name: InitiatingProcessParentCreationTime
   name: InitiatingProcessParentCreationTime
   type: date
-  description: Date and time when the parent of the process responsible for the event was started
+  description: Date and time when the parent of the process responsible for the event
+    was started
   sample_value: ''
 - standard_name: ApplicationProtocol
   name: RequestProtocol
   type: string
-  description: Network protocol, if applicable, used to initiate the activity - Unknown, Local, SMB, or NFS
+  description: Network protocol, if applicable, used to initiate the activity - Unknown,
+    Local, SMB, or NFS
   sample_value: SMB
-- standard_name: ProcessParentCreationTime
+- standard_name: IpAddress
   name: RequestSourceIP
   type: date
   description: IPv4 or IPv6 address of the remote device that initiated the activity
@@ -220,12 +239,12 @@ event_fields:
   type: integer
   description: Source port on the remote device that initiated the activity
   sample_value: '1234'
-- standard_name: UserName
+- standard_name: InitiatingProcessAccountName
   name: RequestAccountName
   type: string
   description: User name of account used to remotely initiate the activity
   sample_value: ''
-- standard_name: UserDomain
+- standard_name: Domain
   name: RequestAccountDomain
   type: string
   description: Domain of the account used to remotely initiate the activity
@@ -233,9 +252,10 @@ event_fields:
 - standard_name: UserSid
   name: RequestAccountSid
   type: string
-  description: Security Identifier (SID) of the account used to remotely initiate the activity
+  description: Security Identifier (SID) of the account used to remotely initiate
+    the activity
   sample_value: ''
-- standard_name: ShareName
+- standard_name: ShareLocalPath
   name: ShareName
   type: string
   description: Name of shared folder containing the file
@@ -243,12 +263,15 @@ event_fields:
 - standard_name: SensitivityLabel
   name: SensitivityLabel
   type: string
-  description: Label applied to an email, file, or other content to classify it for information protection
+  description: Label applied to an email, file, or other content to classify it for
+    information protection
   sample_value: ''
 - standard_name: SensitivitySublabel
   name: SensitivitySubLabel
   type: string
-  description: Sublabel applied to an email, file, or other content to classify it for information protection; sensitivity sublabels are grouped under sensitivity labels but are treated independently
+  description: Sublabel applied to an email, file, or other content to classify it
+    for information protection; sensitivity sublabels are grouped under sensitivity
+    labels but are treated independently
   sample_value: ''
 - standard_name: IsAzureInfoProtectionApplied
   name: IsAzureInfoProtectionApplied
@@ -258,12 +281,14 @@ event_fields:
 - standard_name: ReportId
   name: ReportId
   type: long
-  description: Event identifier based on a repeating counter.To identify unique events, this column must be used in conjunction with the DeviceName and Timestamp columns
+  description: Event identifier based on a repeating counter.To identify unique events,
+    this column must be used in conjunction with the DeviceName and Timestamp columns
   sample_value: ''
 - standard_name: AppGuardContainerId
   name: AppGuardContainerId
   type: string
-  description: Identifier for the virtualized container used by Application Guard to isolate browser activity
+  description: Identifier for the virtualized container used by Application Guard
+    to isolate browser activity
   sample_value: ''
 - standard_name: AdditionalFields
   name: AdditionalFields

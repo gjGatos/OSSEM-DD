@@ -1,5 +1,5 @@
 name: Event 360 - SCHEDULE_PARALLEL_MODE_NEEDS_TO_WAIT_FOR_NEXT_VSYNC
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Dwm-Core
 event_id: '360'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: Policy
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_FrameDrawInconsistencyInformation

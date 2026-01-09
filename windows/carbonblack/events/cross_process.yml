@@ -1,5 +1,6 @@
 name: ingress.event.crossprocopen (Cross Process Open)
-description: A process has attempted to open a handle into another process OR if a remote thread was created.
+description: A process has attempted to open a handle into another process OR if a
+  remote thread was created.
 platform: windows
 log_source: carbonblack
 event_id: cross_process
@@ -9,7 +10,8 @@ event_fields:
   standard_type: TBD
   name: cb_server
   type: TEXT
-  description: Used to distinguish between multiple EDR servers. Set this in the "server_name" option of cb-event-forwarder.ini.
+  description: Used to distinguish between multiple EDR servers. Set this in the "server_name"
+    option of cb-event-forwarder.ini.
   sample_value: cbserver
 - standard_name: HostName
   standard_type: TBD
@@ -21,7 +23,8 @@ event_fields:
   standard_type: TBD
   name: cross_process_type
   type: TEXT
-  description: 'The type of cross process event: either open_process (opening a handle to another process) or open_thread'
+  description: 'The type of cross process event: either open_process (opening a handle
+    to another process) or open_thread'
   sample_value: open_process
 - standard_name: EventType
   standard_type: TBD
@@ -63,7 +66,8 @@ event_fields:
   standard_type: TBD
   name: pid
   type: INTEGER
-  description: Endpoint OS Process id of process that generated the crossprocopen event
+  description: Endpoint OS Process id of process that generated the crossprocopen
+    event
   sample_value: '3276'
 - standard_name: ProcessGuid
   standard_type: TBD
@@ -75,7 +79,8 @@ event_fields:
   standard_type: TBD
   name: requested_access
   type: INTEGER
-  description: Windows bitfield representing the requested access for this process or thread handle (decimal)
+  description: Windows bitfield representing the requested access for this process
+    or thread handle (decimal)
   sample_value: '5136'
 - standard_name: SensorId
   standard_type: TBD
@@ -89,13 +94,13 @@ event_fields:
   type: BIGINT
   description: Target Process create time represented as a 64-bit Windows FILETIME
   sample_value: '130921702131467731'
-- standard_name: TargetProcessHash
+- standard_name: HashMd5
   standard_type: TBD
   name: target_md5
   type: TEXT
   description: md5 of target process executable image
   sample_value: 382100E75B6F4668AEAEF228C6CEFFAD
-- standard_name: TargetProcessPath
+- standard_name: TargetFileName
   standard_type: TBD
   name: target_path
   type: TEXT

@@ -1,5 +1,5 @@
 name: Event 140 - PersistMemoryPartition
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Kernel-Boot
 event_id: '140'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: Identifier
   type: GUID
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_SoftRestart MemoryPreservation

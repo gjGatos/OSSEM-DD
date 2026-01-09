@@ -5,43 +5,44 @@ log_source: Microsoft Defender for Endpoint
 event_id: DeviceAlertEvents
 event_version: '0'
 event_fields:
-- standard_name: AlertId
+- standard_name: 'null'
   standard_type: TBD
   name: AlertId
   type: string
   description: Unique identifier for the alert
   sample_value: ''
-- standard_name: EventDateCreation
+- standard_name: 'null'
   standard_type: TBD
   name: Timestamp
   type: date
   description: Date and time when the event was recorded
   sample_value: ''
-- standard_name: DeviceId
+- standard_name: 'null'
   standard_type: TBD
   name: DeviceId
   type: string
   description: Unique identifier for the machine in the service
   sample_value: ''
-- standard_name: ComputerName
+- standard_name: DomainName
   standard_type: TBD
   name: DeviceName
   type: string
   description: Fully qualified domain name (FQDN) of the machine
   sample_value: ''
-- standard_name: Severity
+- standard_name: 'null'
   standard_type: TBD
   name: Severity
   type: ''
-  description: Indicates the potential impact (high, medium, or low) of the threat indicator or breach activity identified by the alert
+  description: Indicates the potential impact (high, medium, or low) of the threat
+    indicator or breach activity identified by the alert
   sample_value: ''
-- standard_name: Category
+- standard_name: 'null'
   standard_type: TBD
   name: Category
   type: ''
   description: Type of threat indicator or breach activity identified by the alert.
   sample_value: ''
-- standard_name: Title
+- standard_name: 'null'
   standard_type: TBD
   name: Title
   type: ''
@@ -63,7 +64,8 @@ event_fields:
   standard_type: TBD
   name: RemoteUrl
   type: string
-  description: URL or fully qualified domain name (FQDN) that was being connected to
+  description: URL or fully qualified domain name (FQDN) that was being connected
+    to
   sample_value: ''
 - standard_name: RemoteIp
   standard_type: TBD
@@ -71,13 +73,14 @@ event_fields:
   type: string
   description: IP address that was being connected to
   sample_value: ''
-- standard_name: ReportId
+- standard_name: 'null'
   standard_type: TBD
   name: ReportId
   type: long
-  description: Event identifier based on a repeating counter. To identify unique events, this column must be used in conjunction with the DeviceName and Timestamp columns
+  description: Event identifier based on a repeating counter. To identify unique events,
+    this column must be used in conjunction with the DeviceName and Timestamp columns
   sample_value: ''
-- standard_name: Table
+- standard_name: 'null'
   standard_type: TBD
   name: Table
   type: string

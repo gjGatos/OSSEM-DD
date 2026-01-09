@@ -5,11 +5,14 @@ log_source: Microsoft-Windows-Security-Auditing
 event_id: '4908'
 event_version: '0'
 event_fields:
-- standard_name: AuditPolicySidList
+- standard_name: SidHistory
   standard_type: TBD
   name: SidList
   type: UnicodeString
-  description: contains current list of SIDs (groups or accounts) which are members of Special Groups. Event Viewer automatically tries to resolve SIDs and show the account name. If the SID cannot be resolved, you will see the source data in the event.
+  description: contains current list of SIDs (groups or accounts) which are members
+    of Special Groups. Event Viewer automatically tries to resolve SIDs and show the
+    account name. If the SID cannot be resolved, you will see the source data in the
+    event.
   sample_value: '%{S-1-5-21-3457937927-2839227994-823803824-512}'
 references:
 - text: MS Source
@@ -26,25 +29,13 @@ tags:
 - Audit Policy Change
 event_sample:
 - format: xml
-  sample: |-
-    <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
-      <System>
-        <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" /> 
-        <EventID>4908</EventID> 
-        <Version>0</Version> 
-        <Level>0</Level> 
-        <Task>13568</Task> 
-        <Opcode>0</Opcode> 
-        <Keywords>0x8020000000000000</Keywords> 
-        <TimeCreated SystemTime="2015-10-01T00:20:40.210246600Z" /> 
-        <EventRecordID>1049511</EventRecordID> 
-        <Correlation /> 
-        <Execution ProcessID="516" ThreadID="532" /> 
-        <Channel>Security</Channel> 
-        <Computer>DC01.contoso.local</Computer> 
-        <Security /> 
-      </System>
-      <EventData>
-        <Data Name="SidList">%{S-1-5-21-3457937927-2839227994-823803824-512}</Data> 
-      </EventData>
-    </Event>
+  sample: "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"\
+    >\n  <System>\n    <Provider Name=\"Microsoft-Windows-Security-Auditing\" Guid=\"\
+    {54849625-5478-4994-A5BA-3E3B0328C30D}\" /> \n    <EventID>4908</EventID> \n \
+    \   <Version>0</Version> \n    <Level>0</Level> \n    <Task>13568</Task> \n  \
+    \  <Opcode>0</Opcode> \n    <Keywords>0x8020000000000000</Keywords> \n    <TimeCreated\
+    \ SystemTime=\"2015-10-01T00:20:40.210246600Z\" /> \n    <EventRecordID>1049511</EventRecordID>\
+    \ \n    <Correlation /> \n    <Execution ProcessID=\"516\" ThreadID=\"532\" />\
+    \ \n    <Channel>Security</Channel> \n    <Computer>DC01.contoso.local</Computer>\
+    \ \n    <Security /> \n  </System>\n  <EventData>\n    <Data Name=\"SidList\"\
+    >%{S-1-5-21-3457937927-2839227994-823803824-512}</Data> \n  </EventData>\n</Event>"

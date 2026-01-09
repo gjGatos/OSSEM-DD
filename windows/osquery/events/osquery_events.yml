@@ -5,13 +5,13 @@ log_source: osquery
 event_id: osquery_events
 event_version: 5.0.1
 event_fields:
-- standard_name: TBD
+- standard_name: ProcessName
   standard_type: TBD
   name: name
   type: TEXT
   description: Event publisher or subscriber name
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareVendor
   standard_type: TBD
   name: publisher
   type: TEXT

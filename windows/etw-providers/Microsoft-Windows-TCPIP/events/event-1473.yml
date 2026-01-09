@@ -1,5 +1,5 @@
 name: Event 1473 - TcpSackUpdateLimitReached
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-TCPIP
 event_id: '1473'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: Tcb
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Location
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_ut:TcpipDiagnosis

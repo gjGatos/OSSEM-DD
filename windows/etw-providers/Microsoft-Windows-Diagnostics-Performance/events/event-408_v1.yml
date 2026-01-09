@@ -1,5 +1,5 @@
 name: Event 408 - SystemPerformanceMonitoring
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Diagnostics-Performance
 event_id: '408'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: StartTime
   type: FILETIME
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: WorkingSetSizeKb
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PercentMemory
   type: Double
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Warning
 - etw_keywords_EventLog

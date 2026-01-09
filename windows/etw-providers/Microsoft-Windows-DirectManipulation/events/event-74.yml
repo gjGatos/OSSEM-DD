@@ -1,5 +1,5 @@
 name: Event 74 - Manipulation_ParametricMotion
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-DirectManipulation
 event_id: '74'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: content
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_Stop

@@ -1,5 +1,5 @@
 name: Event 43 - NinputSendWmGesture
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-TabletPC-Platform-Input-Ninput
 event_id: '43'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: GestureId
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_NinputSendWmGesture

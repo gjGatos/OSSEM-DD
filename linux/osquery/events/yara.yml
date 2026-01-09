@@ -5,7 +5,7 @@ log_source: osquery
 event_id: yara
 event_version: 4.4.2
 event_fields:
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: path
   type: TEXT

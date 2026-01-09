@@ -1,23 +1,23 @@
 name: Event 1014 - TasktotrackDPC
-description:
+description: null
 platform: windows
 log_source: Intel-iaLPSS-I2C
 event_id: '1014'
 event_version: '1'
 event_fields:
-- standard_name: TBD
+- standard_name: SoftwareName
   standard_type: TBD
   name: WDFDEVICE
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: MMIO
   type: HexInt64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_Stop

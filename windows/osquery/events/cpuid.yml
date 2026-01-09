@@ -5,31 +5,31 @@ log_source: osquery
 event_id: cpuid
 event_version: 5.0.1
 event_fields:
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: feature
   type: TEXT
   description: Present feature flags
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: value
   type: TEXT
   description: Bit value or string
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: output_register
   type: TEXT
   description: Register used to for feature value
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: output_bit
   type: INTEGER
   description: Bit in register value for feature value
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: input_eax
   type: TEXT

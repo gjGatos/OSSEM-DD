@@ -1,5 +1,5 @@
 name: Event 7025 - ServiceStart
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-HelloForBusiness
 event_id: '7025'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: ServiceName
   type: UnicodeString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: 'null'
   standard_type: TBD
   name: Error
   type: HexInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_keywords_Internal

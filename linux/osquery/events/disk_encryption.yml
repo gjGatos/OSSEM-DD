@@ -45,7 +45,8 @@ event_fields:
   standard_type: TBD
   name: encryption_status
   type: TEXT
-  description: 'Disk encryption status with one of following values: encrypted | not encrypted | undefined'
+  description: 'Disk encryption status with one of following values: encrypted | not
+    encrypted | undefined'
   sample_value: TBD
 references:
 - text: OSQuery table documentation

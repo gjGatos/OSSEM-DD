@@ -1,29 +1,30 @@
 name: Block_devices Table
-description: 'Block (buffered access) device file nodes: disks, ramdisks, and DMG containers.'
+description: 'Block (buffered access) device file nodes: disks, ramdisks, and DMG
+  containers.'
 platform: linux
 log_source: osquery
 event_id: block_devices
 event_version: 4.4.2
 event_fields:
-- standard_name: TBD
+- standard_name: FileName
   standard_type: TBD
   name: name
   type: TEXT
   description: Block device name
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FileParentDirectory
   standard_type: TBD
   name: parent
   type: TEXT
   description: Block device parent name
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareVendor
   standard_type: TBD
   name: vendor
   type: TEXT
   description: Block device vendor string
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareName
   standard_type: TBD
   name: model
   type: TEXT

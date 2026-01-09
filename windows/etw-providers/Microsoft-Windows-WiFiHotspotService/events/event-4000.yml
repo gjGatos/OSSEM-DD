@@ -1,5 +1,5 @@
 name: Event 4000 - HotspotService
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-WiFiHotspotService
 event_id: '4000'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: aString
   type: AnsiString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Status

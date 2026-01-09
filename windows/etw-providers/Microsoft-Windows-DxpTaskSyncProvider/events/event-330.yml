@@ -1,5 +1,5 @@
 name: Event 330 - DxpTaskSync_CreateBusinessObject
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-DxpTaskSyncProvider
 event_id: '330'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: ContainerID
   type: GUID
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_Start

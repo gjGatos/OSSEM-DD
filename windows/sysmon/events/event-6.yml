@@ -1,5 +1,8 @@
 name: 'Event ID 6: Driver loaded'
-description: The **driver loaded** events provides information about a driver being loaded on the system. The configured hashes are provided as well as signature information. The signature is created asynchronously for performance reasons and indicates if the file was removed after loading.
+description: The **driver loaded** events provides information about a driver being
+  loaded on the system. The configured hashes are provided as well as signature information.
+  The signature is created asynchronously for performance reasons and indicates if
+  the file was removed after loading.
 platform: windows
 log_source: Microsoft-Windows-Sysmon
 event_id: '6'
@@ -17,18 +20,19 @@ event_fields:
   type: date
   description: Time in UTC when event was created
   sample_value: 4/11/18 5:21
-- standard_name: DriverLoaded
+- standard_name: FilePath
   standard_type: TBD
   name: ImageLoaded
   type: string
   description: full path of the driver loaded
   sample_value: C:\ProgramData\Microsoft\Windows Defender\Definition Updates{741285CC-BF49-492C-90BE-E84BD6CADD73}\MpKsl4d223a5a.sys
-- standard_name: TBD
+- standard_name: FileHashes
   standard_type: TBD
   name: Hashes
   type: string
   description: Hashes captured by sysmon driver
-  sample_value: SHA1=38310AD6805DC31D5AA61BE182689D63060ACE94, MD5=BF2513029E231BE96D82F7C3ABFF87F4, SHA256=F6DB64112CC50EEE495E2D7C61B8BDBE757A31B03144B0396615FD38C312824E, IMPHASH=06D4A412CF7F5363C49E629BF34446B3
+  sample_value: SHA1=38310AD6805DC31D5AA61BE182689D63060ACE94, MD5=BF2513029E231BE96D82F7C3ABFF87F4,
+    SHA256=F6DB64112CC50EEE495E2D7C61B8BDBE757A31B03144B0396615FD38C312824E, IMPHASH=06D4A412CF7F5363C49E629BF34446B3
 - standard_name: DriverIsSigned
   standard_type: TBD
   name: Signed
@@ -55,13 +59,8 @@ references:
 tags: []
 event_sample:
 - format: xml
-  sample: |-
-    <EventData>
-    <Data Name="RuleName">-</Data> 
-    <Data Name="UtcTime">2021-11-03 05:20:48.808</Data> 
-    <Data Name="ImageLoaded">C:\Windows\System32\drivers\VBoxWddm.sys</Data> 
-    <Data Name="Hashes">SHA1=879307DA080D77DDE5141DA9A4A228A164B89535,MD5=83160E7C696E1469DC88DCA12729B019,SHA256=F72285BC625BFF102C5BF283B0E90A37C407D542925B119ADD8D40089F1906F9,IMPHASH=DA88E590C5D4C95F6149672355A98A6B</Data> 
-    <Data Name="Signed">true</Data> 
-    <Data Name="Signature">Oracle Corporation</Data> 
-    <Data Name="SignatureStatus">Valid</Data> 
-    </EventData>
+  sample: "<EventData>\n<Data Name=\"RuleName\">-</Data> \n<Data Name=\"UtcTime\"\
+    >2021-11-03 05:20:48.808</Data> \n<Data Name=\"ImageLoaded\">C:\\Windows\\System32\\\
+    drivers\\VBoxWddm.sys</Data> \n<Data Name=\"Hashes\">SHA1=879307DA080D77DDE5141DA9A4A228A164B89535,MD5=83160E7C696E1469DC88DCA12729B019,SHA256=F72285BC625BFF102C5BF283B0E90A37C407D542925B119ADD8D40089F1906F9,IMPHASH=DA88E590C5D4C95F6149672355A98A6B</Data>\
+    \ \n<Data Name=\"Signed\">true</Data> \n<Data Name=\"Signature\">Oracle Corporation</Data>\
+    \ \n<Data Name=\"SignatureStatus\">Valid</Data> \n</EventData>"

@@ -1,5 +1,6 @@
 name: 'Event ID 18: PipeEvent (Pipe Connected)'
-description: This event logs when a **named pipe connection** is made between a client and a server.
+description: This event logs when a **named pipe connection** is made between a client
+  and a server.
 platform: windows
 log_source: Microsoft-Windows-Sysmon
 event_id: '18'
@@ -33,7 +34,8 @@ event_fields:
   standard_type: TBD
   name: ProcessId
   type: integer
-  description: Process ID used by the os to identify the process that connected the pipe
+  description: Process ID used by the os to identify the process that connected the
+    pipe
   sample_value: '1896'
 - standard_name: PipeName
   standard_type: TBD
@@ -41,13 +43,13 @@ event_fields:
   type: string
   description: Name of the pipe connecged
   sample_value: \srvsvc
-- standard_name: ProcessFilePath
+- standard_name: ProcessFileName
   standard_type: TBD
   name: Image
   type: string
   description: File path of the process that connected the pipe
   sample_value: C:\WINDOWS\system32\wbem\wmiprvse.exe
-- standard_name: UserName
+- standard_name: UserNetworkAccountName
   standard_type: TBD
   name: User
   type: string
@@ -61,60 +63,32 @@ references:
 tags: []
 event_sample:
 - format: friendly view
-  sample: |-
-    Log Name:      Microsoft-Windows-Sysmon/Operational
-    Source:        Microsoft-Windows-Sysmon
-    Date:          9/22/2022 6:05:21 PM
-    Event ID:      18
-    Task Category: Pipe Connected (rule: PipeEvent)
-    Level:         Information
-    Keywords:      
-    User:          SYSTEM
-    Computer:      pedro-computer
-    Description:
-    The description for Event ID 18 from source Microsoft-Windows-Sysmon cannot be found. Either the component that raises this event is not installed on your local computer or the installation is corrupted. You can install or repair the component on the local computer.
-
-    If the event originated on another computer, the display information had to be saved with the event.
-
-    The following information was included with the event: 
-
-    -
-    ConnectPipe
-    2022-09-23 01:05:21.330
-    EV_RenderedValue_3.00
-    1680
-    \VBoxTrayIPC-pedro
-    C:\Windows\System32\VBoxService.exe
-    NT AUTHORITY\SYSTEM
-
-    The publisher has been disabled and its resource is not available. This usually occurs when the publisher is in the process of being uninstalled or upgraded
+  sample: "Log Name:      Microsoft-Windows-Sysmon/Operational\nSource:        Microsoft-Windows-Sysmon\n\
+    Date:          9/22/2022 6:05:21 PM\nEvent ID:      18\nTask Category: Pipe Connected\
+    \ (rule: PipeEvent)\nLevel:         Information\nKeywords:      \nUser:      \
+    \    SYSTEM\nComputer:      pedro-computer\nDescription:\nThe description for\
+    \ Event ID 18 from source Microsoft-Windows-Sysmon cannot be found. Either the\
+    \ component that raises this event is not installed on your local computer or\
+    \ the installation is corrupted. You can install or repair the component on the\
+    \ local computer.\n\nIf the event originated on another computer, the display\
+    \ information had to be saved with the event.\n\nThe following information was\
+    \ included with the event: \n\n-\nConnectPipe\n2022-09-23 01:05:21.330\nEV_RenderedValue_3.00\n\
+    1680\n\\VBoxTrayIPC-pedro\nC:\\Windows\\System32\\VBoxService.exe\nNT AUTHORITY\\\
+    SYSTEM\n\nThe publisher has been disabled and its resource is not available. This\
+    \ usually occurs when the publisher is in the process of being uninstalled or\
+    \ upgraded"
 - format: xml
-  sample: |-
-    <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
-      <System>
-        <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
-        <EventID>18</EventID>
-        <Version>1</Version>
-        <Level>4</Level>
-        <Task>18</Task>
-        <Opcode>0</Opcode>
-        <Keywords>0x8000000000000000</Keywords>
-        <TimeCreated SystemTime="2022-09-23T01:05:21.344487700Z" />
-        <EventRecordID>2562694</EventRecordID>
-        <Correlation />
-        <Execution ProcessID="6152" ThreadID="7900" />
-        <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
-        <Computer>pedro-computer</Computer>
-        <Security UserID="S-1-5-18" />
-      </System>
-      <EventData>
-        <Data Name="RuleName">-</Data>
-        <Data Name="EventType">ConnectPipe</Data>
-        <Data Name="UtcTime">2022-09-23 01:05:21.330</Data>
-        <Data Name="ProcessGuid">{564ff025-d42c-62f6-2a00-000000000500}</Data>
-        <Data Name="ProcessId">1680</Data>
-        <Data Name="PipeName">\VBoxTrayIPC-pedro</Data>
-        <Data Name="Image">C:\Windows\System32\VBoxService.exe</Data>
-        <Data Name="User">NT AUTHORITY\SYSTEM</Data>
-      </EventData>
-    </Event>
+  sample: "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"\
+    >\n  <System>\n    <Provider Name=\"Microsoft-Windows-Sysmon\" Guid=\"{5770385f-c22a-43e0-bf4c-06f5698ffbd9}\"\
+    \ />\n    <EventID>18</EventID>\n    <Version>1</Version>\n    <Level>4</Level>\n\
+    \    <Task>18</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000000</Keywords>\n\
+    \    <TimeCreated SystemTime=\"2022-09-23T01:05:21.344487700Z\" />\n    <EventRecordID>2562694</EventRecordID>\n\
+    \    <Correlation />\n    <Execution ProcessID=\"6152\" ThreadID=\"7900\" />\n\
+    \    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>\n    <Computer>pedro-computer</Computer>\n\
+    \    <Security UserID=\"S-1-5-18\" />\n  </System>\n  <EventData>\n    <Data Name=\"\
+    RuleName\">-</Data>\n    <Data Name=\"EventType\">ConnectPipe</Data>\n    <Data\
+    \ Name=\"UtcTime\">2022-09-23 01:05:21.330</Data>\n    <Data Name=\"ProcessGuid\"\
+    >{564ff025-d42c-62f6-2a00-000000000500}</Data>\n    <Data Name=\"ProcessId\">1680</Data>\n\
+    \    <Data Name=\"PipeName\">\\VBoxTrayIPC-pedro</Data>\n    <Data Name=\"Image\"\
+    >C:\\Windows\\System32\\VBoxService.exe</Data>\n    <Data Name=\"User\">NT AUTHORITY\\\
+    SYSTEM</Data>\n  </EventData>\n</Event>"

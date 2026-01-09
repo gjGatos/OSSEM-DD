@@ -1,5 +1,5 @@
 name: Event 10324 - Power
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-NDIS
 event_id: '10324'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: ScenarioInstanceId
   type: UInt8
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ParentGuid
   type: GUID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: BlockerGuid
   type: GUID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PhysicalDeviceNode
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_SleepStudy

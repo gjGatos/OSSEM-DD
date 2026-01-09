@@ -1,5 +1,6 @@
 name: 'Event ID 22: DNSEvent (DNS query)'
-description: This event generates when a process executes a **DNS query**, whether the result is successful or fails, cached or not.
+description: This event generates when a process executes a **DNS query**, whether
+  the result is successful or fails, cached or not.
 platform: windows
 log_source: Microsoft-Windows-Sysmon
 event_id: '22'
@@ -29,7 +30,7 @@ event_fields:
   type: string
   description: Process id of the process that executed the DNS query
   sample_value: '416'
-- standard_name: DstHostName
+- standard_name: DnsQueryName
   standard_type: TBD
   name: QueryName
   type: string
@@ -47,13 +48,13 @@ event_fields:
   type: string
   description: DNS query results
   sample_value: 'type: 5 www3.l.google.com;172.217.7.206;'
-- standard_name: ProcessFilePath
+- standard_name: ProcessFileName
   standard_type: TBD
   name: Image
   type: string
   description: The full path related to the process that executed the DNS query
   sample_value: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
-- standard_name: UserName
+- standard_name: UserNetworkAccountName
   standard_type: TBD
   name: User
   type: string
@@ -67,65 +68,32 @@ references:
 tags: []
 event_sample:
 - format: friendly view
-  sample: |-
-    Log Name:      Microsoft-Windows-Sysmon/Operational
-    Source:        Microsoft-Windows-Sysmon
-    Date:          9/22/2022 5:42:33 PM
-    Event ID:      22
-    Task Category: Dns query (rule: DnsQuery)
-    Level:         Information
-    Keywords:      
-    User:          SYSTEM
-    Computer:      pedro-computer
-    Description:
-    The description for Event ID 22 from source Microsoft-Windows-Sysmon cannot be found. Either the component that raises this event is not installed on your local computer or the installation is corrupted. You can install or repair the component on the local computer.
-
-    If the event originated on another computer, the display information had to be saved with the event.
-
-    The following information was included with the event: 
-
-    -
-    2022-09-22 23:54:47.958
-    EV_RenderedValue_2.00
-    1956
-    checkappexec.microsoft.com
-    1460
-    -
-    C:\Windows\System32\smartscreen.exe
-    PEDRO-COMPUTER\pedro
-
-    The publisher has been disabled and its resource is not available. This usually occurs when the publisher is in the process of being uninstalled or upgraded
+  sample: "Log Name:      Microsoft-Windows-Sysmon/Operational\nSource:        Microsoft-Windows-Sysmon\n\
+    Date:          9/22/2022 5:42:33 PM\nEvent ID:      22\nTask Category: Dns query\
+    \ (rule: DnsQuery)\nLevel:         Information\nKeywords:      \nUser:       \
+    \   SYSTEM\nComputer:      pedro-computer\nDescription:\nThe description for Event\
+    \ ID 22 from source Microsoft-Windows-Sysmon cannot be found. Either the component\
+    \ that raises this event is not installed on your local computer or the installation\
+    \ is corrupted. You can install or repair the component on the local computer.\n\
+    \nIf the event originated on another computer, the display information had to\
+    \ be saved with the event.\n\nThe following information was included with the\
+    \ event: \n\n-\n2022-09-22 23:54:47.958\nEV_RenderedValue_2.00\n1956\ncheckappexec.microsoft.com\n\
+    1460\n-\nC:\\Windows\\System32\\smartscreen.exe\nPEDRO-COMPUTER\\pedro\n\nThe\
+    \ publisher has been disabled and its resource is not available. This usually\
+    \ occurs when the publisher is in the process of being uninstalled or upgraded"
 - format: xml
-  sample: |-
-    <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
-      <System>
-        <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
-        <EventID>22</EventID>
-        <Version>5</Version>
-        <Level>4</Level>
-        <Task>22</Task>
-        <Opcode>0</Opcode>
-        <Keywords>0x8000000000000000</Keywords>
-        <TimeCreated SystemTime="2022-09-23T00:42:33.463092000Z" />
-        <EventRecordID>2451179</EventRecordID>
-        <Correlation />
-        <Execution ProcessID="6152" ThreadID="6468" />
-        <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
-        <Computer>pedro-computer</Computer>
-        <Security UserID="S-1-5-18" />
-      </System>
-      <EventData>
-        <Data Name="RuleName">-</Data>
-        <Data Name="UtcTime">2022-09-22 23:54:47.958</Data>
-        <Data Name="ProcessGuid">{564ff025-f55b-632c-ab07-000000000500}</Data>
-        <Data Name="ProcessId">1956</Data>
-        <Data Name="QueryName">checkappexec.microsoft.com</Data>
-        <Data Name="QueryStatus">1460</Data>
-        <Data Name="QueryResults">type:  5 wd-prod-ss.trafficmanager.net;type:  5 wd-prod-ss-us-west-1-fe.westus.cloudapp.azure.com;::ffff:40.78.63.86;</Data>
-        <Data Name="Image">C:\Windows\System32\smartscreen.exe</Data>
-        <Data Name="User">PEDRO-COMPUTER\pedro</Data>
-      </EventData>
-    </Event>
-
-    
-
+  sample: "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"\
+    >\n  <System>\n    <Provider Name=\"Microsoft-Windows-Sysmon\" Guid=\"{5770385f-c22a-43e0-bf4c-06f5698ffbd9}\"\
+    \ />\n    <EventID>22</EventID>\n    <Version>5</Version>\n    <Level>4</Level>\n\
+    \    <Task>22</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000000</Keywords>\n\
+    \    <TimeCreated SystemTime=\"2022-09-23T00:42:33.463092000Z\" />\n    <EventRecordID>2451179</EventRecordID>\n\
+    \    <Correlation />\n    <Execution ProcessID=\"6152\" ThreadID=\"6468\" />\n\
+    \    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>\n    <Computer>pedro-computer</Computer>\n\
+    \    <Security UserID=\"S-1-5-18\" />\n  </System>\n  <EventData>\n    <Data Name=\"\
+    RuleName\">-</Data>\n    <Data Name=\"UtcTime\">2022-09-22 23:54:47.958</Data>\n\
+    \    <Data Name=\"ProcessGuid\">{564ff025-f55b-632c-ab07-000000000500}</Data>\n\
+    \    <Data Name=\"ProcessId\">1956</Data>\n    <Data Name=\"QueryName\">checkappexec.microsoft.com</Data>\n\
+    \    <Data Name=\"QueryStatus\">1460</Data>\n    <Data Name=\"QueryResults\">type:\
+    \  5 wd-prod-ss.trafficmanager.net;type:  5 wd-prod-ss-us-west-1-fe.westus.cloudapp.azure.com;::ffff:40.78.63.86;</Data>\n\
+    \    <Data Name=\"Image\">C:\\Windows\\System32\\smartscreen.exe</Data>\n    <Data\
+    \ Name=\"User\">PEDRO-COMPUTER\\pedro</Data>\n  </EventData>\n</Event>"

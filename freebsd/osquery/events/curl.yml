@@ -5,7 +5,7 @@ log_source: osquery
 event_id: curl
 event_version: 4.4.2
 event_fields:
-- standard_name: TBD
+- standard_name: UrlOriginal
   standard_type: TBD
   name: url
   type: TEXT

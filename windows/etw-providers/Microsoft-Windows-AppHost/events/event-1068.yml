@@ -1,17 +1,17 @@
 name: Event 1068 - ByteCodeSourceMapping
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-AppHost
 event_id: '1068'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: FilePath
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_WwaHost

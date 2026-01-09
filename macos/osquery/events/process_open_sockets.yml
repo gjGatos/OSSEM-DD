@@ -5,7 +5,7 @@ log_source: osquery
 event_id: process_open_sockets
 event_version: 4.4.2
 event_fields:
-- standard_name: TBD
+- standard_name: ProcessId
   standard_type: TBD
   name: pid
   type: INTEGER
@@ -23,37 +23,37 @@ event_fields:
   type: BIGINT
   description: Socket handle or inode number
   sample_value: TBD
-- standard_name: TBD
+- standard_name: Ipv4
   standard_type: TBD
   name: family
   type: INTEGER
   description: Network protocol (IPv4, IPv6)
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SrcPort
   standard_type: TBD
   name: protocol
   type: INTEGER
   description: Transport protocol (TCP/UDP)
   sample_value: TBD
-- standard_name: TBD
+- standard_name: IpAddress
   standard_type: TBD
   name: local_address
   type: TEXT
   description: Socket local address
   sample_value: TBD
-- standard_name: TBD
+- standard_name: RemoteIp
   standard_type: TBD
   name: remote_address
   type: TEXT
   description: Socket remote address
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SrcPort
   standard_type: TBD
   name: local_port
   type: INTEGER
   description: Socket local port
   sample_value: TBD
-- standard_name: TBD
+- standard_name: DstPort
   standard_type: TBD
   name: remote_port
   type: INTEGER

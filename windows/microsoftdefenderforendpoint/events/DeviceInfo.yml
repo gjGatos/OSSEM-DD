@@ -33,21 +33,25 @@ event_fields:
   standard_type: TBD
   name: PublicIP
   type: string
-  description: Public IP address used by the onboarded device to connect to the Microsoft Defender ATP service. This could be the IP address of the device itself, a NAT device, or a proxy
+  description: Public IP address used by the onboarded device to connect to the Microsoft
+    Defender ATP service. This could be the IP address of the device itself, a NAT
+    device, or a proxy
   sample_value: ''
-- standard_name: OsArchitecture
+- standard_name: SoftwareVersion
   standard_type: TBD
   name: OSArchitecture
   type: string
   description: Architecture of the operating system running on the machine
   sample_value: ''
-- standard_name: OsPlatform
+- standard_name: SoftwareName
   standard_type: TBD
   name: OSPlatform
   type: string
-  description: Platform of the operating system running on the machine. This indicates specific operating systems, including variations within the same family, such as Windows 10 and Windows 7.
+  description: Platform of the operating system running on the machine. This indicates
+    specific operating systems, including variations within the same family, such
+    as Windows 10 and Windows 7.
   sample_value: ''
-- standard_name: OsBuild
+- standard_name: SoftwareVersion
   standard_type: TBD
   name: OSBuild
   type: string
@@ -57,13 +61,15 @@ event_fields:
   standard_type: TBD
   name: ISAzureADJoined
   type: boolean
-  description: Boolean indicator of whether machine is joined to the Azure Active Directory
+  description: Boolean indicator of whether machine is joined to the Azure Active
+    Directory
   sample_value: ''
 - standard_name: LoggedOnUsers
   standard_type: TBD
   name: LoggedOnUsers
   type: string
-  description: List of all users that are logged on the machine at the time of the event in JSON array format
+  description: List of all users that are logged on the machine at the time of the
+    event in JSON array format
   sample_value: ''
 - standard_name: RegistryDeviceTag
   standard_type: TBD
@@ -71,13 +77,14 @@ event_fields:
   type: string
   description: Device tag added through the registry
   sample_value: ''
-- standard_name: ReportId
+- standard_name: CertificateSerialNumber
   standard_type: TBD
   name: ReportId
   type: long
-  description: Event identifier based on a repeating counter. To identify unique events, this column must be used in conjunction with the ComputerName and EventTime columns.
+  description: Event identifier based on a repeating counter. To identify unique events,
+    this column must be used in conjunction with the ComputerName and EventTime columns.
   sample_value: ''
-- standard_name: OsVersion
+- standard_name: SoftwareVersion
   standard_type: TBD
   name: OSVersion
   type: ''
@@ -87,7 +94,8 @@ event_fields:
   standard_type: TBD
   name: MachineGroup
   type: string
-  description: Machine group of the machine. This group is used by role-based access control to determine access to the machine
+  description: Machine group of the machine. This group is used by role-based access
+    control to determine access to the machine
   sample_value: ''
 references: []
 tags: []

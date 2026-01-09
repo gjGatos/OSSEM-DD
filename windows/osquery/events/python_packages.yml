@@ -5,49 +5,49 @@ log_source: osquery
 event_id: python_packages
 event_version: 4.4.2
 event_fields:
-- standard_name: TBD
+- standard_name: SoftwareName
   standard_type: TBD
   name: name
   type: TEXT
   description: Package display name
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareVersion
   standard_type: TBD
   name: version
   type: TEXT
   description: Package-supplied version
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: summary
   type: TEXT
   description: Package-supplied summary
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: author
   type: TEXT
   description: Optional package author
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: license
   type: TEXT
   description: License under which package is launched
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: path
   type: TEXT
   description: Path at which this module resides
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: directory
   type: TEXT
   description: Directory where Python modules are located
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: pid_with_namespace
   type: INTEGER

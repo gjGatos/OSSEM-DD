@@ -1,5 +1,5 @@
 name: Event 7001 - Startup_ImpactFile_Parse
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Diagnosis-AdvancedTaskManager
 event_id: '7001'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: CountOfItemsInStartupXML
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_datamonitor

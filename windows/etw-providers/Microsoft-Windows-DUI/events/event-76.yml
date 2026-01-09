@@ -1,5 +1,5 @@
 name: Event 76 - DirectUI_AnimationTrapStoryboardComplete
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-DUI
 event_id: '76'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: id
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: type
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: dwCookie
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: nCode
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Default

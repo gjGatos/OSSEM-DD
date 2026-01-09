@@ -1,5 +1,5 @@
 name: Event 254 - Memprotect_GC_SweepWeakRef
-description:
+description: null
 platform: windows
 log_source: Microsoft-JScript
 event_id: '254'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: RecyclerID
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ScannedCount
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ClearedCount
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: RegionScannedCount
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: RegionClearedCount
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_MemProtectGarbageCollection

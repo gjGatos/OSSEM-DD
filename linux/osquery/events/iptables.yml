@@ -35,19 +35,19 @@ event_fields:
   type: INTEGER
   description: Protocol number identification.
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SrcPort
   standard_type: TBD
   name: src_port
   type: TEXT
   description: Protocol source port(s).
   sample_value: TBD
-- standard_name: TBD
+- standard_name: DstPort
   standard_type: TBD
   name: dst_port
   type: TEXT
   description: Protocol destination port(s).
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SrcIpAddr
   standard_type: TBD
   name: src_ip
   type: TEXT
@@ -71,7 +71,7 @@ event_fields:
   type: TEXT
   description: Input interface mask for the rule.
   sample_value: TBD
-- standard_name: TBD
+- standard_name: DstIpAddr
   standard_type: TBD
   name: dst_ip
   type: TEXT

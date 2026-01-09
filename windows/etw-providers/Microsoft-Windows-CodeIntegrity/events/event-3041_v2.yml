@@ -1,5 +1,5 @@
 name: Event 3041 - GetFileCache
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-CodeIntegrity
 event_id: '3041'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: Status
   type: HexInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: CachedFlags
   type: HexInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: CacheSource
   type: UInt8
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: CachedPolicy
   type: UInt8
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_opcode_Stop

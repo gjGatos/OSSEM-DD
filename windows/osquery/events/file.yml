@@ -11,7 +11,7 @@ event_fields:
   type: TEXT
   description: Absolute file path
   sample_value: TBD
-- standard_name: FileDirectory
+- standard_name: FolderPath
   standard_type: TBD
   name: directory
   type: TEXT
@@ -141,7 +141,8 @@ event_fields:
   standard_type: TBD
   name: bsd_flags
   type: TEXT
-  description: The BSD file flags (chflags). Possible values - NODUMP, UF_IMMUTABLE, UF_APPEND, OPAQUE, HIDDEN, ARCHIVED, SF_IMMUTABLE, SF_APPEND
+  description: The BSD file flags (chflags). Possible values - NODUMP, UF_IMMUTABLE,
+    UF_APPEND, OPAQUE, HIDDEN, ARCHIVED, SF_IMMUTABLE, SF_APPEND
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD

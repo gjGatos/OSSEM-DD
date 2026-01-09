@@ -1,5 +1,5 @@
 name: Event 369 - RME_CLIENT_ON_LIVE_MACHINE_DISCOVERY
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-WMP
 event_id: '369'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: DeviceID
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ObjectID
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_mediaplayer

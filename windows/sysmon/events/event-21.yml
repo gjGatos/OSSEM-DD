@@ -1,5 +1,6 @@
 name: 'Event ID 21: WmiEvent (WmiEventConsumerToFilter activity detected)'
-description: When a consumer **binds to a filter**, this event logs the consumer name and filter path.
+description: When a consumer **binds to a filter**, this event logs the consumer name
+  and filter path.
 platform: windows
 log_source: Microsoft-Windows-Sysmon
 event_id: '21'
@@ -11,7 +12,7 @@ event_fields:
   type: string
   description: custom tag mapped to event. i.e ATT&CK technique ID
   sample_value: T1114
-- standard_name: EventType
+- standard_name: ApiCallName
   standard_type: TBD
   name: EventType
   type: string
@@ -29,7 +30,7 @@ event_fields:
   type: string
   description: wmievent filter operation
   sample_value: Created
-- standard_name: UserName
+- standard_name: UserNetworkAccountName
   standard_type: TBD
   name: User
   type: string

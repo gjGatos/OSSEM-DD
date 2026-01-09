@@ -1,29 +1,29 @@
 name: Event 1111 - SensorServiceprocessingsensordatafororientation,testingiftherewasaquadrantchange
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Sensors
 event_id: '1111'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: GoodAngle
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: 'null'
   standard_type: TBD
   name: Quadrant
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: 'null'
   standard_type: TBD
   name: LastQuadrant
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_SensPerf

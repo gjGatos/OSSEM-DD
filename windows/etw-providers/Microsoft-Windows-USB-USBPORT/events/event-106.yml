@@ -1,5 +1,5 @@
 name: Event 106 - USBUSER_OP_RAW_RESET_PORT
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-USB-USBPORT
 event_id: '106'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: fid_USBPORT_HC
   type: Int8
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: fid_PortNumber
   type: UInt16
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: fid_PortStatus
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Diagnostic

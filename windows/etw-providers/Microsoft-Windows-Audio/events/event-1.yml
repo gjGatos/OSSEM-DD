@@ -1,5 +1,5 @@
 name: Event 1 - AudioServer_Fail_Device_Event_Worker
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Audio
 event_id: '1'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: DeviceEventType
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: DeviceEventTypeName
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: hr
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Warning
 - etw_task_AudioServer_Fail_Device_Event_Worker

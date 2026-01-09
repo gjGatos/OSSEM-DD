@@ -1,5 +1,5 @@
 name: Event 155 - Loader
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-DotNETRuntimeRundown
 event_id: '155'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: AssemblyID
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: AppDomainID
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: AssemblyFlags
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: FullyQualifiedAssemblyName
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_LoaderRundownKeyword

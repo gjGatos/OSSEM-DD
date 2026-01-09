@@ -1,5 +1,5 @@
 name: Event 1
-description:
+description: null
 platform: windows
 log_source: 'Active Directory: NetLogon'
 event_id: '1'
@@ -9,25 +9,25 @@ event_fields:
   standard_type: TBD
   name: Client
   type: String
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Account
   type: String
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ChannelType
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: NegotiatedFlags
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags: []

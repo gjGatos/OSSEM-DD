@@ -1,5 +1,5 @@
 name: Event 11000 - Notifications
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-NetworkProvisioning
 event_id: '11000'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: Position
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: RulesXml
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Reason
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Warning
 - etw_keywords_Diagnostics Notifications ut:Configuration

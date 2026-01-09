@@ -1,5 +1,5 @@
 name: Event 50014 - ProtocolStateEvent
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Dhcp-Client
 event_id: '50014'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: InterfaceId
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: StatusCode
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_opcode_AckDiscarded

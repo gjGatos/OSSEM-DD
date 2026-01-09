@@ -1,5 +1,5 @@
 name: Event 338 - RemovingaprinterfromtheActiveDirectory
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-PrintService
 event_id: '338'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: param1
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_ACTIVE_DIR

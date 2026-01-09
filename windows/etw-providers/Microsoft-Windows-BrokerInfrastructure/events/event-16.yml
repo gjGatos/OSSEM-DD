@@ -1,5 +1,5 @@
 name: Event 16 - BackgroundTask
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-BrokerInfrastructure
 event_id: '16'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: EntryPointLength
   type: UInt16
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: TaskEntryPoint
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: NameLength
   type: UInt16
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: TaskName
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_BackgroundTask

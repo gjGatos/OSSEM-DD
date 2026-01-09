@@ -1,5 +1,5 @@
 name: Event 516 - EmptyTab_Timer_Timeout
-description:
+description: null
 platform: windows
 log_source: Microsoft-IEFRAME
 event_id: '516'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: TabID
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_primarynav

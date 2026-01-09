@@ -1,5 +1,5 @@
 name: Event 13 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Diagnosis-PerfHost
 event_id: '13'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: Provider
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ProviderDll
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Function
   type: AnsiString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_callouts

@@ -1,5 +1,5 @@
 name: Event 5066 - VMT_VID_MDL_PAGE_FREE
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Hyper-V-VID
 event_id: '5066'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: PartitionGuid
   type: GUID
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_VMK_MDL

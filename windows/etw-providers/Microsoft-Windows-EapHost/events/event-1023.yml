@@ -1,5 +1,5 @@
 name: Event 1023 - Authenticator
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-EapHost
 event_id: '1023'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: RegKeyValue
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: TypeId
   type: UInt8
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: UserId
   standard_type: TBD
   name: AuthorId
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: SoftwareVendor
   standard_type: TBD
   name: VendorId
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: VendorType
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_keywords_Reg

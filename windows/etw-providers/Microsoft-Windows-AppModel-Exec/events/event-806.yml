@@ -1,5 +1,5 @@
 name: Event 806 - LogTrace
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-AppModel-Exec
 event_id: '806'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: p1_GUID
   type: GUID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: p2_UInt32
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_ExecProductionCircular ExecSelfHostCritical

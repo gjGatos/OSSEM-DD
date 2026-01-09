@@ -1,5 +1,6 @@
 name: SO Host Data - Logon Session Table
-description: Get-SOHostData uses the LsaEnumerateLogonSessions and LsaGetLogonSessionData APIs to enumerate active Logon Sessions running on the target system.
+description: Get-SOHostData uses the LsaEnumerateLogonSessions and LsaGetLogonSessionData
+  APIs to enumerate active Logon Sessions running on the target system.
 platform: windows
 log_source: so-host-data
 event_id: logonsession

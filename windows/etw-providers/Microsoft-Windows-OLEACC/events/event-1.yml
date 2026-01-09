@@ -1,5 +1,5 @@
 name: Event 1 - OLEACC_IAccessibleErrors
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-OLEACC
 event_id: '1'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: Method
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Hresult
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Details
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SourceHwnd
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Provider
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_OLEACC_IAccessibleErrors

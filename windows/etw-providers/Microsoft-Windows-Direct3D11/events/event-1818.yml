@@ -1,5 +1,5 @@
 name: Event 1818 - ID3D11VideoContext_SubmitDecoderBuffers1
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Direct3D11
 event_id: '1818'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: pThis
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: pDecoder
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: NumBuffers
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: pBufferDescTID_D3D11_VIDEO_DECODER_BUFFER_DESC1
   type: UInt8
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_opcode_Start

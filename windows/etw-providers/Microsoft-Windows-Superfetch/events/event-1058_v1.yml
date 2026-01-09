@@ -1,5 +1,5 @@
 name: Event 1058 - PrefetchBenefitReport
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Superfetch
 event_id: '1058'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: AppKey
   type: HexInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: FullPackageName
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: TimeFromPrefetchToSwitchInMS
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: NewBenefitScore
   type: Int16
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: NewAggregateBenefitScore
   type: Int16
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_PfAp

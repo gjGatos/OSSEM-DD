@@ -23,19 +23,19 @@ event_fields:
   type: BIGINT
   description: Filesystem inode number
   sample_value: TBD
-- standard_name: TBD
+- standard_name: HashMd5
   standard_type: TBD
   name: md5
   type: TEXT
   description: MD5 hash of provided inode data
   sample_value: TBD
-- standard_name: TBD
+- standard_name: HashSha1
   standard_type: TBD
   name: sha1
   type: TEXT
   description: SHA1 hash of provided inode data
   sample_value: TBD
-- standard_name: TBD
+- standard_name: HashSha256
   standard_type: TBD
   name: sha256
   type: TEXT

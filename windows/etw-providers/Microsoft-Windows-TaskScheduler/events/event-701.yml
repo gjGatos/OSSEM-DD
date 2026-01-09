@@ -1,5 +1,5 @@
 name: Event 701 - Compatibilitymodulefailedtostart
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-TaskScheduler
 event_id: '701'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: ResultCode
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_task_Compatibilitymodulefailedtostart

@@ -1,17 +1,17 @@
 name: Event 6107 - DocPerf_Task_Setup_PnPPrinterInstall
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Documents
 event_id: '6107'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: DeviceInstanceId
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_DocPerf

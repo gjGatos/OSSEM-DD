@@ -1,55 +1,57 @@
 name: Event 3013 - NewCloudNotificationArrival
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-PushNotifications-Platform
 event_id: '3013'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: NotificationType
   type: UnicodeString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: 'null'
   standard_type: TBD
   name: TrackingId
   type: Int32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: UserId
   standard_type: TBD
   name: AppUserModelId
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SessionId
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: MessageId
   type: GUID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ErrorCode
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SessionErrorCode
   type: Int32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
-- etw_keywords_wpnui wpnperf_FirstCloudNotification wpnperf_FirstCloudNotificationWithCloudImage wpnperf_NewCloudNotificationArrival wpnperf_NewCloudNotificationArrivalWithCloudImage wpntroubleshoot wpndebug_cloudtile_isolate wpndebug_localtile_isolate wpndev_NotificationE2E
+- etw_keywords_wpnui wpnperf_FirstCloudNotification wpnperf_FirstCloudNotificationWithCloudImage
+  wpnperf_NewCloudNotificationArrival wpnperf_NewCloudNotificationArrivalWithCloudImage
+  wpntroubleshoot wpndebug_cloudtile_isolate wpndebug_localtile_isolate wpndev_NotificationE2E
 - etw_opcode_Stop
 - etw_task_NewCloudNotificationArrival

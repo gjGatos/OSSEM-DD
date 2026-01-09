@@ -1,5 +1,5 @@
 name: Event 4106 - StoppingCommand
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-PowerShell
 event_id: '4106'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: ScriptBlockId
   type: UnicodeString
-  description:
+  description: null
   sample_value: 85e92f7c-9ed0-423d-9ce0-51c6ca23406d
 - standard_name: TBD
   standard_type: TBD
   name: RunspaceId
   type: UnicodeString
-  description:
+  description: null
   sample_value: 0822f95a-e8ca-4ed0-8c24-0403d65fde7b
-references:
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_Runspace
@@ -25,39 +25,36 @@ tags:
 - etw_task_StoppingCommand
 event_sample:
 - format: friendly view
-  sample: |-
-    Log Name:      Microsoft-Windows-PowerShell/Operational
+  sample: 'Log Name:      Microsoft-Windows-PowerShell/Operational
+
     Source:        Microsoft-Windows-PowerShell
+
     Date:          9/7/2022 6:39:29 AM
+
     Event ID:      4106
+
     Task Category: Stopping Command
+
     Level:         Verbose
+
     Keywords:      None
+
     User:          PEDRO-COMPUTER\pedro-admin
+
     Computer:      pedro-computer
+
     Description:   Completed invocation of ScriptBlock ID: 85e92f7c-9ed0-423d-9ce0-51c6ca23406d
-    Runspace ID:   0822f95a-e8ca-4ed0-8c24-0403d65fde7b
+
+    Runspace ID:   0822f95a-e8ca-4ed0-8c24-0403d65fde7b'
 - format: friendly view
-  sample: |-
-    <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
-      <System>
-        <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
-        <EventID>4106</EventID>
-        <Version>1</Version>
-        <Level>5</Level>
-        <Task>103</Task>
-        <Opcode>15</Opcode>
-        <Keywords>0x0</Keywords>
-        <TimeCreated SystemTime="2022-09-07T13:39:29.275756300Z" />
-        <EventRecordID>402</EventRecordID>
-        <Correlation ActivityID="{cf6cb87c-ae9a-0000-354c-6ecf9aaed801}" />
-        <Execution ProcessID="6112" ThreadID="532" />
-        <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
-        <Computer>pedro-computer</Computer>
-        <Security UserID="S-1-5-21-3768430097-3400800235-1714852860-1001" />
-      </System>
-      <EventData>
-        <Data Name="ScriptBlockId">85e92f7c-9ed0-423d-9ce0-51c6ca23406d</Data>
-        <Data Name="RunspaceId">0822f95a-e8ca-4ed0-8c24-0403d65fde7b</Data>
-      </EventData>
-    </Event>
+  sample: "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"\
+    >\n  <System>\n    <Provider Name=\"Microsoft-Windows-PowerShell\" Guid=\"{a0c1853b-5c40-4b15-8766-3cf1c58f985a}\"\
+    \ />\n    <EventID>4106</EventID>\n    <Version>1</Version>\n    <Level>5</Level>\n\
+    \    <Task>103</Task>\n    <Opcode>15</Opcode>\n    <Keywords>0x0</Keywords>\n\
+    \    <TimeCreated SystemTime=\"2022-09-07T13:39:29.275756300Z\" />\n    <EventRecordID>402</EventRecordID>\n\
+    \    <Correlation ActivityID=\"{cf6cb87c-ae9a-0000-354c-6ecf9aaed801}\" />\n \
+    \   <Execution ProcessID=\"6112\" ThreadID=\"532\" />\n    <Channel>Microsoft-Windows-PowerShell/Operational</Channel>\n\
+    \    <Computer>pedro-computer</Computer>\n    <Security UserID=\"S-1-5-21-3768430097-3400800235-1714852860-1001\"\
+    \ />\n  </System>\n  <EventData>\n    <Data Name=\"ScriptBlockId\">85e92f7c-9ed0-423d-9ce0-51c6ca23406d</Data>\n\
+    \    <Data Name=\"RunspaceId\">0822f95a-e8ca-4ed0-8c24-0403d65fde7b</Data>\n \
+    \ </EventData>\n</Event>"

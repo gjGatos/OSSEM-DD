@@ -11,7 +11,7 @@ event_fields:
   type: TEXT
   description: Appear or disappear
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: path
   type: TEXT
@@ -35,7 +35,7 @@ event_fields:
   type: TEXT
   description: UUID of the volume inside DMG if available
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FileSize
   standard_type: TBD
   name: size
   type: BIGINT
@@ -71,7 +71,7 @@ event_fields:
   type: TEXT
   description: Disk event media name string
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareVendor
   standard_type: TBD
   name: vendor
   type: TEXT

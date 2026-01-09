@@ -1,5 +1,7 @@
 name: 'Event ID 11: FileCreate'
-description: '**File create** operations are logged when a file is created or overwritten. This event is useful for monitoring autostart locations, like the temporary and download directories, which are common places malware drops during initial infection.'
+description: '**File create** operations are logged when a file is created or overwritten.
+  This event is useful for monitoring autostart locations, like the temporary and
+  download directories, which are common places malware drops during initial infection.'
 platform: linux
 log_source: sysmon
 event_id: '11'
@@ -27,9 +29,10 @@ event_fields:
   standard_type: TBD
   name: ProcessId
   type: integer
-  description: Process ID used by the os to identify the process that created the file.
+  description: Process ID used by the os to identify the process that created the
+    file.
   sample_value: '1044'
-- standard_name: ActingProcessFilePath
+- standard_name: FilePath
   standard_type: TBD
   name: Image
   type: string

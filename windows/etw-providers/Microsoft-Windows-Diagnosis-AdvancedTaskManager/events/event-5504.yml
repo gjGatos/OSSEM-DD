@@ -1,5 +1,5 @@
 name: Event 5504 - UI_DataSort
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Diagnosis-AdvancedTaskManager
 event_id: '5504'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: PageId
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_ui

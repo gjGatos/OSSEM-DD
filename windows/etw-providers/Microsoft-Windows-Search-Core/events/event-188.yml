@@ -1,17 +1,17 @@
 name: Event 188 - CEnumSearchRoots_Next_Fetch
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Search-Core
 event_id: '188'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: UrlOriginal
   standard_type: TBD
   name: SearchRootURL
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_CSM

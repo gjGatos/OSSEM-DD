@@ -1,5 +1,5 @@
 name: Event 7002 - Executeanentirephase
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Sysprep
 event_id: '7002'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: ErrorCode
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_keyPerformance keySysprep

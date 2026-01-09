@@ -5,19 +5,19 @@ log_source: osquery
 event_id: certificates
 event_version: 4.4.2
 event_fields:
-- standard_name: TBD
+- standard_name: CertificateSubject
   standard_type: TBD
   name: common_name
   type: TEXT
   description: Certificate CommonName
   sample_value: TBD
-- standard_name: TBD
+- standard_name: CertificateSubject
   standard_type: TBD
   name: subject
   type: TEXT
   description: Certificate distinguished name
   sample_value: TBD
-- standard_name: TBD
+- standard_name: CertificateIssuer
   standard_type: TBD
   name: issuer
   type: TEXT
@@ -29,7 +29,7 @@ event_fields:
   type: INTEGER
   description: '1 if CA: true (certificate is an authority) else 0'
   sample_value: TBD
-- standard_name: TBD
+- standard_name: CertificateIsSelfSigned
   standard_type: TBD
   name: self_signed
   type: INTEGER
@@ -83,25 +83,25 @@ event_fields:
   type: TEXT
   description: AKID an optionally included SHA1
   sample_value: TBD
-- standard_name: TBD
+- standard_name: HashSha1
   standard_type: TBD
   name: sha1
   type: TEXT
   description: SHA1 hash of the raw certificate contents
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: path
   type: TEXT
   description: Path to Keychain or PEM bundle
   sample_value: TBD
-- standard_name: TBD
+- standard_name: CertificateSerialNumber
   standard_type: TBD
   name: serial
   type: TEXT
   description: Certificate serial number
   sample_value: TBD
-- standard_name: TBD
+- standard_name: UserSid
   standard_type: TBD
   name: sid
   type: TEXT
@@ -129,7 +129,8 @@ event_fields:
   standard_type: TBD
   name: store_id
   type: TEXT
-  description: Exists for service/user stores. Contains raw store id provided by WinAPI. [WINDOWS]
+  description: Exists for service/user stores. Contains raw store id provided by WinAPI.
+    [WINDOWS]
   sample_value: TBD
 references:
 - text: OSQuery table documentation

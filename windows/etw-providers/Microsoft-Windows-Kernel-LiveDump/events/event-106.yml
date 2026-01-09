@@ -1,5 +1,5 @@
 name: Event 106 - SizingWorkflow
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Kernel-LiveDump
 event_id: '106'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: NtEstimatedRequiredPrimaryDataBytes
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: NtEstimatedPrimaryDataBytes
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: HvEstimatedPrimaryDataBytes
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: HvEstimatedSecondaryDataBytes
   type: UInt64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_BufferEstimationData

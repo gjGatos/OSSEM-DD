@@ -1,5 +1,5 @@
 name: Event 61220 - Shell32_SyncIntegration_Manager_GetStatus
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Shell-Core
 event_id: '61220'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: CLSID
   type: GUID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: State
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Warning
 - etw_keywords_Shell

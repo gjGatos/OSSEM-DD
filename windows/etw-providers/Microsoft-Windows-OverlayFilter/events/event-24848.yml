@@ -1,5 +1,5 @@
 name: Event 24848 - WIMintegrityverification
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-OverlayFilter
 event_id: '24848'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: FileNameLength
   type: UInt16
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: FileNameBuffer
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: DataSourceId
   type: Int64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_IntegrityFileOpen

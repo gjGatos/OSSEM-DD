@@ -1,29 +1,30 @@
 name: DeviceEvents
-description: Multiple event types, such as process injection, creation of scheduled tasks, and LSASS access attempts
+description: Multiple event types, such as process injection, creation of scheduled
+  tasks, and LSASS access attempts
 platform: windows
 log_source: Microsoft Defender for Endpoint
 event_id: DeviceEvents
 event_version: '0'
 event_fields:
-- standard_name: EventDateCreation
+- standard_name: 'null'
   standard_type: TBD
   name: Timestamp
   type: date
   description: Date and time when the event was recorded
   sample_value: ''
-- standard_name: DeviceId
+- standard_name: 'null'
   standard_type: TBD
   name: DeviceId
   type: string
   description: Unique identifier for the machine in the service
   sample_value: ''
-- standard_name: ComputerName
+- standard_name: DomainName
   standard_type: TBD
   name: DeviceName
   type: string
   description: Fully qualified domain name (FQDN) of the machine
   sample_value: ''
-- standard_name: ActionType
+- standard_name: 'null'
   standard_type: TBD
   name: ActionType
   type: string
@@ -53,13 +54,13 @@ event_fields:
   type: string
   description: MD5 hash of the file that the recorded action was applied to
   sample_value: ''
-- standard_name: UserDomain
+- standard_name: Domain
   standard_type: TBD
   name: AccountDomain
   type: string
   description: Domain of the account
   sample_value: ''
-- standard_name: UserName
+- standard_name: UserNetworkAccountName
   standard_type: TBD
   name: AccountName
   type: string
@@ -75,13 +76,16 @@ event_fields:
   standard_type: TBD
   name: RemoteUrl
   type: string
-  description: URL or fully qualified domain name (FQDN) that was being connected to
+  description: URL or fully qualified domain name (FQDN) that was being connected
+    to
   sample_value: ''
-- standard_name: RemoteComputerName
+- standard_name: TargetHostDomain
   standard_type: TBD
   name: RemoteDeviceName
   type: string
-  description: Name of the machine that performed a remote operation on the affected machine. Depending on the event being reported, this name could be a fully-qualified domain name (FQDN), a NetBIOS name, or a host name without domain information.
+  description: Name of the machine that performed a remote operation on the affected
+    machine. Depending on the event being reported, this name could be a fully-qualified
+    domain name (FQDN), a NetBIOS name, or a host name without domain information.
   sample_value: ''
 - standard_name: ProcessId
   standard_type: TBD
@@ -95,23 +99,25 @@ event_fields:
   type: string
   description: Command line used to create the new process
   sample_value: ''
-- standard_name: ProcessCreationTime
+- standard_name: 'null'
   standard_type: TBD
   name: ProcessCreationTime
   type: date
   description: Date and time the process was created
   sample_value: ''
-- standard_name: ProcessTokenElevation
+- standard_name: 'null'
   standard_type: TBD
   name: ProcessTokenElevation
   type: string
-  description: Token type indicating the presence or absence of User Access Control (UAC) privilege elevation applied to the newly created process
+  description: Token type indicating the presence or absence of User Access Control
+    (UAC) privilege elevation applied to the newly created process
   sample_value: ''
-- standard_name: LogonId
+- standard_name: UserId
   standard_type: TBD
   name: LogonId
   type: string
-  description: Identifier for a logon session. This identifier is unique on the same machine only between restarts.
+  description: Identifier for a logon session. This identifier is unique on the same
+    machine only between restarts.
   sample_value: ''
 - standard_name: RegistryKey
   standard_type: TBD
@@ -125,7 +131,7 @@ event_fields:
   type: string
   description: Name of the registry value that the recorded action was applied to
   sample_value: ''
-- standard_name: RegistryValueData
+- standard_name: 'null'
   standard_type: TBD
   name: RegistryValueData
   type: string
@@ -155,19 +161,19 @@ event_fields:
   type: int
   description: TCP port on the local machine used during communication
   sample_value: ''
-- standard_name: FileOriginUrl
+- standard_name: RemoteUrl
   standard_type: TBD
   name: FileOriginUrl
   type: string
   description: URL where the file was downloaded from
   sample_value: ''
-- standard_name: FileOriginIp
+- standard_name: RemoteIp
   standard_type: TBD
   name: FileOriginIP
   type: string
   description: IP address where the file was downloaded from
   sample_value: ''
-- standard_name: AdditionalFields
+- standard_name: 'null'
   standard_type: TBD
   name: AdditionalFields
   type: string
@@ -183,7 +189,8 @@ event_fields:
   standard_type: TBD
   name: InitiatingProcessSHA256
   type: string
-  description: SHA-256 of the process (image file) that initiated the event. This field is usually not populated-use the SHA1 column when available.
+  description: SHA-256 of the process (image file) that initiated the event. This
+    field is usually not populated-use the SHA1 column when available.
   sample_value: ''
 - standard_name: InitiatingProcessFileName
   standard_type: TBD
@@ -209,29 +216,32 @@ event_fields:
   type: string
   description: Command line used to run the process that initiated the event
   sample_value: ''
-- standard_name: InitiatingProcessCreationTime
+- standard_name: InitiatingProcessParentCreationTime
   standard_type: TBD
   name: InitiatingProcessCreationTime
   type: date
   description: Date and time when the process that initiated the event was started
   sample_value: ''
-- standard_name: InitiatingProcessParentId
+- standard_name: 'null'
   standard_type: TBD
   name: InitiatingProcessParentId
   type: int
-  description: Process ID (PID) of the parent process that spawned the process responsible for the event
+  description: Process ID (PID) of the parent process that spawned the process responsible
+    for the event
   sample_value: ''
 - standard_name: InitiatingProcessParentFileName
   standard_type: TBD
   name: InitiatingProcessParentFileName
   type: string
-  description: Name of the parent process that spawned the process responsible for the event
+  description: Name of the parent process that spawned the process responsible for
+    the event
   sample_value: ''
 - standard_name: InitiatingProcessParentCreationTime
   standard_type: TBD
   name: InitiatingProcessParentCreationTime
   type: date
-  description: Date and time when the parent of the process responsible for the event was started
+  description: Date and time when the parent of the process responsible for the event
+    was started
   sample_value: ''
 - standard_name: InitiatingProcessMd5
   standard_type: TBD
@@ -239,7 +249,7 @@ event_fields:
   type: string
   description: MD5 hash of the process (image file) that initiated the event
   sample_value: ''
-- standard_name: InitiatingProcessAccountDomain
+- standard_name: Domain
   standard_type: TBD
   name: InitiatingProcessAccountDomain
   type: string
@@ -251,29 +261,33 @@ event_fields:
   type: string
   description: User name of the account that ran the process responsible for the event
   sample_value: ''
-- standard_name: InitiatingProcessAccountSid
+- standard_name: InitiatingProcessUserSid
   standard_type: TBD
   name: InitiatingProcessAccountSid
   type: string
-  description: Security Identifier (SID) of the account that ran the process responsible for the event
+  description: Security Identifier (SID) of the account that ran the process responsible
+    for the event
   sample_value: ''
-- standard_name: InitiatingProcessLogonId
+- standard_name: ProcessParentUserLogonId
   standard_type: TBD
   name: InitiatingProcessLogonId
   type: string
-  description: Identifier for a logon session of the process that initiated the event. This identifier is unique on the same machine only between restarts.
+  description: Identifier for a logon session of the process that initiated the event.
+    This identifier is unique on the same machine only between restarts.
   sample_value: ''
-- standard_name: ReportId
+- standard_name: 'null'
   standard_type: TBD
   name: ReportId
   type: long
-  description: Event identifier based on a repeating counter. To identify unique events, this column must be used in conjunction with the ComputerName and EventTime columns.
+  description: Event identifier based on a repeating counter. To identify unique events,
+    this column must be used in conjunction with the ComputerName and EventTime columns.
   sample_value: ''
 - standard_name: AppGuardContainerId
   standard_type: TBD
   name: AppGuardContainerId
   type: string
-  description: Identifier for the virtualized container used by Application Guard to isolate browser activity
+  description: Identifier for the virtualized container used by Application Guard
+    to isolate browser activity
   sample_value: ''
 references: []
 tags: []

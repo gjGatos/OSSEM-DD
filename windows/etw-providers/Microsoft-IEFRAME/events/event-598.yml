@@ -1,5 +1,5 @@
 name: Event 598 - Browseui_DestroyDetachedBrowserTabUI
-description:
+description: null
 platform: windows
 log_source: Microsoft-IEFRAME
 event_id: '598'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: TabID
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: IsActive
   type: Boolean
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_opcode_Stop

@@ -1,5 +1,5 @@
 name: Event 124 - ESE_EventLogWarn_Trace
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-ESE
 event_id: '124'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: szTrace
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Warning
 - etw_keywords_Trace

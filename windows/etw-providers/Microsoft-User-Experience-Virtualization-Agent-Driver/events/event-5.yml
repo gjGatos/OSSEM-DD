@@ -1,5 +1,5 @@
 name: Event 5 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-User Experience Virtualization-Agent Driver
 event_id: '5'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: P1AnsiString
   type: AnsiString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_task_task_0

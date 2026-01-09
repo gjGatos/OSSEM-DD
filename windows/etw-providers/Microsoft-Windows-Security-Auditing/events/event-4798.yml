@@ -1,41 +1,46 @@
 name: 'Event ID 4798: A user''s local group membership was enumerated'
-description: This event generates when a process enumerates a user's security-enabled local groups on a computer or device.
+description: This event generates when a process enumerates a user's security-enabled
+  local groups on a computer or device.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
 event_id: '4798'
 event_version: '0'
 event_fields:
-- standard_name: TargetUserName
+- standard_name: TargetUserSamName
   standard_type: TBD
   name: TargetUserName
   type: UnicodeString
   description: the name of the account whose groups were enumerated.
   sample_value: Administrator
-- standard_name: TargetUserDomain
+- standard_name: Domain
   standard_type: TBD
   name: TargetDomainName
   type: UnicodeString
   description: group's domain or computer name.
   sample_value: WIN10-1
-- standard_name: TargetUserSid
+- standard_name: GroupSid
   standard_type: TBD
   name: TargetSid
   type: SID
-  description: SID of the account whose groups were enumerated. Event Viewer automatically tries to resolve SIDs and show the account name. If the SID cannot be resolved, you will see the source data in the event.
+  description: SID of the account whose groups were enumerated. Event Viewer automatically
+    tries to resolve SIDs and show the account name. If the SID cannot be resolved,
+    you will see the source data in the event.
   sample_value: S-1-5-21-1694160624-234216347-2203645164-500
-- standard_name: UserLogonId
+- standard_name: UserSid
   standard_type: TBD
   name: SubjectUserSid
   type: SID
-  description: SID of account that requested the "enumerate user's security-enabled local groups" operation.
+  description: SID of account that requested the "enumerate user's security-enabled
+    local groups" operation.
   sample_value: S-1-5-21-1377283216-344919071-3415362939-1104
-- standard_name: UserName
+- standard_name: InitiatingProcessUserName
   standard_type: TBD
   name: SubjectUserName
   type: UnicodeString
-  description: the name of the account that requested the "enumerate user's security-enabled local groups" operation.
+  description: the name of the account that requested the "enumerate user's security-enabled
+    local groups" operation.
   sample_value: dadmin
-- standard_name: UserDomain
+- standard_name: Domain
   standard_type: TBD
   name: SubjectDomainName
   type: UnicodeString
@@ -45,15 +50,19 @@ event_fields:
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: 'hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, "4624: An account was successfully logged on."'
+  description: 'hexadecimal value that can help you correlate this event with recent
+    events that might contain the same Logon ID, for example, "4624: An account was
+    successfully logged on."'
   sample_value: '0x72d9d'
 - standard_name: ProcessId
   standard_type: TBD
   name: CallerProcessId
   type: Pointer
-  description: hexadecimal Process ID of the process that enumerated the members of the group. Process ID (PID) is a number used by the operating system to uniquely identify an active process.
+  description: hexadecimal Process ID of the process that enumerated the members of
+    the group. Process ID (PID) is a number used by the operating system to uniquely
+    identify an active process.
   sample_value: '0xc80'
-- standard_name: ProcessPath
+- standard_name: ProcessFileName
   standard_type: TBD
   name: CallerProcessName
   type: UnicodeString

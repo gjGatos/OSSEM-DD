@@ -1,5 +1,10 @@
 name: 'Event ID 7: Image loaded'
-description: The **image loaded** event logs when a module is loaded in a specific process. This event is disabled by default and needs to be configured with the -l option. It indicates the process in which the module is loaded, hashes and signature information. The signature is created asynchronously for performance reasons and indicates if the file was removed after loading. This event should be configured carefully, as monitoring all image load events will generate a large number of events.
+description: The **image loaded** event logs when a module is loaded in a specific
+  process. This event is disabled by default and needs to be configured with the -l
+  option. It indicates the process in which the module is loaded, hashes and signature
+  information. The signature is created asynchronously for performance reasons and
+  indicates if the file was removed after loading. This event should be configured
+  carefully, as monitoring all image load events will generate a large number of events.
 platform: windows
 log_source: Microsoft-Windows-Sysmon
 event_id: '7'
@@ -17,7 +22,7 @@ event_fields:
   type: date
   description: Time in UTC when event was created
   sample_value: 4/11/18 5:46
-- standard_name: ProcessGuid
+- standard_name: ProcessId
   standard_type: TBD
   name: ProcessGuid
   type: string
@@ -29,13 +34,13 @@ event_fields:
   type: integer
   description: Process ID used by the os to identify the process that loaded the image
   sample_value: '3532'
-- standard_name: ProcessFilePath
+- standard_name: FilePath
   standard_type: TBD
   name: Image
   type: string
   description: File path of the process that loaded the image
   sample_value: C:\Windows\System32\cmd.exe
-- standard_name: ModulePath
+- standard_name: FilePath
   standard_type: TBD
   name: ImageLoaded
   type: string
@@ -53,7 +58,7 @@ event_fields:
   type: string
   description: Description of the image loaded
   sample_value: Windows NT CRT DLL
-- standard_name: FileProduct
+- standard_name: SoftwareName
   standard_type: TBD
   name: Product
   type: string
@@ -71,12 +76,14 @@ event_fields:
   type: string
   description: original file name
   sample_value: '?'
-- standard_name: TBD
+- standard_name: FileHashes
   standard_type: TBD
   name: Hashes
   type: string
-  description: hash is a full hash of the file with the algorithms in the HashType field
-  sample_value: SHA1=AEB9839D02C99A3E7EED1F12671C3F827221EDF8, MD5=68195105C7D9A2B5DF5BB82ECA521092, SHA256=556FF2B03495E2117223E5697B54253F30BD10ED3C67468947D79945168A624A, IMPHASH=C16CC99941EF5E18707133A2532B7D0C
+  description: hash is a full hash of the file with the algorithms in the HashType
+    field
+  sample_value: SHA1=AEB9839D02C99A3E7EED1F12671C3F827221EDF8, MD5=68195105C7D9A2B5DF5BB82ECA521092,
+    SHA256=556FF2B03495E2117223E5697B54253F30BD10ED3C67468947D79945168A624A, IMPHASH=C16CC99941EF5E18707133A2532B7D0C
 - standard_name: ModuleIsSigned
   standard_type: TBD
   name: Signed
@@ -109,75 +116,40 @@ references:
 tags: []
 event_sample:
 - format: friendly view
-  sample: |-
-    Log Name:      Microsoft-Windows-Sysmon/Operational
-    Source:        Microsoft-Windows-Sysmon
-    Date:          9/22/2022 5:21:03 PM
-    Event ID:      7
-    Task Category: Image loaded (rule: ImageLoad)
-    Level:         Information
-    Keywords:      
-    User:          SYSTEM
-    Computer:      pedro-computer
-    Description:
-    The description for Event ID 7 from source Microsoft-Windows-Sysmon cannot be found. Either the component that raises this event is not installed on your local computer or the installation is corrupted. You can install or repair the component on the local computer.
-    If the event originated on another computer, the display information had to be saved with the event.
-    The following information was included with the event: 
-
-    -
-    2022-09-23 00:21:03.645
-    EV_RenderedValue_2.00
-    3988
-    C:\Windows\System32\sppsvc.exe
-    C:\Windows\System32\sspicli.dll
-    10.0.18362.1 (WinBuild.160101.0800)
-    Security Support Provider Interface
-    Microsoft® Windows® Operating System
-    Microsoft Corporation
-    sspicli.dll
-    SHA1=7965D4A2E57A263621662A921B7270B7B773FFEF,MD5=3E966F088D46A0EB482E3DC4AF266C0F,SHA256=106C7873DB17E4542022245EEA148F815CE547C36523861DDDB50103C65D8B07,IMPHASH=1A813D04520E602A9E31CB5E06F81D1D
-    true
-    Microsoft Windows
-    Valid
-    NT AUTHORITY\NETWORK SERVICE
-
-    The publisher has been disabled and its resource is not available. This usually occurs when the publisher is in the process of being uninstalled or upgraded
-
+  sample: "Log Name:      Microsoft-Windows-Sysmon/Operational\nSource:        Microsoft-Windows-Sysmon\n\
+    Date:          9/22/2022 5:21:03 PM\nEvent ID:      7\nTask Category: Image loaded\
+    \ (rule: ImageLoad)\nLevel:         Information\nKeywords:      \nUser:      \
+    \    SYSTEM\nComputer:      pedro-computer\nDescription:\nThe description for\
+    \ Event ID 7 from source Microsoft-Windows-Sysmon cannot be found. Either the\
+    \ component that raises this event is not installed on your local computer or\
+    \ the installation is corrupted. You can install or repair the component on the\
+    \ local computer.\nIf the event originated on another computer, the display information\
+    \ had to be saved with the event.\nThe following information was included with\
+    \ the event: \n\n-\n2022-09-23 00:21:03.645\nEV_RenderedValue_2.00\n3988\nC:\\\
+    Windows\\System32\\sppsvc.exe\nC:\\Windows\\System32\\sspicli.dll\n10.0.18362.1\
+    \ (WinBuild.160101.0800)\nSecurity Support Provider Interface\nMicrosoft® Windows®\
+    \ Operating System\nMicrosoft Corporation\nsspicli.dll\nSHA1=7965D4A2E57A263621662A921B7270B7B773FFEF,MD5=3E966F088D46A0EB482E3DC4AF266C0F,SHA256=106C7873DB17E4542022245EEA148F815CE547C36523861DDDB50103C65D8B07,IMPHASH=1A813D04520E602A9E31CB5E06F81D1D\n\
+    true\nMicrosoft Windows\nValid\nNT AUTHORITY\\NETWORK SERVICE\n\nThe publisher\
+    \ has been disabled and its resource is not available. This usually occurs when\
+    \ the publisher is in the process of being uninstalled or upgraded"
 - format: xml
-  sample: |-
-    <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
-      <System>
-        <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
-        <EventID>7</EventID>
-        <Version>3</Version>
-        <Level>4</Level>
-        <Task>7</Task>
-        <Opcode>0</Opcode>
-        <Keywords>0x8000000000000000</Keywords>
-        <TimeCreated SystemTime="2022-09-23T00:21:03.653150900Z" />
-        <EventRecordID>2480492</EventRecordID>
-        <Correlation />
-        <Execution ProcessID="6152" ThreadID="7900" />
-        <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
-        <Computer>pedro-computer</Computer>
-        <Security UserID="S-1-5-18" />
-      </System>
-      <EventData>
-        <Data Name="RuleName">-</Data>
-        <Data Name="UtcTime">2022-09-23 00:21:03.645</Data>
-        <Data Name="ProcessGuid">{564ff025-fbd0-632c-df07-000000000500}</Data>
-        <Data Name="ProcessId">3988</Data>
-        <Data Name="Image">C:\Windows\System32\sppsvc.exe</Data>
-        <Data Name="ImageLoaded">C:\Windows\System32\sspicli.dll</Data>
-        <Data Name="FileVersion">10.0.18362.1 (WinBuild.160101.0800)</Data>
-        <Data Name="Description">Security Support Provider Interface</Data>
-        <Data Name="Product">Microsoft® Windows® Operating System</Data>
-        <Data Name="Company">Microsoft Corporation</Data>
-        <Data Name="OriginalFileName">sspicli.dll</Data>
-        <Data Name="Hashes">SHA1=7965D4A2E57A263621662A921B7270B7B773FFEF,MD5=3E966F088D46A0EB482E3DC4AF266C0F,SHA256=106C7873DB17E4542022245EEA148F815CE547C36523861DDDB50103C65D8B07,IMPHASH=1A813D04520E602A9E31CB5E06F81D1D</Data>
-        <Data Name="Signed">true</Data>
-        <Data Name="Signature">Microsoft Windows</Data>
-        <Data Name="SignatureStatus">Valid</Data>
-        <Data Name="User">NT AUTHORITY\NETWORK SERVICE</Data>
-      </EventData>
-    </Event>
+  sample: "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"\
+    >\n  <System>\n    <Provider Name=\"Microsoft-Windows-Sysmon\" Guid=\"{5770385f-c22a-43e0-bf4c-06f5698ffbd9}\"\
+    \ />\n    <EventID>7</EventID>\n    <Version>3</Version>\n    <Level>4</Level>\n\
+    \    <Task>7</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000000</Keywords>\n\
+    \    <TimeCreated SystemTime=\"2022-09-23T00:21:03.653150900Z\" />\n    <EventRecordID>2480492</EventRecordID>\n\
+    \    <Correlation />\n    <Execution ProcessID=\"6152\" ThreadID=\"7900\" />\n\
+    \    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>\n    <Computer>pedro-computer</Computer>\n\
+    \    <Security UserID=\"S-1-5-18\" />\n  </System>\n  <EventData>\n    <Data Name=\"\
+    RuleName\">-</Data>\n    <Data Name=\"UtcTime\">2022-09-23 00:21:03.645</Data>\n\
+    \    <Data Name=\"ProcessGuid\">{564ff025-fbd0-632c-df07-000000000500}</Data>\n\
+    \    <Data Name=\"ProcessId\">3988</Data>\n    <Data Name=\"Image\">C:\\Windows\\\
+    System32\\sppsvc.exe</Data>\n    <Data Name=\"ImageLoaded\">C:\\Windows\\System32\\\
+    sspicli.dll</Data>\n    <Data Name=\"FileVersion\">10.0.18362.1 (WinBuild.160101.0800)</Data>\n\
+    \    <Data Name=\"Description\">Security Support Provider Interface</Data>\n \
+    \   <Data Name=\"Product\">Microsoft® Windows® Operating System</Data>\n    <Data\
+    \ Name=\"Company\">Microsoft Corporation</Data>\n    <Data Name=\"OriginalFileName\"\
+    >sspicli.dll</Data>\n    <Data Name=\"Hashes\">SHA1=7965D4A2E57A263621662A921B7270B7B773FFEF,MD5=3E966F088D46A0EB482E3DC4AF266C0F,SHA256=106C7873DB17E4542022245EEA148F815CE547C36523861DDDB50103C65D8B07,IMPHASH=1A813D04520E602A9E31CB5E06F81D1D</Data>\n\
+    \    <Data Name=\"Signed\">true</Data>\n    <Data Name=\"Signature\">Microsoft\
+    \ Windows</Data>\n    <Data Name=\"SignatureStatus\">Valid</Data>\n    <Data Name=\"\
+    User\">NT AUTHORITY\\NETWORK SERVICE</Data>\n  </EventData>\n</Event>"

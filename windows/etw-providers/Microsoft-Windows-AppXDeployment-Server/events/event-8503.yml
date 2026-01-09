@@ -1,5 +1,5 @@
 name: Event 8503 - AppXDeployment.Task.Server.Extensions
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-AppXDeployment-Server
 event_id: '8503'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: HostingModel
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_keyword_20000000000

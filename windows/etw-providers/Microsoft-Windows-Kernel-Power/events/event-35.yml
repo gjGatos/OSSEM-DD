@@ -1,5 +1,5 @@
 name: Event 35 - SuspendDevices
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Kernel-Power
 event_id: '35'
@@ -9,23 +9,24 @@ event_fields:
   standard_type: TBD
   name: Query
   type: Boolean
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: TargetState
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: EffectiveState
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
-- etw_keywords_po:Diagnostic po:Performance po:DiagnosticLight po:PerformanceLight po:SleepDiagnostic po:WdiDiagnostic
+- etw_keywords_po:Diagnostic po:Performance po:DiagnosticLight po:PerformanceLight
+  po:SleepDiagnostic po:WdiDiagnostic
 - etw_opcode_PhaseStart
 - etw_task_SuspendDevices

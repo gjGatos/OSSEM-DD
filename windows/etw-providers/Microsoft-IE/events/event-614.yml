@@ -1,5 +1,5 @@
 name: Event 614 - Mshtml_MessagePort
-description:
+description: null
 platform: windows
 log_source: Microsoft-IE
 event_id: '614'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: Object
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Always
 - etw_keywords_mshtml

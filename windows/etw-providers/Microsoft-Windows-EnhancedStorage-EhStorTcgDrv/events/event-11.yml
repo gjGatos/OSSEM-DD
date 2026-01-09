@@ -1,5 +1,5 @@
 name: Event 11 - Driver
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-EnhancedStorage-EhStorTcgDrv
 event_id: '11'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: Description
   type: AnsiString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SiloCommand
   type: HexInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SiloStatus
   type: HexInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: TCGInvokingID
   type: HexInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: TCGMethodID
   type: HexInt64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_opcode_TcgLib

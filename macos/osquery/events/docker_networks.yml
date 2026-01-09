@@ -11,7 +11,7 @@ event_fields:
   type: TEXT
   description: Network ID
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareName
   standard_type: TBD
   name: name
   type: TEXT

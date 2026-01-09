@@ -1,5 +1,5 @@
 name: Event 4005 - BlockingNTLM
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Security-Netlogon
 event_id: '4005'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: SChannelName
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: UserName
   type: UnicodeString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: DomainName
   standard_type: TBD
   name: DomainName
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: WorkstationName
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SChannelType
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Warning
 - etw_task_BlockingNTLM

@@ -1,5 +1,5 @@
 name: Event 6025 - DocPerf_Task_Scan_FileShare_Filter
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Documents
 event_id: '6025'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: idGuid
   type: GUID
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_DocPerf

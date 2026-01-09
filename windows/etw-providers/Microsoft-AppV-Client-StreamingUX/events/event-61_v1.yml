@@ -1,5 +1,5 @@
 name: Event 61 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-AppV-Client-StreamingUX
 event_id: '61'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: packageId
   type: GUID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: versionId
   type: GUID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: percentageComplete
   type: UInt64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_task_0

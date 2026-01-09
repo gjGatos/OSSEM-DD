@@ -1,5 +1,5 @@
 name: Event 11 - peerneighborlist(server)_listeningforclients
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Bits-Client
 event_id: '11'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: ErrorCode
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_opcode_Stop

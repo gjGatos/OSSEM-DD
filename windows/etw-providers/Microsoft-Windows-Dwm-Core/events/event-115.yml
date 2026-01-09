@@ -1,5 +1,5 @@
 name: Event 115 - MILEVENT_MEDIA_UCE_BLTDESKTOP
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Dwm-Core
 event_id: '115'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: nrOfRects
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_DwmCore

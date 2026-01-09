@@ -1,5 +1,5 @@
 name: Event 79 - DUser_RunDUIPVLAnimation
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-DUSER
 event_id: '79'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: pStoryboard
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: nAnimationId
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: nStoryboardId
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: nCode
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: flProcessingDelay
   type: Float
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Default

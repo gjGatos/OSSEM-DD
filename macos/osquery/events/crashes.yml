@@ -53,7 +53,7 @@ event_fields:
   type: TEXT
   description: Process responsible for the crashed process
   sample_value: TBD
-- standard_name: TBD
+- standard_name: UserId
   standard_type: TBD
   name: uid
   type: INTEGER

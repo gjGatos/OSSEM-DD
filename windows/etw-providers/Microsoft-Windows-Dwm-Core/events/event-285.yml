@@ -1,5 +1,5 @@
 name: Event 285 - ADVANCED_DIRECTFLIP_CREATERESTOREBUFFER
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Dwm-Core
 event_id: '285'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: surfaceLuid
   type: UInt64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_DwmCore

@@ -1,5 +1,5 @@
 name: Event 18956 - Shell32_SHChangeNotify_Deregister_NotifyThread
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Shell-Core
 event_id: '18956'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: ID
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Shell

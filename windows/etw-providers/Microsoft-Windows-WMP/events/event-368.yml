@@ -1,5 +1,5 @@
 name: Event 368 - RME_CLIENT_LIVE_MACHINE_DISCOVERY
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-WMP
 event_id: '368'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: ID
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_mediaplayer

@@ -1,5 +1,5 @@
 name: Event 131 - RemoteFXmodule_4
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-RemoteDesktopServices-RdpCoreTS
 event_id: '131'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: ConnType
   type: UnicodeString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: IpAddress
   standard_type: TBD
   name: ClientIP
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_EstablishConnection

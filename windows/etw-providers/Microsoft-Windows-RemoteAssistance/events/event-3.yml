@@ -1,35 +1,35 @@
 name: Event 3 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-RemoteAssistance
 event_id: '3'
 event_version: '0'
 event_fields:
-- standard_name: TBD
+- standard_name: CodeSourceFile
   standard_type: TBD
   name: file
   type: UnicodeString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: CodeStartLine
   standard_type: TBD
   name: line
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: function
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: error
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Critical
 - etw_keywords_keyword_400000000000

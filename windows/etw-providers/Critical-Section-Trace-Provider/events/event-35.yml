@@ -1,5 +1,5 @@
 name: Event 35
-description:
+description: null
 platform: windows
 log_source: Critical Section Trace Provider
 event_id: '35'
@@ -9,13 +9,13 @@ event_fields:
   standard_type: TBD
   name: SpinCount
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: CritSecAddr
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags: []

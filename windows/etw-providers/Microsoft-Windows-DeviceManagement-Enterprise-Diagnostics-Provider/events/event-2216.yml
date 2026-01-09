@@ -1,5 +1,5 @@
 name: Event 2216 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider
 event_id: '2216'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: HexInt1
   type: HexInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_task_0

@@ -5,13 +5,13 @@ log_source: osquery
 event_id: safari_extensions
 event_version: 4.4.2
 event_fields:
-- standard_name: TBD
+- standard_name: UserId
   standard_type: TBD
   name: uid
   type: BIGINT
   description: The local user that owns the extension
   sample_value: TBD
-- standard_name: TBD
+- standard_name: ExtensionName
   standard_type: TBD
   name: name
   type: TEXT
@@ -23,7 +23,7 @@ event_fields:
   type: TEXT
   description: Extension identifier
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareVersion
   standard_type: TBD
   name: version
   type: TEXT
@@ -41,7 +41,7 @@ event_fields:
   type: TEXT
   description: Extension-supplied update URI
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareVendor
   standard_type: TBD
   name: author
   type: TEXT
@@ -53,13 +53,13 @@ event_fields:
   type: TEXT
   description: Optional developer identifier
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareDescription
   standard_type: TBD
   name: description
   type: TEXT
   description: Optional extension description text
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: path
   type: TEXT

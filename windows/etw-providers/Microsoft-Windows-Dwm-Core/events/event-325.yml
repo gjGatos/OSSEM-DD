@@ -1,5 +1,5 @@
 name: Event 325 - EVTDESC_SCHEDULE_COMPOSITIONPASS
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Dwm-Core
 event_id: '325'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: fQueueDueToRoundTripRequest
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: fAnimateUpdatesRequired
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: fExpressionUpdatesRequired
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: fCaptureBitsResponsePending
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_DwmCore

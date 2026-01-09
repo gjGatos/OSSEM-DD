@@ -1,5 +1,5 @@
 name: Event 1043 - DeviceError
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-WPD-MTPClassDriver
 event_id: '1043'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: Guid
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Warning
 - etw_task_DeviceError

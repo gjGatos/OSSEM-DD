@@ -1,5 +1,8 @@
 name: 'Event ID 1: Process creation'
-description: The **process creation** event provides extended information about a newly created process. The full command line provides context on the process execution. The ProcessGUID field is a unique value for this process across a domain to make event correlation easier.
+description: The **process creation** event provides extended information about a
+  newly created process. The full command line provides context on the process execution.
+  The ProcessGUID field is a unique value for this process across a domain to make
+  event correlation easier.
 platform: linux
 log_source: sysmon
 event_id: '1'
@@ -17,7 +20,7 @@ event_fields:
   type: date
   description: Time in UTC when event was created
   sample_value: '2021-10-13T20:06:22.6500000Z'
-- standard_name: TargetProcessGuid
+- standard_name: ProcessId
   standard_type: TBD
   name: ProcessGuid
   type: string
@@ -29,11 +32,12 @@ event_fields:
   type: integer
   description: Process ID used by the os to identify the created process (child)
   sample_value: '5079'
-- standard_name: TargetProcessFilePath
+- standard_name: ProcessFileName
   standard_type: TBD
   name: Image
   type: string
-  description: File path of the process being spawned/created. Considered also the child or source process
+  description: File path of the process being spawned/created. Considered also the
+    child or source process
   sample_value: /usr/sbin/rsyslogd
 - standard_name: TargetProcessFileVersion
   standard_type: TBD
@@ -41,23 +45,25 @@ event_fields:
   type: string
   description: Version of the image associated with the main process (child)
   sample_value: ''
-- standard_name: TargetProcessFileDescription
+- standard_name: ProcessDescription
   standard_type: TBD
   name: Description
   type: string
   description: Description of the image associated with the main process (child)
   sample_value: ''
-- standard_name: TargetProcessFileProduct
+- standard_name: SoftwareName
   standard_type: TBD
   name: Product
   type: string
-  description: Product name the image associated with the main process (child) belongs to
+  description: Product name the image associated with the main process (child) belongs
+    to
   sample_value: ''
-- standard_name: TargetProcessFileCompany
+- standard_name: FileCompany
   standard_type: TBD
   name: Company
   type: string
-  description: Company name the image associated with the main process (child) belongs to
+  description: Company name the image associated with the main process (child) belongs
+    to
   sample_value: ''
 - standard_name: FileNameOriginal
   standard_type: TBD
@@ -69,7 +75,8 @@ event_fields:
   standard_type: TBD
   name: CommandLine
   type: string
-  description: Arguments which were passed to the executable associated with the main process
+  description: Arguments which were passed to the executable associated with the main
+    process
   sample_value: /usr/sbin/rsyslogd -n
 - standard_name: TargetProcessFileDirectory
   standard_type: TBD
@@ -93,13 +100,16 @@ event_fields:
   standard_type: TBD
   name: LogonGuid
   type: string
-  description: Logon GUID of the user who created the new process. Value that can help you correlate this event with others that contain the same Logon GUID (Sysmon Events)
+  description: Logon GUID of the user who created the new process. Value that can
+    help you correlate this event with others that contain the same Logon GUID (Sysmon
+    Events)
   sample_value: '{844e14fa-0000-0000-0000-000000000000}'
 - standard_name: TargetUserLogonId
   standard_type: TBD
   name: LogonId
   type: integer
-  description: Login ID of the user who created the new process. Value that can help you correlate this event with others that contain the same Logon ID
+  description: Login ID of the user who created the new process. Value that can help
+    you correlate this event with others that contain the same Logon ID
   sample_value: '0xf6219'
 - standard_name: TargetUserSessionId
   standard_type: TBD
@@ -117,9 +127,10 @@ event_fields:
   standard_type: TBD
   name: ParentUser
   type: string
-  description: Name of the account who created the process that spawned/created the main process (child)
+  description: Name of the account who created the process that spawned/created the
+    main process (child)
   sample_value: root
-- standard_name: ActingProcessGuid
+- standard_name: ProcessId
   standard_type: TBD
   name: ParentProcessGuid
   type: string
@@ -131,7 +142,7 @@ event_fields:
   type: integer
   description: Process ID of the process that spawned/created the main process (child)
   sample_value: '240'
-- standard_name: ActingProcessFilePath
+- standard_name: ProcessFileName
   standard_type: TBD
   name: ParentImage
   type: string
@@ -141,7 +152,8 @@ event_fields:
   standard_type: TBD
   name: ParentCommandLine
   type: string
-  description: Arguments which were passed to the executable associated with the parent process
+  description: Arguments which were passed to the executable associated with the parent
+    process
   sample_value: /sbin/init
 references: []
 tags: []

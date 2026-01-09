@@ -1,5 +1,6 @@
 name: Memory_arrays Table
-description: Data associated with collection of memory devices that operate to form a memory address.
+description: Data associated with collection of memory devices that operate to form
+  a memory address.
 platform: linux
 log_source: osquery
 event_id: memory_arrays

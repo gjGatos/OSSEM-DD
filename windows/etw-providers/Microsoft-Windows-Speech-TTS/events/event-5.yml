@@ -1,5 +1,5 @@
 name: Event 5 - Speak
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Speech-TTS
 event_id: '5'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: Instance
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_PerfInstrumentation

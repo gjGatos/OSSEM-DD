@@ -1,5 +1,5 @@
 name: Event 4071 - Local/remotechangemanager,offlinefiles
-description:
+description: null
 platform: windows
 log_source: Microsoft-User Experience Virtualization-App Agent
 event_id: '4071'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: WString1
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: HRESULT1
   type: Int32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_opcode_AppAgent

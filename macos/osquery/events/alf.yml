@@ -21,7 +21,8 @@ event_fields:
   standard_type: TBD
   name: global_state
   type: INTEGER
-  description: 1 If the firewall is enabled with exceptions, 2 if the firewall is configured to block all incoming connections, else 0
+  description: 1 If the firewall is enabled with exceptions, 2 if the firewall is
+    configured to block all incoming connections, else 0
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
@@ -41,7 +42,7 @@ event_fields:
   type: INTEGER
   description: 1 If stealth mode is enabled else 0
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SoftwareVersion
   standard_type: TBD
   name: version
   type: TEXT

@@ -1,5 +1,5 @@
 name: Event 6722 - ImmersiveOpenWithUI_Mode
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Immersive-Shell
 event_id: '6722'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: NumApp
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: SetDefault
   type: Boolean
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_ImmersiveOpenWithUI_Mode

@@ -1,5 +1,5 @@
 name: Event 1007 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-IPxlatCfg
 event_id: '1007'
@@ -9,21 +9,21 @@ event_fields:
   standard_type: TBD
   name: InterfaceLuid
   type: UInt64
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Prefix
   type: Binary
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: PrefixLength
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_task_0

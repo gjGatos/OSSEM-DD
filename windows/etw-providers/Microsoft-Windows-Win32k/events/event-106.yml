@@ -1,5 +1,5 @@
 name: Event 106 - TouchTargetingOffset
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Win32k
 event_id: '106'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: ptOffsetX
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ptOffsetY
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: pointerId
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: cursorId
   type: Int32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_MessagePumpInternalAndInput

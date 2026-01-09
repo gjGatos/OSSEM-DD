@@ -11,13 +11,13 @@ event_fields:
   type: TEXT
   description: The socket action (bind, listen, close)
   sample_value: TBD
-- standard_name: TBD
+- standard_name: ProcessId
   standard_type: TBD
   name: pid
   type: BIGINT
   description: Process (or thread) ID
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: path
   type: TEXT
@@ -35,43 +35,43 @@ event_fields:
   type: BIGINT
   description: Audit User ID
   sample_value: TBD
-- standard_name: TBD
+- standard_name: NetworkTrafficIsActive
   standard_type: TBD
   name: success
   type: INTEGER
   description: The socket open attempt status
   sample_value: TBD
-- standard_name: TBD
+- standard_name: IpAddress
   standard_type: TBD
   name: family
   type: INTEGER
   description: The Internet protocol family ID
   sample_value: TBD
-- standard_name: TBD
+- standard_name: NetworkTrafficDescription
   standard_type: TBD
   name: protocol
   type: INTEGER
   description: The network protocol ID
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SrcIpAddr
   standard_type: TBD
   name: local_address
   type: TEXT
   description: Local address associated with socket
   sample_value: TBD
-- standard_name: TBD
+- standard_name: DstIpAddr
   standard_type: TBD
   name: remote_address
   type: TEXT
   description: Remote address associated with socket
   sample_value: TBD
-- standard_name: TBD
+- standard_name: SrcPort
   standard_type: TBD
   name: local_port
   type: INTEGER
   description: Local network protocol port number
   sample_value: TBD
-- standard_name: TBD
+- standard_name: DstPort
   standard_type: TBD
   name: remote_port
   type: INTEGER

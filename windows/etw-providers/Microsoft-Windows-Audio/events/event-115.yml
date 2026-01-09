@@ -1,5 +1,5 @@
 name: Event 115 - CrossProcesspacketadded
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Audio
 event_id: '115'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: CrossProcessInstance
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ReadIndex
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: WriteIndexIndex
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: FramesInPacket
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: QPC
   type: UInt64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_task_CrossProcesspacketadded

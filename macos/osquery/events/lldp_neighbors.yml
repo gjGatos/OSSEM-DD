@@ -5,61 +5,61 @@ log_source: osquery
 event_id: lldp_neighbors
 event_version: 4.4.2
 event_fields:
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: interface
   type: TEXT
   description: Interface name
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: rid
   type: INTEGER
   description: Neighbor chassis index
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: chassis_id_type
   type: TEXT
   description: Neighbor chassis ID type
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: chassis_id
   type: TEXT
   description: Neighbor chassis ID value
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: chassis_sysname
   type: TEXT
   description: CPU brand string, contains vendor and model
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: chassis_sys_description
   type: INTEGER
   description: Max number of CPU physical cores
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: chassis_bridge_capability_available
   type: INTEGER
   description: Chassis bridge capability availability
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: chassis_bridge_capability_enabled
   type: INTEGER
   description: Is chassis bridge capability enabled.
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: chassis_router_capability_available
   type: INTEGER
   description: Chassis router capability availability
   sample_value: TBD
-- standard_name: TBD
+- standard_name: 'null'
   standard_type: TBD
   name: chassis_router_capability_enabled
   type: INTEGER

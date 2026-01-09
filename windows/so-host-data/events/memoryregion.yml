@@ -1,5 +1,6 @@
 name: SO Host Data - Memory Region Table
-description: 'Currently, Get-SOHostData collects details about memory regions that are directly related to running Threads. '
+description: 'Currently, Get-SOHostData collects details about memory regions that
+  are directly related to running Threads. '
 platform: windows
 log_source: so-host-data
 event_id: memoryregion
@@ -27,7 +28,8 @@ event_fields:
   standard_type: TBD
   name: AllocationBase
   type: LONG
-  description: The base address of a range of pages allocated by the VirtualAlloc function
+  description: The base address of a range of pages allocated by the VirtualAlloc
+    function
   sample_value: '1896232255488'
 - standard_name: BaseAddress
   standard_type: TBD

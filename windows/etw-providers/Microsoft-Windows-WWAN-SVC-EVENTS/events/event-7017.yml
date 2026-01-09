@@ -1,5 +1,5 @@
 name: Event 7017 - AccountManagement
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-WWAN-SVC-EVENTS
 event_id: '7017'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: mbnInterface
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_AccountManagement

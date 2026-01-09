@@ -1,5 +1,5 @@
 name: Event 50099 - ProtocolStateEvent
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Dhcp-Client
 event_id: '50099'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: InterfaceId
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_StartDiscovInCSSinceV6Unplumbed

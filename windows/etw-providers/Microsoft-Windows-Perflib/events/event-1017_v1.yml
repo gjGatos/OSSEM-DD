@@ -1,17 +1,17 @@
 name: Event 1017 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Perflib
 event_id: '1017'
 event_version: '1'
 event_fields:
-- standard_name: TBD
+- standard_name: ServiceSid
   standard_type: TBD
   name: Service
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_task_task_0

@@ -1,5 +1,5 @@
 name: Event 238 - MFCaptureEnginePhotoXVP
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-MediaFoundation-MFCaptureEngine
 event_id: '238'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: PhotoSink
   type: Pointer
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: XVP
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_MFCaptureEnginePhotoXVP

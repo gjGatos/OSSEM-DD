@@ -1,5 +1,5 @@
 name: Event 51069 - ProtocolStateEvent
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-DHCPv6-Client
 event_id: '51069'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: InterfaceId
   type: UInt32
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: IpAddress
   standard_type: TBD
   name: Address1
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: DwordVal1
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: DwordVal2
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_DontStartSolicitInCSSinceV4Plumbed

@@ -5,19 +5,19 @@ log_source: osquery
 event_id: prefetch
 event_version: 5.0.1
 event_fields:
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: path
   type: TEXT
   description: Prefetch file path
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FileName
   standard_type: TBD
   name: filename
   type: TEXT
   description: Executable filename
   sample_value: TBD
-- standard_name: TBD
+- standard_name: Hash
   standard_type: TBD
   name: hash
   type: TEXT
@@ -41,7 +41,7 @@ event_fields:
   type: INTEGER
   description: Number of times the application has been run
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FileSize
   standard_type: TBD
   name: size
   type: INTEGER

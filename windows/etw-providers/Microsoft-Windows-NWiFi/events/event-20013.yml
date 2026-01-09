@@ -1,5 +1,5 @@
 name: Event 20013 - Connecttosamenetworkonresume
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-NWiFi
 event_id: '20013'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: InterfaceGuid
   type: GUID
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_Stop

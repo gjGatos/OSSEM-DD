@@ -41,7 +41,7 @@ event_fields:
   type: INTEGER
   description: Table entry size in bytes
   sample_value: TBD
-- standard_name: TBD
+- standard_name: HashMd5
   standard_type: TBD
   name: md5
   type: TEXT

@@ -1,5 +1,5 @@
 name: Event 821 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-BitLocker-API
 event_id: '821'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: IdentificationGUID
   type: GUID
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: FileName
   standard_type: TBD
   name: VolumeName
   type: UnicodeString
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: FolderPath
   standard_type: TBD
   name: VolumeMountPoint
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ErrorCode
   type: Int32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Error
 - etw_task_task_0

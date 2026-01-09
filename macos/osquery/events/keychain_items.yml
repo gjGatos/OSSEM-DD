@@ -41,7 +41,7 @@ event_fields:
   type: TEXT
   description: Keychain item type (class)
   sample_value: TBD
-- standard_name: TBD
+- standard_name: FilePath
   standard_type: TBD
   name: path
   type: TEXT

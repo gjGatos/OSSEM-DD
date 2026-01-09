@@ -1,8 +1,9 @@
 name: Cowrie session connection
-description: This dictionary details the fields for the session connect event of the Cowrie honeypot.
+description: This dictionary details the fields for the session connect event of the
+  Cowrie honeypot.
 platform: cowrie
 log_source: honeypot
-event_id: 'cowrie.session.connect'
+event_id: cowrie.session.connect
 event_version: '0'
 event_fields:
 - standard_name: EventTimestamp
@@ -16,7 +17,7 @@ event_fields:
   name: src_ip
   type: string
   description: The originating/source IP address of the SSH connection
-  sample_value: '192.168.1.4'
+  sample_value: 192.168.1.4
 - standard_name: EventMessage
   standard_type: string
   name: message
@@ -28,7 +29,7 @@ event_fields:
   name: sensor
   type: string
   description: The name of the device that generated the event
-  sample_value: 'hk-lab1'
+  sample_value: hk-lab1
 - standard_name: NetworkSessionId
   standard_type: string
   name: session
@@ -46,7 +47,7 @@ event_fields:
   name: dst_ip
   type: string
   description: Destination IP of the connection. Should be one of Cowrie's IP addresses
-  sample_value: '192.168.1.22'
+  sample_value: 192.168.1.22
 - standard_name: DstPort
   standard_type: integer
   name: dst_port

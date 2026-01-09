@@ -1,5 +1,5 @@
 name: Event 809 - WININET_AUTOPROXY_DOWNLOAD
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-WinINet
 event_id: '809'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: _ConfigurationURLLength
   type: UInt16
-  description:
-  sample_value:
-- standard_name: TBD
+  description: null
+  sample_value: null
+- standard_name: UrlOriginal
   standard_type: TBD
   name: ConfigurationURL
   type: UnicodeString
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_WININET_KEYWORD_AUTOPROXY

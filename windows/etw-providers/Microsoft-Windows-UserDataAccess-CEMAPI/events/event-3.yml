@@ -1,5 +1,5 @@
 name: Event 3 - Trace
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-UserDataAccess-CEMAPI
 event_id: '3'
@@ -9,9 +9,9 @@ event_fields:
   standard_type: TBD
   name: Message
   type: Pointer
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Verbose
 - etw_keywords_debug

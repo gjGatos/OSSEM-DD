@@ -1,5 +1,5 @@
 name: Event 301 - AppReadiness_ExecuteTask
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-AppReadiness
 event_id: '301'
@@ -9,27 +9,27 @@ event_fields:
   standard_type: TBD
   name: User
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: TaskId
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Result
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Duration
   type: Double
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_keywords_Tasks

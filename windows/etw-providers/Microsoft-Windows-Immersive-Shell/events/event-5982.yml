@@ -1,5 +1,5 @@
 name: Event 5982 - PerfTrack_ModernApp_ResizeResponsive
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-Immersive-Shell
 event_id: '5982'
@@ -9,15 +9,15 @@ event_fields:
   standard_type: TBD
   name: Reserved
   type: UInt32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: ViewId
   type: UInt32
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_opcode_Start

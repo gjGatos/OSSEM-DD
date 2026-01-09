@@ -1,5 +1,6 @@
 name: ingress.event.childproc (Child Process)
-description: A process has spawned another process on an endpoint monitored by Carbon Black.
+description: A process has spawned another process on an endpoint monitored by Carbon
+  Black.
 platform: macos
 log_source: carbonblack
 event_id: childproc
@@ -9,9 +10,10 @@ event_fields:
   standard_type: TBD
   name: cb_server
   type: TEXT
-  description: Used to distinguish between multiple Cb Response servers. Set this in the "server_name" option of cb-event-forwarder.ini.
+  description: Used to distinguish between multiple Cb Response servers. Set this
+    in the "server_name" option of cb-event-forwarder.ini.
   sample_value: cbserver
-- standard_name: ChildProceessId
+- standard_name: ProcessId
   standard_type: TBD
   name: child_pid
   type: INTEGER
@@ -65,7 +67,7 @@ event_fields:
   type: TEXT
   description: md5 of the module
   sample_value: D6021013D7C4E248AEB8BED12D3DCC88
-- standard_name: ProcessParentId
+- standard_name: ProcessId
   standard_type: TBD
   name: pid
   type: INTEGER

@@ -1,5 +1,5 @@
 name: Event 112 - task_0
-description:
+description: null
 platform: windows
 log_source: Microsoft-Windows-DeviceSetupManager
 event_id: '112'
@@ -9,33 +9,33 @@ event_fields:
   standard_type: TBD
   name: Prop_DeviceName
   type: UnicodeString
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Prop_ContainerId
   type: GUID
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Prop_TaskCount
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Prop_PropertyCount
   type: Int32
-  description:
-  sample_value:
+  description: null
+  sample_value: null
 - standard_name: TBD
   standard_type: TBD
   name: Prop_WorkTime_MilliSeconds
   type: Int64
-  description:
-  sample_value:
-references:
+  description: null
+  sample_value: null
+references: null
 tags:
 - etw_level_Informational
 - etw_task_task_0
